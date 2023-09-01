@@ -1,18 +1,33 @@
 ---
-user-guide-title: Mix Modeler
-breadcrumb-title: Mix Modeler
-user-guide-description: Learn how to use Mix Modeler.
+user-guide-title: Mixed Modeler
+breadcrumb-title: Mixed Modeler
+user-guide-description: Learn how to use Mixed Modeler.
 ---
 
-# Adobe Mix Modeler {#using}
+# Adobe Mix Modeler Guide {#using}
 
-+ [Overview](overview.md)
++ [Adobe Mix Modeler Guide](home.md)
 
-<!--
++ Getting Started {#getting-started}
+  + [About Adobe Mix Modeler](getting-started/about.md)
+  + [The application workflow](getting-started/workflow.md)
 
-Articles must be added to this TOC file in order to render.
++ [Overview](#dashboard.md)
++ [Manage Plans](#plans.md)
++ [Manage Models](#models.md)
++ [Harmonize data](#harmonize-data.md)
++ [Ingest data](#ingest-data.md)
 
-Use this list format to specify links to articles and section headings that expand and collapse in the left rail of the user guide.
++ Use Cases {#use-cases}
 
-An article link CANNOT be used as a section heading.
--->
++ Privacy {#privacy}
+  + [Policies]()
++ Administration
++ 
++ Release Notes {#releases}
+  + [Release proces](releases/releases.md)
+  + [Latest release](releases/latest.md)
+  + [2023 releases](releases/2023.md)
+
+
+
