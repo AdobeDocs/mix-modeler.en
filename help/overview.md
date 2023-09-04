@@ -16,3 +16,6 @@ This technical documentation guide provides self help assistance for **Adobe Mix
 ## Get started
 
 - What is Adobe Mix Modeler?
+
+- What is a typical application workflow?
+
