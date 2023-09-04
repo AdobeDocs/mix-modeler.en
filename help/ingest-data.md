@@ -41,6 +41,8 @@ Find below some examples of data typically used in Adobe Mix Modeler beyond more
 |JPN|2021-10-21|day|EMAIL| |21089| | | | | |3283626|
 |JPN|2021-10-21|day|SOCIAL| | | |621| | | | |
 
+{style="table-layout:auto"}
+
 +++
 
 +++ Aggregate conversion data
@@ -49,8 +51,10 @@ Find below some examples of data typically used in Adobe Mix Modeler beyond more
 |---|:---|:---:|---|--:|--:|
 |EMEA|2021-09-13|day|Creator Economy|603|36537.68|
 |EMEA|2021-09-13|day|Metaverse|55|21704.37|
-|JPN|2022-05-30|day|Pro Imaging|&nbsp; 487|64469.60|
+|JPN|2022-05-30|day|Pro Imaging| 487|64469.60|
 |JPN|2022-05-30|day|Document Cloud|642|100509.07|
+
+{style="table-layout:auto"}
 
 +++
 
@@ -62,6 +66,8 @@ Find below some examples of data typically used in Adobe Mix Modeler beyond more
 |2020-08-09|week|SPX|3364.158|
 |2020-08-16|week|SPX|3385.858|
 |2020-08-23|week|SPX|3497.965|
+
+{style="table-layout:auto"}
 
 +++
 

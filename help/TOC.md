@@ -12,3 +12,13 @@ user-guide-description: Learn how to use Mixed Modeler.
   + [What is Adobe Mix Modeler?](get-started/about.md)
   + [Application workflow](get-started/workflow.md)
 
+
++ [Use cases](use-cases.md)
+
++ Releases {#releaes}
+  + [Latest release](releases/latest.md)
+  + [2023 releases](releases/2023.md)
+  + [Release proces](releases/releases.md)
+
++ [Glossary](glossary.md)
+
