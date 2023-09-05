@@ -13,12 +13,18 @@ user-guide-description: Learn how to use Mixed Modeler.
   + [Application workflow](get-started/workflow.md)
 
 
++ [Overview dashboard](overview-dashboard.md)
++ [Plans](plans.md)
++ [Models](models.md)
++ [Harmonize data](harmonize-data.md)
++ [Ingest data](ingest-data.md)
+
 + [Use cases](use-cases.md)
 
 + Releases {#releaes}
   + [Latest release](releases/latest.md)
   + [2023 releases](releases/2023.md)
-  + [Release proces](releases/releases.md)
+  + [Release process](releases/releases.md)
 
 + [Glossary](glossary.md)
 
