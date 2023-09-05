@@ -31,7 +31,7 @@
           <rect id="hover" width="222" height="178" rx="8" fill="#0091ff" opacity="0"/>
         </g>
         <text id="Ingest_Data" data-name="Ingest 
-Data" transform="translate(111 113)" fill="#fff" font-size="24" font-family="Adobe Clean" font-weight="800"><tspan x="-33.96" y="0">Ingest </tspan><tspan x="-24.024" y="30">Data</tspan></text>
+Data" transform="translate(111 113)" fill="#fff" font-size="24" font-family="adobe-clean" font-weight="800"><tspan x="-33.96" y="0">Ingest </tspan><tspan x="-24.024" y="30">Data</tspan></text>
       </g>
     </g>
     <g id="Experience_Decisioning-2" data-name="Experience Decisioning" transform="translate(-606 -229)">
@@ -41,7 +41,7 @@ Data" transform="translate(111 113)" fill="#fff" font-size="24" font-family="Ado
           <rect id="hover-2" data-name="hover" width="222" height="178" rx="8" fill="#0091ff" opacity="0"/>
         </g>
         <text id="Harmonize_Data" data-name="Harmonize
-Data" transform="translate(111 116)" fill="#fff" font-size="24" font-family="Adobe Clean" font-weight="800"><tspan x="-56.736" y="0">Harmonize</tspan><tspan x="-24.024" y="30">Data</tspan></text>
+Data" transform="translate(111 116)" fill="#fff" font-size="24" font-family="adobe-clean" font-weight="800"><tspan x="-56.736" y="0">Harmonize</tspan><tspan x="-24.024" y="30">Data</tspan></text>
       </g>
     </g>
     <g id="Experience_Decisioning-3" data-name="Experience Decisioning" transform="translate(16 -407)">
@@ -55,7 +55,7 @@ Data" transform="translate(111 116)" fill="#fff" font-size="24" font-family="Ado
           <rect id="hover-4" data-name="hover" width="222" height="178" rx="8" fill="#0091ff" opacity="0"/>
         </g>
         <text id="Train_Score_Models" data-name="Train &amp; Score
-Models" transform="translate(112 116)" fill="#fff" font-size="24" font-family="Adobe Clean" font-weight="800"><tspan x="-68.556" y="0">Train &amp; Score</tspan><tspan x="-37.668" y="30">Models</tspan></text>
+Models" transform="translate(112 116)" fill="#fff" font-size="24" font-family="adobe-clean" font-weight="800"><tspan x="-68.556" y="0">Train &amp; Score</tspan><tspan x="-37.668" y="30">Models</tspan></text>
       </g>
     </g>
     <g id="Experience_Decisioning-4" data-name="Experience Decisioning" transform="translate(16 -51)">
@@ -69,7 +69,7 @@ Models" transform="translate(112 116)" fill="#fff" font-size="24" font-family="A
           <rect id="hover-6" data-name="hover" width="222" height="178" rx="8" fill="#0091ff" opacity="0"/>
         </g>
         <text id="Create_Plans" data-name="Create
-Plans" transform="translate(111 116)" fill="#fff" font-size="24" font-family="Adobe Clean" font-weight="800"><tspan x="-33.432" y="0">Create</tspan><tspan x="-28.104" y="30">Plans</tspan></text>
+Plans" transform="translate(111 116)" fill="#fff" font-size="24" font-family="adobe-clean" font-weight="800"><tspan x="-33.432" y="0">Create</tspan><tspan x="-28.104" y="30">Plans</tspan></text>
       </g>
     </g>
     <path id="Arrow_02_a" data-name="Arrow 02 a" d="M164.047,78.481V36.056S.854,39.2-5.076,36.056-9.095-35.615-9.095-35.615" transform="translate(906.019 390.542) rotate(-90)" fill="none" stroke="#b1b8c9" stroke-width="2"/>
@@ -94,7 +94,7 @@ Plans" transform="translate(111 116)" fill="#fff" font-size="24" font-family="Ad
           <rect id="hover-7" data-name="hover" width="222" height="178" rx="8" fill="#0091ff" opacity="0"/>
         </g>
         <text id="Configure_Models" data-name="Configure
-Models" transform="translate(111 86)" fill="#fff" font-size="24" font-family="Adobe Clean" font-weight="800"><tspan x="-50.112" y="0">Configure</tspan><tspan x="-37.668" y="30">Models</tspan></text>
+Models" transform="translate(111 86)" fill="#fff" font-size="24" font-family="adobe-clean" font-weight="800"><tspan x="-50.112" y="0">Configure</tspan><tspan x="-37.668" y="30">Models</tspan></text>
       </g>
     </g>
     <g id="Experience_Decisioning-6" data-name="Experience Decisioning" transform="translate(-302 -229)">
@@ -104,7 +104,7 @@ Models" transform="translate(111 86)" fill="#fff" font-size="24" font-family="Ad
           <rect id="hover-8" data-name="hover" width="222" height="178" rx="8" fill="#0091ff" opacity="0"/>
         </g>
         <text id="Configure_Models-2" data-name="Configure
-Models" transform="translate(111 116)" fill="#fff" font-size="24" font-family="Adobe Clean" font-weight="800"><tspan x="-50.112" y="0">Configure</tspan><tspan x="-37.668" y="30">Models</tspan></text>
+Models" transform="translate(111 116)" fill="#fff" font-size="24" font-family="adobe-clean" font-weight="800"><tspan x="-50.112" y="0">Configure</tspan><tspan x="-37.668" y="30">Models</tspan></text>
       </g>
     </g>
     <g id="Experience_Decisioning-7" data-name="Experience Decisioning" transform="translate(340 -229)">
@@ -114,7 +114,7 @@ Models" transform="translate(111 116)" fill="#fff" font-size="24" font-family="A
           <rect id="hover-9" data-name="hover" width="222" height="178" rx="8" fill="#0091ff" opacity="0"/>
         </g>
         <text id="Overview_Dashboard" data-name="Overview
-Dashboard" transform="translate(111 116)" fill="#fff" font-size="24" font-family="Adobe Clean" font-weight="800"><tspan x="-49.788" y="0">Overview</tspan><tspan x="-56.232" y="30">Dashboard</tspan></text>
+Dashboard" transform="translate(111 116)" fill="#fff" font-size="24" font-family="adobe-clean" font-weight="800"><tspan x="-49.788" y="0">Overview</tspan><tspan x="-56.232" y="30">Dashboard</tspan></text>
       </g>
     </g>
     <g id="Mask_Group_1" data-name="Mask Group 1" transform="translate(-48 240)" clip-path="url(#clip-path)">
