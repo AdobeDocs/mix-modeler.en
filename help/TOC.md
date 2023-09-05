@@ -16,7 +16,13 @@ user-guide-description: Learn how to use Mixed Modeler.
 + [Overview dashboard](overview-dashboard.md)
 + [Plans](plans.md)
 + [Models](models.md)
-+ [Harmonize data](harmonize-data.md)
+
++ Harmonize data {#harmonize-data}
+  + [Overview](harmonize-data/overview.md)
+  + [Fields](harmonize-data/fields.md)
+  + [Dataset rules](harmonize-data/dataset-rules.md)
+
+
 + [Ingest data](ingest-data.md)
 
 + [Use cases](use-cases.md)
