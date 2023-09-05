@@ -19,7 +19,7 @@ To see a list of the available dataset mappings, in the Adobe Mix Modeler UI:
    
 1. Select **[!UICONTROL Dataset rules]** from the top bar. You will see a list of the dataset mappings.
 
-In the list view, columns specify details about the dataset mappings
+In the list view, columns specify details about the dataset mappings:
 
 | Column name            | Details   |
 | ---------------------- | ----------|
@@ -42,9 +42,9 @@ To create a dataset mapping, in the ![DataSearch](../assets/icons/DataCheck.svg)
  
    1. Select a dataset to begin configuration from the **[!UICONTROL Select dataset]** list.
 
-   1. Select a day for Start of the week.
+   1. Select a day for **[!UICONTROL Start of the week]**.
 
-   1. Select Daily, Weekly, Monthly or Yearly for Granularity.
+   1. Select **[!UICONTROL Daily]**, **[!UICONTROL Weekly]**, **[!UICONTROL Monthly]** or **[!UICONTROL Yearly]** for **[!UICONTROL Granularity]**.
 
    1. When you have selected select a **[!UICONTROL Summary]** type of dataset:
    
@@ -71,10 +71,32 @@ To create a dataset mapping, in the ![DataSearch](../assets/icons/DataCheck.svg)
             1. To explicitly set the value for a case, enter that value at **[!UICONTROL Then]**.
   
    1. Select ![Add](../assets/icons/AddCircle.svg) **[!UICONTROL Add field]** to define additional fields.
-   1. When finished, select **[!UICONTROL Save]** to save the mapping, or select **[!UICONTROL Cancel]** to cancel the mapping.
+1. When finished, select **[!UICONTROL Save]** to save the mapping, or select **[!UICONTROL Cancel]** to cancel the mapping.
 
 
+## Edit a dataset mapping
+
+To edit a dataset mapping, in the ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** UI in Adobe Mix Modeler:
+
+1. Select ![More](../assets/icons/More.svg) in the **[!UICONTROL Dataset]** column for the dataset mapping you want to edit.
+1. From the context menu, select ![Edit](../assets/icons/Edit.svg) **[!UICONTROL Edit]** to start editing the dataset mapping. Refer to [Create a dataset mapping](#create-a-dataset-mapping) for more details.
 
 
+## Delete a dataset mapping
 
+To delete a dataset mapping, in the ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** UI in Adobe Mix Modeler:
+
+1. Select ![More](../assets/icons/More.svg) in the **[!UICONTROL Dataset]** column for the dataset mapping you want to delete.
+1. From the context menu, select ![Delete](../assets/icons/Delete.svg) **[!UICONTROL Delete]** to delete the dataset mapping. 
+   
+
+## Sync data
+
+To sync data between your harmonized data and summary and / or event datasets, following all of the logic in your dataset rules: 
+
+1. Select **[!UICONTROL Sync data]**.
+
+1. From the **[!UICONTROL Sync data for dataset rules]** dialog, select either **[!UICONTROL Refresh harmonized data for summary datasets]**, **[!UICONTROL Refresh harmonized data for event datasets]**, or **[!UICONTROL Refresh harmonized data for both summary + event datasets]**.
+   
+1. Select **[!UICONTROL Sync]** to start the synchronization based on the defined dataset rules between harmonized data and data in datasets. Select **[!UICONTROL Cancel]** to cancel the synchronization.
 

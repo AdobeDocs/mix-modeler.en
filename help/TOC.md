@@ -21,6 +21,8 @@ user-guide-description: Learn how to use Mixed Modeler.
   + [Overview](harmonize-data/overview.md)
   + [Fields](harmonize-data/fields.md)
   + [Dataset rules](harmonize-data/dataset-rules.md)
+  + [Marketing touchpoints](harmonize-data/marketing-touchpoints.md)
+  + [Conversions](harmonize-data/conversions.md)
 
 
 + [Ingest data](ingest-data.md)
