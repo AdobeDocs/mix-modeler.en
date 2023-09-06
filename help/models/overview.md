@@ -70,7 +70,7 @@ To build your custom AI-powered models to measure and optimize your paid, owned,
            1. To remove an event from the container, select ![Close](../assets/icons/Close.svg).
            1. To filter using all or any of multiple events defined in the container, select **[!UICONTROL Any of]** or **[!UICONTROL All of]**. The label will correspondingly change from **[!UICONTROL Include Or]** to **[!UICONTROL Include And]**.
          
-         * To add an eligible data population container, select ![Add](../assets/icons/AddCircle.svg) Add eligible population.
+         * To add an eligible data population container, select ![Add](../assets/icons/AddCircle.svg) **[!UICONTROL Add eligible population]**.
          * To remove an eligibile data population container, within the container, select ![More](../assets/icons/More.svg) and select **[!UICONTROL Remove container]** from the context menu.
 
       1. To add datasets containing external factors to your model, use one or more containers in the **[!UICONTROL External factors dataset]** section. 
