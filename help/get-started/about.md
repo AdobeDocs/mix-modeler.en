@@ -24,7 +24,7 @@ To accomplish this functionality, Adobe Mix Modeler combines:
 
 The AI/ML bidirectional transfer learning unifies marketing mix modeling (MMM) and multi-touch attribution (MTA) results.
 
-![Bidirectional transfer learning](../assets/birdirectional-transfer-learning.png){width="350" align="center"}
+![Bidirectional transfer learning](../assets/birdirectional-transfer-learning.png){width="500" align="center"}
 
 
 ## Capabilities
