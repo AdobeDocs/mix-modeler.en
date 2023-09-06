@@ -71,25 +71,11 @@ Find below some examples of data typically used in Adobe Mix Modeler beyond more
 
 +++
 
+To work with data in Adobe Mix Modeler, you need data collected in datasets and modeled after schemas in Adobe Experience Platform. The Adobe Mix Modeler UI provides easy access to both the Schemas and Datasets UI.
 
-## Schemas
-
-To manage schemas, supporting the data you want to ingest in Adobe Experience Platform and use in Adobe Mix Modeler:
-
-1. Go to the Adobe Mix Modeler UI.
-
-1. Select ![Schemas](assets/icons/Schemas.svg) **[!UICONTROL Schemas]**, underneath **[!UICONTROL DATA MANAGEMENT]**. 
-
-See the [Schemas UI overview](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en) for more information.
-
-
-
-## Datasets
-
-To manage datasets, containing the data you want to ingest in Adobe Experience Platform and use in Adobe Mix Modeler:
-
-1. Go to the Adobe Mix Modeler UI.
-
-1. Select ![Data](assets/icons/Data.svg) **[!UICONTROL Datasets]**, underneath **[!UICONTROL DATA MANAGEMENT]**. 
-
-See the [Datasets UI guide](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en) for more information.
+>[!MORELIKETHIS]
+>
+>See for more details on how to manage schemas and datasets:
+>
+>* [Schemas](schemas.md)
+>* [Datasets](datasets.md)
