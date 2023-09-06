@@ -12,7 +12,8 @@ user-guide-description: Learn how to use Mixed Modeler.
   + [What is Adobe Mix Modeler?](get-started/about.md)
   + [Application workflow](get-started/workflow.md)
 
-+ [Overview dashboard](overview-dashboard.md)
++ Dashboard {#dashboard}
+  + [Overview](dashboard/overview.md)
   
 + Plans {#plans}
   + [Overview](plans/overview.md)
