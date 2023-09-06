@@ -50,22 +50,24 @@ To see a list of the available harmonized fields, in the Adobe Mix Modeler UI:
    
 1. Select **[!UICONTROL Fields]** from the top bar. You will see a list of the harmonized fields.
 
+   In the list view, columns specify details about the harmonized fields
+
+   | Column name            | Details   |
+   | ---------------------- | ----------|
+   | Field name             | The name of the harmonized field.  |
+   | Display name           | The display name of the harmonized field. This display name is used when defining dataset rule, marketing touchpoint and conversion definitions.   |
+   | Category               | Specifies whether a harmonized data field is a [!UICONTROL Dimension], a [!UICONTROL Metric] or [!UICONTROL Derived]. A derived category is a harmonized field using a metrics based formula definition. |
+   | Owner                  | Indicates whether a harmonized field is a default one ([!UICONTROL Global]), or is defined by you ([!UICONTROL Client]). |
+   | Data type              | Specifies the data type ([!UICONTROL Number], [!UICONTROL String], [!UICONTROL Currency], [!UICONTROL DateTime]).  |
+   | Creation datatime      | Date and time of the creation of the harmonized field. |
+   | Last modified datetime | Data and time of the last modification of the harmonized field. |
+   | Formula                | Shows the formula for a harmonized field based on a derived category. |
+
+   {style="table-layout:auto"}
+
 1. To search for a specific harmonized field, use ![Search](../assets/icons/Search.svg) **[!UICONTROL *Search harmonized field*]**.
 
-In the list view, columns specify details about the harmonized fields
 
-| Column name            | Details   |
-| ---------------------- | ----------|
-| Field name             | The name of the harmonized field.  |
-| Display name           | The display name of the harmonized field. This display name is used when defining dataset rule, marketing touchpoint and conversion definitions.   |
-| Category               | Specifies whether a harmonized data field is a [!UICONTROL Dimension], a [!UICONTROL Metric] or [!UICONTROL Derived]. A derived category is a harmonized field using a metrics based formula definition. |
-| Owner                  | Indicates whether a harmonized field is a default one ([!UICONTROL Global]), or is defined by you ([!UICONTROL Client]). |
-| Data type              | Specifies the data type ([!UICONTROL Number], [!UICONTROL String], [!UICONTROL Currency], [!UICONTROL DateTime]).  |
-| Creation datatime      | Date and time of the creation of the harmonized field. |
-| Last modified datetime | Data and time of the last modification of the harmonized field. |
-| Formula                | Shows the formula for a harmonized field based on a derived category. |
-
-{style="table-layout:auto"}
 
 
 ### Add a harmonized field

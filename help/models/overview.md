@@ -68,37 +68,42 @@ To build your custom AI-powered models to measure and optimize your paid, owned,
               1. Enter of select a value.
            1. To add an additional event in the container, select ![Add](../assets/icons/AddCircle.svg) **[!UICONTROL Add event]**.
            1. To remove an event from the container, select ![Close](../assets/icons/Close.svg).
-           1. To filter using all or any of the events, Any of or All of from the 
+           1. To filter using all or any of multiple events defined in the container, select **[!UICONTROL Any of]** or **[!UICONTROL All of]**. The label will correspondingly change from **[!UICONTROL Include Or]** to **[!UICONTROL Include And]**.
          
-         * To add an Eligible data population container, select ![Add](../assets/icons/AddCircle.svg) Add eligible population.
-         * To remove an Eligibile data population container, within the container, select ![More](../assets/icons/More.svg) and Remove container from the context menu.
+         * To add an eligible data population container, select ![Add](../assets/icons/AddCircle.svg) Add eligible population.
+         * To remove an eligibile data population container, within the container, select ![More](../assets/icons/More.svg) and select **[!UICONTROL Remove container]** from the context menu.
 
-      1. To add datasets containing external factors to your model, use one or more External factors dataset containers. 
+      1. To add datasets containing external factors to your model, use one or more containers in the **[!UICONTROL External factors dataset]** section. 
          * For each container:
            1. Enter a name.
-           1. Select a dataset from the Select a dataset list.
-         * To add an additional external factors dataset container, select ![Add](../assets/icons/AddCircle.svg) Add external factor.
-         * To remove an external factors dataset container, within the container, select ![More](../assets/icons/More.svg) and Remove container from the context menu.
+           1. Select a dataset from the **[!UICONTROL _Select a dataset_]** list.
+         * To add an additional external factors dataset container, select ![Add](../assets/icons/AddCircle.svg) **[!UICONTROL Add external factor]**.
+         * To remove an external factors dataset container, within the container, select ![More](../assets/icons/More.svg) and select **[!UICONTROL Remove container]** from the context menu.
 
-      1. To add datasets containing internal factors to your model, use one or more Internal factors dataset containers. 
+      1. To add datasets containing internal factors to your model, use one or more containers in the **[!UICONTROL Internal factors dataset]** section. 
          * For each container:
            1. Enter a name.
-           1. Select a dataset from the Select a dataset list.
-         * To add an additional Internal factors dataset container, select ![Add](../assets/icons/AddCircle.svg) Add external factor.
-         * To remove an additional External factors dataset container, within the container, select ![More](../assets/icons/More.svg) and Remove container from the context menu.
+           1. Select a dataset from the **[!UICONTROL _Select a dataset_]** list.
+         * To add an additional internal factors dataset container, select ![Add](../assets/icons/AddCircle.svg) **[!UICONTROL Add internal factor]**.
+         * To remove an additional internal factors dataset container, within the container, select ![More](../assets/icons/More.svg) and **[!UICONTROL Remove container]** from the context menu.
 
-      1. To define the lookback window for the model, enter a value between 1 and 52 in Give contribution credit to touchpoints occurring within ... weeks prior to the conversion.
-      1. Select Next to continue to the next step. Select Back to go back to the previous step. Select Cancel to cancel the model configuration.
-   1. In the Advanced step:
-      1. In the Define training window section, select between Have Adobe Mix Modele select a helpful training window and Manually input a training window. In case of manual input, define the number of years in Include events the following years prior to a conversion.
-      1. To allow spend share, activate Allow spend share in Spend share. Spend share will utilize historical marketing investment ratios to inform the model when marketing data is sparse.
-      1. In the Prior knowledge section:
-         1. Select the Rule type.
-         1. Distribute percentages for each of the channels listed, ensuring total distribution adds up to 100%. 
-         1. Additionally you can add for each channel a percentage for Level of confidence.
+      1. To define the lookback window for the model, enter a value between `1` and `52` in **[!UICONTROL Give contribution credit to touchpoints occurring within]** ... **[!UICONTROL weeks prior to the conversion]**.
+      1. Select **[!UICONTROL Next]** to continue to the next step. Select **[!UICONTROL Back]** to go back to the previous step. Select **[!UICONTROL Cancel]** to cancel the model configuration.
+   1. In the **[!UICONTROL Advanced]** step:
+      1. In the **[!UICONTROL Define training window]** section, select between 
+         * **[!UICONTROL Have Adobe Mix Modele select a helpful training window]** and 
+         * **[!UICONTROL Manually input a training window]** and define the number of years in **[!UICONTROL Include events the following years prior to a conversion]**.
+      1. In the **[!UICONTROL Spend share]** section:
+         * To allow spend share, activate **[!UICONTROL Allow spend share]** . Spend share will utilize historical marketing investment ratios to inform the model when marketing data is sparse.
+      1. In the **[!UICONTROL Prior knowledge]** section:
+         1. Select the **[!UICONTROL Rule type]**.
+         1. Distribute percentages for each of the channels listed under **[!UICONTROL Name]**, using the **[!UICONTROL Contribution proportion]** column. Ensure total distribution of percentages add up to 100%. 
+         1. Additionally you can add for each channel a percentage for **[!UICONTROL Level of confidence]**.
 
-         Use Clear all to clear all input values for Contribution proportion and Level of confidence.
-      1. Select Finish to finish you model configuration. Select Back to go back to the previous step. Select Cancel to cancel the model configuration.
+         * Use **[!UICONTROL Clear all]** to clear all input values for the **[!UICONTROL Contribution proportion]** and **[!UICONTROL Level of confidence]** columns.
+      1. Select **[!UICONTROL Finish]** to finish you model configuration. Select **[!UICONTROL Back]** to go back to the previous step. Select **[!UICONTROL Cancel]** to cancel the model configuration.
+
+
 
 
 
