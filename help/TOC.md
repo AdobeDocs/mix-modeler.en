@@ -12,11 +12,15 @@ user-guide-description: Learn how to use Mixed Modeler.
   + [What is Adobe Mix Modeler?](get-started/about.md)
   + [Application workflow](get-started/workflow.md)
 
-
-+ [Overview dashboard](overview-dashboard.md)
-+ [Plans](plans.md)
-+ [Models](models.md)
-
++ Dashboard {#dashboard}
+  + [Overview](dashboard/overview.md)
+  
++ Plans {#plans}
+  + [Overview](plans/overview.md)
+  
++ Models {#models}
+  + [Overview](models/overview.md)
+  
 + Harmonize data {#harmonize-data}
   + [Overview](harmonize-data/overview.md)
   + [Fields](harmonize-data/fields.md)
@@ -24,8 +28,10 @@ user-guide-description: Learn how to use Mixed Modeler.
   + [Marketing touchpoints](harmonize-data/marketing-touchpoints.md)
   + [Conversions](harmonize-data/conversions.md)
 
-
-+ [Ingest data](ingest-data.md)
++ Ingest data {#ingest-data}
+  + [Overview](ingest-data/overview.md)
+  + [Schenas](ingest-data/schemas.md)
+  + [Datasets](ingest-data/datasets.md)
 
 + [Use cases](use-cases.md)
 
