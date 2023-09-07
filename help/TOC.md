@@ -8,7 +8,7 @@ user-guide-description: Learn how to use Mixed Modeler.
 
 + [Adobe Mix Modeler Guide](overview.md)
 
-+ Getting Started {#get-started}
++ Get Started {#get-started}
   + [What is Adobe Mix Modeler?](get-started/about.md)
   + [Application workflow](get-started/workflow.md)
 
@@ -30,7 +30,7 @@ user-guide-description: Learn how to use Mixed Modeler.
 
 + Ingest data {#ingest-data}
   + [Overview](ingest-data/overview.md)
-  + [Schenas](ingest-data/schemas.md)
+  + [Schemas](ingest-data/schemas.md)
   + [Datasets](ingest-data/datasets.md)
 
 + [Use cases](use-cases.md)
