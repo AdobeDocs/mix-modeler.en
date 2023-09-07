@@ -14,12 +14,12 @@ user-guide-description: Learn how to use Mixed Modeler.
 
 + Dashboard {#dashboard}
   + [Overview](dashboard/overview.md)
+
++ Models {#models}
+  + [Overview](models/overview.md)
   
 + Plans {#plans}
   + [Overview](plans/overview.md)
-  
-+ Models {#models}
-  + [Overview](models/overview.md)
   
 + Harmonize data {#harmonize-data}
   + [Overview](harmonize-data/overview.md)
@@ -34,6 +34,11 @@ user-guide-description: Learn how to use Mixed Modeler.
   + [Datasets](ingest-data/datasets.md)
 
 + [Use cases](use-cases.md)
+
++ Administration {#administration}
+  + [Overview](administration/overview.md)
+  + [Policies](administration/policies.md)
+  + [Audits](administration/audits.md)
 
 + Releases {#releaes}
   + [Latest release](releases/latest.md)
