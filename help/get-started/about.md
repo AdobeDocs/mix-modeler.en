@@ -1,13 +1,11 @@
 ---
 title: Adobe Mix Modeler overview
-description: Learn how Adobe Mix Modeler lets you use Analysis Workspace with data from Experience Platform.
+description: Learn about Adobe Mix Modeler and its capabilities.
 ---
 
 # Adobe Mix Modeler overview
 
-Adobe Mix Modeler, powered by Adobe Sensei, enables marketers to measure 
-campaigns and optimize planning holistically across all channels: paid, 
-earned, and owned. It's unified methodology measures incrementality at both touchpoint and aggregate levels, while ensuring fully consistent results.
+Adobe Mix Modeler, powered by Adobe Sensei, enables marketers to measure campaigns and optimize planning holistically across all channels: paid, earned, and owned. It's unified methodology measures incrementality at both touchpoint and aggregate levels, while ensuring fully consistent results.
 
 Adobe Mix Modeler provides the incremental impact of all marketing activities on business and campaign outcomes through a holistic (end-to-end) measurement application for digital and off-line marketing. 
 
