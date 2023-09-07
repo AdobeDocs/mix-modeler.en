@@ -5,7 +5,7 @@ description: Learn how to configure and use models in Adobe Mix Modeler.
 
 # Models
 
-The model functionality in Adobe Mix Modeler allows you to configure, trains and score AI/ML models specific to your business objectives and supported by AI-driven transfer learning between multitouch attribution and marketing mix modeling. 
+The model functionality in Adobe Mix Modeler allows you to configure, train and score AI/ML models specific to your business objectives and supported by AI-driven transfer learning between multitouch attribution and marketing mix modeling. 
 
 The models are based on the harmonized data view you create as part of the Adobe Mix Modeler application workflow.
 
