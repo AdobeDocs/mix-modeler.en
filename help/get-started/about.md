@@ -17,7 +17,7 @@ Adobe Mix Modeler provides the following types of optimized and actionable insig
 
 To accomplish this functionality, Adobe Mix Modeler combines: 
 
-* bottoms-up (event-level) data and top-down (aggregate level) data,
+* bottoms-up (event-level) data and top-down (aggregate-level) data,
 * external market factors and internal factors, and
 * predictive and transfer machine-learning methodologies.
 

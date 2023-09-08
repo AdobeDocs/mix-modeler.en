@@ -24,10 +24,12 @@ To view a list of your current models, in the Adobe Mix Modeler UI:
     | Name | Name of the model |
     | Description | Description of the model |
     | Conversion Events | The conversion you have selected for the model. |
-    | Dataset | The dataset the model will use to train and score. This is by default the harmonized view. |
+    | Dataset | The dataset that the model will use to train and score. This is by default the harmonized view. |
     | Run frequency | The run frequency of training the model. |
     | Last run | The date and time of the last training of the model. |
     | Last run status | The status of the last run of the training of the model |
+
+    {style="table-layout:auto"}
 
 1. To change the columns displayed for the list, select ![Column settings](../assets/icons/ColumnSetting.svg) and toggle columns on or off.
 1. To delete a model:

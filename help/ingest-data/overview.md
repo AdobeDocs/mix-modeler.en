@@ -5,7 +5,7 @@ description: Learn how to ingest data into Adobe Mix Modeler.
 
 # Ingest data
 
-Adobe Mix Modeler does work with both event level data and aggregate marketing effort data from various walled gardens. Customers can use any kinds of data ingested into Adobe Experience Platform as datasets and which are based on XDM Experience Event based schemas. 
+Adobe Mix Modeler works with both event level data and aggregate marketing effort data from various walled gardens. Customers can use all kinds of data that has been ingested into Adobe Experience Platform as datasets and is based on XDM Experience Event based schemas. 
 
 For example:
 
