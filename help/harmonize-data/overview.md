@@ -105,7 +105,7 @@ To build a harmonized data view, like in the simplified [example](#an-example-of
 1. Define [conversions](conversions.md) using the standard and additional harmonized fields you defined.
    
 
-## View harmomized data
+## View harmonized data
 
 To see your harmonized data view, in the Adobe Mix Modeler UI:
 

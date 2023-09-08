@@ -20,6 +20,7 @@ user-guide-description: Learn how to use Mixed Modeler.
   
 + Plans {#plans}
   + [Overview](plans/overview.md)
+  + [Create a plan](plans/create.md)
   
 + Harmonize data {#harmonize-data}
   + [Overview](harmonize-data/overview.md)
