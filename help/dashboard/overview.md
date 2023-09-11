@@ -1,11 +1,10 @@
 ---
-title: Overview dashboard
-description: Learn how to use dashboard overview in Adsobe Mix Modeler.
+title: Overview 
+description: Learn how overview your harmonized data and plans in Adsobe Mix Modeler.
 ---
 
 # Overview dashboard
 
 
->[!AVAILABILITY]
->
->Pending documentation update...
+The Overview UI in Adobe Mix Modeler allows you to overview your harmonized data and your plans.
+
