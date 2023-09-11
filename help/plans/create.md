@@ -9,6 +9,8 @@ In Adobe Mix Modeler, you create a plan using the plan canvas. In the plan canva
 
 To create a plan, in the ![PLan](../assets/icons/FileChart.svg) **[!UICONTROL Plans]** UI in Adobe Mix Modeler, select **[!UICONTROL Open plan canvas]**.
 
+## <a id="PlanDetails"></a>
+
 1. In the Plan creation screen:
 
     1. In the **[!UICONTROL Setup]** section
@@ -43,6 +45,8 @@ To create a plan, in the ![PLan](../assets/icons/FileChart.svg) **[!UICONTROL Pl
 
         1. Select **[!UICONTROL OK]**, to define your channel spend in **[!UICONTROL Spend selection]** in the next step.
 
+
+## <a id="SpendSelection"></a>
 
 1. In the **[!UICONTROL Spend selection]** section, for each budget date range, use the ![Chevron](../assets/icons/ChevronRight.svg) top open the channel distribution view for that data range.
 
