@@ -7,7 +7,7 @@ description: Adobe Mix Modeler overview.
 
 ![Banner](assets/mix-modeler-banner.png)
 
-This technical documentation guide provides self help assistance for **Adobe Mix Modeler**. Adobe Mix Modeler is an Adobe Experience Cloud application, powered by Adobe Sensei, that measures campaigns and optimizes planning holistically across all channels: paid, earned, and owned. 
+This technical documentation guide provides self help assistance for **Adobe Mix Modeler**. Adobe Mix Modeler is an Adobe Experience Cloud application that measures campaigns and optimizes planning holistically across all channels: paid, earned, and owned. Adobe Mix Modeler is build on top of Adobe Experience Platform and powered by Adobe Sensei. 
 
 >[!AVAILABILITY]
 >
@@ -15,9 +15,11 @@ This technical documentation guide provides self help assistance for **Adobe Mix
 
 ## Get started
 
-- What is [Adobe Mix Modeler](get-started/about.md)?
+* What is [Adobe Mix Modeler](get-started/about.md)?
 
-- What is a typical [application workflow](get-started/workflow.md)?
+* What is a typical [application workflow](get-started/workflow.md)?
+
+
 
 
 <!--
