@@ -20,6 +20,7 @@ This technical documentation guide provides self help assistance for **Adobe Mix
 - What is a typical [application workflow](get-started/workflow.md)?
 
 
+<!--
 ## Concepts
 
 <table style="table-layout:fixed">
@@ -56,3 +57,4 @@ This technical documentation guide provides self help assistance for **Adobe Mix
   </td>
 </tr>
 </table>
+-->

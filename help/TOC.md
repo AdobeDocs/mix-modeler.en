@@ -20,7 +20,7 @@ user-guide-description: Learn how to use Mixed Modeler.
 + Models {#models}
   + [Overview](models/overview.md)
   + [Create a model](models/create.md)
-  + [Model insights](models/model-insights.md)
+  + [Model insights](models/insights.md)
   
 + Plans {#plans}
   + [Overview](plans/overview.md)
