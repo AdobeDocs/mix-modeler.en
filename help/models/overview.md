@@ -70,6 +70,6 @@ To view insights of a model, in the Adobe Mix Modeler UI:
 
    1. Select the name of the model you want to view insights of.
 
-   1. From the context menu, select **[!UICONTROL Model Insights]**. You are redirected to [Model Insights](model-insights.md).
+   1. From the context menu, select **[!UICONTROL Model Insights]**. You are redirected to [Model Insights](insights.md).
 
 
