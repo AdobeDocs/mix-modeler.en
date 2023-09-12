@@ -43,7 +43,6 @@ To create a plan, in the ![PLan](../assets/icons/FileChart.svg) **[!UICONTROL Pl
 
         1. Select **[!UICONTROL OK]**, to define your channel spend in **[!UICONTROL Spend selection]** in the next step.
 
-
 1. In the **[!UICONTROL Spend selection]** section, for each budget date range, use the ![Chevron](../assets/icons/ChevronRight.svg) top open the channel distribution view for that data range.
 
     1. To define budgets for each channel enter a value for **[!UICONTROL Min]** and **[!UICONTROL Max]** or use the sliders.

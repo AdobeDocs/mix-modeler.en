@@ -74,7 +74,7 @@ To create a dataset mapping, in the ![DataSearch](../assets/icons/DataCheck.svg)
 1. When finished, select **[!UICONTROL Save]** to save the mapping, or select **[!UICONTROL Cancel]** to cancel the mapping.
 
 
-## Edit a dataset mapping
+### Edit a dataset mapping
 
 To edit a dataset mapping, in the ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** UI in Adobe Mix Modeler:
 
@@ -82,7 +82,7 @@ To edit a dataset mapping, in the ![DataSearch](../assets/icons/DataCheck.svg) *
 1. From the context menu, select ![Edit](../assets/icons/Edit.svg) **[!UICONTROL Edit]** to start editing the dataset mapping. Refer to [Create a dataset mapping](#create-a-dataset-mapping) for more details.
 
 
-## Delete a dataset mapping
+### Delete a dataset mapping
 
 To delete a dataset mapping, in the ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** UI in Adobe Mix Modeler:
 

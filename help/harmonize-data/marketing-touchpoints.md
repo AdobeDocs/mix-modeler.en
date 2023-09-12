@@ -37,11 +37,23 @@ To add a marketing touchpoint, in the ![DataSearch](../assets/icons/DataCheck.sv
 
 1. In the **[!UICONTROL Marketing touchpoint]** dialog.
 
-    1. Enter a name for **[!UICONTROL Touchpoint Name]**.
+    1. Enter a name for **[!UICONTROL Touchpoint Name]**, for example `Luma Touchpoint`.
+
     1. Define a **[!UICONTROL Touchpoint rule]**.
-       1. Select a value from the **[!UICONTROL *Select harmonize..*]**. list.
-       1. Select a value from the operator list ![Chevron](../assets/icons/ChevronDown.svg).
-       1. Select a value from the **[!UICONTROL *Select value*]** list or enter a value.
-    1. Select a harmonized field from the **[!UICONTROL Touchpoint volume]** list.
-    1. Select a harmonized field from the **[!UICONTROL Touchpoint spend]** list.
-1. Select **[!UICONTROL Create]** to create the marketing touchpoint. Select **[!UICONTROL Cancel]** to cancel the creation of a marketing touchpoint.
+
+       1. Select a value from the **[!UICONTROL *Select harmonize..*]**. list, for example **[!UICONTROL Brand]**.
+
+       1. Select a value from the operator list ![Chevron](../assets/icons/ChevronDown.svg), for example **[!UICONTROL is]**.
+
+       1. Select a value from the **[!UICONTROL *Select value*]** list or enter a value, for example **[!UICONTROL Luma]**.
+
+    1. Select a harmonized field from the **[!UICONTROL Touchpoint volume]** list, for example **[!UICONTROL Impressions]**.
+
+    1. Select a harmonized field from the **[!UICONTROL Touchpoint spend]** list, for example **[!UICONTROL Cost]**.
+   
+       ![Marketing touchpoint](../assets/create-touchpoint.png)
+
+    1. Select **[!UICONTROL Create]** to create the marketing touchpoint. Select **[!UICONTROL Cancel]** to cancel the creation of a marketing touchpoint.
+
+1. When created, the touchpoint is added to the list of marketing touchpoints.
+

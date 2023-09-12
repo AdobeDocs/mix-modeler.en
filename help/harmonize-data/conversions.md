@@ -33,15 +33,26 @@ In the list view, columns specify details about the conversion:
 
 To add a conversion, in the ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Conversion]** UI in Adobe Mix Modeler:
 
-1. Select ![Add](../assets/icons/AddCircle.svg) Add marketing touchpoint.
+1. Select ![Add](../assets/icons/AddCircle.svg) **[!UICONTROL Add a conversion]**.
 
-1. In the **[!UICONTROL Create Conversion]** dialog.
+1. In the **[!UICONTROL Create Conversion]** dialog:
 
-    1. Enter a name for **[!UICONTROL Conversion]**.
-    1. Define a **[!UICONTROL Conversion category]**.
-       1. Select a value from the **[!UICONTROL *Select harmonize..*]**. list.
-       1. Select a value from the operator list ![Chevron](../assets/icons/ChevronDown.svg).
-       1. Select a value from the **[!UICONTROL *Select value*]** list or enter a value.
-    1. Select a harmonized field from the **[!UICONTROL Conversion metric for analysis]** list.
-    1. Select a harmonized field from the **[!UICONTROL Revenue field]** list.
-1. Select **[!UICONTROL Create]** to create the conversion. Select **[!UICONTROL Cancel]** to cancel the creation of a conversion.
+    1. Enter a name for **[!UICONTROL Conversion]**, for example `Store Conversions`.
+   
+    1. Define the **[!UICONTROL Conversion category]**.
+
+       1. Select a value from the **[!UICONTROL *Select harmonize..*]**. list, for example `Conversion Type`.
+   
+       1. Select a value from the operator list ![Chevron](../assets/icons/ChevronDown.svg), for example **[!UICONTROL is]**.
+
+       1. Select a value from the **[!UICONTROL *Select value*]** list or enter a value, for example **[!UICONTROL Store]**. Based on the conversion category selected in step 2a, the list is popuated with values of which you can pick one. Alternatively you can enter your own value.
+
+    1. Select a harmonized field from the **[!UICONTROL Conversion metric for analysis]** list, for example **[!UICONTROL Oders]**.
+
+    1. Select a harmonized field from the **[!UICONTROL Revenue field]** list, for example **[!UICONTROL Gross Demand]**.
+
+    1. Select **[!UICONTROL Create]** to create the conversion. Select **[!UICONTROL Cancel]** to cancel the creation of a conversion.
+
+        ![Alt text](../assets/create-conversion.png)
+
+1. When created, the conversion is added to the list of conversions.

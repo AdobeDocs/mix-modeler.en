@@ -14,9 +14,13 @@ user-guide-description: Learn how to use Mixed Modeler.
 
 + Dashboard {#dashboard}
   + [Overview](dashboard/overview.md)
+  + [Harmonized Data](dashboard/harmonized-data.md)
+  + [Plans](dashboard/plans.md)
 
 + Models {#models}
   + [Overview](models/overview.md)
+  + [Create a model](models/create.md)
+  + [Model insights](models/model-insights.md)
   
 + Plans {#plans}
   + [Overview](plans/overview.md)
