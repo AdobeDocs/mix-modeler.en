@@ -8,9 +8,9 @@ description: Learn how to harmonize data in Adobe Mix Modeler.
 The data in Adobe Mix Modeler is of different nature depending on the source of data. The data can be:
 
 * aggregated data, for example collected from walled garden data sources,
-* even data, for example from first party data sources, like Adobe Analytics, through the Adobe Experience Platform Web or Mobile SDK, Edge Network API or source connectors.
+* event data, for example from first party data sources. This event data can be data collected through the Adobe Analytics source connector from Adobe Analytics, or through the Adobe Experience Platform Web or Mobile SDK or Edge Network API, or data ingested using source connectors.
 
-The harmonization service of Adobe Mix Modeler assimilates the aggregate and event data into a consisent data view. This data view is the source for the plans and models in Adobe Mix Modeler.
+The harmonization service of Adobe Mix Modeler assimilates the aggregate and event data into a consistent data view. This data view is the source for the plans and models in Adobe Mix Modeler.
 
 ## An example of harmonized data
 
@@ -18,14 +18,14 @@ Imagine you have the following datasets available for Adobe Mix Modeler.
 
 **Dataset 1**
  
-Contains marketing effort dataset from Youtube, with a granularity of the aggregate data set to daily.
+Contains marketing effort dataset from YouTube, with a granularity of the aggregate data set to daily.
 
 |Date|Date Type|Channel|Campaign|Brand|Geo|Clicks|Spend|
 |---|:--:|---|---|---|---|---:|---:|
-|12-31-2021|day|Youtube|Y_Fall_02|BrandX|US|10000|100|
-|01-01-2022|day|Youtube|Y_Fall_02|BrandX|US|1000|10|
-|01-03-2022|day|Youtube|Y_Fall_01|BrandY|CA|10000|100|
-|01-04-2022|day|Youtube|Y_Summer_01|Null|CA|9000|80|
+|12-31-2021|day|YouTube|Y_Fall_02|BrandX|US|10000|100|
+|01-01-2022|day|YouTube|Y_Fall_02|BrandX|US|1000|10|
+|01-03-2022|day|YouTube|Y_Fall_01|BrandY|CA|10000|100|
+|01-04-2022|day|YouTube|Y_Summer_01|Null|CA|9000|80|
 
 {style="table-layout:auto"}
 
@@ -46,7 +46,7 @@ Contains marketing effort dataset from Facebook, with a granularity of the aggre
 
 **Dataset 3** 
 
-A conversion dataset, with a ranularity of the aggregate data set to daily.
+A conversion dataset, with a granularity of the aggregate data set to daily.
 
 |Date|Date Type|Geo|Goal|Revenue|
 |--- |:---: |---|---|---:|
@@ -72,15 +72,15 @@ A sample experience event dataset (Web SDK events) from the customer.
 {style="table-layout:auto"}
 
 
-You then want to build a harmonized data view, with a granularity set to weekly. The event data is aggregated to week granularity and added to the harmonized view. The result is:
+You want to build a harmonized dataset, with a granularity set to weekly. The event data is aggregated to week granularity and added to the harmonized dataset. The result is:
 
-**Harmonized data view**
+**Harmonized dataset**
 
 |Date|Date Type|Channel|Campaign|Brand|Geo|Goal|Clicks|Spend|Revenue|
 |--- |:---:|--- |--- |--- |---|---|---:|---:|---:|
-|12-27-2021|week|Youtube|Y_Fall_02|BrandX|US|Null|11000|110|Null|
-|01-03-2022|week|Youtube|Y_Fall_01|BrandY|CA|Null|10000|100|Null|
-|01-03-2022|week|Youtube|Y_Summer_01|Null|CA|Null|9000|80|Null|
+|12-27-2021|week|YouTube|Y_Fall_02|BrandX|US|Null|11000|110|Null|
+|01-03-2022|week|YouTube|Y_Fall_01|BrandY|CA|Null|10000|100|Null|
+|01-03-2022|week|YouTube|Y_Summer_01|Null|CA|Null|9000|80|Null|
 |01-01-2022|week|Facebook|FB_Fall_01|Null|US|Null|8000|100|Null|
 |01-08-2022|week|Facebook|FB_Fall_02|Null|US|Null|1000|10|Null|
 |01-08-2022|week|Facebook|FB_Fall_01|Null|US|Null|7000|100|Null|
@@ -97,28 +97,34 @@ You then want to build a harmonized data view, with a granularity set to weekly.
 
 ## Setup harmonized data
 
-To build a harmonized data view, like in the simplified [example](#an-example-of-harmonized-data), you need to follow these steps:
+To build a harmonized dataset, like in the simplified [example](#an-example-of-harmonized-data), you must follow these steps:
 
-1. Define additional [harmonized fields](fields.md) you want to use beyond the global harmonized fields already available.
+1. Define additional [harmonized fields](fields.md) that you want to use beyond the global harmonized fields already available.
 1. Set up [dataset rules](dataset-rules.md) to map fields from your aggregate or experience event datasets to harmonized fields.
-1. Define [marketing touchpoints](marketing-touchpoints.md) using the standard and additional harmonized fields you defined.
-1. Define [conversions](conversions.md) using the standard and additional harmonized fields you defined.
+1. Define [marketing touchpoints](marketing-touchpoints.md) using the standard and additional harmonized fields that you defined.
+1. Define [conversions](conversions.md) using the standard and additional harmonized fields that you defined.
    
 
 ## View harmonized data
 
-To see your harmonized data view, in the Adobe Mix Modeler UI:
+To see your harmonized data, in the Adobe Mix Modeler interface:
 
-1. Select ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** from the left rail.
+1. Select ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized datasets]** from the left rail.
    
-1. Select **[!UICONTROL Harmonized data]** from the top bar. You see a recap of your harmonized data based on the fields, dataset rules, marketing touchpoints and conversions you have defined.
+1. Select **[!UICONTROL Harmonized Data]** from the top bar. You see a recap of your harmonized data based on the fields, dataset rules, marketing touchpoints and conversions you have defined.
 
-    1. Use **[!UICONTROL Date range]** to redefine the period on which the recap of harmonized data is based.
-    1. Use ![Settings](../assets/icons/Setting.svg) to open the **[!UICONTROL Column settings]** dialog.
+    1. To redefine the period on which the recap of harmonized data is based, enter a date range for **[!UICONTROL Date range]** or use ![Calendar](../assets/icons/Calendar.svg) to select a data range.
+
+    1. To modify the columns displayed for the Harmonized Data table, use ![Settings](../assets/icons/Setting.svg) to open the **[!UICONTROL Column settings]** dialog.
+
        1. Select ![SelectBox](../assets/icons/SelectBox.svg) one or more columns from **[!UICONTROL AVAILABLE COLUMNS]** and use ![Chevron right](../assets/icons/ChevronRight.svg) to add these columns to **[!UICONTROL SELECTED COLUMNS]**. 
+
        1. Select ![SelectBox](../assets/icons/SelectBox.svg) one or more columns from **[!UICONTROL SELECTED COLUMNS]** and use ![Chevron left](../assets/icons/ChevronLeft.svg) to remove the selected columns and return these columns back to **[!UICONTROL AVAILABLE COLUMNS]**.
+
        1. Select a column from the **[!UICONTROL DEFAULT SORT]** list and toggle between **[!UICONTROL Ascending]** or **[!UICONTROL Descending]**.
+
        1. To change the order of columns displayed, you can move a column in **[!UICONTROL SELECTED COLUMNS]** up and down though drag and drop .
+
     1. Select **[!UICONTROL Submit]** to submit your column setting changes. Select **[!UICONTROL Close]** to cancel any changes you made.
 
 

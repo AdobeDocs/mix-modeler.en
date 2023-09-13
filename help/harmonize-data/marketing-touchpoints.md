@@ -11,13 +11,13 @@ You define marketing touchpoints to assist you in attribution analysis.
 
 ## Manage marketing touchpoints
 
-To see a list of the available marketing touchpoints, in the Adobe Mix Modeler UI:
+To see a table of the available marketing touchpoints in the Adobe Mix Modeler interface:
 
 1. Select ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** from the left rail.
    
-1. Select **[!UICONTROL Marketing touchpoint]** from the top bar. You will see a list of the marketing touchpoints.
+1. Select **[!UICONTROL Marketing touchpoint]** from the top bar. You see a table of the marketing touchpoints.
 
-In the list view, columns specify details about the marketing touchpoint:
+The table columns specify details about the marketing touchpoint:
 
 | Column name | Details |
 | --- | ---|
@@ -31,7 +31,7 @@ In the list view, columns specify details about the marketing touchpoint:
 
 ## Add a marketing touchpoint
 
-To add a marketing touchpoint, in the ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Marketing touchpoint]** UI in Adobe Mix Modeler:
+To add a marketing touchpoint, in the ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Marketing touchpoint]** interface in Adobe Mix Modeler:
 
 1. Select ![Add](../assets/icons/AddCircle.svg) Add marketing touchpoint.
 
@@ -41,19 +41,19 @@ To add a marketing touchpoint, in the ![DataSearch](../assets/icons/DataCheck.sv
 
     1. Define a **[!UICONTROL Touchpoint rule]**.
 
-       1. Select a value from the **[!UICONTROL *Select harmonize..*]**. list, for example **[!UICONTROL Brand]**.
+       1. Select a value from **[!UICONTROL *Select harmonize...*]**, for example **[!UICONTROL Brand]**.
 
-       1. Select a value from the operator list ![Chevron](../assets/icons/ChevronDown.svg), for example **[!UICONTROL is]**.
+       1. Select a value for operator ![Chevron](../assets/icons/ChevronDown.svg), for example **[!UICONTROL is]**.
 
-       1. Select a value from the **[!UICONTROL *Select value*]** list or enter a value, for example **[!UICONTROL Luma]**.
+       1. Select a value from **[!UICONTROL *Select value*]** or enter a value, for example **[!UICONTROL Luma]**.
 
-    1. Select a harmonized field from the **[!UICONTROL Touchpoint volume]** list, for example **[!UICONTROL Impressions]**.
+    1. Select a harmonized field from **[!UICONTROL Touchpoint volume]**, for example **[!UICONTROL Impressions]**.
 
-    1. Select a harmonized field from the **[!UICONTROL Touchpoint spend]** list, for example **[!UICONTROL Cost]**.
+    1. Select a harmonized field from **[!UICONTROL Touchpoint spend]**, for example **[!UICONTROL Cost]**.
    
        ![Marketing touchpoint](../assets/create-touchpoint.png)
 
-    1. Select **[!UICONTROL Create]** to create the marketing touchpoint. Select **[!UICONTROL Cancel]** to cancel the creation of a marketing touchpoint.
+    1. To create the marketing touchpoint, select **[!UICONTROL Create]**. To cancel the creation of a marketing touchpoint, select **[!UICONTROL Cancel]** .
 
-1. When created, the touchpoint is added to the list of marketing touchpoints.
+1. When created, the touchpoint is added to the marketing touchpoints table.
 
