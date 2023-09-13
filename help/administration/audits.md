@@ -9,5 +9,5 @@ In order to increase the transparency and visibility of activities performed in 
 
 In a basic sense, an audit log tells who performed what action, and when. Each action recorded in a log contains metadata that indicates the action type, date and time, the email ID of the user who performed the action, and additional attributes relevant to the action type.
 
-To access audit logs, select **[!UICONTROL Audits]** underneath **[!UICONTROL PRIVACY]** in the Adobe Mix Modeler UI. See [Managing audit logs in the UI](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview.html?lang=en#managing-audit-logs-in-the-ui) for more information.
+To access audit logs, select **[!UICONTROL Audits]** underneath **[!UICONTROL PRIVACY]** in the Adobe Mix Modeler interface. See [Managing audit logs in the UI](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview.html?lang=en#managing-audit-logs-in-the-ui) for more information.
 

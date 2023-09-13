@@ -7,6 +7,7 @@ title: Adobe Mix Modeler releases
 Adobe Mix Modeler releases operate on a continuous delivery model which allows for a scalable, phased approach to feature deployment.
 
 
+<!--
 ## Release strategy
 
 Adobe Mix Modeler uses feature flags (also known as "toggles") to control the visibility of new features, allowing for controlled scale testing prior to full release. This release strategy includes the following phases:
@@ -35,3 +36,5 @@ Phased releases enable Adobe to better scale the software deployment process and
 | --- | --- |
 | Can I request early access to a feature? | No. Early access will not be granted. |
 | Does this release strategy affect my access to features? | No. Once a feature has reached general availability, you will have access to the feature if it is included in your Adobe Mix Modeler license. |
+
+-->

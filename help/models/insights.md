@@ -5,15 +5,15 @@ description: Learn how to get details about your model, like historical overview
 
 # Model Insights
 
-To view a model insights, in the ![Models](../assets/icons/FileData.svg) **[!UICONTROL Models]** UI in Adobe Mix Modeler:
+To view model insights, in the ![Models](../assets/icons/FileData.svg) **[!UICONTROL Models]** interface in Adobe Mix Modeler:
 
-1. Select the name of a model with a succesful last training status from the models list.
+1. Select the name of a model with a **[!UICONTROL Last run status]** of <span style="color:green">●</span> **[!UICONTROL Success]** from the **[!UICONTROL Models]** table.
    
-1. From the context menu select **[!UICONTROL Model Insights]**.
+1. From the context menu, select **[!UICONTROL Model Insights]**.
 
-You will see insights for the selected model presented using three tabs: Historical overview, Model insights and Model quality. 
+You see when the specified model is last refreshed and widgets are displayed using three tabs: Historical overview, Model insights, and Model quality.
 
-You can change the date period on which the widgets on each of the tabs are based upon. Enter a period or select ![Calendar](../assets/icons/Calendar.svg) to select a period.
+You can change the date period on which the widgets on each of the tabs are based on. Enter a date period or select ![Calendar](../assets/icons/Calendar.svg) to select a date period.
 
 
 ## Historical overview
@@ -24,15 +24,15 @@ The Historical overview tab shows widgets for:
   
 * Spend by Channel
 
-* Touchpoiint Spend
+* Touchpoint Spend
 
-  You can select an altenative spend-based channel to display for this widget. Select a channel from the **[!UICONTROL Channels]** list.
+  You can select an alternative spend-based channel to display for this widget. Select a channel from **[!UICONTROL Channels]**.
 
 * Touchpoint Volume
 
-    You can select an altenative volume-based channel to display for this widget. Select a channel from the **[!UICONTROL Channels]** list.
+    You can select an alternative volume-based channel to display for this widget. Select a channel from **[!UICONTROL Channels]**.
 
-You can hover over individiual chart elements to see more details.
+
 
 ![Model - Historical overview](../assets/model-historical-overview.png)
 
@@ -47,7 +47,7 @@ The Model insights tab shows widgets for:
 
 * Marketing Performance Summary
 
-You can hover over individiual chart elements to see more details.
+You can hover over individual chart elements in each widget to see a popover with more details.
 
 ![Model - Model insights](../assets/model-model-insights.png)
 
@@ -56,7 +56,7 @@ You can hover over individiual chart elements to see more details.
 
 The Model quality tab shows widgets for measuring:
 
-* R2 (R-squared), which will tell how well the data fits the regression model (the goodness of fit).
+* R2 (R-squared), which tells how well the data fits the regression model (the goodness of fit).
 
 * MAPE (Mean Absolute Percentage Error), which is one of the most commonly used KPIs to measure forecast accuracy and expresses the forecast error as a percentage of the actual value.
 

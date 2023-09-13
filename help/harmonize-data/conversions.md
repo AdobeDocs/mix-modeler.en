@@ -11,13 +11,13 @@ You define marketing conversions for attribution analysis.
 
 ## Manage conversions
 
-To see a list of the available conversions, in the Adobe Mix Modeler UI:
+To see a table of the available conversions, in the Adobe Mix Modeler interface:
 
 1. Select ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** from the left rail.
    
-1. Select **[!UICONTROL Conversions]** from the top bar. You will see a list of the conversions.
+1. Select **[!UICONTROL Conversions]** from the top bar. You see a table of the conversions.
 
-In the list view, columns specify details about the conversion:
+The table columns specify details about the conversion:
 
 | Column name | Details |
 | --- | ---|
@@ -31,7 +31,7 @@ In the list view, columns specify details about the conversion:
 
 ## Add a conversion
 
-To add a conversion, in the ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Conversion]** UI in Adobe Mix Modeler:
+To add a conversion, in the ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Conversion]** interface in Adobe Mix Modeler:
 
 1. Select ![Add](../assets/icons/AddCircle.svg) **[!UICONTROL Add a conversion]**.
 
@@ -41,18 +41,18 @@ To add a conversion, in the ![DataSearch](../assets/icons/DataCheck.svg) **[!UIC
    
     1. Define the **[!UICONTROL Conversion category]**.
 
-       1. Select a value from the **[!UICONTROL *Select harmonize..*]**. list, for example `Conversion Type`.
+       1. Select a value from **[!UICONTROL *Select harmonize...*]**, for example `Conversion Type`.
    
-       1. Select a value from the operator list ![Chevron](../assets/icons/ChevronDown.svg), for example **[!UICONTROL is]**.
+       1. Select a value for the operator ![Chevron](../assets/icons/ChevronDown.svg), for example **[!UICONTROL is]**.
 
-       1. Select a value from the **[!UICONTROL *Select value*]** list or enter a value, for example **[!UICONTROL Store]**. Based on the conversion category selected in step 2a, the list is popuated with values of which you can pick one. Alternatively you can enter your own value.
+       1. Select a value from **[!UICONTROL *Select value*]** or enter a value, for example **[!UICONTROL Store]**.
 
-    1. Select a harmonized field from the **[!UICONTROL Conversion metric for analysis]** list, for example **[!UICONTROL Oders]**.
+    1. Select a harmonized field from **[!UICONTROL Conversion metric for analysis]**, for example **[!UICONTROL Orders]**.
 
-    1. Select a harmonized field from the **[!UICONTROL Revenue field]** list, for example **[!UICONTROL Gross Demand]**.
+    1. Select a harmonized field from **[!UICONTROL Revenue field]**, for example **[!UICONTROL Gross Demand]**.
 
-    1. Select **[!UICONTROL Create]** to create the conversion. Select **[!UICONTROL Cancel]** to cancel the creation of a conversion.
+    1. tT create the conversion, select **[!UICONTROL Create]**. To cancel the creation of a conversion, select **[!UICONTROL Cancel]**.
 
         ![Alt text](../assets/create-conversion.png)
 
-1. When created, the conversion is added to the list of conversions.
+1. When created, the conversion is added to the conversions table.
