@@ -13,7 +13,7 @@ To change the date period for data to be displayed in the widgets, enter a start
 
 You can filter the data displayed for all widgets using the ![Filter](../assets/icons/Filter.svg) **[!UICONTROL Data Filters]** pane. 
 
-Select one or more filters from the list shown for each category (**[!UICONTROL Channel]**, **[!UICONTROL Brand]**, **[!UICONTROL Source Type]**, and **[!UICONTROL Traffic Source]**). 
+Select one or more filters for each category (**[!UICONTROL Channel]**, **[!UICONTROL Brand]**, **[!UICONTROL Source Type]**, and **[!UICONTROL Traffic Source]**). 
 
    Selected filters are displayed on top of the widgets at **[!UICONTROL FILTERING BY:]**. 
 

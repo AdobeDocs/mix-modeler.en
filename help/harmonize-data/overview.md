@@ -121,7 +121,7 @@ To see your harmonized data, in the Adobe Mix Modeler interface:
 
        1. Select ![SelectBox](../assets/icons/SelectBox.svg) one or more columns from **[!UICONTROL SELECTED COLUMNS]** and use ![Chevron left](../assets/icons/ChevronLeft.svg) to remove the selected columns and return these columns back to **[!UICONTROL AVAILABLE COLUMNS]**.
 
-       1. Select a column from the **[!UICONTROL DEFAULT SORT]** list and toggle between **[!UICONTROL Ascending]** or **[!UICONTROL Descending]**.
+       1. Select a column from **[!UICONTROL DEFAULT SORT]** and toggle between **[!UICONTROL Ascending]** or **[!UICONTROL Descending]**.
 
        1. To change the order of columns displayed, you can move a column in **[!UICONTROL SELECTED COLUMNS]** up and down though drag and drop .
 

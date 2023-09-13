@@ -13,11 +13,11 @@ To create a model, use the Mix Modeler ste-by-step guided model configuration fl
 
 ## Manage models
 
-To view a list of your current models, in the Adobe Mix Modeler interface:
+To view a table of your current models, in the Adobe Mix Modeler interface:
 
 1. Select ![](../assets/icons/FileData.svg) **[!UICONTROL Models]** from the left rail.
    
-1. You see a list of the current models.
+1. You see a table of the current models.
 
     The table columns specify details about the model.
 

@@ -23,13 +23,13 @@ To build your custom AI-powered models, the interface provides a step-by-step gu
 
        1. Enter a **[!UICONTROL Conversion name]** for the conversion, for example `Conversion`
 
-       1. Select a conversion from the **[!UICONTROL *Select harmonized field*]** list, containing the available conversions you defined as part of [Conversions](../harmonize-data/conversions.md) in [!UICONTROL Harmonized datasets]. For example, **[!UICONTROL Online Conversion]**. 
+       1. Select a conversion from **[!UICONTROL *Select harmonized field*]**, containing the available conversions you defined as part of [Conversions](../harmonize-data/conversions.md) in [!UICONTROL Harmonized datasets]. For example, **[!UICONTROL Online Conversion]**. 
 
        1. You can select ![Reply](../assets/icons/Reply.svg) **[!UICONTROL Create new conversion]** to create a conversion directly from within the model configuration.
 
             ![Model - conversion step](../assets/model-conversion-step.png)
 
-   1. In the **[!UICONTROL Marketing touchpoints]** section, you see a list of marketing touchpoint containers, corresponding to the marketing touchpoints you defined as part of [Marketing touchpoints](../harmonize-data/marketing-touchpoints.md) in [!UICONTROL Harmonized datasets]. 
+   1. In the **[!UICONTROL Marketing touchpoints]** section, you see a number of marketing touchpoint containers, corresponding to the marketing touchpoints you defined as part of [Marketing touchpoints](../harmonize-data/marketing-touchpoints.md) in [!UICONTROL Harmonized datasets]. 
 
        * For each container:
 
@@ -90,7 +90,7 @@ To build your custom AI-powered models, the interface provides a step-by-step gu
 
          1. Enter a **[!UICONTROL Factor name]** at **[!UICONTROL _Enter factor_]**.
 
-         1. Select a dataset from the **[!UICONTROL _Select a dataset_]** list. You can select ![Data](../assets/icons/Data.svg) to manage datasets. See [Datasets](../ingest-data/datasets.md) for more information.
+         1. Select a dataset from **[!UICONTROL _Select a dataset_]**. You can select ![Data](../assets/icons/Data.svg) to manage datasets. See [Datasets](../ingest-data/datasets.md) for more information.
 
        * To add an additional internal factors dataset container, select ![Add](../assets/icons/AddCircle.svg) **[!UICONTROL Add internal factor]**.
 

@@ -13,11 +13,11 @@ Dataset rules assist you in mapping your harmonized fields with fields from the 
 
 ## Manage dataset rules and mappings
 
-To see a list of the available dataset mappings, in the Adobe Mix Modeler interface:
+To see a table of the available dataset mappings, in the Adobe Mix Modeler interface:
 
 1. Select ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** from the left rail.
    
-1. Select **[!UICONTROL Dataset rules]** from the top bar. You see a list of the dataset mappings.
+1. Select **[!UICONTROL Dataset rules]** from the top bar. You see a table of the dataset mappings.
 
 The table columns specify details about the dataset mappings:
 
@@ -46,7 +46,7 @@ In the **[!UICONTROL Create]** screen,
 
 1. When you have selected a **[!UICONTROL Summary]** type of dataset:
    
-   1. Map each of the **[!UICONTROL Available dataset fields]** to corresponding **[!UICONTROL Standard harmonized fields]**. Select a harmonized field from the list, or, if you do not want to map a dataset field to a harmonized field, explicitly select **[!UICONTROL -- None --]** from the list.
+   1. Map each of the **[!UICONTROL Available dataset fields]** to corresponding **[!UICONTROL Standard harmonized fields]**. If you do not want to map a dataset field to a harmonized field, explicitly select **[!UICONTROL -- None --]**.
 
    1. If you need a new harmonized field, not available from the list, select **[!UICONTROL Create New]** to create a new harmonized field. You see the dialog as outlined in [Add a new harmonized field](fields.md#add-a-harmonized-field) to quickly allow you to add a new harmonized field.
 
@@ -56,17 +56,17 @@ In the **[!UICONTROL Create]** screen,
   
 1. When you have selected an event type of dataset, in the shaded box underneath **[!UICONTROL Map to harmonized fields]**:
 
-   1. Select a harmonized field from the **[!UICONTROL Standard harmonized field]** list.
+   1. Select a harmonized field from **[!UICONTROL Standard harmonized field]**.
 
    1. When the selected harmonized field is of type metric:
 
-      1. Select **[!UICONTROL Count]** or **[!UICONTROL Sum]** from the **[!UICONTROL Mapping type]** list.
+      1. Select **[!UICONTROL Count]** or **[!UICONTROL Sum]** from **[!UICONTROL Mapping type]**.
 
-      1. Select an **[!UICONTROL *AEP dataset field*]** from the list that you want the harmonized field to map to by default.
+      1. Select an **[!UICONTROL *AEP dataset field*]** that you want the harmonized field to map to by default.
 
    1. When the selected field is of type dimension:
 
-      1. Select **[!UICONTROL Map Into]** or **[!UICONTROL Case]** from the **[!UICONTROL Mapping type]** list.
+      1. Select **[!UICONTROL Map Into]** or **[!UICONTROL Case]** from **[!UICONTROL Mapping type]**.
 
       1. When you have selected **[!UICONTROL Map Into]**, select **[!UICONTROL Field]** and **[!UICONTROL *AEP dataset field*]** or **[!UICONTROL Value]**  and a default value to map the harmonized field by default to the dataset field or entered value.
 

@@ -44,13 +44,13 @@ You can add, edit, or delete your own harmonized fields on top of these global h
 
 ## Manage harmonized fields
 
-To see a list of the available harmonized fields, in the Adobe Mix Modeler interface:
+To see a table of the available harmonized fields, in the Adobe Mix Modeler interface:
 
 1. Select ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** from the left rail.
    
-1. Select **[!UICONTROL Fields]** from the top bar. You see a list of the harmonized fields.
+1. Select **[!UICONTROL Fields]** from the top bar. You see a table of the harmonized fields.
 
-   In the list view, columns specify details about the harmonized fields
+   The table columns specify details about the harmonized fields
 
    | Column name            | Details   |
    | ---------------------- | ----------|
@@ -80,7 +80,7 @@ To add a harmonized field, in the ![DataSearch](../assets/icons/DataCheck.svg) *
 
     1. Enter a **[!UICONTROL Field name]**, for example `region`.
     1. Enter a **[!UICONTROL Display name]**, for example `Region`.
-    1. Select a **[!UICONTROL Category]** from the list: **[!UICONTROL Dimension]**, **[!UICONTROL Metric]** or **[!UICONTROL Derived]**.
+    1. Select a **[!UICONTROL Category]**: **[!UICONTROL Dimension]**, **[!UICONTROL Metric]** or **[!UICONTROL Derived]**.
 
        When you select **[!UICONTROL Derived]**, specify a **[!UICONTROL Formula]**. To build a valid arithmetic expression, combine one or more metrics from **[!UICONTROL Insert Metric]** with one or more operators **[!UICONTROL + - * / ( )]** . For example, `[orders]/[impressions]`
 
