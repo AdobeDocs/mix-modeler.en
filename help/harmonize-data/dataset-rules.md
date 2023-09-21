@@ -84,9 +84,9 @@ In the **[!UICONTROL Create]** screen,
 
       The example below 
 
-      * uses a **[!UICONTROL Map Into]** **[!UICONTROL Mapping type]** to map the **[!UICONTROL Channel Type At Source]** harmonized field to the **[!UICONTROL channel_type]** field from the **[!UICONTROL Luma Transactions]** dataset.
+      * uses a **[!UICONTROL Map Into]** **[!UICONTROL Mapping type]** to map the **[!UICONTROL Channel Type At Source]** harmonized field to the **[!UICONTROL channel_type]** field from the **[!DNL Luma Transactions]** dataset.
   
-      * uses a **[!UICONTROL Case]** **[!UICONTROL Mapping]** type to conditionally map the value of the **[!UICONTROL marketing.campaignName]** field in the **[!UICONTROL Luma Transactions]** dataset to the **[!UICONTROL Campaign]** harmonized field. The Campaign harmonized field is set to:
+      * uses a **[!UICONTROL Case]** **[!UICONTROL Mapping]** type to conditionally map the value of the **[!UICONTROL marketing.campaignName]** field in the **[!DNL Luma Transactions]** dataset to the **[!UICONTROL Campaign]** harmonized field. The Campaign harmonized field is set to:
          
         * `Black Friday` when the **[!UICONTROL marketing.campaignName]** is `_black_friday` or `BlackFriday`. 
         * to the value of the **[!UICONTROL marketing.campaignName]** in all other cases.

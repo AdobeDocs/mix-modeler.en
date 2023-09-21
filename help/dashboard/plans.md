@@ -5,7 +5,12 @@ description: Learn how to use the plans overview in Adobe Mix Modeler.
 
 # Plans overview
 
-The Plans tab in Adobe Mix Modeler Overview shows widgets for [!UICONTROL Budget], [!UICONTROL Revenue], [!UICONTROL Expected ROI] and [!UICONTROL Conversions].
+>[!NOTE]
+>
+>[!BADGE Alpha]{type=Informative} The Plans tab in Adobe Mix Modeler is an alpha feature and its functionality is subject to change.
+
+
+The Plans tab in Adobe Mix Modeler Overview shows widgets for [!UICONTROL Budget], [!UICONTROL Revenue], [!UICONTROL ROI] and [!UICONTROL KPI].
 
 The data displayed for the widgets is determined by:
 
@@ -13,9 +18,4 @@ The data displayed for the widgets is determined by:
 
 * The plan. Select a plan from **[!UICONTROL Plan name]** using the **[!UICONTROL _Select an option..._]**.
 
-* The pacing data. Enter a **[!UICONTROL Pacing date]** or select a pacing date, using ![Calendar](../assets/icons/Calendar.svg).
-
-  When no data is available for a widget, you see ![Table](../assets/icons/TableAndChart.svg) [!UICONTROL No data available].
-
-  ![Plans overview](../assets/plans-overview.png)
   
