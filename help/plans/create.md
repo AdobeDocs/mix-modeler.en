@@ -1,6 +1,7 @@
 ---
 title: Create a plan
 description: Learn how to create a plan in Adobe Mix Modeler.
+feature: Plans
 ---
 
 # Create a plan

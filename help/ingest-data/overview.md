@@ -1,6 +1,7 @@
 ---
 title: Ingest data
 description: Learn how to ingest data into Adobe Mix Modeler.
+feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
 ---
 
 # Ingest data

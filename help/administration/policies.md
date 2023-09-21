@@ -1,6 +1,7 @@
 ---
 title: Policies
 description: Learn how to configure and use policies in Adobe Mix Modeler.
+feature: Administration, Policies
 ---
 
 # Policies

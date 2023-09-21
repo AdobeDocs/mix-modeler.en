@@ -1,6 +1,7 @@
 ---
 title: Harmonized data overview dashboard
 description: Learn how to use the harmonized data overview dashboard in Adobe Mix Modeler.
+feature: Dashboard, Harmonized Data
 ---
 
 # Harmonized data overview

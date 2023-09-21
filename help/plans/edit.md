@@ -1,6 +1,7 @@
 ---
 title: Edit a plan
 description: Learn how to edit a plan in Adobe Mix Modeler.
+feature: Plans
 ---
 
 # Edit a plan

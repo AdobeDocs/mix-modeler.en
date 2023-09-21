@@ -1,6 +1,6 @@
 ---
 title: Adobe Mix Modeler overview
-description: Adobe Mix Modeler overview.
+description: Learn how to measure campaigns and optimize planning holistically across all channels with Adobe Mix Modeler.
 ---
 
 # Adobe Mix Modeler guide

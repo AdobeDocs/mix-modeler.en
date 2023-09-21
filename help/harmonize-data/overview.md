@@ -1,6 +1,7 @@
 ---
 title: Harmonize data
 description: Learn how to harmonize data in Adobe Mix Modeler.
+feature: Harmonized Data
 ---
 
 # Harmonize data

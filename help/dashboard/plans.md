@@ -1,6 +1,7 @@
 ---
 title: Plans overview 
 description: Learn how to use the plans overview in Adobe Mix Modeler.
+feature: Dashboard, Plans, Models
 ---
 
 # Plans overview

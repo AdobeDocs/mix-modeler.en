@@ -1,6 +1,7 @@
 ---
 title: Adobe Mix Modeler overview
-description: Learn about Adobe Mix Modeler and its capabilities.
+description: Get an overview of the functionality and capabilities of Adobe Mix Modeler.
+feature: Plans, Harmonized Data, Models
 ---
 
 # Adobe Mix Modeler overview
