@@ -1,6 +1,7 @@
 ---
 description: Explains the continuous feature release strategy for Adobe Mix Modeler
 title: Adobe Mix Modeler releases
+feature: Release Notes
 ---
 # Adobe Mix Modeler releases
 

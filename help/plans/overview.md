@@ -1,6 +1,8 @@
 ---
 title: Plans
 description: Learn how to view, select, and action on plans in Adobe Mix Modeler.
+solution: Mix Modeler
+feature: Plans
 ---
 
 # Plans

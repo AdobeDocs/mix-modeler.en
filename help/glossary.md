@@ -1,7 +1,8 @@
 ---
 title: Adobe Mix Modeler glossary
 description: Adobe Mix Modeler glossary.
-exl-id: 7f8aac93-0103-4ead-b25b-3d9994a271af
+solution: Mix Modeler
+feature: Datasets, Conversions, Marketing Touch Points, Harmonized Data
 ---
 # Adobe Mix Modeler glossary
 

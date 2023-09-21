@@ -1,6 +1,8 @@
 ---
 title: Model Insights
 description: Learn how to get details about your model, like historical overview, model insights, and model quality in Adobe Mix Modeler.
+solution: Mix Modeler
+feature: Models
 ---
 
 # Model Insights

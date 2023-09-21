@@ -1,6 +1,7 @@
 ---
 title: View the current Adobe Mix Modeler release notes
 description: Latest Mix Modeler release notes
+feature: Release Notes
 ---
 # Latest Adobe Mix Modeler release notes (September 2023)
 

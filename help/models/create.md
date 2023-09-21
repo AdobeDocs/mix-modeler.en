@@ -1,6 +1,8 @@
 ---
 title: Create a model
 description: Learn how to create a model in Adobe Mix Modeler.
+solution: Mix Modeler
+feature: Models
 ---
 
 # Create a model

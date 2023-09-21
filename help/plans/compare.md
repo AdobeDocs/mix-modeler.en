@@ -1,6 +1,8 @@
 ---
 title: Compare plans
 description: Learn how to compare plans in Adobe Mix Modeler.
+solution: Mix Modeler
+feature: Plans
 ---
 
 # Compare plans
