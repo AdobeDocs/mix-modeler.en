@@ -1,7 +1,6 @@
 ---
 title: Overview 
 description: Learn how to overview your harmonized data and plans in Adobe Mix Modeler.
-solution: Mix Modeler
 feature: Dashboard, Plans, Harmonized Data, Models
 ---
 

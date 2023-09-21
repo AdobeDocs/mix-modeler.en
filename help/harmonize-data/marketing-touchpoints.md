@@ -1,7 +1,6 @@
 ---
 title: Marketing touchpoints
 description: Learn how to create marketing touchpoints to use as part of harmonizing your data in Adobe Mix Modeler.
-solution: Mix Modeler
 feature: Harmonized Data, Marketing Touch Points
 ---
 

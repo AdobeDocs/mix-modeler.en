@@ -1,7 +1,6 @@
 ---
 title: Administration
 description: Learn how to administer Adobe Mix Modeler
-solution: Mix Modeler
 feature: Administration, Audits, Policies
 ---
 

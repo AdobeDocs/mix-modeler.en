@@ -1,7 +1,6 @@
 ---
 title: Adobe Mix Modeler use cases
 description: Adobe Mix Modeler use cases.
-solution: Mix Modeler
 feature: Schemas, Datasets, Conversions, Harmonized Data, Marketing Touch Points, Models, Plans
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: Harmonized fields
 description: Learn how to define fields to use as part of harmonizing your data in Adobe Mix Modeler.
-solution: Mix Modeler
 feature: Harmonized Data
 ---
 

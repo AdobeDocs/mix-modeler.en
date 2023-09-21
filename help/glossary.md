@@ -1,7 +1,6 @@
 ---
 title: Adobe Mix Modeler glossary
 description: Adobe Mix Modeler glossary.
-solution: Mix Modeler
 feature: Datasets, Conversions, Marketing Touch Points, Harmonized Data
 ---
 # Adobe Mix Modeler glossary

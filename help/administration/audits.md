@@ -1,7 +1,6 @@
 ---
 title: Audits
 description: Learn how to audit logs in Adobe Mix Modeler.
-solution: Mix Modeler
 feature: Administration, Audits
 ---
 
