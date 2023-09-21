@@ -45,7 +45,7 @@ Successful implementation of this use can have the following impact:
 +++
 
 
-## Build marketng plans that optimize ROI
+## Build marketing plans that optimize ROI
 
 This use case leverages user friendly, AI-enabled optimization & scenario planning tools to maximize ROI.
 

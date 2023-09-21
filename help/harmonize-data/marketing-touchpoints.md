@@ -45,7 +45,7 @@ To add a marketing touchpoint, in the ![DataSearch](../assets/icons/DataCheck.sv
 
        1. Select a value for operator ![Chevron](../assets/icons/ChevronDown.svg), for example **[!UICONTROL is]**.
 
-       1. Select a value from **[!UICONTROL *Select value*]** or enter a value, for example **[!UICONTROL Luma]**.
+       1. Select a value from **[!UICONTROL *Select value*]** or enter a value, for example **[!DNL Luma]**.
 
     1. Select a harmonized field from **[!UICONTROL Touchpoint volume]**, for example **[!UICONTROL Impressions]**.
 
