@@ -6,7 +6,9 @@ feature: Dashboard, Harmonized Data
 
 # Harmonized data overview
 
-The Harmonized Data tab in Adobe Mix Modeler Overview shows a total of four KPI status card widgets (top row) and six other configurable widgets.
+The Harmonized Data tab in Adobe Mix Modeler Overview provides insights into the harmonized data you have configured to be used as part of the ingested data and harmonized data setup.
+
+The overview shows four KPI status card widgets (top row) and six other configurable widgets.
 
 To change the date period for data to be displayed in the widgets, enter a start date, and end date manually or select a period using ![Calendar](../assets/icons/Calendar.svg).
 
