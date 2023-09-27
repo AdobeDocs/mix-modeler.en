@@ -16,7 +16,7 @@ This use case helps you to measure the impact of marketing across all paid, earn
 
 ### Challenges
 
-The challenges this use case addresses are:
+The challenges these use case addresses are:
 
 * Difficult to measure incremental performance from siloed customer journey data, signal loss, and walled gardens.
 * Inconsistency in insights from separated MMM and MTA methodologies, reducing confidence in results.
@@ -24,13 +24,13 @@ The challenges this use case addresses are:
 
 ### Approach
 
-The step based approach for this use case:
+The step-based approach for this use case is:
 
 | Step | Details |
 |---|---|
-| Ingest | Identify and ingest data sources under common schemas. <br/>Leverage existing investments in  Adobe Analytics or Customer Journey Analytics to fast-track deployment. |
-| Configure | Configure flexible models using AI-as-a-Service framework for your specific business objectives<br/>Automatically ensure consistency between touchpoint & summary-level with bidirectional transfer learning. |
-| Analyze | Clearly understand ROI of overall marketing and individual channels / subchannels.<br/>Clearly understand which touchpoints best drive incremental conversions. |
+| Ingest | Identify and ingest data sources under common schemas. <br/>Apply existing investments in  Adobe Analytics or Customer Journey Analytics to fast-track deployment. |
+| Configure | Configure flexible models using an AI-as-a-Service framework for your specific business objectives<br/>Automatically ensure consistency between touchpoint & summary-level with bidirectional transfer learning. |
+| Analyze | Clearly understand the ROI of overall marketing and individual channels / subchannels.<br/>Clearly understand which touchpoints best drive incremental conversions. |
 
 {style="table-layout:auto"}
 
@@ -40,21 +40,21 @@ The step based approach for this use case:
 Successful implementation of this use can have the following impact:
 
 * Incorporate aggregate data, touchpoint data, and exogenous variables to get the richest view of measurement.
-* Use AI-as-a-Service solution to quickly create models for driving success with access to model transparency for level of confidence.
-* Increase confidence in strategic and tactical decision-making through alignment in summary-level and touchpoint level results.
+* Use an AI-as-a-Service solution to quickly create models for driving success with access to model transparency for level of confidence.
+* Increase confidence in strategic and tactical decision-making through alignment in summary-level and touchpoint-level results.
 
 +++
 
 
 ## Build marketing plans that optimize ROI
 
-This use case leverages user friendly, AI-enabled optimization & scenario planning tools to maximize ROI.
+This use case uses user-friendly, AI-enabled optimization & scenario planning tools to maximize ROI.
 
 +++ Details
 
 ### Challenges
 
-The challenges this use case addresses are:
+The challenges these use case addresses are:
 
 * Create data-driven marketing investment plans based on efficiency curves, not relying on gut feel.
 * Maximize outcomes across multiple geographies, lines of business, and channels simultaneously.
@@ -63,7 +63,7 @@ The challenges this use case addresses are:
 
 ### Approach
 
-The step based approach for this use case:
+The step-based approach for this use case is:
 
 | Step | Details |
 |---|---|
@@ -134,20 +134,20 @@ This use case helps you to gain strategic incremental insights on customer segme
 
 ### Challenges
 
-The challenges this use case addresses are:
+The challenges these use case addresses are:
 
 * Top-down solutions alone may miss on identifying granular key optimization opportunities.
-* Outputs of measurement models are overwhelming, overly descriptive, and do not easily lead to insights or actions.
+* The outputs of measurement models are overwhelming, overly descriptive, and do not easily lead to insights or actions.
 * Cannot conduct ad-hoc analyses to gain insights because models are not transparent and granular scores are not available.
 
 
 ### Approach
 
-The step based approach for this use case:
+The step-based approach for this use case is:
 
 | Step | Details |
 |---|---|
-| Model | Configure and train AI/ML model to obtain consistent MTA touchpoint scores and MMM aggregate results. |
+| Model | Configure and train an AI/ML model to obtain consistent MTA touchpoint scores and MMM aggregate results. |
 | Analyze | Export incremental touchpoint scores into Customer Journey Analytics or external BI tools.<br/>Perform granular analysis and build advanced dashboards using touchpoint scores. |
 | Action | Create and activate lookalikes to top consumer segments using Real-Time Customer Data Platform.<br/>Develop data-driven marketing strategies by customer segments for future campaigns. | 
 
@@ -158,7 +158,7 @@ The step based approach for this use case:
 
 Successful implementation of this use can have the following impact:
 
-* Develop an understanding of incremental customer behavior and marketing tactics to inform strategic priorities for marketing and across the organisation.
+* Develop an understanding of incremental customer behavior and marketing tactics to inform strategic priorities for marketing and across the organization.
 * Maximize ROI by quickly detect trends impacting customers and your business to develop strategic responses.
 
 
