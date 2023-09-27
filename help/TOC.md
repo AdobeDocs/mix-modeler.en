@@ -40,10 +40,16 @@ user-guide-description: Learn how to use Mixed Modeler.
 
 + [Use cases](use-cases.md)
 
+
+<!-- Admin integration with AEP not part of first release
+
 + Administration {#administration}
   + [Overview](administration/overview.md)
   + [Policies](administration/policies.md)
   + [Audits](administration/audits.md)
+  
+-->
+
 
 + Releases {#releaes}
   + [Latest release](releases/latest.md)

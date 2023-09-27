@@ -84,6 +84,7 @@ Successful implementation of this use can have the following impact:
 
 +++
 
+<!-- This use case is not supported with initial release
 
 ## Make data-driven inflight optimizations
 
@@ -122,6 +123,8 @@ Successful implementation of this use can have the following impact:
 * Rapidly make weekly or monthly inflight optimizations and maximize ROI with data-driven spend shifts that reflect best forecasted ROIs.
 
 +++
+
+-->
 
 ## Activate tactical insights across Adobe applications
 
