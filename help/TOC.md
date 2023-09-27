@@ -51,7 +51,7 @@ user-guide-description: Learn how to use Mixed Modeler.
 -->
 
 
-+ Releases {#releaes}
++ Releases {#releases}
   + [Latest release](releases/latest.md)
   + [2023 releases](releases/2023.md)
   + [Release process](releases/releases.md)
