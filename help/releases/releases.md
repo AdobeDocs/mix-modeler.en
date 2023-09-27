@@ -6,7 +6,6 @@ title: Adobe Mix Modeler releases
 
 Adobe Mix Modeler releases operate on a continuous delivery model which allows for a scalable, phased approach to feature deployment.
 
-
 <!--
 ## Release strategy
 
