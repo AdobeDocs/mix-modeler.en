@@ -2,9 +2,29 @@
 title: View the current Adobe Mix Modeler release notes
 description: Latest Mix Modeler release notes
 ---
-# Latest Adobe Mix Modeler release notes (September 2023)
+# Current Adobe Mix Modeler release notes
 
-**Last update**: September 29, 2023.
+**Last update**: October 4, 2023.
 
-These release notes cover the release period of September 1 to September 29, 2023.  releases operate on a continuous delivery model which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
+These release notes cover the initial release of Adobe Mix Modeler. Adobe Mix Modeler releases operate on a continuous delivery model which allows for an approximate monthly release cadence. Accordingly, these release notes get updated, so  check them regularly.
+
+
+## New or updated features
+
+| Feature | Description | General Availability |
+|---|---|---|
+| **Summarized data ingestion** | [Ingestion of summarized data](../ingest-data/overview.md) (e.g walled garden spend data, TV flight schedules) using the new Summary Class in Adobe Experience Platform. | October 4, 2023 | 
+|**Measure the incremental impact of marketing investments** | [Understand](../dashboard/overview.md) the incremental ROI and impact of marketing across business goals or tactical campaign goals. | October 4, 2023 |
+| **Multi touch attribution (MTA) and Marketing mix modeling (MMM) transfer learning** | Make more confident decisions through the unification of MMM and MTA [models](../models/overview.md) via transfer learning. | October 4, 2023 |
+| **Marketing investment scenario planning** | Develop multiple budget [plans](../plans/overview.md) and compare their impact to make optimal decisions for your business. | October 4, 2023 |
+
+{style="table-layout:auto"}
+
+
+>[!MORELIKETHIS]
+>
+>* [Adobe Mix Modeler introduction](https://business.adobe.com/products/experience-platform/planning-and-measurement.html)
+>* [Adobe Mix Modeler Experience League documentation](https://experienceleague.adobe.com/docs/mix-modeler.html?lang=en)
+
+
 

@@ -43,16 +43,7 @@ user-guide-description: Learn how to use Mixed Modeler.
 + Releases {#releases}
   + [Latest release](releases/latest.md)
   + [2023 releases](releases/2023.md)
-  + [Release process](releases/releases.md)
 
 + [Glossary](glossary.md)
 
 
-<!-- Admin integration with AEP not part of first release
-
-+ Administration {#administration}
-  + [Overview](administration/overview.md)
-  + [Policies](administration/policies.md)
-  + [Audits](administration/audits.md)
-  
--->
