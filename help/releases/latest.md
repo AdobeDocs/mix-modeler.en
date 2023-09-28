@@ -16,9 +16,10 @@ These release notes cover the initial release of Adobe Mix Modeler. Adobe Mix Mo
 | **Summarized data ingestion** | [Ingestion of summarized data](../ingest-data/overview.md) (e.g walled garden spend data, TV flight schedules) using the new Summary Class in Adobe Experience Platform. | October 4, 2023 | 
 |**Measure the incremental impact of marketing investments** | [Understand](../dashboard/overview.md) the incremental ROI and impact of marketing across business goals or tactical campaign goals. | October 4, 2023 |
 | **Multi touch attribution (MTA) and Marketing mix modeling (MMM) transfer learning** | Make more confident decisions through the unification of MMM and MTA [models](../models/overview.md) via transfer learning. | October 4, 2023 |
-| **Marketing investment scenario planning** | Develop multiple budget [plans](../plans/overview.md) and [compare](../plans/compare.md) their impact to make optimal decisions for your business. | October 4, 2023 |
+| **Marketing investment scenario planning** | Develop multiple budget [plans](../plans/overview.md) and compare their impact to make optimal decisions for your business. | October 4, 2023 |
 
 {style="table-layout:auto"}
+
 
 >[!MORELIKETHIS]
 >
