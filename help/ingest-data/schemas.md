@@ -1,7 +1,7 @@
 ---
 title: Schemas
 description: Learn how to manage the schemas required to ingest data into Adobe Mix Modeler.
-feature: Datasets
+feature: Schemas
 ---
 
 # Schemas
