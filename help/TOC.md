@@ -1,7 +1,7 @@
 ---
-user-guide-title: Mixed Modeler
-breadcrumb-title: Mixed Modeler
-user-guide-description: Learn how to use Mixed Modeler.
+user-guide-title: Adobe Mix Modeler Guide
+breadcrumb-title: Mix Modeler Guide
+user-guide-description: Learn how to use Adobe Mix Modeler.
 ---
 
 # Mix Modeler Guide {#using}
