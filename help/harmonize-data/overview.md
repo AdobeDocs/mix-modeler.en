@@ -8,7 +8,7 @@ feature: Harmonized Data
 
 The data in Mix Modeler is of different nature depending on the source of data. The data can be:
 
-* aggregated data, for example collected from walled garden data sources,
+* aggregated data, for example collected from walled garden data sources or offline advertising data gathered (like spend) from running a billboard campaign, an event, or a physical ad campaign,
 * event data, for example from first party data sources. This event data can be data collected through the Adobe Analytics source connector from Adobe Analytics, or through the Adobe Experience Platform Web or Mobile SDK or Edge Network API, or data ingested using source connectors.
 
 The harmonization service of Mix Modeler assimilates the aggregate and event data into a consistent data view. This data view is the source for the plans and models in Mix Modeler.
