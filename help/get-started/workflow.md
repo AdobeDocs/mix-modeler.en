@@ -1,7 +1,7 @@
 ---
 title: Adobe Mix Modeler workflow
 description: Understand the typical workflow for Adobe Mix Modeler.
-feature: Datasets, Event Datasets, Plans, Harmonized Data, Models
+feature: Ingest Data, Plans, Harmonized Data, Models
 ---
 
 # Adobe Mix Modeler workflow

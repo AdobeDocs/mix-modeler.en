@@ -63,4 +63,6 @@ The Model quality tab shows widgets for measuring:
 
 * RMSE (Root Mean Square Error): which shows the average "error", weighted according to the square of the error.
 
+![Model quality](../assets/model-quality.png)
+
 

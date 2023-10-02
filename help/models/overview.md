@@ -58,14 +58,14 @@ To view more details of a model:
 
 >[!NOTE]
 >
->This selection is only available on successful trained models (models with a Last run status of Success).
+>This selection is only available on successful trained models.
 >
 
 To view insights of a model, in the Adobe Mix Modeler interface:
 
    1. Select ![](../assets/icons/FileData.svg) **[!UICONTROL Models]** from the left rail.
 
-   1. Select the name of a model with a **[!UICONTROL Last run status]** of <span style="color:green">●</span> **[!UICONTROL Success]** from the **[!UICONTROL Models]** table
+   1. Select the name of a model with a **[!UICONTROL Last run status]** of <span style="color:green">●</span> **[!UICONTROL Success]** from the **[!UICONTROL Models]** table.
 
    1. From the context menu, select **[!UICONTROL Model Insights]**. You are redirected to [Model Insights](insights.md).
 

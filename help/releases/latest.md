@@ -1,6 +1,8 @@
 ---
 title: View the current Adobe Mix Modeler release notes
 description: Latest Mix Modeler release notes
+feature-set: Experience Cloud
+feature: Release Notes
 ---
 # Current Adobe Mix Modeler release notes
 
