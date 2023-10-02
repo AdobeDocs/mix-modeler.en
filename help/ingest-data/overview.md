@@ -6,7 +6,7 @@ feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
 
 # Ingest data
 
-Adobe Mix Modeler works with event level data, aggregate marketing effort data from various walled gardens, and aggregrate or summary data from any other source, like offline advertising, internal factors or external factors. 
+Mix Modeler works with event level data, aggregate marketing effort data from various walled gardens, and aggregrate or summary data from any other source, like offline advertising, internal factors or external factors. 
 
 Customers can use any kind of data that is ingested into Adobe Experience Platform as datasets and which is based on schemas using the XDM ExperienceEvent or XDM Summary Metrics as the base class. 
 
