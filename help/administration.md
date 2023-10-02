@@ -29,9 +29,15 @@ In the Adobe Experience Cloud UI,
 
     * **[!UICONTROL Data Ingestion]**: ensure you select **[!UICONTROL View Sources]** and **[!UICONTROL Manage Sources]**.
 
+    <!--
+    * **[!UICONTROL Data Governance]**: ensure you select **[!UICONTROL View User Activity Log]** and **[!UICONTROL View Data Usage Policies]**.
+    --> 
+
     The permissions set up for the role should look like:
 
     ![Permissions](assets/permissions.png)
+
+    <!--![Permissions](assets/permissions-including-privacy.png)-->
 
     Select **[!UICONTROL Save]** to save the permissions.
 
