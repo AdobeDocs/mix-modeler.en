@@ -4,7 +4,7 @@ description: Learn how to measure campaigns and optimize planning holistically a
 feature: Harmonized Data, Models, Plans
 ---
 
-# AdobeMix Modeler guide
+# Adobe Mix Modeler guide
 
 ![Banner](assets/mix-modeler-banner.png)
 
