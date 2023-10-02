@@ -3,6 +3,7 @@ title: View the current Mix Modeler release notes
 description: Latest Mix Modeler release notes
 feature-set: Experience Cloud
 feature: Release Notes
+exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
 ---
 # Current Mix Modeler release notes
 
@@ -27,6 +28,3 @@ These release notes cover the initial release of Mix Modeler. Mix Modeler releas
 >
 >* [Mix Modeler introduction](https://business.adobe.com/products/experience-platform/planning-and-measurement.html)
 >* [Mix Modeler Experience League documentation](https://experienceleague.adobe.com/docs/mix-modeler.html?lang=en)
-
-
-

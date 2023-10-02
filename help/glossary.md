@@ -2,6 +2,7 @@
 title: Mix Modeler glossary
 description: Mix Modeler glossary.
 feature: Datasets, Conversions, Marketing Touch Points, Harmonized Data
+exl-id: e002a0c0-71a4-418e-90c4-819649433a7d
 ---
 # Mix Modeler glossary
 
@@ -18,4 +19,3 @@ The following terminology and acronyms are used in the documentation:
 | Media Mix Modeling (MMM) service | A service from Adobe Intelligent Services, which does association between marketing activities and business outcome of interests and takes aggregate data as input. |
 
 {style="table-layout:auto"}
-

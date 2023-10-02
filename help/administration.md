@@ -2,8 +2,8 @@
 title: Administration
 description: Learn how to administer Mix Modeler.
 feature: Administration
+exl-id: 76d6d15d-a838-4ee2-9929-e55ea8946b80
 ---
-
 # Administration
 
 Use the [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html) to manage Mix Modeler products and users.

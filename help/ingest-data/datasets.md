@@ -2,8 +2,8 @@
 title: Datasets
 description: Learn how to manage the datasets required to ingest data into Mix Modeler.
 feature: Datasets
+exl-id: 788de24d-9021-48f8-87ab-09252b91276a
 ---
-
 # Datasets
 
 To manage datasets, containing the data you want to ingest in Adobe Experience Platform and use in Mix Modeler:

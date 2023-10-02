@@ -2,8 +2,8 @@
 title: Marketing touchpoints
 description: Learn how to create marketing touchpoints to use as part of harmonizing your data in Mix Modeler.
 feature: Harmonized Data, Marketing Touch Points
+exl-id: 42851107-7568-4bc9-92ca-3cba713a522e
 ---
-
 # Marketing touchpoints
 
 Marketing touchpoints are recipient, individual, and or cookie-level marketing events used to evaluate the impact of marketing investments on numeric or revenue-based conversions.
@@ -57,4 +57,3 @@ To add a marketing touchpoint, in the ![DataSearch](../assets/icons/DataCheck.sv
     1. To create the marketing touchpoint, select **[!UICONTROL Create]**. To cancel the creation of a marketing touchpoint, select **[!UICONTROL Cancel]** .
 
 1. When created, the touchpoint is added to the marketing touchpoints table.
-

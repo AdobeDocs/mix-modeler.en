@@ -2,8 +2,8 @@
 title: Harmonized fields
 description: Learn how to define fields to use as part of harmonizing your data in Mix Modeler.
 feature: Harmonized Data, Harmonized Fields
+exl-id: f051279a-1ae9-49bd-a946-abfc34c90413
 ---
-
 # Harmonized fields
 
 Harmonized fields allow you to define fields for conceptually the same data, originating from different sources, each with their own definition of that data. For example, a clicks metric can be defined and named differently depending on the source of data. A clicks harmonized field allows you to define a common nomenclature for a clicks metric based on those different sources of clicks data.
@@ -120,5 +120,3 @@ To delete a harmonized field, in the ![DataSearch](../assets/icons/DataCheck.svg
 1. Select the harmonized field that you want to delete, for example **[!UICONTROL Region]**.
 
 1. Select ![Delete](../assets/icons/Delete.svg) **[!UICONTROL Delete]** from the **[!UICONTROL Edit harmonization values]** left pane.
-
-

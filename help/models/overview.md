@@ -2,8 +2,8 @@
 title: Models
 description: Learn how to configure and use models in Mix Modeler.
 feature: Models
+exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
 ---
-
 # Models
 
 The model functionality in Mix Modeler allows you to configure, train, and score AI/ML models specific to your business objectives and supported by AI-driven transfer learning between multitouch attribution and marketing mix modeling. 
@@ -68,5 +68,3 @@ To view insights of a model, in the Mix Modeler interface:
    1. Select the name of a model with a **[!UICONTROL Last run status]** of <span style="color:green">●</span> **[!UICONTROL Success]** from the **[!UICONTROL Models]** table.
 
    1. From the context menu, select **[!UICONTROL Model Insights]**. You are redirected to [Model Insights](insights.md).
-
-
