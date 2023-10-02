@@ -1,21 +1,21 @@
 ---
 title: Harmonize data
-description: Learn how to harmonize data in Adobe Mix Modeler.
+description: Learn how to harmonize data in Mix Modeler.
 feature: Harmonized Data
 ---
 
 # Harmonize data
 
-The data in Adobe Mix Modeler is of different nature depending on the source of data. The data can be:
+The data in Mix Modeler is of different nature depending on the source of data. The data can be:
 
 * aggregated data, for example collected from walled garden data sources,
 * event data, for example from first party data sources. This event data can be data collected through the Adobe Analytics source connector from Adobe Analytics, or through the Adobe Experience Platform Web or Mobile SDK or Edge Network API, or data ingested using source connectors.
 
-The harmonization service of Adobe Mix Modeler assimilates the aggregate and event data into a consistent data view. This data view is the source for the plans and models in Adobe Mix Modeler.
+The harmonization service of Mix Modeler assimilates the aggregate and event data into a consistent data view. This data view is the source for the plans and models in Mix Modeler.
 
 ## An example of harmonized data
 
-Imagine you have the following datasets available for Adobe Mix Modeler.
+Imagine you have the following datasets available for Mix Modeler.
 
 **Dataset 1**
  
@@ -108,7 +108,7 @@ To build a harmonized dataset, like in the simplified [example](#an-example-of-h
 
 ## View harmonized data
 
-To see your harmonized data, in the Adobe Mix Modeler interface:
+To see your harmonized data, in the Mix Modeler interface:
 
 1. Select ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized datasets]** from the left rail.
    

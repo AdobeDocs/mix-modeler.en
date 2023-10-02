@@ -1,14 +1,14 @@
 ---
-title: View the current Adobe Mix Modeler release notes
+title: View the current Mix Modeler release notes
 description: Latest Mix Modeler release notes
 feature-set: Experience Cloud
 feature: Release Notes
 ---
-# Current Adobe Mix Modeler release notes
+# Current Mix Modeler release notes
 
 **Last update**: October 4, 2023.
 
-These release notes cover the initial release of Adobe Mix Modeler. Adobe Mix Modeler releases operate on a continuous delivery model which allows for an approximate monthly release cadence. Accordingly, these release notes get updated, so  check them regularly.
+These release notes cover the initial release of Mix Modeler. Mix Modeler releases operate on a continuous delivery model which allows for an approximate monthly release cadence. Accordingly, these release notes get updated, so  check them regularly.
 
 
 ## New or updated features
@@ -25,8 +25,8 @@ These release notes cover the initial release of Adobe Mix Modeler. Adobe Mix Mo
 
 >[!MORELIKETHIS]
 >
->* [Adobe Mix Modeler introduction](https://business.adobe.com/products/experience-platform/planning-and-measurement.html)
->* [Adobe Mix Modeler Experience League documentation](https://experienceleague.adobe.com/docs/mix-modeler.html?lang=en)
+>* [Mix Modeler introduction](https://business.adobe.com/products/experience-platform/planning-and-measurement.html)
+>* [Mix Modeler Experience League documentation](https://experienceleague.adobe.com/docs/mix-modeler.html?lang=en)
 
 
 

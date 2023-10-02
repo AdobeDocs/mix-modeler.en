@@ -1,12 +1,12 @@
 ---
 title: Harmonized data overview dashboard
-description: Learn how to use the harmonized data overview dashboard in Adobe Mix Modeler.
+description: Learn how to use the harmonized data overview dashboard in Mix Modeler.
 feature: Dashboard, Harmonized Data
 ---
 
 # Harmonized data overview
 
-The Harmonized Data tab in Adobe Mix Modeler Overview provides insights into the harmonized data you have configured to be used as part of the ingested data and harmonized data setup.
+The Harmonized Data tab in Mix Modeler Overview provides insights into the harmonized data you have configured to be used as part of the ingested data and harmonized data setup.
 
 The overview shows four KPI status card widgets (top row) and six other configurable widgets.
 

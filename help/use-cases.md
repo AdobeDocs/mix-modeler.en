@@ -1,12 +1,12 @@
 ---
-title: Adobe Mix Modeler use cases
-description: Adobe Mix Modeler use cases.
+title: Mix Modeler use cases
+description: Mix Modeler use cases.
 feature: Schemas, Datasets, Conversions, Harmonized Data, Marketing Touch Points, Models, Plans
 ---
 
-# Adobe Mix Modeler use cases
+# Mix Modeler use cases
 
-Adobe Mix Modeler enables the following key use cases.
+Mix Modeler enables the following key use cases.
 
 ## Understand omnichannel incremental performance
 

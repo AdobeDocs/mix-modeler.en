@@ -1,12 +1,12 @@
 ---
 title: Ingest data
-description: Learn how to ingest data into Adobe Mix Modeler.
+description: Learn how to ingest data into Mix Modeler.
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
 ---
 
 # Ingest data
 
-Adobe Mix Modeler works with both event level data and aggregate marketing effort data from various walled gardens. Customers can use all kinds of data that is ingested into Adobe Experience Platform as datasets and is based on XDM Experience Event-based schemas. 
+Mix Modeler works with both event level data and aggregate marketing effort data from various walled gardens. Customers can use all kinds of data that is ingested into Adobe Experience Platform as datasets and is based on XDM Experience Event-based schemas. 
 
 For example:
 
@@ -20,7 +20,7 @@ You can use any kind of mechanism supported by Adobe Experience Platform to inge
 
 ## Guidelines
 
-To ingest data into Adobe Experience Platform for use with Adobe Mix Modeler, follow these guidelines:
+To ingest data into Adobe Experience Platform for use with Mix Modeler, follow these guidelines:
 
 * There should not be any overlap in the incremental data that is added to the datasets.
 * All data from a single source should be of the same granularity.
@@ -30,7 +30,7 @@ To ingest data into Adobe Experience Platform for use with Adobe Mix Modeler, fo
 
 ## Examples
 
-Find below some examples of data typically used in Adobe Mix Modeler beyond more standard experience event data.
+Find below some examples of data typically used in Mix Modeler beyond more standard experience event data.
 
 +++ Aggregate marketing effort data
 
@@ -72,7 +72,7 @@ Find below some examples of data typically used in Adobe Mix Modeler beyond more
 
 +++
 
-To work with data in Adobe Mix Modeler, you need data collected in datasets and modeled after schemas in Adobe Experience Platform. The Adobe Mix Modeler interface provides easy access to both the Schemas and Datasets UI.
+To work with data in Mix Modeler, you need data collected in datasets and modeled after schemas in Adobe Experience Platform. The Mix Modeler interface provides easy access to both the Schemas and Datasets UI.
 
 >[!MORELIKETHIS]
 >

@@ -1,18 +1,18 @@
 ---
 title: Create a model
-description: Learn how to create a model in Adobe Mix Modeler.
+description: Learn how to create a model in Mix Modeler.
 feature: Models
 ---
 
 # Create a model
 
-To create a model, in the ![Models](../assets/icons/FileData.svg) **[!UICONTROL Models]** interface in Adobe Mix Modeler, select **[!UICONTROL Guide me]**.
+To create a model, in the ![Models](../assets/icons/FileData.svg) **[!UICONTROL Models]** interface in Mix Modeler, select **[!UICONTROL Guide me]**.
 
 To build your custom AI-powered models, the interface provides a step-by-step guided model configuration flow.
 
 1. In the **[!UICONTROL Setup]** step:
 
-   1. Enter your model **[!UICONTROL Name]**, for example `Demo model`. Enter a **[!UICONTROL Description]**, for example `Demo model to explore AI featues of Adobe Mix Modeler`.
+   1. Enter your model **[!UICONTROL Name]**, for example `Demo model`. Enter a **[!UICONTROL Description]**, for example `Demo model to explore AI featues of Mix Modeler`.
 
        ![Model name and description](../assets/model-name-description.png)
 
@@ -107,7 +107,7 @@ To build your custom AI-powered models, the interface provides a step-by-step gu
 
    1. In the **[!UICONTROL Define training window]** section, select between 
 
-       * **[!UICONTROL Have Adobe Mix Modeler select a helpful training window]** and 
+       * **[!UICONTROL Have Mix Modeler select a helpful training window]** and 
 
        * **[!UICONTROL Manually input a training window]**. When selected, define the number of years in **[!UICONTROL Include events the following years prior to a conversion]**.
 

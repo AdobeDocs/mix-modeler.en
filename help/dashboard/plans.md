@@ -1,6 +1,6 @@
 ---
 title: Plans overview 
-description: Learn how to use the plans overview in Adobe Mix Modeler.
+description: Learn how to use the plans overview in Mix Modeler.
 feature: Dashboard, Plans, Models
 ---
 
@@ -8,10 +8,10 @@ feature: Dashboard, Plans, Models
 
 >[!NOTE]
 >
->[!BADGE Alpha]{type=Informative} The Plans tab in Adobe Mix Modeler is an alpha feature and its functionality is subject to change.
+>[!BADGE Alpha]{type=Informative} The Plans tab in Mix Modeler is an alpha feature and its functionality is subject to change.
 
 
-The Plans tab in Adobe Mix Modeler Overview shows widgets for [!UICONTROL Budget], [!UICONTROL Revenue], [!UICONTROL ROI] and [!UICONTROL KPI].
+The Plans tab in Mix Modeler Overview shows widgets for [!UICONTROL Budget], [!UICONTROL Revenue], [!UICONTROL ROI] and [!UICONTROL KPI].
 
 The data displayed for the widgets is determined by:
 

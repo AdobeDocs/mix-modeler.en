@@ -1,6 +1,6 @@
 ---
 title: Marketing touchpoints
-description: Learn how to create marketing touchpoints to use as part of harmonizing your data in Adobe Mix Modeler.
+description: Learn how to create marketing touchpoints to use as part of harmonizing your data in Mix Modeler.
 feature: Harmonized Data, Marketing Touch Points
 ---
 
@@ -12,7 +12,7 @@ You define marketing touchpoints to assist you in attribution analysis.
 
 ## Manage marketing touchpoints
 
-To see a table of the available marketing touchpoints in the Adobe Mix Modeler interface:
+To see a table of the available marketing touchpoints in the Mix Modeler interface:
 
 1. Select ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** from the left rail.
    
@@ -32,7 +32,7 @@ The table columns specify details about the marketing touchpoint:
 
 ## Add a marketing touchpoint
 
-To add a marketing touchpoint, in the ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Marketing touchpoint]** interface in Adobe Mix Modeler:
+To add a marketing touchpoint, in the ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Marketing touchpoint]** interface in Mix Modeler:
 
 1. Select ![Add](../assets/icons/AddCircle.svg) Add marketing touchpoint.
 

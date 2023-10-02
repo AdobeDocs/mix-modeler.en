@@ -1,6 +1,6 @@
 ---
 title: Harmonized fields
-description: Learn how to define fields to use as part of harmonizing your data in Adobe Mix Modeler.
+description: Learn how to define fields to use as part of harmonizing your data in Mix Modeler.
 feature: Harmonized Data, Harmonized Fields
 ---
 
@@ -12,7 +12,7 @@ Harmonized fields let you define the fields you want to use as part of the harmo
 
 ## Global harmonization fields
 
-The default available global harmonization fields in Adobe Mix Modeler are: 
+The default available global harmonization fields in Mix Modeler are: 
 
 
 | Field name             | Display name           | Category  | Data Type | Comment   |
@@ -47,7 +47,7 @@ You can add, edit, or delete your own harmonized fields on top of these global h
 
 ## Manage harmonized fields
 
-To see a table of the available harmonized fields, in the Adobe Mix Modeler interface:
+To see a table of the available harmonized fields, in the Mix Modeler interface:
 
 1. Select ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** from the left rail.
    
@@ -75,7 +75,7 @@ To see a table of the available harmonized fields, in the Adobe Mix Modeler inte
 
 ### Add a harmonized field
 
-To add a harmonized field, in the ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** interface in the Adobe Mix Modeler:
+To add a harmonized field, in the ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** interface in the Mix Modeler:
 
 1. Select ![Add](../assets/icons/AddCircle.svg)Add field.
 
@@ -101,7 +101,7 @@ To add a harmonized field, in the ![DataSearch](../assets/icons/DataCheck.svg) *
 
 You can only edit harmonized fields you created earlier. You cannot edit a global harmonized field.
 
-To edit a harmonized field, in the ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** interface in the Adobe Mix Modeler:
+To edit a harmonized field, in the ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** interface in the Mix Modeler:
 
 1. Select the harmonized field that you want to edit. For example, **[!UICONTROL Region]**.
 
@@ -115,7 +115,7 @@ To edit a harmonized field, in the ![DataSearch](../assets/icons/DataCheck.svg) 
 
 You can only delete harmonized fields you created earlier. You cannot delete a global harmonized field.
 
-To delete a harmonized field, in the ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** interface in the Adobe Mix Modeler:
+To delete a harmonized field, in the ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** interface in the Mix Modeler:
 
 1. Select the harmonized field that you want to delete, for example **[!UICONTROL Region]**.
 

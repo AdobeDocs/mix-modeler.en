@@ -1,14 +1,14 @@
 ---
 title: Administration
-description: Learn how to administer Adobe Mix Modeler.
+description: Learn how to administer Mix Modeler.
 feature: Administration
 ---
 
 # Administration
 
-Use the [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html) to manage Adobe Mix Modeler products and users.
+Use the [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html) to manage Mix Modeler products and users.
 
-For Adobe Mix Modeler to function properly, you must set the correct permissions.
+For Mix Modeler to function properly, you must set the correct permissions.
 
 In the Adobe Experience Cloud UI, 
 
@@ -36,4 +36,4 @@ In the Adobe Experience Cloud UI,
 
     Select **[!UICONTROL Save]** to save the permissions.
 
-1. In **[!UICONTROL Details]** within **[!UICONTROL Role]**, add the appropriate **[!UICONTROL Users]** and/or **[!UICONTROL User groups]** to provide users access to Adobe Mix Modeler.
+1. In **[!UICONTROL Details]** within **[!UICONTROL Role]**, add the appropriate **[!UICONTROL Users]** and/or **[!UICONTROL User groups]** to provide users access to Mix Modeler.

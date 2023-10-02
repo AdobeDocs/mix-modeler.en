@@ -1,12 +1,12 @@
 ---
 title: Model Insights
-description: Learn how to get details about your model, like historical overview, model insights, and model quality in Adobe Mix Modeler.
+description: Learn how to get details about your model, like historical overview, model insights, and model quality in Mix Modeler.
 feature: Models
 ---
 
 # Model Insights
 
-To view model insights, in the ![Models](../assets/icons/FileData.svg) **[!UICONTROL Models]** interface in Adobe Mix Modeler:
+To view model insights, in the ![Models](../assets/icons/FileData.svg) **[!UICONTROL Models]** interface in Mix Modeler:
 
 1. Select the name of a model with a **[!UICONTROL Last run status]** of <span style="color:green">●</span> **[!UICONTROL Success]** from the **[!UICONTROL Models]** table.
    
