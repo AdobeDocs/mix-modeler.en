@@ -1,12 +1,12 @@
 ---
 title: Edit a plan
-description: Learn how to edit a plan in Adobe Mix Modeler.
+description: Learn how to edit a plan in Mix Modeler.
 feature: Plans
 ---
 
 # Edit a plan
 
-To edit a plan, in the ![PLan](../assets/icons/FileChart.svg) **[!UICONTROL Plans]** interface in Adobe Mix Modeler, select your plan by its name.
+To edit a plan, in the ![PLan](../assets/icons/FileChart.svg) **[!UICONTROL Plans]** interface in Mix Modeler, select your plan by its name.
    
 In [!UICONTROL Plan insights], your plan insights are created, showing the [!UICONTROL Model], the [!UICONTROL Data range], and [!UICONTROL Total budget] on which the plan is based.
 

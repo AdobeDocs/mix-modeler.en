@@ -1,12 +1,12 @@
 ---
 title: Compare plans
-description: Learn how to compare plans in Adobe Mix Modeler.
+description: Learn how to compare plans in Mix Modeler.
 feature: Plans
 ---
 
 # Compare plans
 
-To compare plans in the Adobe Mix Modeler Plans interface: 
+To compare plans in the Mix Modeler Plans interface: 
 
 * Select ![Compare](../assets/icons/Compare.svg) **[!UICONTROL Compare Plans]**. In Compare plans, select a plan for each **[!UICONTROL _Select plan_]**.
 

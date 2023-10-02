@@ -1,14 +1,14 @@
 ---
 title: Datasets
-description: Learn how to manage the datasets required to ingest data into Adobe Mix Modeler.
+description: Learn how to manage the datasets required to ingest data into Mix Modeler.
 feature: Datasets
 ---
 
 # Datasets
 
-To manage datasets, containing the data you want to ingest in Adobe Experience Platform and use in Adobe Mix Modeler:
+To manage datasets, containing the data you want to ingest in Adobe Experience Platform and use in Mix Modeler:
 
-1. Go to the Adobe Mix Modeler interface.
+1. Go to the Mix Modeler interface.
 
 1. Select ![Data](../assets/icons/Data.svg) **[!UICONTROL Datasets]**, underneath **[!UICONTROL DATA MANAGEMENT]**. 
 

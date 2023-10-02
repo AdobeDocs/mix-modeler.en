@@ -1,20 +1,20 @@
 ---
 title: Models
-description: Learn how to configure and use models in Adobe Mix Modeler.
+description: Learn how to configure and use models in Mix Modeler.
 feature: Models
 ---
 
 # Models
 
-The model functionality in Adobe Mix Modeler allows you to configure, train, and score AI/ML models specific to your business objectives and supported by AI-driven transfer learning between multitouch attribution and marketing mix modeling. 
+The model functionality in Mix Modeler allows you to configure, train, and score AI/ML models specific to your business objectives and supported by AI-driven transfer learning between multitouch attribution and marketing mix modeling. 
 
-The models are based on the harmonized data that you create as part of the Adobe Mix Modeler application workflow.
+The models are based on the harmonized data that you create as part of the Mix Modeler application workflow.
 
 To create a model, use the Mix Modeler ste-by-step guided model configuration flow available when you select **[!UICONTROL Guide me]**. See [Create a model](create.md) for more details.
 
 ## Manage models
 
-To view a table of your current models, in the Adobe Mix Modeler interface:
+To view a table of your current models, in the Mix Modeler interface:
 
 1. Select ![](../assets/icons/FileData.svg) **[!UICONTROL Models]** from the left rail.
    
@@ -58,14 +58,14 @@ To view more details of a model:
 
 >[!NOTE]
 >
->This selection is only available on successful trained models (models with a Last run status of Success).
+>This selection is only available on successful trained models.
 >
 
-To view insights of a model, in the Adobe Mix Modeler interface:
+To view insights of a model, in the Mix Modeler interface:
 
    1. Select ![](../assets/icons/FileData.svg) **[!UICONTROL Models]** from the left rail.
 
-   1. Select the name of a model with a **[!UICONTROL Last run status]** of <span style="color:green">●</span> **[!UICONTROL Success]** from the **[!UICONTROL Models]** table
+   1. Select the name of a model with a **[!UICONTROL Last run status]** of <span style="color:green">●</span> **[!UICONTROL Success]** from the **[!UICONTROL Models]** table.
 
    1. From the context menu, select **[!UICONTROL Model Insights]**. You are redirected to [Model Insights](insights.md).
 

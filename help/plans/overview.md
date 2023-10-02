@@ -1,17 +1,17 @@
 ---
 title: Plans
-description: Learn how to view, select, and action on plans in Adobe Mix Modeler.
+description: Learn how to view, select, and action on plans in Mix Modeler.
 feature: Plans
 ---
 
 # Plans
 
-Plans in Adobe Mix Modeler allow you to allocate budgets by business unit and channel. The planning functionality is integrated with the outcomes of the trained models based on your harmonized data.
+Plans in Mix Modeler allow you to allocate budgets by business unit and channel. The planning functionality is integrated with the outcomes of the trained models based on your harmonized data.
 
 
 ## View plans
 
-To view a table of your current plans, in the Adobe Mix Modeler interface:
+To view a table of your current plans, in the Mix Modeler interface:
 
 1. Select ![](../assets/icons/FileChart.svg) **[!UICONTROL Plans]** from the left rail.
 

@@ -1,9 +1,9 @@
 ---
-title: Adobe Mix Modeler glossary
-description: Adobe Mix Modeler glossary.
+title: Mix Modeler glossary
+description: Mix Modeler glossary.
 feature: Datasets, Conversions, Marketing Touch Points, Harmonized Data
 ---
-# Adobe Mix Modeler glossary
+# Mix Modeler glossary
 
 The following terminology and acronyms are used in the documentation:
 
