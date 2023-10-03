@@ -5,7 +5,7 @@ product: experience cloud
 type: Documentation
 mini-toc-levels: 2
 git-repo: https://github.com/AdobeDocs/mix-modeler.en
-hide: yes
+index: yes
 feature-set: Mix Modeler
 role: User, Admin
 ---
