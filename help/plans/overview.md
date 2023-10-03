@@ -39,7 +39,7 @@ To view a table of your current plans, in the Mix Modeler interface:
 
 You can select one or more plans, which reveals the Plans action bar. The action bar allows you to delete, compare, or duplicate plans. 
 
-To remove all the selections in the Plans table, select ![Close](../assets/icons/Close.svg) in the action bar
+To remove all selections in the Plans table, select ![Close](../assets/icons/Close.svg) in the action bar
 
 ![Plans action bar](../assets/plans-action-bar.png)
 
@@ -63,7 +63,12 @@ To compare plans:
 To delete plans:
 
 1. Select one or more plans from the table.
-1. Select ![Delete](../assets/icons/Delete.svg) **[!UICONTROL Delete]** from the action bar. Your plan is deleted immediately.
+1. Select ![Delete](../assets/icons/Delete.svg) **[!UICONTROL Delete]** from the action bar.
+ 
+   >[!WARNING]
+   >
+   >   The selected plans are deleted immediately!
+
 
 
 

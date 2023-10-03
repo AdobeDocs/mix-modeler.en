@@ -1,14 +1,15 @@
 ---
 title: Mix Modeler overview
 description: Get an overview of the functionality and capabilities of Mix Modeler.
+short-description: Get an overview of the functionality and capabilities of Mix Modeler.
 feature: Plans, Harmonized Data, Models
 ---
 
 # Mix Modeler overview
 
-Mix Modeler, powered by Adobe Sensei, enables marketers to measure campaigns and optimize planning holistically across all channels: paid, earned, and owned. Its unified methodology measures incrementally at both marketing touchpoints and aggregate levels, while ensuring fully consistent results.
+Mix Modeler, powered by Adobe Sensei, enables marketers to measure campaigns and optimize planning holistically across all channels: paid, earned, and owned. Its unified methodology measures incrementally at both marketing touchpoints and aggregate-levels, while ensuring fully consistent results.
 
-Mix Modeler provides the incremental impact of all marketing activities on business and campaign outcomes through a holistic (end-to-end) measurement application for digital and off-line marketing. 
+Mix Modeler provides the incremental impact of all marketing activities on business and campaign outcomes through a holistic (end-to-end) measurement application for digital and offline marketing. 
 
 Mix Modeler provides the following types of optimized and actionable insights at a strategic and tactical level, so you can better understand:
 

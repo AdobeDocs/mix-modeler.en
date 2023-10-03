@@ -1,6 +1,7 @@
 ---
 title: Mix Modeler overview
 description: Learn how to measure campaigns and optimize planning holistically across all channels with Mix Modeler.
+short-description: Learn how to measure campaigns and optimize planning holistically across all channels with Mix Modeler.
 feature: Harmonized Data, Models, Plans
 ---
 

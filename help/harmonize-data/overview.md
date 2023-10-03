@@ -8,8 +8,8 @@ feature: Harmonized Data
 
 The data in Mix Modeler is of different nature depending on the source of data. The data can be:
 
-* aggregated data, for example collected from walled garden data sources or offline advertising data gathered (like spend) from running a billboard campaign, an event, or a physical ad campaign,
-* event data, for example from first party data sources. This event data can be data collected through the Adobe Analytics source connector from Adobe Analytics, or through the Adobe Experience Platform Web or Mobile SDK or Edge Network API, or data ingested using source connectors.
+* aggregate or summary data, for example collected from walled garden data sources or offline advertising data gathered (like spend) from running a billboard campaign, an event, or a physical ad campaign,
+* event data, for example from first party data sources. This event data can be data collected through the Adobe Analytics source connector from Adobe Analytics, or through the Experience Platform Web or Mobile SDK or Edge Network API, or data ingested using source connectors.
 
 The harmonization service of Mix Modeler assimilates the aggregate and event data into a consistent data view. This data view is the source for the plans and models in Mix Modeler.
 
@@ -116,7 +116,7 @@ To see your harmonized data, in the Mix Modeler interface:
 
     1. To redefine the period on which the recap of harmonized data is based, enter a date range for **[!UICONTROL Date range]** or use ![Calendar](../assets/icons/Calendar.svg) to select a data range.
 
-    1. To modify the columns displayed for the Harmonized Data table, use ![Settings](../assets/icons/Setting.svg) to open the **[!UICONTROL Column settings]** dialog.
+    1. To modify the harmonized field columns displayed for the Harmonized Data table, use ![Settings](../assets/icons/Setting.svg) to open the **[!UICONTROL Column settings]** dialog.
 
        1. Select ![SelectBox](../assets/icons/SelectBox.svg) one or more columns from **[!UICONTROL AVAILABLE COLUMNS]** and use ![Chevron right](../assets/icons/ChevronRight.svg) to add these columns to **[!UICONTROL SELECTED COLUMNS]**. 
 

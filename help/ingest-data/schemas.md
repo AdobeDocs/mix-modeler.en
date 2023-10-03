@@ -6,7 +6,7 @@ feature: Schemas
 
 # Schemas
 
-To manage schemas, supporting the data you want to ingest in Adobe Experience Platform and use in Mix Modeler:
+To manage schemas, supporting the data you want to ingest in Experience Platform and use in Mix Modeler:
 
 1. Go to the Mix Modeler interface.
 
@@ -34,7 +34,7 @@ A schema using the **[!DNL XDM Summary Metrics]** base class can be simple, as s
 
 ![External Factors Schema](../assets/external-factors-schema.png)
 
-This simple schema can be used to ingest datasets containing data for:
+This simple schema can be used to ingest datasets containing data for, for example:
 
 - Competitor index data
 
@@ -57,7 +57,7 @@ This simple schema can be used to ingest datasets containing data for:
   | ... | ... | ... | ... |
 
 
-See below for a more comprehensive example of a **[!DNL LumaPaidMarketingSchema]** using the **[!DNL XDM Summary Metrics]** as the base class. The schema uses dedicated field groups (annotated with colors) for metrics (**[!DNL AMMMetrics]**), dimensions (**[!DNL AMMDimensions]**) and other customer-specific information (**[!DNL CustomerSpecific]**). 
+See below for a more comprehensive example of a **[!DNL LumaPaidMarketingSchema]** using the **[!DNL XDM Summary Metrics]** as the base class. The schema uses dedicated field groups (annotated with colors) for metrics (**[!DNL AMMMetrics]**), dimensions (**[!DNL AMMDimensions]**), and other customer-specific information (**[!DNL CustomerSpecific]**). 
 
 ![Summary Schema](../assets/summary-schema.png)
 

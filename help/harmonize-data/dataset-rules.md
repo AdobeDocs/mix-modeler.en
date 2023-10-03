@@ -55,7 +55,7 @@ In the **[!UICONTROL Create]** screen,
 
       ![Create dataset rules](../assets/dataset-create-summary.png)
   
-1. When you have selected an event type of dataset, in the shaded box underneath **[!UICONTROL Map to harmonized fields]**:
+1. When you have selected an event type of dataset (**[!UICONTROL Experience Events]**, **[!UICONTROL Adobe Analytics]**, **[!UICONTROL Consumer Experience Events]**), in the shaded box underneath **[!UICONTROL Map to harmonized fields]**:
 
    1. Select a harmonized field from **[!UICONTROL Standard harmonized field]**.
 

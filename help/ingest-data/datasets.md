@@ -6,7 +6,7 @@ feature: Datasets
 
 # Datasets
 
-To manage datasets, containing the data you want to ingest in Adobe Experience Platform and use in Mix Modeler:
+To manage datasets, containing the data you want to ingest in Experience Platform and use in Mix Modeler:
 
 1. Go to the Mix Modeler interface.
 

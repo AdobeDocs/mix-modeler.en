@@ -8,7 +8,7 @@ feature: Harmonized Data, Harmonized Fields
 
 Harmonized fields allow you to define fields for conceptually the same data, originating from different sources, each with their own definition of that data. For example, a clicks metric can be defined and named differently depending on the source of data. A clicks harmonized field allows you to define a common nomenclature for a clicks metric based on those different sources of clicks data.
 
-Harmonized fields let you define the fields you want to use as part of the harmonize data workflow. The fields you define can be used in defining dataset rules, marketing touchpoints and conversion.
+Harmonized fields let you define the fields you want to use as part of the harmonize data workflow. The fields you define can be used in defining dataset rules, marketing touchpoints and conversions.
 
 ## Global harmonization fields
 
