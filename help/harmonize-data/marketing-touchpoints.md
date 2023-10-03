@@ -57,3 +57,4 @@ To add a marketing touchpoint, in the ![DataSearch](../assets/icons/DataCheck.sv
     1. To create the marketing touchpoint, select **[!UICONTROL Create]**. To cancel the creation of a marketing touchpoint, select **[!UICONTROL Cancel]** .
 
 1. When created, the touchpoint is added to the marketing touchpoints table.
+

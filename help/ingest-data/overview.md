@@ -8,21 +8,21 @@ exl-id: dc16a601-bbd9-467b-8a7e-c32654d4069a
 
 Mix Modeler works with event level data, aggregate marketing effort data from various walled gardens, and aggregrate or summary data from any other source, like offline advertising, internal factors or external factors. 
 
-Customers can use any kind of data that is ingested into Adobe Experience Platform as datasets and which is based on schemas using the XDM ExperienceEvent or XDM Summary Metrics as the base class. 
+Customers can use any kind of data that is ingested into Experience Platform as datasets and which is based on schemas using the XDM ExperienceEvent or XDM Summary Metrics as the base class. 
 
 For example:
 
 * data collected using the Adobe Analytics source connector and transformed into datasets conforming to the default or a custom version of the Adobe Analytics schema, or alternatively,
-* data collected using the Adobe Experience Platform Web SDK, Mobile SDK, or Edge Network Server API for collecting customer interactions on web, mobile, or any other type of device,
+* data collected using the Experience Platform Web SDK, Mobile SDK, or Edge Network Server API for collecting customer interactions on web, mobile, or any other type of device,
 * aggregate data from walled gardens (like Facebook, YouTube), traffic sources or offline advertising data,
 * non-marketing aggregate or summary data containg internal or external factors that are useful for model building.
 
-You can use any kind of mechanism, supported by Adobe Experience Platform, to ingest your experience event level, aggregate marketing effort data, and data from other sources. Such as the Adobe Experience Platform SDKs, APIs, source connectors, and streaming and batch ingestion.
+You can use any kind of mechanism, supported by Experience Platform, to ingest your experience event-level, aggregate marketing effort data, and data from other sources. Such as the Experience Platform SDKs, APIs, source connectors, and streaming and batch ingestion.
 
 
 ## Guidelines
 
-To ingest data into Adobe Experience Platform for use with Mix Modeler, follow these guidelines:
+To ingest data into Experience Platform for use with Mix Modeler, follow these guidelines:
 
 * There should not be any overlap in the incremental data that is added to the datasets.
 * All data from a single source should be of the same granularity.
@@ -32,7 +32,7 @@ To ingest data into Adobe Experience Platform for use with Mix Modeler, follow t
 
 ## Examples
 
-Find below some examples of data typically used in Mix Modeler beyond more standard experience event data.
+Find below some examples of data typically used in Mix Modeler beyond the more standard experience event data.
 
 +++ Aggregate marketing effort data
 
@@ -74,7 +74,7 @@ Find below some examples of data typically used in Mix Modeler beyond more stand
 
 +++
 
-To work with data in Mix Modeler, you need data collected in datasets and modeled after schemas in Adobe Experience Platform. The Mix Modeler interface provides easy access to both the Schemas and Datasets UI.
+To work with data in Mix Modeler, you need data collected in datasets and modeled after schemas in Experience Platform. The Mix Modeler interface provides easy access to both the Schemas and Datasets UI.
 
 
 >[!MORELIKETHIS]

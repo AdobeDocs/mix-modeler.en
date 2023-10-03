@@ -12,7 +12,7 @@ A typical workflow in Mix Modeler looks like:
 
 |  | Activity | Description |
 |---|---|---|
-| ![Data](../assets/icons/Data.svg){width="100"} | [**Ingest data**](../ingest-data/overview.md) | Ingest event data from Adobe Experience Platform (for example Adobe Analytics, Web SDK, other sources), aggregated data from marketing channels (for example TV, walled gardens, email, owned and operated activities), and external factors data from customers (for example price changes in subscription service). |
+| ![Data](../assets/icons/Data.svg){width="100"} | [**Ingest data**](../ingest-data/overview.md) | Ingest event data from Experience Platform (for example Adobe Analytics, Web SDK, other sources), aggregated data from marketing channels (for example TV, walled gardens, email, owned and operated activities), external factors data from customers (for example price changes in subscription service) and internal factors data (for example holiday plans). |
 | ![DataCheck](../assets/icons/DataCheck.svg){width="100"} | [**Harmonize data**](../harmonize-data/overview.md) | Configure mapping rules and conflict resolution rules to merge the various marketing datasets needed to measure and plan campaign performance in Mix Modeler. |
 |  ![FileConfig](../assets/icons/FileGear.svg){width="100"} | [**Configure models**](../models/create.md) | Configure model instances with marketing touchpoints (for example channels) and conversion definitions. |
 | ![FileData](../assets/icons/FileData.svg){width="100"}  | [**Train and score models**](../models/overview.md) | Create aggregate and event-level scores using machine-learning training and scoring.  |

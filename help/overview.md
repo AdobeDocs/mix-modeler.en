@@ -1,6 +1,7 @@
 ---
 title: Mix Modeler guide
 description: Learn how to measure campaigns and optimize planning holistically across all channels with Mix Modeler.
+short-description: Learn how to measure campaigns and optimize planning holistically across all channels with Mix Modeler.
 feature: Harmonized Data, Models, Plans
 exl-id: 3427c338-f2a0-416b-bb4c-d8fef929c38a
 ---
