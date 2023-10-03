@@ -2,8 +2,8 @@
 title: Harmonize data
 description: Learn how to harmonize data in Mix Modeler.
 feature: Harmonized Data
+exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
 ---
-
 # Harmonize data
 
 The data in Mix Modeler is of different nature depending on the source of data. The data can be:
@@ -127,5 +127,3 @@ To see your harmonized data, in the Mix Modeler interface:
        1. To change the order of columns displayed, you can move a column in **[!UICONTROL SELECTED COLUMNS]** up and down though drag and drop .
 
     1. Select **[!UICONTROL Submit]** to submit your column setting changes. Select **[!UICONTROL Close]** to cancel any changes you made.
-
-

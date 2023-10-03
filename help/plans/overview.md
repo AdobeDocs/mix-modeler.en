@@ -2,8 +2,8 @@
 title: Plans
 description: Learn how to view, select, and action on plans in Mix Modeler.
 feature: Plans
+exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
 ---
-
 # Plans
 
 Plans in Mix Modeler allow you to allocate budgets by business unit and channel. The planning functionality is integrated with the outcomes of the trained models based on your harmonized data.
@@ -68,7 +68,3 @@ To delete plans:
    >[!WARNING]
    >
    >   The selected plans are deleted immediately!
-
-
-
-

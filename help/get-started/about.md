@@ -3,8 +3,8 @@ title: Mix Modeler overview
 description: Get an overview of the functionality and capabilities of Mix Modeler.
 short-description: Get an overview of the functionality and capabilities of Mix Modeler.
 feature: Plans, Harmonized Data, Models
+exl-id: aa1018d5-b073-4dfb-b40c-ca16a8970b2f
 ---
-
 # Mix Modeler overview
 
 Mix Modeler, powered by Adobe Sensei, enables marketers to measure campaigns and optimize planning holistically across all channels: paid, earned, and owned. Its unified methodology measures incrementally at both marketing touchpoints and aggregate-levels, while ensuring fully consistent results.
@@ -40,12 +40,3 @@ Mix Modeler offers the following capabilities:
 | **Create & compare budget scenarios** | Develop multiple budget plans and compare their impact to make optimal decisions for your business. |
 
 {style="table-layout:auto"}
-
-
-
-
-
-
-
-
-

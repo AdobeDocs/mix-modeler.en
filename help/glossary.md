@@ -2,6 +2,7 @@
 title: Mix Modeler glossary
 description: Mix Modeler glossary.
 feature: Datasets, Conversions, Marketing Touch Points, Harmonized Data
+exl-id: e002a0c0-71a4-418e-90c4-819649433a7d
 ---
 # Mix Modeler glossary
 
@@ -20,4 +21,3 @@ The following terminology and acronyms are used in the documentation:
 | Marketing Mix Modeling (MMM) | A service that enables you to measure, optimize, and plan marketing investments by applying machine learning models to provide insights on the historical and future impact of marketing investments on key business goals. |
 
 {style="table-layout:auto"}
-

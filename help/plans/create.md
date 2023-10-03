@@ -2,8 +2,8 @@
 title: Create a plan
 description: Learn how to create a plan in Mix Modeler.
 feature: Plans
+exl-id: 6d61d0b2-5871-4d00-9a35-73fff0a1c3e5
 ---
-
 # Create a plan
 
 In Mix Modeler, you create a plan using the plan canvas. In the plan canvas, you can set up the details and budgets of your plan and the underlying model to use for your plan. Once you have specified details, budget and model you can go ahead with an AI-recommended plan or edit the spend by channel.
@@ -64,6 +64,3 @@ To create a plan, in the ![PLan](../assets/icons/FileChart.svg) **[!UICONTROL Pl
     1. When finished, select **[!UICONTROL Create]**. 
 
     1. In the **[!UICONTROL Create plan]** dialog, select **[!UICONTROL Create plan]** to create your plan. Select **[!UICONTROL Cancel]** to cancel the creation of your plan.
-
-
-         

@@ -2,8 +2,8 @@
 title: Mix Modeler use cases
 description: Mix Modeler use cases.
 feature: Schemas, Datasets, Conversions, Harmonized Data, Marketing Touch Points, Models, Plans
+exl-id: cc82abec-d0ce-44bf-ad7e-fc379a394185
 ---
-
 # Mix Modeler use cases
 
 Mix Modeler enables the following key use cases.
@@ -163,4 +163,3 @@ Successful implementation of this use can have the following impact:
 
 
 +++
-

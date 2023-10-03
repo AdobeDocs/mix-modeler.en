@@ -2,8 +2,8 @@
 title: Model Insights
 description: Learn how to get details about your model, like historical overview, model insights, and model quality in Mix Modeler.
 feature: Models
+exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
 ---
-
 # Model Insights
 
 To view model insights, in the ![Models](../assets/icons/FileData.svg) **[!UICONTROL Models]** interface in Mix Modeler:
@@ -64,5 +64,3 @@ The Model quality tab shows widgets for measuring:
 * RMSE (Root Mean Square Error): which shows the average "error", weighted according to the square of the error.
 
 ![Model quality](../assets/model-quality.png)
-
-

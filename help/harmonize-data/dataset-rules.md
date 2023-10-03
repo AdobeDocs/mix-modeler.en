@@ -2,8 +2,8 @@
 title: Dataset rules
 description: Learn how to define dataset rules to use as part of harmonizing your data in Mix Modeler.
 feature: Harmonized Data, Dataset Rules
+exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
 ---
-
 # Dataset rules
 
 Dataset rules assist you in mapping your harmonized fields with fields from the data you ingested in Mix Modeler.
@@ -126,4 +126,3 @@ To sync data between your harmonized data and summary and / or event datasets, f
 1. Select **[!UICONTROL Sync]** to start the synchronization based on the defined dataset rules between harmonized data and data in datasets. To cancel the synchronization, select **[!UICONTROL Cancel]**.
 
    ![Sync data](../assets/sync-data.png)
-

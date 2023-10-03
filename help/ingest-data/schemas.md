@@ -2,8 +2,8 @@
 title: Schemas
 description: Learn how to manage the schemas required to ingest data into Mix Modeler.
 feature: Schemas
+exl-id: 08289581-5af9-4422-b049-8c24105e2a8e
 ---
-
 # Schemas
 
 To manage schemas, supporting the data you want to ingest in Experience Platform and use in Mix Modeler:

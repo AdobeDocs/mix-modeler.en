@@ -2,8 +2,8 @@
 title: Conversions
 description: Learn how to create conversions to use as part of harmonizing your data in Mix Modeler.
 feature: Harmonized Data, Conversions
+exl-id: a8559426-452a-43e8-9a60-0c0bc97d863c
 ---
-
 # Conversions
 
 Conversion events are business objectives that identify the impact of marketing activities. Examples: e-commerce orders, in-store purchases, website visits, and so forth.

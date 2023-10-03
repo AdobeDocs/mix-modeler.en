@@ -2,8 +2,8 @@
 title: Mix Modeler workflow
 description: Understand the typical workflow for Mix Modeler.
 feature: Ingest Data, Plans, Harmonized Data, Models
+exl-id: 200ff846-5d78-4b25-a425-bfd558b88c88
 ---
-
 # Mix Modeler workflow
 
 A typical workflow in Mix Modeler looks like:
@@ -20,4 +20,3 @@ A typical workflow in Mix Modeler looks like:
 | ![Dashboard](../assets/icons/Dashboard.svg){width="100"} | [**Overview dashboard**](../dashboard/overview.md) | Get insights on harmonized data, models, and plans, using various configurable widgets. |
 
 {style="table-layout:auto"}
-
