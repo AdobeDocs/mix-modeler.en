@@ -8,7 +8,7 @@ exl-id: 930fc1d5-8e28-4610-af7b-c4ec91f86a8a
 
 >[!NOTE]
 >
->[!BADGE Alpha]{type=Informative} The Plans tab in Mix Modeler is an alpha feature and its functionality is subject to change.
+>[!BADGE Alpha]{type=Informative} The Plans tab in Mix Modeler Overview is an alpha feature and its functionality is subject to change.
 
 
 The Plans tab in Mix Modeler Overview shows widgets for [!UICONTROL Budget], [!UICONTROL Revenue], [!UICONTROL ROI] and [!UICONTROL KPI].
