@@ -121,9 +121,9 @@ To build your custom AI-powered models, the interface provides a step-by-step gu
 
        1. Select the **[!UICONTROL Rule type]**.
 
-       1. Distribute percentages for each of the channels listed under **[!UICONTROL Name]**, using the **[!UICONTROL Contribution proportion]** column. Ensure that the total distribution of percentages adds up to 100%. 
+       1. Specify contribution percentages for any of the channels listed under **[!UICONTROL Name]**, using the **[!UICONTROL Contribution proportion]** column. 
 
-       1. You can add for each channel a **[!UICONTROL Level of confidence]** percentage.
+       1. Where appropriate, you can add for each channel a **[!UICONTROL Level of confidence]** percentage.
 
        1. When needed, use **[!UICONTROL Clear all]** to clear all input values for the **[!UICONTROL Contribution proportion]** and **[!UICONTROL Level of confidence]** columns.
 
