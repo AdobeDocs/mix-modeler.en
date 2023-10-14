@@ -6,7 +6,12 @@ exl-id: 200ff846-5d78-4b25-a425-bfd558b88c88
 ---
 # Mix Modeler workflow
 
-A typical workflow in Mix Modeler looks like:
+See this video for an introduction to the user workflow in Mix Modeler.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3424854/?learn=on)
+
+
+From a functional viewpoint, a typical workflow in Mix Modeler consists of the following activities:
 
 ![Alt text](../assets/ApplicationWorkflow.svg)
 
