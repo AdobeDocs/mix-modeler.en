@@ -25,6 +25,8 @@ user-guide-description: Learn how to use Mix Modeler.
 + Plans {#plans}
   + [Overview](plans/overview.md)
   + [Create a plan](plans/create.md)
+  + [Edit a plan](plans/edit.md)
+  + [Compare plans](plans/compare.md)
   
 + Harmonize data {#harmonize-data}
   + [Overview](harmonize-data/overview.md)
