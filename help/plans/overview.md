@@ -8,8 +8,22 @@ exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
 
 Plans in Mix Modeler allow you to allocate budgets by business unit and channel. The planning functionality is integrated with the outcomes of the trained models based on your harmonized data.
 
+A plan outlines the discreionary investments (for example budgets) a business intends to spend on marketing-related projects over the course of a given timeframe in service of common KPI (for example orders, revenue). Plans can incluse expenses from channels such as paid advertising, sponsored web content, events.
 
-## View plans
+A plan requires:
+
+- a model,
+- a data range,
+- a budget.
+
+A plan can optionally include:
+
+- a configured recognition window,
+- multiple flight dates with each having a target budget,
+- minimum and maximum budget constraints by channel and flight date.
+
+
+## Manage plans
 
 To view a table of your current plans, in the Mix Modeler interface:
 
@@ -34,6 +48,14 @@ To view a table of your current plans, in the Mix Modeler interface:
 
 1. Use ![Search](../assets/icons/Search.svg) to search and filter the table for one or more specific plans.
 
+## Create a plan
+
+To create a plan, use the Mix Modeler plan creation wizard. See [Create a plan](create.md) for more details.
+
+
+## Edit a plan
+
+To edit a plan, select the name of the plan from the table. See [Edit a plan](edit.md) for more information.
 
 ## Select and action on plans
 

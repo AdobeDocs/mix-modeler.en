@@ -10,7 +10,26 @@ The model functionality in Mix Modeler allows you to configure, train, and score
 
 The models are based on the harmonized data that you create as part of the Mix Modeler application workflow.
 
-To create a model, use the Mix Modeler ste-by-step guided model configuration flow available when you select **[!UICONTROL Guide me]**. See [Create a model](create.md) for more details.
+A model in Mix Modeler is a machine learning model employed to measure and / or predict a specified outcome based on a marketer's investments. Marketing touchpoints and summary-level data can be used as an input. Mix Modeler allows you to create variants of models based on different sets of variables, dimensions, and outcomes, such as revenues, units sold, leads.
+
+A model requires:
+
+* one conversion,
+* one or more marketing touchpoints (channels) comprised of summary-level data, marketing touchpoint data (event data) or both,
+* a configurable lookback window for
+* a configurable training window.
+
+A model can optionally include:
+
+* external factors,
+* internal factors,
+* so-called 'priors' (probability distribution representing knowledge or uncertainty of data prior or before observing that data), which indexes prior conversions by channel,
+* spend share, which uses relative spend share as a proxy when marketing data is sparse.
+
+
+## Create a model
+
+To create a model, use the Mix Modeler step-by-step guided model configuration flow available when you select **[!UICONTROL Guide me]**. See [Create a model](create.md) for more details.
 
 ## Manage models
 
@@ -58,7 +77,7 @@ To view more details of a model:
 
 >[!NOTE]
 >
->This selection is only available on successful trained models.
+>This selection is only available on successfully trained models.
 >
 
 To view insights of a model, in the Mix Modeler interface:
