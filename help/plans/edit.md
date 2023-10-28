@@ -2,8 +2,8 @@
 title: Edit a plan
 description: Learn how to edit a plan in Mix Modeler.
 feature: Plans
+exl-id: 91385595-284f-4fcb-b54b-9539905e552b
 ---
-
 # Edit a plan
 
 To edit a plan, in the ![PLan](../assets/icons/FileChart.svg) **[!UICONTROL Plans]** interface in Mix Modeler, select your plan by its name.
@@ -59,4 +59,3 @@ When finished retrieving, you see an overview of your plan with visualizations f
 1. To cancel your plan updates, select **[!UICONTROL Cancel]**.
 
     In the **[!UICONTROL No work will be saved]** dialog, select **[!UICONTROL Cancel]** to continue working on your plan or select **[!UICONTROL OK]** to return back to the Plans interface.
-

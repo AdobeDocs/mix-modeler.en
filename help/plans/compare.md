@@ -2,8 +2,8 @@
 title: Compare plans
 description: Learn how to compare plans in Mix Modeler.
 feature: Plans
+exl-id: 40f6ade5-77eb-4ef7-ba60-4a2d2fcf1a60
 ---
-
 # Compare plans
 
 To compare plans in the Mix Modeler Plans interface: 
