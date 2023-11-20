@@ -6,7 +6,7 @@ exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
 ---
 # Create a model
 
-To create a model, in the ![Models](../assets/icons/FileData.svg) **[!UICONTROL Models]** interface in Mix Modeler, select **[!UICONTROL Guide me]**.
+To create a model, in the ![Models](../assets/icons/FileData.svg) **[!UICONTROL Models]** interface in Mix Modeler, select **[!UICONTROL Open model canvas]**.
 
 To build your custom AI-powered models, the interface provides a step-by-step guided model configuration flow.
 
@@ -18,7 +18,7 @@ To build your custom AI-powered models, the interface provides a step-by-step gu
 
    1. Select **[!UICONTROL Next]** to continue to the next step. Select **[!UICONTROL Cancel]** to cancel the model configuration.
 
-1. In the **[!UICONTROL Configure]** step:
+1. In the **[!UICONTROL Configured]** step:
 
    1. In the **[!UICONTROL Conversion goal]** section, within the container:
 
@@ -42,7 +42,7 @@ To build your custom AI-powered models, the interface provides a step-by-step gu
 
        * To add a marketing touchpoint container, select ![Add](../assets/icons/AddCircle.svg) **[!UICONTROL Add marketing touchpoint]**.
 
-       * To remove a marketing touchpoint container, within the container, select ![More](../assets/icons/More.svg) and select **[!UICONTROL Remove container]** from the context menu.
+       * To remove a marketing touchpoint container, within the container, select ![More](../assets/icons/More.svg), and select **[!UICONTROL Remove container]** from the context menu.
 
             ![Model - marketing touchpoints-step](../assets/model-marketing-touchpoint-step.png)
 
@@ -66,7 +66,7 @@ To build your custom AI-powered models, the interface provides a step-by-step gu
        
        * To add an eligible data population container, select ![Add](../assets/icons/AddCircle.svg) **[!UICONTROL Add eligible population]**.
 
-       * To remove an eligible data population container, within the container, select ![More](../assets/icons/More.svg) and select **[!UICONTROL Remove container]** from the context menu.
+       * To remove an eligible data population container, within the container, select ![More](../assets/icons/More.svg), and select **[!UICONTROL Remove container]** from the context menu.
 
          ![Model - Eligible data population](../assets/model-eligible-data-population-step.png)
 
@@ -80,7 +80,7 @@ To build your custom AI-powered models, the interface provides a step-by-step gu
 
        * To add an additional external factors dataset container, select ![Add](../assets/icons/AddCircle.svg) **[!UICONTROL Add external factor]**.
 
-       * To remove an external factors dataset container, within the container, select ![More](../assets/icons/More.svg) and select **[!UICONTROL Remove container]** from the context menu.
+       * To remove an external factors dataset container, within the container, select ![More](../assets/icons/More.svg), and select **[!UICONTROL Remove container]** from the context menu.
 
          ![Model - External factors dataset](../assets/model-external-factors-dataset-step.png)
 
@@ -95,7 +95,7 @@ To build your custom AI-powered models, the interface provides a step-by-step gu
 
        * To add an additional internal factors dataset container, select ![Add](../assets/icons/AddCircle.svg) **[!UICONTROL Add internal factor]**.
 
-       * To remove an additional internal factors dataset container, within the container, select ![More](../assets/icons/More.svg) and **[!UICONTROL Remove container]** from the context menu.
+       * To remove an additional internal factors dataset container, within the container, select ![More](../assets/icons/More.svg), and **[!UICONTROL Remove container]** from the context menu.
 
          ![Model - Internal factors dataset](../assets/model-internal-factors-dataset-step.png)
 

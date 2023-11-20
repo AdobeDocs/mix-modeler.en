@@ -10,13 +10,24 @@ To edit a plan, in the ![PLan](../assets/icons/FileChart.svg) **[!UICONTROL Plan
    
 In [!UICONTROL Plan insights], your plan insights are created, showing the [!UICONTROL Model], the [!UICONTROL Data range], and [!UICONTROL Total budget] on which the plan is based.
 
-When finished retrieving, you see an overview of your plan with visualizations for [!UICONTROL Forecasted ROI] and [!UICONTROL Forecasted revenue].
+When finished retrieving, you see an overview of your plan, consisting of: 
+
+- [!UICONTROL Forecasted paid channel ROI] visualization
+- [!UICONTROL Forecasted revenue] visualization 
+- [!UICONTROL Data range breakdown] table of the plan, showing columns for
+
+  - Channel
+  - ROI
+  - CPA
+  - Revenue
+  - Conversion goal
+  - Spend
+
+![Overview of a plan](../assets/overview-plan.png)
 
 1. Select **[!UICONTROL Close]** to return to the Plans interface. 
 
-1. (optional) Select **[!UICONTROL Plan breakdown]** to see a breakdown table of your plan.
-
-    ![Overview of a plan](../assets/overview-plan.png)
+1. To download a CSV file containing the data of the Date range breakdown, select ![Download](../assets/icons/Download.svg) **[!UICONTROL Download CSV]**.
 
 1. To edit your plan, select **[!UICONTROL Edit plan]**:
     
