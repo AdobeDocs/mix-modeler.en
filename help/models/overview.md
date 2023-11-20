@@ -45,11 +45,10 @@ To view a table of your current models, in the Mix Modeler interface:
     |---|---|
     | Name | Name of the model |
     | Description | Description of the model |
-    | Conversion Events | The conversion you have selected for the model. |
-    | Dataset | The dataset that the model uses to train and score. This is by default the harmonized dataset. |
+    | Conversion event | The conversion you have selected for the model. |
     | Run frequency | The running frequency of training the model. |
     | Last run | The date and time of the last training of the model. |
-    | Last run status | The status of the last run of the training of the model. <br/><span style="color:green">●</span> Success<br/><span style="color:orange">●</span> Training issue<br/> <span style="color:orange">●</span> Awaiting training <br/><span style="color:red">●</span> Failed|
+    | Status | The status of the last run of the training of the model. <br/><span style="color:green">●</span> Success<br/><span style="color:orange">●</span> Training issue<br/> <span style="color:orange">●</span> Awaiting training <br/><span style="color:red">●</span> Failed|
 
     {style="table-layout:auto"}
 
@@ -67,9 +66,7 @@ To delete a model:
 
 To view more details of a model:
 
-   1. Select the name of the model that you want to view more details of.
-
-   1. From the context menu, select **[!UICONTROL More]**. You see details of the selected model in the right pane.
+   1. Select ![Info](../assets/icons/Info.svg) for a model to show a pop-up with details.
 
 
 
@@ -87,3 +84,20 @@ To view insights of a model, in the Mix Modeler interface:
    1. Select the name of a model with a **[!UICONTROL Last run status]** of <span style="color:green">●</span> **[!UICONTROL Success]** from the **[!UICONTROL Models]** table.
 
    1. From the context menu, select **[!UICONTROL Model Insights]**. You are redirected to [Model Insights](insights.md).
+
+
+### Re-score
+
+>[!NOTE]
+>
+>This selection is only available on successfully trained models.
+>
+
+To re-score a model, in the Mix Modeler interface:
+
+   1. Select ![](../assets/icons/FileData.svg) **[!UICONTROL Models]** from the left rail.
+
+   1. Select the name of a model with a **[!UICONTROL Last run status]** of <span style="color:green">●</span> **[!UICONTROL Success]** from the **[!UICONTROL Models]** table.
+
+   1. From the context menu, select **[!UICONTROL Re-score]**. It may take a few minutes to show an updated status for the model.
+

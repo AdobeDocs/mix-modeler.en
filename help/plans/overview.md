@@ -36,7 +36,6 @@ To view a table of your current plans, in the Mix Modeler interface:
     | Column name | Details |
     |---|---|
     | Name | Name of the plan |
-    | Description | Description of the model |
     | Model | The model used as the base for the plan. |
     | Date range | The full date range for a plan. |
     | Budget | The total budget for a plan. |
@@ -56,6 +55,7 @@ To create a plan, use the Mix Modeler plan creation wizard. See [Create a plan](
 ## Edit a plan
 
 To edit a plan, select the name of the plan from the table. See [Edit a plan](edit.md) for more information.
+
 
 ## Select and action on plans
 

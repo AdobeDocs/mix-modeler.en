@@ -21,36 +21,37 @@ You can change the date period on which the widgets on each of the tabs are base
 
 The Historical overview tab shows widgets for:
 
-* Conversion and Spend by Fiscal Qtr and Product
+* Conversion and Spend by Fiscal Qtr and Product.
   
-* Spend by Channel
+* Spend by Channel.
 
-* Touchpoint Spend
+* Touchpoint Spend.
 
   You can select an alternative spend-based channel to display for this widget. Select a channel from **[!UICONTROL Channels]**.
 
-* Touchpoint Volume
+* Touchpoint Volume.
 
     You can select an alternative volume-based channel to display for this widget. Select a channel from **[!UICONTROL Channels]**.
 
-
-
 ![Model - Historical overview](../assets/model-historical-overview.png)
-
 
 ## Model insights
 
 The Model insights tab shows widgets for:
 
-* Contribution by Date and Base Media
+* Contribution by date and base media. The stacked graph is ordered: Base at the bottom, Non spend channels in the middle, and Spend channels on top.
 
-* Contribution by Channel
+* Contribution by channel.
 
-* Marketing Performance Summary
-
-You can hover over individual chart elements in each widget to see a popover with more details.
+* Marketing performance summary.
 
 ![Model - Model insights](../assets/model-model-insights.png)
+
+You can hover over individual chart elements in each widget to display a popover with more details.
+
+To download a CSV file containing the data for the widget, select ![Download](../assets/icons/Download.svg).
+
+
 
 
 ## Model quality
@@ -64,3 +65,5 @@ The Model quality tab shows widgets for measuring:
 * RMSE (Root Mean Square Error): which shows the average "error", weighted according to the square of the error.
 
 ![Model quality](../assets/model-quality.png)
+
+To download a CSV file containing the data for the widget, select ![More](../assets/icons/More.svg) in the widget and from the context menu select ![Download](../assets/icons/Download.svg) **[!UICONTROL Download as CSV]**.
