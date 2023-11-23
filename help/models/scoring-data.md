@@ -2,8 +2,8 @@
 title: Scoring data
 description: Learn how a model's scoring data in Mix Modeler is persisted.
 feature: Models
+exl-id: 2f2c3d20-7b14-41cc-a11a-03e8ad9e5d7a
 ---
-
 # Scoring data
 
 As part of scoring a model, scoring data is persisted within a dataset in Experience Platform. This dataset is conforming to a schema created for each model in your Mix Modeler instance.
@@ -32,5 +32,4 @@ The schema includes a field group with an object containing details about the sc
 | **scoreCreatedTime** | DateTime | Time when this score record is created. | 
 | **touchpointEndDate** | Date | End date of the touchpoint window. | 
 | **touchpointName** | String | Name of the touchpoint that was created during the touchpoint definition setup step. Currently the touchpoint is defined on the media channel. | 
-| **touchpointStartDate** | Date | Start date of the touchpoint window. |   
-
+| **touchpointStartDate** | Date | Start date of the touchpoint window. |
