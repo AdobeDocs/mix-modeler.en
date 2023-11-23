@@ -1,6 +1,6 @@
 ---
 title: Scoring data
-description: Learn how a model's scoring data in Mix Modeleris are persisted.
+description: Learn how a model's scoring data in Mix Modeler is persisted.
 feature: Models
 ---
 
@@ -27,7 +27,7 @@ The schema includes a field group with an object containing details about the sc
 | **conversionStartDate** | Date | Start date of the conversion window. | 
 | **geo** | String | The geographic location where the conversion has occurred.  | 
 | **mediaChannel** | String | Name of the channel that was used during the touchpoint setup step. |  
-| **mediaSubChannel** | String | Name of the sub channel. | 
+| **mediaSubChannel** | String | Name of the sub-channel. | 
 | **revenue** | Double | Revenue attributed to this conversion for the given touchpoint. |  
 | **scoreCreatedTime** | DateTime | Time when this score record is created. | 
 | **touchpointEndDate** | Date | End date of the touchpoint window. | 
