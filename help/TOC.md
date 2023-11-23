@@ -21,6 +21,7 @@ user-guide-description: Learn how to use Mix Modeler.
   + [Overview](models/overview.md)
   + [Create a model](models/create.md)
   + [Model insights](models/insights.md)
+  + [Scoring data](models/scoring-data.md)
   
 + Plans {#plans}
   + [Overview](plans/overview.md)
