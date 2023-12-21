@@ -64,11 +64,16 @@ See below for a more comprehensive example of a **[!DNL LumaPaidMarketingSchema]
 Given the asynchronous nature of profile ingestion, when collecting aggregate or summary data from external sources, it is encouraged to use the External Source System Audit Details field group as part of a schema. This field group defines a set of audit properties for external sources.
 
 
-## Limitations
+## Supported data types
 
-Mix Modeler currently does support a subset of Experience Platform data types. The following basic data types (fields), mentioned in [Basics of schema composition](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#data-type), are not yet supported for schemas you want to use in Mix Modeler:
+Mix Modeler currently does support a subset of Experience Platform data types. The following basic data types (fields), mentioned in [Basics of schema composition](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#data-type), are supported for schemas you want to use in Mix Modeler:
 
-- Array
-- Object
-- Enum
-- Map
+- String
+- Integer
+- Double
+- Boolean
+- Long
+- Short
+- Byte
+- Date
+- Date-time
