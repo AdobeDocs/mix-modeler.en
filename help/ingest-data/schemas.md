@@ -66,7 +66,7 @@ Given the asynchronous nature of profile ingestion, when collecting aggregate or
 
 ## Supported data types
 
-Mix Modeler does currently support a subset of Experience Platform data types. The following basic data types (fields), mentioned in [Basics of schema composition](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#data-type), are supported for schemas you want to use in Mix Modeler:
+Currently, Mix Modeler does support a subset of Experience Platform data types. The following basic data types (fields), mentioned in [Basics of schema composition](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#data-type), are supported:
 
 - String
 - Integer
