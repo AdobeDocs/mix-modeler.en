@@ -51,7 +51,7 @@ When finished retrieving, you see an overview of your plan, consisting of:
 
           1. Modify the **[!UICONTROL Date range]** for one or more of your plan's date ranges, either by typing dates or selecting a date range using ![Calendar](../assets/icons/Calendar.svg).
 
-          1. Modify the **[!UICONTROL Budget]** one or more of your plan's date ranges.
+          1. Modify the **[!UICONTROL Budget]** for one or more of your plan's date ranges.
      
           To add additional date ranges, each with their budget, select ![CalendarAdd](../assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]**.
      
