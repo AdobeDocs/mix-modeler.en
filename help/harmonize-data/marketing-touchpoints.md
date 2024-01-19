@@ -16,7 +16,7 @@ To see a table of the available marketing touchpoints in the Mix Modeler interfa
 
 1. Select ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** from the left rail.
    
-1. Select **[!UICONTROL Marketing touchpoint]** from the top bar. You see a table of the marketing touchpoints.
+1. Select **[!UICONTROL Marketing touchpoint]** from the top bar. You see a table of the marketing touchpoints. If more pages are available, use ![Arrow left](../assets/icons/ChevronLeft.svg) or ![Arrow Right](../assets/icons/ChevronRight.svg) at **[!UICONTROL Page _x_ of _x_]** to move between pages of the table.
 
 The table columns specify details about the marketing touchpoint:
 
@@ -25,6 +25,7 @@ The table columns specify details about the marketing touchpoint:
 | Name | The name of the marketing touchpoint.  |
 | Spend metric | The harmonized data metric to use to calculate touchpoint spend.  |
 | Volume metric | The harmonized data metric to use to calculate touchpoint volume. |
+| Rule | The touchpoint rule to use. | 
 | Created | Date and time of the creation of the marketing touchpoint. |
 | Last modified | Date and time of the last modification of the marketing touchpoint. |
 
@@ -42,7 +43,7 @@ To add a marketing touchpoint, in the ![DataSearch](../assets/icons/DataCheck.sv
 
     1. Define a **[!UICONTROL Touchpoint rule]**.
 
-       1. Select a value from **[!UICONTROL *Select harmonize...*]**, for example **[!UICONTROL Brand]**.
+       1. Select a value from **[!UICONTROL *Select harmonized*]**, for example **[!UICONTROL Brand]**.
 
        1. Select a value for operator ![Chevron](../assets/icons/ChevronDown.svg), for example **[!UICONTROL is]**.
 
@@ -57,4 +58,21 @@ To add a marketing touchpoint, in the ![DataSearch](../assets/icons/DataCheck.sv
     1. To create the marketing touchpoint, select **[!UICONTROL Create]**. To cancel the creation of a marketing touchpoint, select **[!UICONTROL Cancel]** .
 
 1. When created, the touchpoint is added to the marketing touchpoints table.
+
+
+## View a marketing touchpoint
+
+To view a marketing touchpoint:
+
+1. Select ![More](../assets/icons/More.svg) when hovering over a marketing touchpoint name in the table.
+
+1. Select ![View](../assets/icons/ViewDetail.svg) **View**. A dialog shows details of the marketing touchpoint. See [Add a marketing touchpoint](#add-a-marketing-touchpoint) for more information. Select **[!UICONTROL Cancel]** to close the dialog.
+
+
+## Delete a marketing touchpoint
+
+To delete a marketing touchpoint:
+
+1. Select ![Delete](../assets/icons/Delete.svg) **Delete** when hovering over a marketing touchpoint name in the table. 
+1. In the **[!UICONTROL Delete touchpoint]** dialog confirmation dialog select **[!UICONTROL Delete]** to permanently delete the marketing touchpoint.
 

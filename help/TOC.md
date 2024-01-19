@@ -35,6 +35,7 @@ user-guide-description: Learn how to use Mix Modeler.
   + [Dataset rules](harmonize-data/dataset-rules.md)
   + [Marketing touchpoints](harmonize-data/marketing-touchpoints.md)
   + [Conversions](harmonize-data/conversions.md)
+  + [Usage report](harmonize-data/usage-report.md)
 
 + Ingest data {#ingest-data}
   + [Overview](ingest-data/overview.md)

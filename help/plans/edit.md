@@ -27,7 +27,11 @@ When finished retrieving, you see an overview of your plan, consisting of:
 
 1. Select **[!UICONTROL Close]** to return to the Plans interface. 
 
+1. Select **[!UICONTROL X]** or **[!UICONTROL  %]** on how to **[!UICONTROL View ROI]**. 
+
 1. To download a CSV file containing the data of the Date range breakdown, select ![Download](../assets/icons/Download.svg) **[!UICONTROL Download CSV]**.
+
+1. To view the Date range breakdown by category of channels, select **[!UICONTROL All channels]**, **[!UICONTROL Paid channels]**, or **[!UICONTROL Non-paid channels]** from the **[!UICONTROL View]** selection.
 
 1. To edit your plan, select **[!UICONTROL Edit plan]**:
     

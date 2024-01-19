@@ -11,7 +11,7 @@ The data in Mix Modeler is of different nature depending on the source of data. 
 * aggregate or summary data, for example collected from walled garden data sources or offline advertising data gathered (like spend) from running a billboard campaign, an event, or a physical ad campaign,
 * event data, for example from first party data sources. This event data can be data collected through the Adobe Analytics source connector from Adobe Analytics, or through the Experience Platform Web or Mobile SDK or Edge Network API, or data ingested using source connectors.
 
-The harmonization service of Mix Modeler assimilates the aggregate and event data into a consistent data view. This data view is the source for the plans and models in Mix Modeler.
+The harmonization service of Mix Modeler assimilates the aggregate and event data into a consistent data view. This data view, combined with internal and external factors data, is the source for the models in Mix Modeler.
 
 ## An example of harmonized data
 
@@ -116,7 +116,7 @@ To see your harmonized data, in the Mix Modeler interface:
 
     1. To redefine the period on which the recap of harmonized data is based, enter a date range for **[!UICONTROL Date range]** or use ![Calendar](../assets/icons/Calendar.svg) to select a data range.
 
-    1. To modify the harmonized field columns displayed for the Harmonized Data table, use ![Settings](../assets/icons/Setting.svg) to open the **[!UICONTROL Column settings]** dialog.
+    1. To modify the harmonized field columns displayed for the Harmonized data table, use ![Settings](../assets/icons/Setting.svg) to open the **[!UICONTROL Column settings]** dialog.
 
        1. Select ![SelectBox](../assets/icons/SelectBox.svg) one or more columns from **[!UICONTROL AVAILABLE COLUMNS]** and use ![Chevron right](../assets/icons/ChevronRight.svg) to add these columns to **[!UICONTROL SELECTED COLUMNS]**. 
 
@@ -124,6 +124,8 @@ To see your harmonized data, in the Mix Modeler interface:
 
        1. Select a column from **[!UICONTROL DEFAULT SORT]** and toggle between **[!UICONTROL Ascending]** or **[!UICONTROL Descending]**.
 
-       1. To change the order of columns displayed, you can move a column in **[!UICONTROL SELECTED COLUMNS]** up and down though drag and drop .
+       1. To change the order of columns displayed, you can move a column in **[!UICONTROL SELECTED COLUMNS]** up and down through drag and drop .
 
     1. Select **[!UICONTROL Submit]** to submit your column setting changes. Select **[!UICONTROL Close]** to cancel any changes you made.
+
+1. If more pages are available, use ![Arrow left](../assets/icons/ChevronLeft.svg) or ![Arrow Right](../assets/icons/ChevronRight.svg) at **[!UICONTROL Page _x_ of _x_]** to move between pages.

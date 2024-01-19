@@ -41,7 +41,7 @@ To view a table of your current plans, in the Mix Modeler interface:
     | Budget | The total budget for a plan. |
     | Forecasted return | The forecasted return for a plan |
     | Forecasted ROI | The forecasted ROI for a plan. |
-    | Status | The status of a plan. |
+    | Status | The status of a plan: <p><span style="color:red">●</span> Failed, <p><span style="color:blue">●</span> Processing, or <p><span style="color:green">●</span> Complete. |
 
     {style="table-layout:auto"}
 
@@ -72,6 +72,11 @@ To duplicate a plan:
 1. Select a single plan from the table.
 1. Select ![Copy](../assets/icons/Copy.svg) **[!UICONTROL Duplicate]** from the action bar. A new plan, with a name composed of the original plan's name appended with **[!UICONTROL (Copy)]**, is added to the top of the table. 
 
+Alternatively:
+
+1. Select ![More](../assets/icons/More.svg) for a plan in the table.
+1. Select **[!UICONTROL Duplicate]** from the context menu. A new plan, with a name composed of the original plan's name appended with **[!UICONTROL (Copy)]**, is added to the top of the table.
+
 ### Compare plans
 
 To compare plans:
@@ -86,7 +91,12 @@ To delete plans:
 
 1. Select one or more plans from the table.
 1. Select ![Delete](../assets/icons/Delete.svg) **[!UICONTROL Delete]** from the action bar.
- 
+
+Alternatively:
+
+1. Select ![More](../assets/icons/More.svg) for a plan in the table.
+1. Select **[!UICONTROL Delete]** from the context menu. A new plan, with a name composed of the original plan's name appended with **[!UICONTROL (Copy)]**, is added to the top of the table.
+   
    >[!WARNING]
    >
    >   The selected plans are deleted immediately!
