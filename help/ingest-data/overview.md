@@ -74,7 +74,7 @@ Find below some examples of data typically used in Mix Modeler beyond the more s
 
 +++
 
-To work with data in Mix Modeler, you need data collected in datasets and modeled after schemas in Experience Platform. The Mix Modeler interface provides easy access to both the Schemas and Datasets UI.
+To work with data in Mix Modeler, you need data collected in datasets and modeled after schemas in Experience Platform. The Mix Modeler interface provides easy access to both the Experience Platform Schemas and Datasets UI.
 
 
 >[!MORELIKETHIS]

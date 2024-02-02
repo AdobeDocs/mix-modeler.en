@@ -33,3 +33,5 @@ The schema includes a field group with an object containing details about the sc
 | **touchpointEndDate** | Date | End date of the touchpoint window. | 
 | **touchpointName** | String | Name of the touchpoint that was created during the touchpoint definition setup step. Currently the touchpoint is defined on the media channel. | 
 | **touchpointStartDate** | Date | Start date of the touchpoint window. |
+
+See [Schemas](../ingest-data/schemas.md) for more information.

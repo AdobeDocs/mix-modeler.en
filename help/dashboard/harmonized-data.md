@@ -14,9 +14,9 @@ To change the date period for data to be displayed in the widgets, enter a start
 
 ## Data filters 
 
-You can filter the data displayed for all widgets using the ![Filter](../assets/icons/Filter.svg) **[!UICONTROL Data Filters]** pane. 
+You can filter the data displayed for all widgets using the ![Filter](../assets/icons/Filter.svg) **[!UICONTROL Category Filters]** pane. 
 
-Select one or more filters for each category (**[!UICONTROL Channel]**, **[!UICONTROL Brand]**, **[!UICONTROL Source Type]**, and **[!UICONTROL Traffic Source]**). 
+Select one or more filters for each category (**[!UICONTROL Brands]**, **[!UICONTROL Campaigns]**, **[!UICONTROL Cannels Type]**, **[!UICONTROL Conversion types]**, **[!UICONTROL Datasets]**, **[!UICONTROL Media types]**, **[!UICONTROL Source types]**, and **[!UICONTROL Traffic Source]**). 
 
    Selected filters are displayed on top of the widgets at **[!UICONTROL FILTERING BY:]**. 
 
@@ -33,7 +33,7 @@ You can configure each widget.
 
 * On the KPI status card widget:
 
-  1. Select ![Edit](../assets/icons/Edit.svg) and ![Edit](../assets/icons/Edit.svg) **[!UICONTROL Edit Data]** from the context menu. 
+  1. Select ![Edit](../assets/icons/Edit.svg) and ![Edit](../assets/icons/Edit.svg) **[!UICONTROL Edit data]** from the context menu. 
      
   1. In the **[!UICONTROL KPI status card]** dialog:
      
@@ -43,13 +43,13 @@ You can configure each widget.
    
 * On the other configurable widgets:
 
-  1. Select ![Edit](../assets/icons/Edit.svg) and ![Edit](../assets/icons/Edit.svg) **[!UICONTROL Edit Data]** from the context menu. 
+  1. Select ![Edit](../assets/icons/Edit.svg) and ![Edit](../assets/icons/Edit.svg) **[!UICONTROL Edit data]** from the context menu. 
 
   1. In the **[!UICONTROL Edit Data]** dialog:
 
      1. Select a metric from **[!UICONTROL Select a metric]**, for example **[!UICONTROL Impressions]**.
-     1. Select a category from **[!UICONTROL Select category]**, for example **[!UICONTROL Media Type]**.
-     1. (optional) select a second category from **[!UICONTROL Select second category (optional)]**, for example **[!UICONTROL Traffic Source]**.
+     1. Select a category from **[!UICONTROL Select category]**, for example **[!UICONTROL Media types]**.
+     1. (optional) select a second category from **[!UICONTROL Select second category (optional)]**, for example **[!UICONTROL Traffic sources]**.
      1. Select ![Clock](../assets/icons/Clock.svg) **[!UICONTROL Time]** or ![Calculator](../assets/icons/Calculator.svg) **[!UICONTROL Total]** as the analysis type at **[!UICONTROL Select analysis type]**.
 
         If you select ![Clock](../assets/icons/Clock.svg) **[!UICONTROL Time]**, you can specify the time frequency. Select **[!UICONTROL Daily]**, **[!UICONTROL Weekly]**, **[!UICONTROL Monthly]** or **[!UICONTROL Quarterly]** from **[!UICONTROL Select time frequency]**.

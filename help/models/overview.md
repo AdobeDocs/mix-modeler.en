@@ -29,7 +29,7 @@ A model can optionally include:
 
 ## Create a model
 
-To create a model, use the Mix Modeler step-by-step guided model configuration flow available when you select **[!UICONTROL Guide me]**. See [Create a model](create.md) for more details.
+To create a model, use the Mix Modeler step-by-step guided model configuration flow available when you select **[!UICONTROL Open model canvas]**. See [Create a model](create.md) for more details.
 
 ## Manage models
 
@@ -48,19 +48,12 @@ To view a table of your current models, in the Mix Modeler interface:
     | Conversion event | The conversion you have selected for the model. |
     | Run frequency | The running frequency of training the model. |
     | Last run | The date and time of the last training of the model. |
-    | Status | The status of the last run of the training of the model. <br/><span style="color:green">●</span> Success<br/><span style="color:orange">●</span> Training issue<br/> <span style="color:orange">●</span> Awaiting training <br/><span style="color:red">●</span> Failed|
+    | Status | The status of the last run of the training of the model. <br/><span style="color:green">●</span> Success<br/><span style="color:orange">●</span> Training issue<br/> <span style="color:orange">●</span> Awaiting training <br/><span style="color:red">●</span> Failed <br/><span style="color:gray">●</span> _ (when a last run is in progeress) |
 
     {style="table-layout:auto"}
 
 1. To change the columns displayed for the list, select ![Column settings](../assets/icons/ColumnSetting.svg) and toggle columns on ![Check](../assets/icons/Checkmark.svg) or off.
 
-### Delete a model
-
-To delete a model:
-
-   1. Select the name of the model that you want to delete.
-
-   1. From the context menu, select **[!UICONTROL Delete]** to delete the model. 
 
 ### View details of a model
 
@@ -72,32 +65,37 @@ To view more details of a model:
 
 ### Model insights
 
->[!NOTE]
->
->This selection is only available on successfully trained models.
->
-
 To view insights of a model, in the Mix Modeler interface:
 
    1. Select ![](../assets/icons/FileData.svg) **[!UICONTROL Models]** from the left rail.
 
-   1. Select the name of a model with a **[!UICONTROL Last run status]** of <span style="color:green">●</span> **[!UICONTROL Success]** from the **[!UICONTROL Models]** table.
+   1. Select the name of a model with a **[!UICONTROL Last run status]** of <span style="color:green">●</span> **[!UICONTROL Success]** from the **[!UICONTROL Models]** table. Model insights is only available on successfully trained models.
 
    1. From the context menu, select **[!UICONTROL Model Insights]**. You are redirected to [Model Insights](insights.md).
 
 
 ### Re-score
 
->[!NOTE]
->
->This selection is only available on successfully trained models.
->
 
 To re-score a model, in the Mix Modeler interface:
 
    1. Select ![](../assets/icons/FileData.svg) **[!UICONTROL Models]** from the left rail.
 
-   1. Select the name of a model with a **[!UICONTROL Last run status]** of <span style="color:green">●</span> **[!UICONTROL Success]** from the **[!UICONTROL Models]** table.
+   1. Select the name of a model with a **[!UICONTROL Last run status]** of <span style="color:green">●</span> **[!UICONTROL Success]** from the **[!UICONTROL Models]** table. Re-score is only available on successfully trained models.
 
    1. From the context menu, select **[!UICONTROL Re-score]**. It may take a few minutes to show an updated status for the model.
+
+
+### Delete a model
+
+To delete a model:
+
+   1. Select the name of the model that you want to delete.
+
+   1. From the context menu, select **[!UICONTROL Delete]** to delete the model. 
+
+      >[!WARNING]
+      >
+      >The model is deleted immediately.
+
 

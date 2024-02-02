@@ -25,6 +25,7 @@ The table columns specify details about the conversion:
 | Name | The name of the conversion.  |
 | Revenue | The harmonized data metric to use to calculate revenue from a conversion.  |
 | Conversion metric | The harmonized data metric to use as the conversion metric for analysis. |
+| Category | The conversion category of the conversion. |
 | Created | Date and time of the creation of the conversion. |
 | Last modified | Date and time of the last modification of the conversion. |
 
@@ -36,13 +37,13 @@ To add a conversion, in the ![DataSearch](../assets/icons/DataCheck.svg) **[!UIC
 
 1. Select ![Add](../assets/icons/AddCircle.svg) **[!UICONTROL Add a conversion]**.
 
-1. In the **[!UICONTROL Create Conversion]** dialog:
+1. In the **[!UICONTROL Create conversion]** dialog:
 
     1. Enter a name for **[!UICONTROL Conversion]**, for example `Store Conversions`.
    
     1. Define the **[!UICONTROL Conversion category]**.
 
-       1. Select a value from **[!UICONTROL *Select harmonize...*]**, for example `Conversion Type`.
+       1. Select a value from **[!UICONTROL *Select harmonize...*]**, for example `Conversion types`.
    
        1. Select a value for the operator ![Chevron](../assets/icons/ChevronDown.svg), for example **[!UICONTROL is]**.
 
@@ -52,8 +53,25 @@ To add a conversion, in the ![DataSearch](../assets/icons/DataCheck.svg) **[!UIC
 
     1. Select a harmonized field from **[!UICONTROL Revenue field]**, for example **[!UICONTROL Gross Demand]**.
 
-    1. tT create the conversion, select **[!UICONTROL Create]**. To cancel the creation of a conversion, select **[!UICONTROL Cancel]**.
+    1. To create the conversion, select **[!UICONTROL Create]**. To cancel the creation of a conversion, select **[!UICONTROL Cancel]**.
 
         ![Alt text](../assets/create-conversion.png)
 
 1. When created, the conversion is added to the conversions table.
+
+
+## View a conversion
+
+To view a conversion:
+
+1. Select ![More](../assets/icons/More.svg) when hovering over a conversion name in the table.
+
+1. Select ![View](../assets/icons/ViewDetail.svg) **View**. A dialog shows details of the conversion. See [Add a conversion](#add-a-conversion) for more information. Select **[!UICONTROL Cancel]** to close the dialog.
+
+
+## Delete a conversion
+
+To delete a conversion:
+
+1. Select ![Delete](../assets/icons/Delete.svg) **Delete** when hovering over a conversion name in the table. 
+1. In the **[!UICONTROL Delete conversion]** dialog confirmation dialog select **[!UICONTROL Delete]** to permanently delete the conversion.

@@ -17,7 +17,7 @@ To create a plan, in the ![PLan](../assets/icons/FileChart.svg) **[!UICONTROL Pl
 
         1. Enter a **[!UICONTROL Plan name]**, for example `Demo plan`. Enter a **[!UICONTROL Description]**, for example `Demo plan for Luma company`.
         1. Select a **[!UICONTROL Model]** from **[!UICONTROL _Select an option.._.]**.
-        1. You can select ![LinkOut](../assets/icons/LinkOut.svg) **[!UICONTROL Create model]** to create a model directly from within the plan creation.
+        1. You can select ![LinkOut](../assets/icons/LinkOut.svg) **[!UICONTROL Create model]** to create a model directly from within the plan creation. This will open a new tab in your browser and show the [Models](../models/overview.md) interface.
 
            ![Plan Setup](../assets/plan-setup.png)
 
@@ -64,4 +64,4 @@ To create a plan, in the ![PLan](../assets/icons/FileChart.svg) **[!UICONTROL Pl
 
     1. When finished, select **[!UICONTROL Create]**. 
 
-    1. In the **[!UICONTROL Create plan]** dialog, select **[!UICONTROL Create plan]** to create your plan. Select **[!UICONTROL Cancel]** to cancel the creation of your plan.
+    1. In the **[!UICONTROL Create plan]** dialog, select **[!UICONTROL Create plan]** to create your plan. Select **[!UICONTROL Cancel]** to cancel the creation of your plan. A **[!UICONTROL No work is saved]** dialog is shown to confirm.

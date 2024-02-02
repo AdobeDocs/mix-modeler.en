@@ -51,7 +51,7 @@ To see a table of the available harmonized fields, in the Mix Modeler interface:
 
 1. Select ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** from the left rail.
    
-1. Select **[!UICONTROL Fields]** from the top bar. You see a table of the harmonized fields.
+1. Select **[!UICONTROL Fields]** from the top bar. You see a table of the harmonized fields. If more pages are available, use ![Arrow left](../assets/icons/ChevronLeft.svg) or ![Arrow Right](../assets/icons/ChevronRight.svg) at **[!UICONTROL Page _x_ of _x_]** to move between pages of the table.
 
    The table columns specify details about the harmonized fields
 
@@ -60,10 +60,10 @@ To see a table of the available harmonized fields, in the Mix Modeler interface:
    | Field name             | The name of the harmonized field.  |
    | Display name           | The display name of the harmonized field. This display name is used when defining dataset rules, marketing touchpoint, and conversion definitions.   |
    | Category               | Specifies whether a harmonized data field is a [!UICONTROL Dimension], a [!UICONTROL Metric] or [!UICONTROL Derived]. A derived category is a harmonized field using a metrics-based formula definition. |
-   | Owner                  | Indicates whether a harmonized field is a default one ([!UICONTROL Global]), or is defined by you ([!UICONTROL Client]). |
    | Data type              | Specifies the data type ([!UICONTROL Number], [!UICONTROL String], [!UICONTROL Currency], [!UICONTROL DateTime]).  |
-   | Creation datetime      | Date and time of the creation of the harmonized field. |
-   | Last modified datetime | Data and time of the last modification of the harmonized field. |
+   | Creation date      | Date and time of the creation of the harmonized field. |
+   | Owner                  | Indicates whether a harmonized field is a default one ([!UICONTROL Global]), or is defined by you ([!UICONTROL Client]). |
+   | Last modified date | Data and time of the last modification of the harmonized field. |
    | Formula                | Specifies the formula for a harmonized field based on a derived category. |
 
    {style="table-layout:auto"}
@@ -71,13 +71,11 @@ To see a table of the available harmonized fields, in the Mix Modeler interface:
 1. To search for a specific harmonized field, use ![Search](../assets/icons/Search.svg) **[!UICONTROL *Search harmonized field*]**.
 
 
-
-
 ### Add a harmonized field
 
 To add a harmonized field, in the ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** interface in the Mix Modeler:
 
-1. Select ![Add](../assets/icons/AddCircle.svg)Add field.
+1. Select ![Add](../assets/icons/AddCircle.svg) **[!UICONTROL Add field]**.
 
 1. In the **[!UICONTROL Create]** dialog:
 
@@ -99,13 +97,13 @@ To add a harmonized field, in the ![DataSearch](../assets/icons/DataCheck.svg) *
 
 ### Edit a harmonized field
 
-You can only edit harmonized fields you created earlier. You cannot edit a global harmonized field.
+You can only edit harmonized fields you created earlier (owner is client). You cannot edit a global harmonized field.
 
 To edit a harmonized field, in the ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** interface in the Mix Modeler:
 
 1. Select the harmonized field that you want to edit. For example, **[!UICONTROL Region]**.
 
-1. In the **[!UICONTROL Edit harmonization values]** pane, modify values for **[!UICONTROL Display name]**, **[!UICONTROL Category]**, and **[!UICONTROL Data type]**.
+1. In the **[!UICONTROL Edit harmonization values]** pane, modify values for **[!UICONTROL Display name]**, **[!UICONTROL Category]**, and **[!UICONTROL Data type]**. See [Add a harmonized field](#add-a-harmonized-field) for more information.
 
 1. Select **[!UICONTROL Submit]** to apply the changes to the harmonized field.
 
@@ -113,10 +111,15 @@ To edit a harmonized field, in the ![DataSearch](../assets/icons/DataCheck.svg) 
 
 ### Delete a harmonized field
 
-You can only delete harmonized fields you created earlier. You cannot delete a global harmonized field.
+You can only delete harmonized fields you created earlier (owner is client). You cannot delete a global harmonized field.
 
 To delete a harmonized field, in the ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** interface in the Mix Modeler:
 
 1. Select the harmonized field that you want to delete, for example **[!UICONTROL Region]**.
 
 1. Select ![Delete](../assets/icons/Delete.svg) **[!UICONTROL Delete]** from the **[!UICONTROL Edit harmonization values]** left pane.
+
+   >[!WARNING]
+   >
+   >   The field will be deleted immediately.
+
