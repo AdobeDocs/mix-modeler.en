@@ -32,10 +32,10 @@ This technical documentation guide provides self help assistance for Adobe **Mix
     </td>
   </tr>
   <tr style="border: 0;">
-    <td align="center"><a href="overview.md"><img src="./assets/learn-more-button.svg"></a></td>
-    <td align="center"><a href="./ingest-data/overview.md"><img src="./assets/learn-more-button.svg"></a></td>
-    <td align="center"><a href="./harmonize-data/overview.md"><img src="./assets/learn-more-button.svg"></a></td>
-    <td align="center"><a href="./models/overview.md"><img src="./assets/learn-more-button.svg"></a></td>
+    <td align="center"><a href="/help/overview.md"><img src="./assets/learn-more-button.svg"></a></td>
+    <td align="center"><a href="/help/ingest-data/overview.md"><img src="./assets/learn-more-button.svg"></a></td>
+    <td align="center"><a href="/help/harmonize-data/overview.md"><img src="./assets/learn-more-button.svg"></a></td>
+    <td align="center"><a href="/help/models/overview.md"><img src="./assets/learn-more-button.svg"></a></td>
     </tr>
 </table>
 
@@ -46,25 +46,25 @@ This technical documentation guide provides self help assistance for Adobe **Mix
   <tr style="border: 0;">
     <td>
       <img src="./assets/Data.svg" width="35px"><br/>
-      <strong>Ingest data</strong><br/><a href="./ingest-data/overview">Overview</a> - <a href="./ingest-data/schemas.md">Schemas</a> - <a href="./ingest-data/datasets.md">Datasets</a> 
+      <strong>Ingest data</strong><br/><a href="/help/ingest-data/overview.md">Overview</a> - <a href="/help/ingest-data/schemas.md">Schemas</a> - <a href="/help/ingest-data/datasets.md">Datasets</a> 
     </td>
     <td>
       <img src="./assets/DataCheck.svg" width="35px"><br/>
-      <strong>Harmonize data</strong><br/><a href="./harmonize-data/overview.md">Overview</a> - <a href="./harmonize-data/fields.md">Fields</a>  - <a href="./harmonize-data/dataset-rules.md">Dataset rules</a> - <a href="./harmonize-data/marketing-touchpoints.md">Marketing touchpoints</a> - <a href="./harmonize-data/conversions.md">Conversions</a> - <a href="./harmonize-data/usage-report.md">Usage report</a>  
+      <strong>Harmonize data</strong><br/><a href="/help/harmonize-data/overview.md">Overview</a> - <a href="/help/harmonize-data/fields.md">Fields</a>  - <a href="/help/harmonize-data/dataset-rules.md">Dataset rules</a> - <a href="/help/harmonize-data/marketing-touchpoints.md">Marketing touchpoints</a> - <a href="/help/harmonize-data/conversions.md">Conversions</a> - <a href="/help/harmonize-data/usage-report.md">Usage report</a>  
     </td>
     <td>
       <img src="./assets/FileGear.svg" width="35px"><br/>
-      <strong>Models</strong><br/><a href="./models/overview.md">Overview</a> - <a href="./models/create.md">Create a model</a> - <a href="./models/insights.md">Model insights</a> - <a href="./models/scoring-data.md">Scoring data</a>
+      <strong>Models</strong><br/><a href="/help/models/overview.md">Overview</a> - <a href="/help/models/create.md">Create a model</a> - <a href="/help/models/insights.md">Model insights</a> - <a href="/help/models/scoring-data.md">Scoring data</a>
     </td>
   </tr>
   <tr style="border: 0;">
     <td>
       <img src="./assets/FileChart.svg" width="35px"><br/>
-      <strong>Plans</strong><br/><a href="./plans/overview.md">Plans</a> - <a href="./plans/create.md">Create a plan</a> - <a href="./plans/compare.md">Compare plans</a> - <a href="./plans/edit.md">Edit a plan</a>
+      <strong>Plans</strong><br/><a href="/help/plans/overview.md">Plans</a> - <a href="/help/plans/create.md">Create a plan</a> - <a href="/help/plans/compare.md">Compare plans</a> - <a href="/help/plans/edit.md">Edit a plan</a>
     </td>
     <td>
       <img src="./assets/Dashboard.svg" width="35px"><br/>
-      <strong>Overview</strong><br/><a href="./dashboard/overview.md">Schemas</a> - <a href="./dashboard/harmonized-data.md">Harmonized data</a> - <a href="./dashboard/plans.md">Plans</a>
+      <strong>Overview</strong><br/><a href="/help/dashboard/overview.md">Schemas</a> - <a href="/help/dashboard/harmonized-data.md">Harmonized data</a> - <a href="/help/dashboard/plans.md">Plans</a>
     </td>
         <td>
       <img src="./assets/Learn.svg" width="35px"><br/>
