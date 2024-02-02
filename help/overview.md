@@ -32,10 +32,10 @@ This technical documentation guide provides self help assistance for Adobe **Mix
     </td>
   </tr>
   <tr style="border: 0;">
-    <td align="center"><a href="using/start/quick-start.md"><img src="./assets/learn-more-button.svg"></a></td>
-    <td align="center"><a href="using/start/user-interface.md"><img src="./assets/learn-more-button.svg"></a></td>
-    <td align="center"><a href="using/building-journeys/journey-gs.md"><img src="./assets/learn-more-button.svg"></a></td>
-    <td align="center"><a href="using/campaigns/create-campaign.md"><img src="./assets/learn-more-button.svg"></a></td>
+    <td align="center"><a href="overview.md"><img src="./assets/learn-more-button.svg"></a></td>
+    <td align="center"><a href="./ingest-data/overview.md"><img src="./assets/learn-more-button.svg"></a></td>
+    <td align="center"><a href="./harmonize-data/overview.md"><img src="./assets/learn-more-button.svg"></a></td>
+    <td align="center"><a href="./models/overview.md"><img src="./assets/learn-more-button.svg"></a></td>
     </tr>
 </table>
 
