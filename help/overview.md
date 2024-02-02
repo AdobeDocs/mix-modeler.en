@@ -14,7 +14,7 @@ This technical documentation guide provides self help assistance for Adobe **Mix
 <table style="table-layout:fixed">
   <tr style="border: 0;">
     <td>
-    <a href="overview.md"><img src="./assets/whatis-mm.png"></a>
+    <a href="./overview.md"><img src="./assets/whatis-mm.png"></a>
     <div><strong>Quick start</strong><br/>Get an overview of and insight into the workflow of Mix Modeler.</div>
     </td>
     <td>
@@ -68,7 +68,7 @@ This technical documentation guide provides self help assistance for Adobe **Mix
     </td>
         <td>
       <img src="./assets/Learn.svg" width="35px"><br/>
-      <strong>Tutorials</strong><br/><a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/overview.html?lang=en">Overview</a> - <a href="[using/personalization/personalize.md](https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/use-cases.html?lang=en)">Use cases</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-workflow.html?lang=en">User workflow</a>  - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-interface-tour.html?lang=en">User interface tour</a>
+      <strong>Tutorials</strong><br/><a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/overview.html?lang=en">Overview</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/use-cases.html?lang=en">Use cases</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-workflow.html?lang=en">User workflow</a>  - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-interface-tour.html?lang=en">User interface tour</a>
     </td>
   </tr>
 </table> 
