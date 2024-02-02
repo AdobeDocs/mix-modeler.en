@@ -60,7 +60,7 @@ This technical documentation guide provides self help assistance for Adobe **Mix
   <tr style="border: 0;">
     <td>
       <img src="./assets/FileChart.svg" width="35px"><br/>
-      <strong>Plans</strong><br/><a href="./plans/overview.mdd">Plans</a> - <a href="./plans/create.md">Create a plan</a> - <a href="./plans/compare.md">Compare plans</a> - <a href="./plans/edit.md">Edit a plan</a>
+      <strong>Plans</strong><br/><a href="./plans/overview.md">Plans</a> - <a href="./plans/create.md">Create a plan</a> - <a href="./plans/compare.md">Compare plans</a> - <a href="./plans/edit.md">Edit a plan</a>
     </td>
     <td>
       <img src="./assets/Dashboard.svg" width="35px"><br/>
