@@ -7,7 +7,7 @@ exl-id: aa1018d5-b073-4dfb-b40c-ca16a8970b2f
 ---
 # Mix Modeler overview
 
-See this video for a quick overviww of the Mix Modeler capabilities.
+See this video for a quick overview of the Mix Modeler capabilities.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3424872/?learn=on)
 
@@ -44,3 +44,7 @@ Mix Modeler offers the following capabilities:
 | **Create & compare budget scenarios** | Develop multiple budget plans and compare their impact to make optimal decisions for your business. |
 
 {style="table-layout:auto"}
+
+>[!MORELIKETHIS]
+>
+>[Understand the Mix Modeler workflow](workflow.md)

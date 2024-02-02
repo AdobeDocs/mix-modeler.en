@@ -18,7 +18,7 @@ The Compare plans interface shows information and widgets on:
 * Date range
 * Model
 * Total budget
-* Channel bugetting: **[!UICONTROL AI automated]** or **[!UICONTROL Custom + AI]**
+* Channel budgetting: **[!UICONTROL AI automated]** or **[!UICONTROL Custom + AI]**
 * Planned spend
 * Forecasted ROI
 * ROI breakdown

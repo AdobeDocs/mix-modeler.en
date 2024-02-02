@@ -14,7 +14,7 @@ This technical documentation guide provides self help assistance for Adobe **Mix
 <table style="table-layout:fixed">
   <tr style="border: 0;">
     <td>
-    <a href="/help/overview.md"><img src="./assets/whatis-mm.png"></a>
+    <a href="/help/get-started/about.md"><img src="./assets/whatis-mm.png"></a>
     <div><strong>Quick start</strong><br/>Get an overview of and insight into the workflow of Mix Modeler.</div>
     </td>
     <td>
@@ -32,7 +32,7 @@ This technical documentation guide provides self help assistance for Adobe **Mix
     </td>
   </tr>
   <tr style="border: 0;">
-    <td align="center"><a href="/help/overview.md"><img src="./assets/learn-more-button.svg"></a></td>
+    <td align="center"><a href="/help/get-started/about.md"><img src="./assets/learn-more-button.svg"></a></td>
     <td align="center"><a href="/help/ingest-data/overview.md"><img src="./assets/learn-more-button.svg"></a></td>
     <td align="center"><a href="/help/harmonize-data/overview.md"><img src="./assets/learn-more-button.svg"></a></td>
     <td align="center"><a href="/help/models/overview.md"><img src="./assets/learn-more-button.svg"></a></td>
