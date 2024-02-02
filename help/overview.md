@@ -14,20 +14,20 @@ This technical documentation guide provides self help assistance for Adobe **Mix
 <table style="table-layout:fixed">
   <tr style="border: 0;">
     <td>
-    <a href="./overview.md"><img src="./assets/whatis-mm.png"></a>
+    <a href="/help/overview.md"><img src="./assets/whatis-mm.png"></a>
     <div><strong>Quick start</strong><br/>Get an overview of and insight into the workflow of Mix Modeler.</div>
     </td>
     <td>
-    <a href="./ingest-data/overview.md"><img src="./assets/data-ingestion-mm.png"></a>
+    <a href="/help/ingest-data/overview.md"><img src="./assets/data-ingestion-mm.png"></a>
     <div><strong>Ingest data</strong><br/>Learn how to ingest event and aggregate or summary data into Mix Modeler.</div>
     </td>
     <td>
-    <a href="./harmonize-data/overview.md"><img src="./assets/plan-mm.png"/></a>
+    <a href="/help/harmonize-data/overview.md"><img src="./assets/plan-mm.png"/></a>
     <div><strong>Harmonize data</strong><br/>Learn how to assimilate  aggregate and event data into a consistent data view.. 
     </div>
     </td>
     <td>
-    <a href="./models/overview.md"><img src="./assets/models-mm.png"></a>
+    <a href="/help/models/overview.md"><img src="./assets/models-mm.png"></a>
     <div><strong>Model & Plan</strong><br/>Train and score your models and use the insights for your marketing plans.</div>
     </td>
   </tr>
