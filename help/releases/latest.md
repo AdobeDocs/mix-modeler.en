@@ -19,7 +19,7 @@ These release notes cover the latest release of Mix Modeler. Mix Modeler release
 | **Enhanced downloads** | You can now [download full model insights](../models/insights.md) in Microsoft&reg; Excel format | January 31, 2024 |
 | **Marginal response curves** | [Model insights](../models/insights.md) provides an additional widget to show marginal response curves. | January 31, 2024 |
 | **Data merge preferences** | You can define [data merge preferences](../harmonize-data/dataset-rules.md#data-merge-preferences) for dataset rules for harmonized datasets. | January 31, 2024 | 
-| **Usage report**| The Harmonized datasets UI has an additional [Usage report](../harmonize-data/usage-report.md) tab providing additional insights into usage of models and conversions.  | January 31, 202 |
+| **Usage report**| The Harmonized datasets UI has an additional [Usage report](../harmonize-data/usage-report.md) tab providing additional insights into usage of models and conversions.  | January 31, 2024 |
 | **Updated Plan Insights UI** | The Plan Insights UI is updated, allowing you to select on which ROI and channels to report. | January 31, 2024 |
 
 {style="table-layout:auto"}
