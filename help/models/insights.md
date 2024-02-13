@@ -45,11 +45,15 @@ The Model insights tab shows widgets for:
 
 * Marketing performance summary.
 
+* Marginal response curves.
+
 ![Model - Model insights](../assets/model-model-insights.png)
 
 You can hover over individual chart elements in each widget to display a popover with more details.
 
 To download a CSV file containing the data for the widget, select ![Download](../assets/icons/Download.svg).
+
+To download full model insights data in Microsoft&reg; Excel format, select ![Download](../assets/icons/Download.svg) **[!UICONTROL Download data]**. 
 
 
 
