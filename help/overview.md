@@ -7,7 +7,7 @@ exl-id: 3427c338-f2a0-416b-bb4c-d8fef929c38a
 ---
 # Adobe Mix Modeler guide
 
-This technical documentation guide provides self help assistance for Adobe **Mix Modeler**. Mix Modeler is an Adobe Experience Cloud application that measures campaigns and optimizes planning holistically across all channels: paid, earned, and owned. Mix Modeler is build on top of Adobe Experience Platform and powered by Adobe Sensei. 
+This technical documentation guide provides self help assistance for Adobe **Mix Modeler**. Mix Modeler is an Adobe Experience Cloud application that measures campaigns and optimizes planning holistically across all channels: paid, earned, and owned. Mix Modeler is built on top of Adobe Experience Platform and powered by Adobe Sensei. 
 
 ## Start with the basics
 
