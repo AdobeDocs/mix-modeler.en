@@ -56,10 +56,9 @@ To download a CSV file containing the data for the widget, select ![Download](..
 To download full model insights data in Microsoft&reg; Excel format, select ![Download](../assets/icons/Download.svg) **[!UICONTROL Download data]**. 
 
 
-
-
 ## Model quality
 
+<!--
 The Model quality tab shows widgets for measuring:
 
 * R2 (R-squared), which tells how well the data fits the regression model (the goodness of fit).
@@ -71,3 +70,30 @@ The Model quality tab shows widgets for measuring:
 ![Model quality](../assets/model-quality.png)
 
 To download a CSV file containing the data for the widget, select ![More](../assets/icons/More.svg) in the widget and from the context menu select ![Download](../assets/icons/Download.svg) **[!UICONTROL Download as CSV]**.
+
+-->
+
+![Model quality assessment](/help/assets/model-quality-assessment.png)
+The model quality tabs shows a 
+
+  * [!UICONTROL Model Assessment] visualization, which you can breakdown on Actual vs. Predicted or Residual conversions.
+
+     To breakdown the visualization, select **[!UICONTROL Actual vs. Predicted]** or **[!UICONTROL Residuals]** from the **[!UICONTROL Breakdown]** list.
+
+  * [!UICONTROL Model fitting metrics] table, showing the following colunmns for each conversion metrics:
+  
+    * Actual Conversion
+    
+    * Modeled Conversion
+    
+    * Residual Conversion (difference between actual and modeled conversion)
+    
+    * Model quality score values:
+
+      * R2 (R-squared), which tells how well the data fits the regression model (the goodness of fit).
+
+      * MAPE (Mean Absolute Percentage Error), which is one of the most commonly used KPIs to measure forecast accuracy and expresses the forecast error as a percentage of the actual value.
+
+      * RMSE (Root Mean Square Error): which shows the average "error", weighted according to the square of the error.
+
+    To download a CSV file containing the data for the table, select ![Download](../assets/icons/Download.svg).

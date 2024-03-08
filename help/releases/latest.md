@@ -16,6 +16,7 @@ These release notes cover the latest release of Mix Modeler. Mix Modeler release
 
 | Feature | Description | General Availability |
 |---|---|---|
+| **Model quality update** | [Model quality](/help/models/insights.md) in Model insights now shows a visualization for the model assessment and a table with model fitting metrics. | March 24, 2024 |
 | **Enhanced downloads** | You can now [download full model insights](../models/insights.md) in Microsoft&reg; Excel format | January 31, 2024 |
 | **Marginal response curves** | [Model insights](../models/insights.md) provides an additional widget to show marginal response curves. | January 31, 2024 |
 | **Data merge preferences** | You can define [data merge preferences](../harmonize-data/dataset-rules.md#data-merge-preferences) for dataset rules for harmonized datasets. | January 31, 2024 | 
