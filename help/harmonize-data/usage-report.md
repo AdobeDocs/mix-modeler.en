@@ -4,8 +4,8 @@ description: Discover how your harmonized data is used in models (for training a
 feature: Harmonized Data
 hide: yes
 hidefromtoc: yes
+exl-id: 6c32f978-8a3e-4878-bb6b-550f1750d6b7
 ---
-
 # Usage report
 
 To see an usage report of your harmonized data:
