@@ -40,7 +40,7 @@ To create a dataset rule, in the ![DataSearch](../assets/icons/DataCheck.svg) **
 
 In the **[!UICONTROL Create]** screen, 
  
-1. In **[!UICONTROL Dataset details]**, select a dataset from **[!UICONTROL Select dataset]** to begin configuration. In the list, datasets are categorized in **[!UICONTROL Consumer Experience Events]**, **[!UICONTROL Adobe Analytics]**, **[!UICONTROL Experience Event]** and **[!UICONTROL Summary]**.
+1. In **[!UICONTROL Dataset details]**, select a dataset from **[!UICONTROL Select dataset]** to begin configuration. In the list, datasets are categorized in **[!UICONTROL Consumer Experience Events]**, **[!UICONTROL Adobe Analytics]**, **[!UICONTROL Experience Event]** and, **[!UICONTROL Summary]**.
 
 1. Select a day for the **[!UICONTROL Start of the week]**.
 
@@ -48,13 +48,13 @@ In the **[!UICONTROL Create]** screen,
 
 1. When you have selected a dataset of **[!UICONTROL Summary]** category:
 
-   1. To define whether data for the dataset needs to be aggregated or is replacing existing data, select **[!UICONTROL Aggregation]** or **[!UICONTROL Replacement]** for **[!UICONTROL Data restatement is by]**. 
+   1. To define whether data for the dataset must be aggregated or is replacing existing data, select **[!UICONTROL Aggregation]** or **[!UICONTROL Replacement]** for **[!UICONTROL Data restatement is by]**. 
    
    1. Map each of the **[!UICONTROL Available dataset fields]** to corresponding **[!UICONTROL Standard harmonized fields]** in **[!UICONTROL Map to harmonized fields]**. If you do not want to map a dataset field to a harmonized field, explicitly select **[!UICONTROL -- None --]**.
 
    1. If you need a new harmonized field, not available from the list, select **[!UICONTROL Create New]** to create a new harmonized field. You see the dialog as outlined in [Add a new harmonized field](fields.md#add-a-harmonized-field) to quickly allow you to add a new harmonized field.
 
-   1. When the mapping is completed for all fields for the rule, select **[!UICONTROL Save as draft]** to save a draft version of the rule or **[!UICONTROL Save]** to save and activate the rule.  Select **[!UICONTROL Cancel]** to cancel the rule configuration.
+   1. When the mapping is completed for all fields for the rule, select **[!UICONTROL Save as draft]** to save a draft version of the rule or **[!UICONTROL Save]** to save and activate the rule. Select **[!UICONTROL Cancel]** to cancel the rule configuration.
 
       ![Create dataset rules](../assets/dataset-create-summary.png)
   
@@ -99,7 +99,7 @@ In the **[!UICONTROL Create]** screen,
 
 1. Select ![Add](../assets/icons/AddCircle.svg) **[!UICONTROL Add field]** to define additional fields.
 
-When finished,select **[!UICONTROL Save as draft]** to save a draft version of the rule or **[!UICONTROL Save]** to save and activate the rule.  Select **[!UICONTROL Cancel]** to cancel the rule configuration.
+When finished, select **[!UICONTROL Save as draft]** to save a draft version of the rule or **[!UICONTROL Save]** to save and activate the rule. Select **[!UICONTROL Cancel]** to cancel the rule configuration.
 
 
 ### Edit a dataset rule
@@ -115,7 +115,7 @@ To edit a dataset rule, in the ![DataSearch](../assets/icons/DataCheck.svg) **[!
 To delete a dataset rule, in the ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** interface in Mix Modeler:
 
 1. Select ![More](../assets/icons/More.svg) in the **[!UICONTROL Dataset]** column for the dataset rule that you want to delete.
-1. From the context menu, select ![Delete](../assets/icons/Delete.svg) **[!UICONTROL Delete]** to delete the dataset rule. You will be prompted for confirmation. Select **[!UICONTROL Delete]** to permanently delete the selected dataset rule..
+1. From the context menu, select ![Delete](../assets/icons/Delete.svg) **[!UICONTROL Delete]** to delete the dataset rule. You are prompted for confirmation. Select **[!UICONTROL Delete]** to permanently delete the selected dataset rule.
    
 
 ## Sync data
@@ -126,7 +126,7 @@ To sync data between your harmonized data and summary and / or event datasets, f
 
 1. From the **[!UICONTROL Sync data for dataset rules]** dialog, select either **[!UICONTROL Refresh harmonized data for summary datasets]**, **[!UICONTROL Refresh harmonized data for event datasets]**, or **[!UICONTROL Refresh harmonized data for both summary + event datasets]**.
    
-1. Select **[!UICONTROL Sync]** to start the synchronization based on the defined dataset rules between harmonized data and data in datasets. To cancel the synchronization, select **[!UICONTROL Cancel]**.
+1. To start the synchronization based on the defined dataset rules between harmonized data and data in datasets, select **[!UICONTROL Sync]**. To cancel the synchronization, select **[!UICONTROL Cancel]**.
 
    ![Sync data](../assets/sync-data.png)
 

@@ -11,7 +11,7 @@ The data in Mix Modeler is of different nature depending on the source of data. 
 * aggregate or summary data, for example collected from walled garden data sources or offline advertising data gathered (like spend) from running a billboard campaign, an event, or a physical ad campaign,
 * event data, for example from first party data sources. This event data can be data collected through the Adobe Analytics source connector from Adobe Analytics, or through the Experience Platform Web or Mobile SDK or Edge Network API, or data ingested using source connectors.
 
-The harmonization service of Mix Modeler assimilates the aggregate and event data into a consistent data view. This data view, combined with internal and external factors data, is the source for the models in Mix Modeler. The service uses the highest granularity across the different datasets. For example. if one dataset has a granularity of monthly and remaining datasets do have weekly and daily granularity, the harmonization service will create a data view using monthly granularity.
+The harmonization service of Mix Modeler assimilates the aggregate and event data into a consistent data view. This data view, combined with internal and external factors data, is the source for the models in Mix Modeler. The service uses the highest granularity across the different datasets. For example, if one dataset has a granularity of monthly and remaining datasets do have weekly and daily granularity, the harmonization service creates a data view using monthly granularity.
 
 ## An example of harmonized data
 
@@ -112,7 +112,7 @@ To see your harmonized data, in the Mix Modeler interface:
 
 1. Select ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized datasets]** from the left rail.
    
-1. Select **[!UICONTROL Harmonized Data]** from the top bar. You see a recap of your harmonized data based on the fields, dataset rules, marketing touchpoints and conversions you have defined.
+1. Select **[!UICONTROL Harmonized Data]** from the top bar. Aa recap of your harmonized data is shown based on the fields, dataset rules, marketing touchpoints and conversions you have defined.
 
     1. To redefine the period on which the recap of harmonized data is based, enter a date range for **[!UICONTROL Date range]** or use ![Calendar](../assets/icons/Calendar.svg) to select a data range.
 
