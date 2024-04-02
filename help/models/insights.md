@@ -76,19 +76,19 @@ To download a CSV file containing the data for the widget, select ![More](../ass
 ![Model quality assessment](/help/assets/model-quality-assessment.png)
 The model quality tabs shows a 
 
-  * [!UICONTROL Model Assessment] visualization, which you can breakdown on Actual vs. Predicted or Residual conversions.
+* [!UICONTROL Model Assessment] visualization, which you can breakdown on Actual vs. Predicted or Residual conversions.
 
-     To breakdown the visualization, select **[!UICONTROL Actual vs. Predicted]** or **[!UICONTROL Residuals]** from the **[!UICONTROL Breakdown]** list.
+  To breakdown the visualization, select **[!UICONTROL Actual vs. Predicted]** or **[!UICONTROL Residuals]** from the **[!UICONTROL Breakdown]** list.
 
-  * [!UICONTROL Model fitting metrics] table, showing the following columns for each conversion metrics:
+* [!UICONTROL Model fitting metrics] table, showing the following columns for each conversion metrics:
   
-    * Actual Conversion
+  * Actual Conversion
     
-    * Modeled Conversion
+  * Modeled Conversion
     
-    * Residual Conversion (difference between actual and modeled conversion)
+  * Residual Conversion (difference between actual and modeled conversion)
     
-    * Model quality score values:
+  * Model quality score values:
 
       * R2 (R-squared), which tells how well the data fits the regression model (the goodness of fit).
 
@@ -96,4 +96,4 @@ The model quality tabs shows a
 
       * RMSE (Root Mean Square Error): which shows the average "error", weighted according to the square of the error.
 
-    To download a CSV file containing the data for the table, select ![Download](../assets/icons/Download.svg).
+  To download a CSV file containing the data for the table, select ![Download](../assets/icons/Download.svg).
