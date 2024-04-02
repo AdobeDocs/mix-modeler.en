@@ -39,7 +39,7 @@ The Historical overview tab shows widgets for:
 
 The Model insights tab shows widgets for:
 
-* Contribution by date and base media. The stacked graph is ordered: Base at the bottom, Non spend channels in the middle, and Spend channels on top.
+* Contribution by date and base media. The stacked graph is ordered: Base at the bottom, Non-spend channels in the middle, and Spend channels on top.
 
 * Contribution by channel.
 
@@ -56,18 +56,29 @@ To download a CSV file containing the data for the widget, select ![Download](..
 To download full model insights data in Microsoft&reg; Excel format, select ![Download](../assets/icons/Download.svg) **[!UICONTROL Download data]**. 
 
 
-
-
 ## Model quality
 
-The Model quality tab shows widgets for measuring:
+![Model quality assessment](/help/assets/model-quality-assessment.png)
+The model quality tab shows a 
 
-* R2 (R-squared), which tells how well the data fits the regression model (the goodness of fit).
+* [!UICONTROL Model Assessment] visualization, which you can break down on Actual vs. Predicted or Residual conversions.
 
-* MAPE (Mean Absolute Percentage Error), which is one of the most commonly used KPIs to measure forecast accuracy and expresses the forecast error as a percentage of the actual value.
+  To break down the visualization, select **[!UICONTROL Actual vs. Predicted]** or **[!UICONTROL Residuals]** from the **[!UICONTROL Breakdown]** list.
 
-* RMSE (Root Mean Square Error): which shows the average "error", weighted according to the square of the error.
+* [!UICONTROL Model fitting metrics] table, showing the following columns for each conversion metric:
+  
+  * Actual Conversion
+    
+  * Modeled Conversion
+    
+  * Residual Conversion (difference between actual and modeled conversion)
+    
+  * Model quality score values:
 
-![Model quality](../assets/model-quality.png)
+      * R2 (R-squared), which tells how well the data fits the regression model (the goodness of fit).
 
-To download a CSV file containing the data for the widget, select ![More](../assets/icons/More.svg) in the widget and from the context menu select ![Download](../assets/icons/Download.svg) **[!UICONTROL Download as CSV]**.
+      * MAPE (Mean Absolute Percentage Error), which is one of the most commonly used KPIs to measure forecast accuracy and expresses the forecast error as a percentage of the actual value.
+
+      * RMSE (Root Mean Square Error): which shows the average "error", weighted according to the square of the error.
+
+  To download a CSV file containing the data for the table, select ![Download](../assets/icons/Download.svg).
