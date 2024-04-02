@@ -80,7 +80,7 @@ The model quality tabs shows a
 
      To breakdown the visualization, select **[!UICONTROL Actual vs. Predicted]** or **[!UICONTROL Residuals]** from the **[!UICONTROL Breakdown]** list.
 
-  * [!UICONTROL Model fitting metrics] table, showing the following colunmns for each conversion metrics:
+  * [!UICONTROL Model fitting metrics] table, showing the following columns for each conversion metrics:
   
     * Actual Conversion
     

@@ -47,6 +47,8 @@ In the **[!UICONTROL Create]** screen,
 1. Select **[!UICONTROL Daily]**, **[!UICONTROL Weekly]**, **[!UICONTROL Monthly]** or **[!UICONTROL Yearly]** for **[!UICONTROL Granularity]**.
 
 1. When you have selected a dataset of **[!UICONTROL Summary]** category:
+
+   1. To define whether data for the dataset needs to be aggregated or is replacing existing data, select **[!UICONTROL Aggregation]** or **[!UICONTROL Replacement]** for **[!UICONTROL Data restatement is by]**. 
    
    1. Map each of the **[!UICONTROL Available dataset fields]** to corresponding **[!UICONTROL Standard harmonized fields]** in **[!UICONTROL Map to harmonized fields]**. If you do not want to map a dataset field to a harmonized field, explicitly select **[!UICONTROL -- None --]**.
 
