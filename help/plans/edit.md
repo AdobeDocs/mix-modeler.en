@@ -29,7 +29,12 @@ When finished retrieving, you see an overview of your plan, consisting of:
 
 1. Select **[!UICONTROL X]** or **[!UICONTROL  %]** on how to **[!UICONTROL View ROI]**. 
 
-1. To download a CSV file containing the data of the Date range breakdown, select ![Download](../assets/icons/Download.svg) **[!UICONTROL Download CSV]**. From the context menu, select ![Download](../assets/icons/Download.svg) **[!UICONTROL Detailed CSV]** for detaikled data in CSV format, or ![Download](../assets/icons/Download.svg) **[!UICONTROL Summary CSV]** for summary data in CSV format.
+1. To download a CSV file containing the data of the Date range breakdown, select ![Download](../assets/icons/Download.svg) **[!UICONTROL Download CSV]**. From the context menu:
+
+   - Select ![Download](../assets/icons/Download.svg) **[!UICONTROL Detailed CSV]** for detailed data in CSV format, or 
+   - Select ![Download](../assets/icons/Download.svg) **[!UICONTROL Summary CSV]** for summary data in CSV format. 
+
+   Detailed data is granular data keyed by week. Summary data is data keyed by the model-provided date range.
 
 1. To view the Date range breakdown by category of channels, select **[!UICONTROL All channels]**, **[!UICONTROL Paid channels]**, or **[!UICONTROL Non-paid channels]** from the **[!UICONTROL View]** selection.
 
