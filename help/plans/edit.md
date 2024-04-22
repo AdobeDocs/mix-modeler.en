@@ -31,7 +31,7 @@ When finished retrieving, you see an overview of your plan, consisting of:
 
 1. To download a CSV file containing the data of the Date range breakdown, select ![Download](../assets/icons/Download.svg) **[!UICONTROL Download CSV]**. From the context menu:
 
-   - Select ![Download](../assets/icons/Download.svg) **[!UICONTROL Detailed CSV]** for detailed data in CSV format, or 
+   - Select ![Download](../assets/icons/Download.svg) **[!UICONTROL Detailed CSV]** for detailed data in CSV format. 
    - Select ![Download](../assets/icons/Download.svg) **[!UICONTROL Summary CSV]** for summary data in CSV format. 
 
    Detailed data is granular data keyed by week. Summary data is data keyed by the model-provided date range.
