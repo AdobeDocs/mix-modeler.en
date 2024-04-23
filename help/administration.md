@@ -10,7 +10,7 @@ Use the [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-con
 
 For Mix Modeler to function properly, you must set the correct permissions.
 
-In the Adobe Experience Cloud UI, 
+In the Adobe Experience Cloud UI: 
 
 1. Select **[!UICONTROL Permissions]** from the left rail, underneath **[!UICONTROL ADMINISTRATION]**.
 
@@ -34,7 +34,7 @@ In the Adobe Experience Cloud UI,
       ![Mix Modeler RBAC](assets/mix-modeler-rbac.png)
 
 
-1. Ensure you select additional permissions for the role. For example permissions for:
+1. Ensure you select additional permissions for the role. For example to view or manage datasets and schemas, you would select:
 
     - **[!UICONTROL Data Management]**: select the relevant options: **[!UICONTROL View Datasets]** and / or **[!UICONTROL Manage Datasets]**.
 
