@@ -6,6 +6,8 @@ exl-id: 76d6d15d-a838-4ee2-9929-e55ea8946b80
 ---
 # Audit
 
+{{release-limited-testing}}
+
 You can audit what users are doing in Mix Modeler, using the Audit interface part of the Experience Platform and embedded in the Mix Modeler UI.
 
 To inspect the audit log, in the Mix Modeler interface:
