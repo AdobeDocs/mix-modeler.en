@@ -34,11 +34,11 @@ In the Adobe Experience Cloud UI:
       ![Mix Modeler RBAC](assets/mix-modeler-rbac.png)
 
 
-1. Ensure you select additional permissions for the role. For example to view or manage datasets and schemas, you would select:
+1. Ensure you select additional permissions for the role. For example, to view or manage datasets and schemas, you would select:
 
-    - **[!UICONTROL Data Management]**: select the relevant options: **[!UICONTROL View Datasets]** and / or **[!UICONTROL Manage Datasets]**.
+    - **[!UICONTROL Data Management]**: select the relevant options: **[!UICONTROL View Datasets]** or **[!UICONTROL Manage Datasets]**.
 
-    - **[!UICONTROL Data Modeling]**: select the relevant options: **[!UICONTROL Manage Schemas]** and / or **[!UICONTROL View Schemas]**.
+    - **[!UICONTROL Data Modeling]**: select the relevant options: **[!UICONTROL Manage Schemas]** or **[!UICONTROL View Schemas]**.
 
     <!--
     * **[!UICONTROL Data Governance]**: ensure you select **[!UICONTROL View User Activity Log]** and **[!UICONTROL View Data Usage Policies]**.
@@ -48,4 +48,4 @@ In the Adobe Experience Cloud UI:
 
     Select **[!UICONTROL Save]** to save the permissions.
 
-1. In **[!UICONTROL Details]** within **[!UICONTROL Role]**, add the appropriate **[!UICONTROL Users]** and/or **[!UICONTROL User groups]** to provide users access to Mix Modeler.
+1. In **[!UICONTROL Details]** within **[!UICONTROL Role]**, add the appropriate **[!UICONTROL Users]** or **[!UICONTROL User groups]** to provide users access to Mix Modeler.
