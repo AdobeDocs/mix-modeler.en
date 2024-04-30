@@ -44,6 +44,9 @@ user-guide-description: Learn how to use Mix Modeler.
 
 + [Use cases](use-cases.md)
 
++ Privacy {#privacy}
+  + [Audit](privacy/audit.md)
+
 + [Administration](administration.md)
 
 + Releases {#releases}
