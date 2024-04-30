@@ -49,4 +49,3 @@ In the Adobe Experience Cloud UI:
     Select **[!UICONTROL Save]** to save the permissions.
 
 1. In **[!UICONTROL Details]** within **[!UICONTROL Role]**, add the appropriate **[!UICONTROL Users]** or **[!UICONTROL User groups]** to provide users access to Mix Modeler.
-
