@@ -1,4 +1,4 @@
-# Snipped
+# Snippets
 
 ## Release phase Limited Testing {#release-limited-testing}
 
