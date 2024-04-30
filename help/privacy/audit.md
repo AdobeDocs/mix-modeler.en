@@ -6,7 +6,9 @@ exl-id: 76d6d15d-a838-4ee2-9929-e55ea8946b80
 ---
 # Audit
 
-{{release-limited-testing}}
+>[!AVAILABILITY]
+>
+>The functionality described in this article is in the Limited Testing phase of release and might not be available yet in your environment. This note will be removed when the functionality is generally available. For information about the latest Mix Modeler releases, see [Mix Modeler releases](/help/releases/latest.md).
 
 You can audit what users are doing in Mix Modeler, using the Audit interface part of the Experience Platform and embedded in the Mix Modeler UI.
 
