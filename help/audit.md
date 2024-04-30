@@ -14,7 +14,7 @@ You can audit what users are doing in Mix Modeler, using the Audit interface par
 
 To inspect the audit log, in the Mix Modeler interface:
 
-1. Select ![Task List](../assets/icons/TaskList.svg) **[!UICONTROL Audits]** from **[!UICONTROL PRIVACY]**.
+1. Select ![Task List](/help/assets/icons/TaskList.svg) **[!UICONTROL Audits]** from **[!UICONTROL PRIVACY]**.
 
 1. In **[!UICONTROL Audits]** you can find the **[!UICONTROL Activity log]**. The Activity log will show entries for the following Mix Modeler categories, actions and status. 
 
@@ -38,11 +38,11 @@ To inspect the audit log, in the Mix Modeler interface:
 
 1. Select an entry in the Activity log to open a panel for more details.
 
-   ![Mix Modeler Audit](../assets/mix-modeler-audit.png)
+   ![Mix Modeler Audit](/help/assets/mix-modeler-audit.png)
 
-1. To filter on **[!UICONTROL Category]**, **[!UICONTROL Action]**, **[!UICONTROL Request ID]**, **[!UICONTROL User]**, **[!UICONTROL Status]** or **[!UICONTROL Date]** range, select ![Filter](../assets/icons/Filter.svg).
+1. To filter on **[!UICONTROL Category]**, **[!UICONTROL Action]**, **[!UICONTROL Request ID]**, **[!UICONTROL User]**, **[!UICONTROL Status]** or **[!UICONTROL Date]** range, select ![Filter](/help/assets/icons/Filter.svg).
 
-1. To modify the columns displayed in the Activity log, select ![Columns](../assets/icons/ColumnSetting.svg) and in the **[!UICONTROL Customize table]** dialog select the columns to show. Select **[!UICONTROL Apply]** to apply the selection, **[!UICONTROL Cancel]** to cancel the selection.
+1. To modify the columns displayed in the Activity log, select ![Columns](/help/assets/icons/ColumnSetting.svg) and in the **[!UICONTROL Customize table]** dialog select the columns to show. Select **[!UICONTROL Apply]** to apply the selection, **[!UICONTROL Cancel]** to cancel the selection.
 
-1. To download the audit log, select ![Download](../assets/icons/Download.svg) **[!UICONTROL Download log]**. In the **[!UICONTROL Download log]** dialog select either **[!UICONTROL CSV]** or **[!UICONTROL JSON]** as the format and select **[!UICONTROL Download]**.
+1. To download the audit log, select ![Download](/help/assets/icons/Download.svg) **[!UICONTROL Download log]**. In the **[!UICONTROL Download log]** dialog select either **[!UICONTROL CSV]** or **[!UICONTROL JSON]** as the format and select **[!UICONTROL Download]**.
 
