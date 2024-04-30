@@ -55,4 +55,3 @@ user-guide-description: Learn how to use Mix Modeler.
 
 + [Glossary](glossary.md)
 
-
