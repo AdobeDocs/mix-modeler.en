@@ -7,9 +7,16 @@ exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
 ---
 # Current Mix Modeler release notes
 
-**Last update**: April 1, 2024.
+**Last update**: May 29, 2024.
 
 These release notes cover the latest release of Mix Modeler. Mix Modeler releases operate on a continuous delivery model which allows for an approximate monthly release cadence. Accordingly, these release notes get updated, so  check them regularly.
+
+## May 2024
+
+| Feature | Description | General Availability |
+|---|---|---|
+| **Data merge preferences** | [Data merge preferences](../harmonize-data/dataset-rules.md#data-merge-preferences) assists in resolving conflicts when data from summarized and event data sources are merged. | May 29, 2024 | 
+| **Field-level access control** | When defining dataset rules, Experience Platform's [attribute based access control](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview) is enforced on a [field-level](../harmonize-data/dataset-rules.md#field-level-access-control). | May 29, 2024 |
 
 
 ## April 2024
