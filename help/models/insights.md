@@ -138,7 +138,7 @@ To choose the breakdown type, select **[!UICONTROL Breakdown by channel]** or **
 
 To see details, hover over any of the chart elements.
 
-### Top campaigns
+### [!UICONTROL Top campaigns]
 
 The Top campaigns widget shows a table of the top campaigns with columns for Campaign name, Channel, Media type and Incremental conversions.
 
@@ -173,9 +173,9 @@ The positions [!UICONTROL Starter], [!UICONTROL Player] and [!UICONTROL Closer] 
 | [!UICONTROL Closer] | Indicates whether the touchpoint is the last touch before conversion.| 
 
 
-### Top conversion paths
+### [!UICONTROL Top conversion paths]
 
-The Top conversion paths visualization shows the top 5 conversion paths based on the selected attribution models. 
+The [!UICONTROL Top conversion paths] visualization shows the top 5 conversion paths based on the selected attribution models. 
 
 For each conversion path, you see:
 
