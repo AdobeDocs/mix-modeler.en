@@ -48,3 +48,27 @@ Mix Modeler offers the following capabilities:
 >[!MORELIKETHIS]
 >
 >[Understand the Mix Modeler workflow](workflow.md)
+
+
+### Multi-Touch Attribution
+
+The multi-touch attribution in Mix Modeler is used to attribute credits to touchpoints leading to conversion events. This attribution can be used by marketers to help quantify the marketing impact of each individual marketing touchpoint across customer journeys. Examples of touchpoints include display ad impressions, email sends, email opens and paid search clicks.
+
+Mix Modeler's multi-touch attribution supports two categories of scores:
+
+* Algorithmic scores, which include incremental and influenced scores:
+  * Influenced score is the fraction of the conversion that each marketing touchpoint is responsible for.
+  * Incremental score isthe amount of marginal imnpact directly caused by a marketing toucpoint. This score removes the baseline (the portion of conversion attained without any marketing activities) from the influenced score.
+    
+* Rule-based scores, which include First touch, Last touch, Linear, U-shaped, and Time-Decay.
+
+You use the multi-touch attribution capability of Mix Modeler in the following use cases:
+
+* Executive reporting: Allow executives to understand the true incremental impact of marketing, both as a whole and by channel, region, SKU, etc.
+* Budget allocation: Inform budget allocation decisions across marketing channel.
+* Campaign optimization: Within each channel, understand which campaigns, creatives, and keywords are working better for which SKUs or Geos. This allows you to look at each channel so the marketing team can optimize their tactics.
+* Full-funnel attribution: Understand marketing's impact across the entire customer journey. For example, free account signup to paid conversion and beyond.
+* Partner evaluations: Evaluate effectiveness of agencies and partners, based on attribution results.
+
+See [Model Insights - Attribution](../models/insights.md#attribution) on how to access the multi-touch attribution insights within Mix Modeler.
+
