@@ -153,7 +153,7 @@ To ensure accurate model predictions, you can define data merge preferences:
 
    ![Data merge preferences](../assets/data-merge-preferences.png)
 
-   * Select a **[!UICONTROL Default metric preference]**. The selected default metric preference is applied when, during harmonization, multiple sources of data update a metric field for a given channel. The preference is applied at the sandbox level, unless overridden for specific metric based preferences.
+   * Select a **[!UICONTROL Default metric preference]**. The selected default metric preference is applied when, during harmonization, multiple sources of data update a metric field for a given channel. The preference is applied at the sandbox level, unless overridden for specific metric based preferences. You can select between **[!UICONTROL Summary data]**, **[!UICONTROL Event data]** and **[!UICONTROL Sum of summmary and event data]**.
 
    * To add specific metric based preferences:
    
@@ -175,7 +175,7 @@ To ensure accurate model predictions, you can define data merge preferences:
 
 1. Select **[!UICONTROL Save]** to save the data merge preferences. A re-sync of the data is initiated. <br/>Select **[!UICONTROL Cancel]** to cancel.
 
-<!--
+
 ## Field-level access control
 
 When configuring dataset rules for harmonized datasets, Experience Platform's [attribute based access control](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview) is enforced on a field-level. A field is restricted when a label is attached to a schema field and an active policy is enabled that denies access for you to that field. As a result:
@@ -183,5 +183,3 @@ When configuring dataset rules for harmonized datasets, Experience Platform's [a
 * you do not see the schema fields that are restricted for you when you create a dataset rule, 
 * you are not able to view or edit the mapping of one or more schema fields that are restricted for you. When you edit or view a dataset rule containing such restricted fields, you see the following screen.
   ![Action not permitted](../assets/action-not-permitted.png)
-
--->
