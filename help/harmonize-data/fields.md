@@ -29,10 +29,10 @@ The default available global harmonization fields in Mix Modeler are:
 | dataset                | Dataset                | Dimension | String    |           |
 | date_type              | Date Type              | Dimension | String    | day, week |
 | emailssent             | Emails Sent            | Metric    | Number    |           |
-| event_date             | Date                   | Dimension | DateTime  |           |
+| event_date             | Date                   | Dimension | Date time  |           |
 | gross_demand           | Gross Demand           | Metric    | Currency  |           |
 | impressions            | Impessions             | Metric    | Number    |           |
-| last_updated_date      | Last Updated Date      | Dimension | DateTime  |           |
+| last_updated_date      | Last Updated Date      | Dimension | Date time  |           |
 | linkvisits             | Link Visits            | Metric    | Number    |           |
 | mediatype              | Media Type             | Dimension | String    |           |
 | net_sales              | Net Sales              | Metric    | Currency  |           |
@@ -60,7 +60,7 @@ To see a table of the available harmonized fields, in the Mix Modeler interface:
    | Field name             | The name of the harmonized field.  |
    | Display name           | The display name of the harmonized field. This display name is used when defining dataset rules, marketing touchpoint, and conversion definitions.   |
    | Category               | Specifies whether a harmonized data field is a [!UICONTROL Dimension], a [!UICONTROL Metric] or [!UICONTROL Derived]. A derived category is a harmonized field using a metrics-based formula definition. |
-   | Data type              | Specifies the data type ([!UICONTROL Number], [!UICONTROL String], [!UICONTROL Currency], [!UICONTROL DateTime]).  |
+   | Data type              | Specifies the data type ([!UICONTROL Number], [!UICONTROL String], [!UICONTROL Currency], [!UICONTROL Date time]).  |
    | Creation date      | Date and time of the creation of the harmonized field. |
    | Owner                  | Indicates whether a harmonized field is a default one ([!UICONTROL Global]), or is defined by you ([!UICONTROL Client]). |
    | Last modified date | Data and time of the last modification of the harmonized field. |
@@ -87,7 +87,7 @@ To add a harmonized field, in the ![DataSearch](../assets/icons/DataCheck.svg) *
 
     1. Select a **[!UICONTROL Data type]**.
        
-       - **[!UICONTROL String]** or **[!UICONTROL DateTime]**, when Category selected is Dimension.  
+       - **[!UICONTROL String]** or **[!UICONTROL Date time]**, when Category selected is Dimension.  
        - **[!UICONTROL Number]** or **[!UICONTROL Currency]** when Category selected is Metric or Derived.
 
     1. Select **[!UICONTROL Submit]** to add the harmonized field. Select **[!UICONTROL Close]** to close the dialog without adding the harmonized field.
