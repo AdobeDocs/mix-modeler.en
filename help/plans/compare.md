@@ -20,9 +20,12 @@ The Compare plans interface shows information and widgets on:
 * Total budget
 * Channel budgetting: **[!UICONTROL AI automated]** or **[!UICONTROL Custom + AI]**
 * Planned spend
-* Forecasted CPA (cost per action)
-* CPA (cost per action) breakdown
+* Forecasted ROI (return on investment) or CPA (cost per action)
+* ROI (return on investment) or CPA (cost per action) breakdown
 * Forecasted return
+
+ROI = (Incremental Revenue - Spend) / Spend
+CPA = Spend / Incremental Conversion
   
 ![Compare plans](../assets/compare-plans.png)
 
