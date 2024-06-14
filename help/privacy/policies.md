@@ -1,6 +1,6 @@
 ---
-title: Audit
-description: Learn how to audit Mix Modeler.
+title: Policies
+description: Learn how to access policies from Mix Modeler.
 feature: Administration
 ---
 

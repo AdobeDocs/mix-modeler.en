@@ -1,6 +1,6 @@
 ---
-title: Audit
-description: Learn how to audit Mix Modeler.
+title: Audits
+description: Learn how to access audits from Mix Modeler.
 feature: Administration
 exl-id: aa65aac5-bea4-43ff-b0d0-9e8a6a97d3ca
 ---
