@@ -6,13 +6,13 @@ exl-id: aa65aac5-bea4-43ff-b0d0-9e8a6a97d3ca
 ---
 # Audit
 
-You can audit what users are doing in Mix Modeler, using the Audit interface part of the Experience Platform and embedded in the Mix Modeler UI.
+Use the Audit interface, part of the Experience Platform embedded in the Mix Modeler UI, to audit what users are doing in Mix Modeler.
 
 To inspect the audit log, in the Mix Modeler interface:
 
 1. Select ![Task List](/help/assets/icons/TaskList.svg) **[!UICONTROL Audits]** from **[!UICONTROL PRIVACY]**.
 
-1. In **[!UICONTROL Audits]** you can find the **[!UICONTROL Activity log]**. The Activity log will show entries for the following Mix Modeler categories, actions and status. 
+1. In **[!UICONTROL Audits]**, you can find the **[!UICONTROL Activity log]**. The Activity log shows entries for the following Mix Modeler categories, actions and status. 
 
    | Category | Action | Status |
    |---|---|---|
