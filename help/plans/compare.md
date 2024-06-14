@@ -18,14 +18,17 @@ The Compare plans interface shows information and widgets on:
 * Date range
 * Model
 * Total budget
-* Channel budgetting: **[!UICONTROL AI automated]** or **[!UICONTROL Custom + AI]**
+* Channel budgeting: **[!UICONTROL AI automated]** or **[!UICONTROL Custom + AI]**
 * Planned spend
 * Forecasted ROI (return on investment) or CPA (cost per action)
 * ROI (return on investment) or CPA (cost per action) breakdown
 * Forecasted return
 
-ROI = (Incremental Revenue - Spend) / Spend
-CPA = Spend / Incremental Conversion
+Whereby:
+
+* ROI is defined as (Incremental Revenue - Spend) / Spend.
+* CPA is defined as Spend / Incremental Conversion.
+
   
 ![Compare plans](../assets/compare-plans.png)
 

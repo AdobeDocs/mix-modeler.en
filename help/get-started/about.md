@@ -39,7 +39,7 @@ Mix Modeler offers the following capabilities:
 | Capability | Description | 
 |---|---|
 | **Measure incremental performance** | Understand the incremental ROI and impact of marketing across business goals or tactical campaign goals. |
-| **Unify results across MMM and MTA** | Make more confident decisions through the unification of MMM and MTA models via transfer learning. |
+| **Unify results across MMM and MTA** | Make more confident decisions through the unification of marketing mix modeling (MMM) and multi-touch attribution (MTA) models via transfer learning. |
 | **Optimally allocate budgets** | Identify optimal budget allocation based on marketing spend and impact to goals. |
 | **Create & compare budget scenarios** | Develop multiple budget plans and compare their impact to make optimal decisions for your business. |
 
@@ -52,7 +52,13 @@ Mix Modeler offers the following capabilities:
 
 ### Marketing Mix Modeling (MMM)
 
-The marketing mix modeling in Mix Modeler is a privacy-friendly machine learning analysis used to measure the incremental impact of various marketing tactics and business factors on conversion metrics. It helps businesses and marketers understand the effectiveness of their marketing strategies, the effects of business factors on customer behavior, and ultimately what drives ROI and conversions. This comprehensive analysis empowers businesses to strategically allocate marketing budgets across various business lines, regions, channels, and campaigns while also providing predictive insights into the business impact of future events.
+Marketing mix modeling in Mix Modeler is a privacy-friendly machine learning analysis used to measure the incremental impact of various marketing tactics and business factors on conversion metrics. It helps businesses and marketers to understand
+
+* the effectiveness of their marketing strategies, 
+* the effects of business factors on customer behavior, and 
+* what drives ROI and conversions. 
+  
+This comprehensive analysis empowers businesses to allocate strategically marketing budgets across various business lines, regions, channels, and campaigns while also providing predictive insights into the business impact of future events.
 
 Mix Modeler's marketing mix modeling capabilities are foundational to solving the following use cases:
 
@@ -64,22 +70,22 @@ Mix Modeler's marketing mix modeling capabilities are foundational to solving th
 
 ### Multi-Touch Attribution (MTA)
 
-The multi-touch attribution in Mix Modeler is an optional machine learning analysis you can leverage to attribute credits to event-level touchpoints leading to conversion events. This attribution can be used by marketers to help quantify the marketing impact of each individual marketing touchpoint across customer journeys. Multi-touch attribution is for marketing where the touchpoints on the customer journey are trackable. This typically means digital marketing campaigns touchpoints, such as display ad clicks, email sends, email opens, and paid search clicks. It can’t track most offline touchpoints such as print ads, billboards, or TV commercials and business factors. 
+The multi-touch attribution in Mix Modeler is an optional machine learning analysis that you can leverage to attribute credits to event-level touchpoints leading to conversion events. This attribution is used by marketers to help quantify the marketing impact of each individual marketing touchpoint across customer journeys that are trackable. These digital marketing campaign touchpoints typically are display ad clicks, email sends, email opens, and paid search clicks. Multi-touch attribution cannot track most offline touchpoints such as print ads, billboards, or TV commercials and business factors. 
 
 Mix Modeler's multi-touch attribution supports two categories of scores:
 
 * Algorithmic scores, which include incremental and influenced scores:
-  * Influenced score is the fraction of the conversion that each marketing touchpoint is responsible for.
-  * Incremental score is the amount of marginal imnpact directly caused by a marketing toucpoint. This score removes the baseline (the portion of conversion attained without any marketing activities) from the influenced score.
+  * The influenced score is the fraction of the conversion that each marketing touchpoint is responsible for.
+  * The incremental score is the amount of marginal impact directly caused by a marketing touchpoint. This score removes the baseline (the portion of conversion attained without any marketing activities) from the influenced score.
     
 * Rule-based scores, which include First touch, Last touch, Linear, U-shaped, and Time-Decay.
 
-You use the multi-touch attribution capability of Mix Modeler in the following use cases:
+You can use the multi-touch attribution capability of Mix Modeler in the following use cases:
 
 * Campaign budget allocation: Inform budget allocation decisions across marketing channel.
-* Campaign optimization: Within each channel, understand which campaigns, creatives, and keywords are working better for which SKUs or Geos. This allows you to look at each channel so the marketing team can optimize their tactics.
+* Campaign optimization: Within each channel, understand which campaigns, creatives, and keywords are working better for which SKUs or Geos. This understanding allows you to look at each channel so the marketing team can optimize their tactics.
 * Full-funnel event-level attribution: Understand marketing's impact across the entire customer journey. For example, free account signup to paid conversion and beyond.
-* Partner evaluations: Evaluate effectiveness of agencies and partners, based on attribution results.
+* Partner evaluations: Evaluate the effectiveness of agencies and partners, based on attribution results.
 
 See [Model Insights - Attribution](../models/insights.md#attribution) on how to access the multi-touch attribution insights within Mix Modeler.
 
