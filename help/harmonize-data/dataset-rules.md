@@ -153,7 +153,7 @@ To ensure accurate model predictions, you can define data merge preferences:
 
    ![Data merge preferences](../assets/data-merge-preferences.png)
 
-   * Select a **[!UICONTROL Default metric preference]**. The selected default metric preference is applied when, during harmonization, multiple sources of data update a metric field for a given channel. The preference is applied at the sandbox level, unless overridden for specific metric based preferences.
+   * Select a **[!UICONTROL Default metric preference]**. The selected default metric preference is applied when, during harmonization, multiple sources of data update a metric field for a given channel. The preference is applied at the sandbox level, unless overridden for specific metric based preferences. You can select between **[!UICONTROL Summary data]**, **[!UICONTROL Event data]** and **[!UICONTROL Sum of summmary and event data]**.
 
    * To add specific metric based preferences:
    
