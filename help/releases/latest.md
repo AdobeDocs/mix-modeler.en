@@ -15,8 +15,10 @@ These release notes cover the latest release of Mix Modeler. Mix Modeler release
 
 | Feature | Description | General Availability |
 |---|---|---|
+| **MTA visualizations** | Model Insights is updated with comprehensive [MTA visualizations](../models/insights.md#attribution). | June 18, 2024 |
+| **CPA metrics** | CPA (cost per action) metrics are available in [Compare Plans](../plans/compare.md). | June 18, 2024 |
 | **Field-level access control** | When defining dataset rules, Experience Platform's [attribute based access control](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview) is enforced on a [field-level](../harmonize-data/dataset-rules.md#field-level-access-control). | June 12, 2024 |
-| P**rior knowledge touchpoints** | Only marketing touchpoints, specified in the [!UICONTROL Configure] step, are available for selection in the [[!UICONTROL Prior Knowledge]](../models/create.md) section. | June 12, 2024 |
+| **Prior knowledge touchpoints** | Only marketing touchpoints, specified in the [!UICONTROL Configure] step, are available for selection in the [[!UICONTROL Prior Knowledge]](../models/create.md) section. | June 12, 2024 |
 
 {style="table-layout:auto"}
 
