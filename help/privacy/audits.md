@@ -16,21 +16,30 @@ To inspect the audit log, in the Mix Modeler interface:
 
    | Category | Action | Status |
    |---|---|---|
-   | Mix Modeler Dataset Rule | Create | Allow or Denied |
-   | Mix Modeler Dataset Rule | Update | Allow or Denied |
-   | Mix Modeler Dataset Rule | Delete | Allow or Denied |
-   | Mix Modeler Field | Create | Allow or Denied |
-   | Mix Modeler Field | Update | Allow or Denied |
-   | Mix Modeler Field | Delete | Allow or Denied |
-   | Mix Modeler Marketing Touchpoint | Create | Allow or Denied |
-   | Mix Modeler Marketing Touchpoint | Update | Allow or Denied |
-   | Mix Modeler Marketing Touchpoint | Delete | Allow or Denied |
-   | Mix Modeler Conversion | Create | Allow or Denied |
-   | Mix Modeler Conversion | Update | Allow or Denied |
-   | Mix Modeler Conversion | Delete | Allow or Denied |
-   | Mix Modeler Model | Create | Allow or Denied |
-   | Mix Modeler Model | Update | Allow or Denied |
-   | Mix Modeler Model | Delete | Allow or Denied |
+   | Mix Modeler Dataset Rule | Create | Allow or Deny |
+   | Mix Modeler Dataset Rule | Update | Allow or Deny |
+   | Mix Modeler Dataset Rule | Delete | Allow or Deny |
+   | Mix Modeler Field | Create | Allow or Deny |
+   | Mix Modeler Field | Update | Allow or Deny |
+   | Mix Modeler Field | Delete | Allow or Deny |
+   | Mix Modeler Marketing Touchpoint | Create | Allow or Deny |
+   | Mix Modeler Marketing Touchpoint | Update | Allow or Deny |
+   | Mix Modeler Marketing Touchpoint | Delete | Allow or Deny |
+   | Mix Modeler Conversion | Create | Allow or Deny |
+   | Mix Modeler Conversion | Update | Allow or Deny |
+   | Mix Modeler Conversion | Delete | Allow or Deny |
+   | Mix Modeler Model | Create | Allow or Deny |
+   | Mix Modeler Model | Update | Allow or Deny |
+   | Mix Modeler Model | Delete | Allow or Deny |
+   | Mix Modeler Model | Re-score | Allow or Deny |
+   | Mix Modeler Model | Clone | Allow or Deny |
+   | Mix Modeler Model | Train / Re-train | Allow or Deny |
+   | Mix Modeler Model | Download / Save metadata | Allow or Deny |
+   | Mix Modeler Plan | Create | Allow or Deny |
+   | Mix Modeler Plan | Update | Allow or Deny |
+   | Mix Modeler Plan | Change associated model | Allow or Deny | 
+   | Mix Modeler Data Harmonization |Trigger Sync | Allow or Deny | 
+
 
 1. Select an entry in the Activity log to open a panel for more details.
 
