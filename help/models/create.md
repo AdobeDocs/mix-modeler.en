@@ -6,7 +6,7 @@ exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
 ---
 # Create a model
 
-To create a model, in the {{FileData}} **[!UICONTROL Models]** interface in Mix Modeler, select **[!UICONTROL Open model canvas]**.
+To create a model, in the ![Models](../assets/icons/FileData.svg) **[!UICONTROL Models]** interface in Mix Modeler, select **[!UICONTROL Open model canvas]**.
 
 To build your custom AI-powered models, the interface provides a step-by-step guided model configuration flow.
 
@@ -38,11 +38,11 @@ To build your custom AI-powered models, the interface provides a step-by-step gu
 
          1. Select a marketing touchpoint from **[!UICONTROL _Select marketing touchpoint_]**.
 
-         1. You can select {{Reply}} **[!UICONTROL Create new marketing touchpoint]** to create a marketing touchpoint directly from within the model configuration.
+         1. You can select ![Reply](../assets/icons/Reply.svg) **[!UICONTROL Create new marketing touchpoint]** to create a marketing touchpoint directly from within the model configuration.
 
        * To add a marketing touchpoint container, select ![Add](../assets/icons/AddCircle.svg) **[!UICONTROL Add marketing touchpoint]**.
 
-       * To remove a marketing touchpoint container, within the container, select {{More}}, and select **[!UICONTROL Remove container]** from the context menu.
+       * To remove a marketing touchpoint container, within the container, select ![More](../assets/icons/More.svg), and select **[!UICONTROL Remove container]** from the context menu.
 
             ![Model - marketing touchpoints-step](../assets/model-marketing-touchpoint-step.png)
 
@@ -58,7 +58,7 @@ To build your custom AI-powered models, the interface provides a step-by-step gu
 
              1. Enter or select a value at **[!UICONTROL _Enter or select value_]**.
 
-         1. To add an additional event in the container, select {{Add}} **[!UICONTROL Add event]**.
+         1. To add an additional event in the container, select ![Add](../assets/icons/AddCircle.svg) **[!UICONTROL Add event]**.
 
          1. To remove an event from the container, select ![Close](../assets/icons/Close.svg).
 
@@ -66,7 +66,7 @@ To build your custom AI-powered models, the interface provides a step-by-step gu
        
        * To add an eligible data population container, select ![Add](../assets/icons/AddCircle.svg) **[!UICONTROL Add eligible population]**.
 
-       * To remove an eligible data population container, within the container, select {{More}}, and select **[!UICONTROL Remove marketing touchpoint]** from the context menu.
+       * To remove an eligible data population container, within the container, select ![More](../assets/icons/More.svg), and select **[!UICONTROL Remove marketing touchpoint]** from the context menu.
 
          ![Model - Eligible data population](../assets/model-eligible-data-population-step.png)
 
@@ -76,11 +76,11 @@ To build your custom AI-powered models, the interface provides a step-by-step gu
 
          1. Enter a **[!UICONTROL Factor name]** at **[!UICONTROL _Enter factor_]**.
 
-         1. Select a dataset from **[!UICONTROL _Select a dataset_]**. You can select {{Data}} to manage datasets. See [Datasets](../ingest-data/datasets.md) for more information.
+         1. Select a dataset from **[!UICONTROL _Select a dataset_]**. You can select ![Data](../assets/icons/Data.svg) to manage datasets. See [Datasets](../ingest-data/datasets.md) for more information.
 
-       * To add an additional external factors dataset container, select {{Add}} **[!UICONTROL Add external factor]**.
+       * To add an additional external factors dataset container, select ![Add](../assets/icons/AddCircle.svg) **[!UICONTROL Add external factor]**.
 
-       * To remove an external factors dataset container, within the container, select {{More}}, and select **[!UICONTROL Remove external factor]** from the context menu.
+       * To remove an external factors dataset container, within the container, select ![More](../assets/icons/More.svg), and select **[!UICONTROL Remove external factor]** from the context menu.
 
          ![Model - External factors dataset](../assets/model-external-factors-dataset-step.png)
 
@@ -91,9 +91,9 @@ To build your custom AI-powered models, the interface provides a step-by-step gu
 
          1. Enter a **[!UICONTROL Factor name]** at **[!UICONTROL _Enter factor_]**.
 
-         1. Select a dataset from **[!UICONTROL _Select a dataset_]**. You can select {{More}} to manage datasets. See [Datasets](../ingest-data/datasets.md) for more information.
+         1. Select a dataset from **[!UICONTROL _Select a dataset_]**. You can select ![Data](../assets/icons/Data.svg) to manage datasets. See [Datasets](../ingest-data/datasets.md) for more information.
 
-       * To add an additional internal factors dataset container, select {{Add}} **[!UICONTROL Add internal factor]**.
+       * To add an additional internal factors dataset container, select ![Add](../assets/icons/AddCircle.svg) **[!UICONTROL Add internal factor]**.
 
        * To remove an additional internal factors dataset container, within the container, select ![More](../assets/icons/More.svg), and **[!UICONTROL Remove internal factor]** from the context menu.
 
