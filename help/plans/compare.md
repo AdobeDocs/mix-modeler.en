@@ -8,9 +8,9 @@ exl-id: 40f6ade5-77eb-4ef7-ba60-4a2d2fcf1a60
 
 To compare plans in the Mix Modeler Plans interface: 
 
-* Select ![Compare](./help/assets/icons/Compare.svg) **[!UICONTROL Compare Plans]**. In Compare plans, select a plan for each **[!UICONTROL _Select plan_]**.
+* Select ![Compare](/help/assets//icons/Compare.svg) **[!UICONTROL Compare Plans]**. In Compare plans, select a plan for each **[!UICONTROL _Select plan_]**.
 
-* Alternatively, you can select two plans from the Plans table, and from the action bar select ![Compare](./help/assets/icons/Compare.svg) **[!UICONTROL Compare]**.
+* Alternatively, you can select two plans from the Plans table, and from the action bar select ![Compare](/help/assets//icons/Compare.svg) **[!UICONTROL Compare]**.
 
 The Compare plans interface shows information and widgets on:
 
@@ -30,7 +30,7 @@ Whereby:
 * CPA is defined as Spend / Incremental Conversion.
 
   
-![Compare plans](./help/assets/compare-plans.png)
+![Compare plans](/help/assets//compare-plans.png)
 
 You can hover over individual chart elements in each widget to see a popover with more details.
 

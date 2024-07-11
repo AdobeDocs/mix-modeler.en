@@ -6,7 +6,7 @@ exl-id: 91385595-284f-4fcb-b54b-9539905e552b
 ---
 # Edit a plan
 
-To edit a plan, in the ![PLan](./help/assets/icons/FileChart.svg) **[!UICONTROL Plans]** interface in Mix Modeler, select your plan by its name.
+To edit a plan, in the ![PLan](/help/assets//icons/FileChart.svg) **[!UICONTROL Plans]** interface in Mix Modeler, select your plan by its name.
    
 In [!UICONTROL Plan insights], your plan insights are created, showing the [!UICONTROL Model], the [!UICONTROL Data range], and [!UICONTROL Total budget] on which the plan is based.
 
@@ -23,16 +23,16 @@ When finished retrieving, you see an overview of your plan, consisting of:
   - Conversion goal
   - Spend
 
-![Overview of a plan](./help/assets/overview-plan.png)
+![Overview of a plan](/help/assets//overview-plan.png)
 
 1. Select **[!UICONTROL Close]** to return to the Plans interface. 
 
 1. Select **[!UICONTROL X]** or **[!UICONTROL  %]** on how to **[!UICONTROL View ROI]**. 
 
-1. To download a CSV file containing the data of the Date range breakdown, select ![Download](./help/assets/icons/Download.svg) **[!UICONTROL Download CSV]**. From the context menu:
+1. To download a CSV file containing the data of the Date range breakdown, select ![Download](/help/assets//icons/Download.svg) **[!UICONTROL Download CSV]**. From the context menu:
 
-   - Select ![Download](./help/assets/icons/Download.svg) **[!UICONTROL Detailed CSV]** for detailed data in CSV format. 
-   - Select ![Download](./help/assets/icons/Download.svg) **[!UICONTROL Summary CSV]** for summary data in CSV format. 
+   - Select ![Download](/help/assets//icons/Download.svg) **[!UICONTROL Detailed CSV]** for detailed data in CSV format. 
+   - Select ![Download](/help/assets//icons/Download.svg) **[!UICONTROL Summary CSV]** for summary data in CSV format. 
 
    Detailed data is granular data keyed by week. Summary data is data keyed by the model-provided date range.
 
@@ -40,13 +40,13 @@ When finished retrieving, you see an overview of your plan, consisting of:
 
 1. To edit your plan, select **[!UICONTROL Edit plan]**:
     
-    1. In the **[!UICONTROL Spend selection]** section, for each budget date range, use the ![Chevron](./help/assets/icons/ChevronRight.svg) to open the channel distribution view for that data range.
+    1. In the **[!UICONTROL Spend selection]** section, for each budget date range, use the ![Chevron](/help/assets//icons/ChevronRight.svg) to open the channel distribution view for that data range.
 
     1. To modify the budgets for each channel, modify the values for **[!UICONTROL Min]** and **[!UICONTROL Max]** or use the sliders.
 
     1. To toggle between currency or percentage input, select **[!UICONTROL $]** or **[!UICONTROL %]** for **[!UICONTROL View spend by]**.
 
-       ![Spend selection](./help/assets/spend-selection.png)
+       ![Spend selection](/help/assets//spend-selection.png)
 
     1. To edit the details of your plan, select **[!UICONTROL Edit details]**:
 
@@ -54,13 +54,13 @@ When finished retrieving, you see an overview of your plan, consisting of:
 
        1. In the **[!UICONTROL Budget]** section:
 
-          1. Modify the **[!UICONTROL Date range]** for one or more of your plan's date ranges, either by typing dates or selecting a date range using ![Calendar](./help/assets/icons/Calendar.svg).
+          1. Modify the **[!UICONTROL Date range]** for one or more of your plan's date ranges, either by typing dates or selecting a date range using ![Calendar](/help/assets//icons/Calendar.svg).
 
           1. Modify the **[!UICONTROL Budget]** for one or more of your plan's date ranges.
      
-          To add additional date ranges, each with their budget, select ![CalendarAdd](./help/assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]**.
+          To add additional date ranges, each with their budget, select ![CalendarAdd](/help/assets//icons/CalendarAdd.svg) **[!UICONTROL Add row]**.
      
-          To delete a date range and associated budget, select ![Close](./help/assets/icons/Close.svg).
+          To delete a date range and associated budget, select ![Close](/help/assets//icons/Close.svg).
 
           To define a maximum budget:
 
@@ -69,7 +69,7 @@ When finished retrieving, you see an overview of your plan, consisting of:
 
        1. Select **[!UICONTROL Next]** to return to the **[!UICONTROL Spend]** section. Select **[!UICONTROL Cancel]** to return back to your plans overview.
 
-          ![Plan Details](./help/assets/plan-details.png)
+          ![Plan Details](/help/assets//plan-details.png)
 
 
 1. When finished editing your plan, select **[!UICONTROL Edit]**.

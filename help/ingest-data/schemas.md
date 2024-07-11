@@ -10,7 +10,7 @@ To manage schemas, supporting the data you want to ingest in Experience Platform
 
 1. Go to the Mix Modeler interface.
 
-1. Select ![Schemas](./help/assets/icons/Schemas.svg) **[!UICONTROL Schemas]**, underneath **[!UICONTROL SETUP]**. 
+1. Select ![Schemas](/help/assets//icons/Schemas.svg) **[!UICONTROL Schemas]**, underneath **[!UICONTROL SETUP]**. 
 
 See the [Schemas UI overview](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en) for more information.
 
@@ -32,7 +32,7 @@ Use the XDM Summary Metrics class for:
 
 A schema using the **[!DNL XDM Summary Metrics]** base class can be simple, as shown in the **[!DNL ExternalFactorSummarySchema]** below.
 
-![External Factors Schema](./help/assets/external-factors-schema.png)
+![External Factors Schema](/help/assets//external-factors-schema.png)
 
 This simple schema can be used to ingest datasets containing data for, for example:
 
@@ -59,7 +59,7 @@ This simple schema can be used to ingest datasets containing data for, for examp
 
 See below for a more comprehensive example of a **[!DNL LumaPaidMarketingSchema]** using the **[!DNL XDM Summary Metrics]** as the base class. The schema uses dedicated field groups (annotated with colors) for metrics (**[!DNL AMMMetrics]**), dimensions (**[!DNL AMMDimensions]**), and other customer-specific information (**[!DNL CustomerSpecific]**). 
 
-![Summary Schema](./help/assets/summary-schema.png)
+![Summary Schema](/help/assets//summary-schema.png)
 
 Given the asynchronous nature of profile ingestion, when collecting aggregate or summary data from external sources, it is encouraged to use the External Source System Audit Details field group as part of a schema. This field group defines a set of audit properties for external sources.
 

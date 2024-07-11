@@ -16,7 +16,7 @@ Dataset rules assist you in mapping your harmonized fields with fields from the 
 
 To see a table of the available dataset rules, in the Mix Modeler interface:
 
-1. Select ![DataSearch](./help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** from the left rail.
+1. Select ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** from the left rail.
    
 1. Select **[!UICONTROL Dataset rules]** from the top bar. You see a table of the dataset rules.
 
@@ -26,7 +26,7 @@ The table columns specify details about the dataset rules:
 | ---------------------- | ----------|
 | Dataset                | The name of the dataset.  |
 | Source                 | The source of the dataset: Adobe Analytics, Experience Events, Summary (aggregate), or Consumer Experience Events.   |
-| Schema                 | The schema to which the dataset conforms. You can quickly select the schema name to open the schema in a new tab in the schema editor in ![Schema](./help/assets/icons/Schemas.svg) [Schemas](../ingest-data/schemas.md).  |
+| Schema                 | The schema to which the dataset conforms. You can quickly select the schema name to open the schema in a new tab in the schema editor in ![Schema](/help/assets//icons/Schemas.svg) [Schemas](../ingest-data/schemas.md).  |
 | Granularity            | The granularity of data in the dataset. Possible values are Daily, Weekly, Monthly or Yearly. |
 | Start of the week      | Specifies which day of the week is considered the start of a new week for the specific dataset.  |
 | Status | The status of the field: <p><span style="color:gray">●</span> Draft or <p><span style="color:green">●</span> Active |
@@ -36,7 +36,7 @@ The table columns specify details about the dataset rules:
 
 ### Create a dataset rule
 
-To create a dataset rule, in the ![DataSearch](./help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** interface in Mix Modeler, select **[!UICONTROL Create a dataset rule]** in the **[!UICONTROL Dataset rules configuration]** wizard.
+To create a dataset rule, in the ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** interface in Mix Modeler, select **[!UICONTROL Create a dataset rule]** in the **[!UICONTROL Dataset rules configuration]** wizard.
 
 In the **[!UICONTROL Create]** screen, 
  
@@ -56,7 +56,7 @@ In the **[!UICONTROL Create]** screen,
 
    1. When the mapping is completed for all fields for the rule, select **[!UICONTROL Save as draft]** to save a draft version of the rule or **[!UICONTROL Save]** to save and activate the rule. Select **[!UICONTROL Cancel]** to cancel the rule configuration.
 
-      ![Create dataset rules](./help/assets/dataset-create-summary.png)
+      ![Create dataset rules](/help/assets//dataset-create-summary.png)
   
 1. When you have selected an event category dataset (**[!UICONTROL Experience Events]**, **[!UICONTROL Adobe Analytics]**, **[!UICONTROL Consumer Experience Events]**), in the box underneath **[!UICONTROL Map to harmonized fields]**:
 
@@ -78,9 +78,9 @@ In the **[!UICONTROL Create]** screen,
 
          1. To set values explicitly, you define one or more cases, consisting of one or more conditions. Each condition can check for a specific **[!UICONTROL *AEP dataset field*]** whether it **[!UICONTROL Exists]** or **[!UICONTROL Not Exists]** or whether it **[!UICONTROL Contains]**, **[!UICONTROL Not Contains]**, **[!UICONTROL Equals]**, **[!UICONTROL Not Equals]**, **[!UICONTROL Starts With]**, or **[!UICONTROL Ends With]** a value entered at **[!UICONTROL *Enter input value*]**.
 
-         1. To add another case, select ![Add](./help/assets/icons/AddCircle.svg) **[!UICONTROL Add case]**, to add another condition, select ![Add](./help/assets/icons/AddCircle.svg) **[!UICONTROL Add condition]**.
+         1. To add another case, select ![Add](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add case]**, to add another condition, select ![Add](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add condition]**.
 
-         1. To delete a case or condition, select ![Close](./help/assets/icons/Close.svg) in the corresponding container.
+         1. To delete a case or condition, select ![Close](/help/assets//icons/Close.svg) in the corresponding container.
 
          1. To select whether any or all of the conditions should apply for a case, select **[!UICONTROL Any of]** or **[!UICONTROL All of]**.
 
@@ -95,27 +95,27 @@ In the **[!UICONTROL Create]** screen,
         * `Black Friday` when the **[!UICONTROL marketing.campaignName]** is `_black_friday` or `BlackFriday`. 
         * to the value of the **[!UICONTROL marketing.campaignName]** in all other cases.
 
-         ![Dataset rule event](./help/assets/dataset-create-event.png)
+         ![Dataset rule event](/help/assets//dataset-create-event.png)
 
-1. Select ![Add](./help/assets/icons/AddCircle.svg) **[!UICONTROL Add field]** to define additional fields.
+1. Select ![Add](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add field]** to define additional fields.
 
 When finished, select **[!UICONTROL Save as draft]** to save a draft version of the rule or **[!UICONTROL Save]** to save and activate the rule. Select **[!UICONTROL Cancel]** to cancel the rule configuration.
 
 
 ### Edit a dataset rule
 
-To edit a dataset rule, in the ![DataSearch](./help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** interface in Mix Modeler:
+To edit a dataset rule, in the ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** interface in Mix Modeler:
 
-1. Select ![More](./help/assets/icons/More.svg) in the **[!UICONTROL Dataset]** column for the dataset rule that you want to edit.
-1. From the context menu, select ![Edit](./help/assets/icons/Edit.svg) **[!UICONTROL Edit]** to start editing the dataset rule. Refer to [Create a dataset rule](#create-a-dataset-rule) for more details.
+1. Select ![More](/help/assets//icons/More.svg) in the **[!UICONTROL Dataset]** column for the dataset rule that you want to edit.
+1. From the context menu, select ![Edit](/help/assets//icons/Edit.svg) **[!UICONTROL Edit]** to start editing the dataset rule. Refer to [Create a dataset rule](#create-a-dataset-rule) for more details.
 
 
 ### Delete a dataset rule
 
-To delete a dataset rule, in the ![DataSearch](./help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** interface in Mix Modeler:
+To delete a dataset rule, in the ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** interface in Mix Modeler:
 
-1. Select ![More](./help/assets/icons/More.svg) in the **[!UICONTROL Dataset]** column for the dataset rule that you want to delete.
-1. From the context menu, select ![Delete](./help/assets/icons/Delete.svg) **[!UICONTROL Delete]** to delete the dataset rule. You are prompted for confirmation. Select **[!UICONTROL Delete]** to delete the selected dataset rule permanently.
+1. Select ![More](/help/assets//icons/More.svg) in the **[!UICONTROL Dataset]** column for the dataset rule that you want to delete.
+1. From the context menu, select ![Delete](/help/assets//icons/Delete.svg) **[!UICONTROL Delete]** to delete the dataset rule. You are prompted for confirmation. Select **[!UICONTROL Delete]** to delete the selected dataset rule permanently.
    
 
 ## Sync data
@@ -131,7 +131,7 @@ To sync data between your harmonized data and summary and / or event datasets, f
    
 1. To start the synchronization based on the defined dataset rules between harmonized data and data in datasets, select **[!UICONTROL Sync]**. To cancel the synchronization, select **[!UICONTROL Cancel]**.
 
-   ![Sync data](./help/assets/sync-data.png)
+   ![Sync data](/help/assets//sync-data.png)
 
 
 ## Data merge preferences 
@@ -147,31 +147,31 @@ Data merge preferences assists in resolving conflicts when data from summarized 
   
 To ensure accurate model predictions, you can define data merge preferences:
 
-1. Select ![Data merge preferences](./help/assets/icons/Merge.svg) [!BADGE beta].
+1. Select ![Data merge preferences](/help/assets//icons/Merge.svg) [!BADGE beta].
 
 1. In the **[!UICONTROL Data merge preferences]** [!BADGE beta]{type=Informative} dialog:
 
-   ![Data merge preferences](./help/assets/data-merge-preferences.png)
+   ![Data merge preferences](/help/assets//data-merge-preferences.png)
 
    * Select a **[!UICONTROL Default metric preference]**. The selected default metric preference is applied when, during harmonization, multiple sources of data update a metric field for a given channel. The preference is applied at the sandbox level, unless overridden for specific metric based preferences. You can select between **[!UICONTROL Summary data]**, **[!UICONTROL Event data]** and **[!UICONTROL Sum of summmary and event data]**.
 
    * To add specific metric based preferences:
    
-      1. Select ![Plus](./help/assets/icons/AddCircle.svg) **[!UICONTROL Add a metric]**.
+      1. Select ![Plus](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add a metric]**.
          1. Select a metric from the **[!UICONTROL *Metric selection*]** list.
          1. Select **[!UICONTROL CHANNELS]** or **[!UICONTROL CONVERSION TYPES]**. From the list, select **[!UICONTROL All]** or a specific channel or conversion type.
          1. Select **[!UICONTROL Summary]** or **[!UICONTROL Event]** to specify whether summary data or event data is preferred for the metric (and all or selected channel) when merging data.
    
          To add one or more additional channel or conversion types:
          
-         1. Select ![Plus](./help/assets/icons/AddCircle.svg) **[!UICONTROL Add a channel]** or ![Plus](./help/assets/icons/AddCircle.svg) **[!UICONTROL Add a conversion type]**.
+         1. Select ![Plus](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add a channel]** or ![Plus](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add a conversion type]**.
          1. Select **[!UICONTROL Summary]** or **[!UICONTROL Event]**.
 
-         To delete a channel or conversion type, select ![Cross](./help/assets/icons/Close.svg).
+         To delete a channel or conversion type, select ![Cross](/help/assets//icons/Close.svg).
 
       1. To add more specific metric based preferences, repeat the previous step.
 
-   * To delete an existing specific metric based preference, select ![Delete](./help/assets/icons/Delete.svg).
+   * To delete an existing specific metric based preference, select ![Delete](/help/assets//icons/Delete.svg).
 
 1. Select **[!UICONTROL Save]** to save the data merge preferences. A re-sync of the data is initiated. <br/>Select **[!UICONTROL Cancel]** to cancel.
 
@@ -182,4 +182,4 @@ When configuring dataset rules for harmonized datasets, Experience Platform's [a
 
 * you do not see the schema fields that are restricted for you when you create a dataset rule, 
 * you are not able to view or edit the mapping of one or more schema fields that are restricted for you. When you edit or view a dataset rule containing such restricted fields, you see the following screen.
-  ![Action not permitted](./help/assets/action-not-permitted.png)
+  ![Action not permitted](/help/assets//action-not-permitted.png)
