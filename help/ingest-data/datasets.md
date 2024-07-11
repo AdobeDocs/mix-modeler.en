@@ -10,7 +10,7 @@ To manage datasets, containing the data you want to ingest in Experience Platfor
 
 1. Go to the Mix Modeler interface.
 
-1. Select ![Data](../assets/icons/Data.svg) **[!UICONTROL Datasets]**, underneath **[!UICONTROL SETUP]**. 
+1. Select ![Data](./help/assets/icons/Data.svg) **[!UICONTROL Datasets]**, underneath **[!UICONTROL SETUP]**. 
 
 See the [Datasets UI guide](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en) for more information.
 

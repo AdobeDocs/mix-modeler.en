@@ -77,9 +77,9 @@
 
 ![Algorithm](/help/assets/icons/Algorithm.svg)
 
-## Alia {#alia} 
+## Alias {#alias} 
 
-![Alia](/help/assets/icons/Alia.svg)
+![Alia](/help/assets/icons/Alias.svg)
 
 ## AlignBottom {#alignbottom} 
 

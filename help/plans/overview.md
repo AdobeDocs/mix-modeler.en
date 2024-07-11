@@ -27,7 +27,7 @@ A plan can optionally include:
 
 To view a table of your current plans, in the Mix Modeler interface:
 
-1. Select ![](../assets/icons/FileChart.svg) **[!UICONTROL Plans]** from the left rail.
+1. Select ![](./help/assets/icons/FileChart.svg) **[!UICONTROL Plans]** from the left rail.
 
 1. You see a table of the current plans and their status.
 
@@ -45,7 +45,7 @@ To view a table of your current plans, in the Mix Modeler interface:
 
     {style="table-layout:auto"}
 
-1. Use ![Search](../assets/icons/Search.svg) to search and filter the table for one or more specific plans.
+1. Use ![Search](./help/assets/icons/Search.svg) to search and filter the table for one or more specific plans.
 
 ## Create a plan
 
@@ -61,20 +61,20 @@ To edit a plan, select the name of the plan from the table. See [Edit a plan](ed
 
 You can select one or more plans, which reveals the Plans action bar. The action bar allows you to delete, compare, or duplicate plans. 
 
-To remove all selections in the Plans table, select ![Close](../assets/icons/Close.svg) in the action bar
+To remove all selections in the Plans table, select ![Close](./help/assets/icons/Close.svg) in the action bar
 
-![Plans action bar](../assets/plans-action-bar.png)
+![Plans action bar](./help/assets/plans-action-bar.png)
 
 ### Duplicate a plan
 
 To duplicate a plan:
 
 1. Select a single plan from the table.
-1. Select ![Copy](../assets/icons/Copy.svg) **[!UICONTROL Duplicate]** from the action bar. A new plan, with a name composed of the original plan's name appended with **[!UICONTROL (Copy)]**, is added to the top of the table. 
+1. Select ![Copy](./help/assets/icons/Copy.svg) **[!UICONTROL Duplicate]** from the action bar. A new plan, with a name composed of the original plan's name appended with **[!UICONTROL (Copy)]**, is added to the top of the table. 
 
 Alternatively:
 
-1. Select ![More](../assets/icons/More.svg) for a plan in the table.
+1. Select ![More](./help/assets/icons/More.svg) for a plan in the table.
 1. Select **[!UICONTROL Duplicate]** from the context menu. A new plan, with a name composed of the original plan's name appended with **[!UICONTROL (Copy)]**, is added to the top of the table.
 
 ### Compare plans
@@ -82,7 +82,7 @@ Alternatively:
 To compare plans:
 
 1. Select two plans from the table.
-1. Select ![Compare](../assets/icons/Compare.svg) **[!UICONTROL Compare]** from the action bar. You see the **[!UICONTROL Compare plans]** UI. 
+1. Select ![Compare](./help/assets/icons/Compare.svg) **[!UICONTROL Compare]** from the action bar. You see the **[!UICONTROL Compare plans]** UI. 
 
 
 ### Delete plans
@@ -90,11 +90,11 @@ To compare plans:
 To delete plans:
 
 1. Select one or more plans from the table.
-1. Select ![Delete](../assets/icons/Delete.svg) **[!UICONTROL Delete]** from the action bar.
+1. Select ![Delete](./help/assets/icons/Delete.svg) **[!UICONTROL Delete]** from the action bar.
 
 Alternatively:
 
-1. Select ![More](../assets/icons/More.svg) for a plan in the table.
+1. Select ![More](./help/assets/icons/More.svg) for a plan in the table.
 1. Select **[!UICONTROL Delete]** from the context menu. A new plan, with a name composed of the original plan's name appended with **[!UICONTROL (Copy)]**, is added to the top of the table.
    
    >[!WARNING]
