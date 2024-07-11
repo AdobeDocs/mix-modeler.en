@@ -29,7 +29,7 @@ To accomplish this functionality, Mix Modeler combines:
 
 The AI/ML bi-directional transfer learning unifies marketing mix modeling (MMM) and multi-touch attribution (MTA) results to ensure consistent results across measurement and planning in a cookie-less world. 
 
-![Bidirectional transfer learning](../assets/birdirectional-transfer-learning.png){width="500" align="center"}
+![Bidirectional transfer learning](/help/assets//birdirectional-transfer-learning.png){width="500" align="center"}
 
 
 ## Capabilities

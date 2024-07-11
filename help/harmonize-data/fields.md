@@ -49,9 +49,9 @@ You can add, edit, or delete your own harmonized fields on top of these global h
 
 To see a table of the available harmonized fields, in the Mix Modeler interface:
 
-1. Select ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** from the left rail.
+1. Select ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** from the left rail.
    
-1. Select **[!UICONTROL Fields]** from the top bar. You see a table of the harmonized fields. If more pages are available, use ![Arrow left](../assets/icons/ChevronLeft.svg) or ![Arrow Right](../assets/icons/ChevronRight.svg) at **[!UICONTROL Page _x_ of _x_]** to move between pages of the table.
+1. Select **[!UICONTROL Fields]** from the top bar. You see a table of the harmonized fields. If more pages are available, use ![Arrow left](/help/assets//icons/ChevronLeft.svg) or ![Arrow Right](/help/assets//icons/ChevronRight.svg) at **[!UICONTROL Page _x_ of _x_]** to move between pages of the table.
 
    The table columns specify details about the harmonized fields
 
@@ -68,14 +68,14 @@ To see a table of the available harmonized fields, in the Mix Modeler interface:
 
    {style="table-layout:auto"}
 
-1. To search for a specific harmonized field, use ![Search](../assets/icons/Search.svg) **[!UICONTROL *Search harmonized field*]**.
+1. To search for a specific harmonized field, use ![Search](/help/assets//icons/Search.svg) **[!UICONTROL *Search harmonized field*]**.
 
 
 ### Add a harmonized field
 
-To add a harmonized field, in the ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** interface in the Mix Modeler:
+To add a harmonized field, in the ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** interface in the Mix Modeler:
 
-1. Select ![Add](../assets/icons/AddCircle.svg) **[!UICONTROL Add field]**.
+1. Select ![Add](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add field]**.
 
 1. In the **[!UICONTROL Create]** dialog:
 
@@ -92,14 +92,14 @@ To add a harmonized field, in the ![DataSearch](../assets/icons/DataCheck.svg) *
 
     1. Select **[!UICONTROL Submit]** to add the harmonized field. Select **[!UICONTROL Close]** to close the dialog without adding the harmonized field.
 
-       ![Create a field](../assets/create-field.png)
+       ![Create a field](/help/assets//create-field.png)
 
 
 ### Edit a harmonized field
 
 You can only edit harmonized fields you created earlier (owner is client). You cannot edit a global harmonized field.
 
-To edit a harmonized field, in the ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** interface in the Mix Modeler:
+To edit a harmonized field, in the ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** interface in the Mix Modeler:
 
 1. Select the harmonized field that you want to edit. For example, **[!UICONTROL Region]**.
 
@@ -107,17 +107,17 @@ To edit a harmonized field, in the ![DataSearch](../assets/icons/DataCheck.svg) 
 
 1. Select **[!UICONTROL Submit]** to apply the changes to the harmonized field.
 
-   ![Edit a field](../assets/edit-field.png)
+   ![Edit a field](/help/assets//edit-field.png)
 
 ### Delete a harmonized field
 
 You can only delete harmonized fields you created earlier (owner is client). You cannot delete a global harmonized field.
 
-To delete a harmonized field, in the ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** interface in the Mix Modeler:
+To delete a harmonized field, in the ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** interface in the Mix Modeler:
 
 1. Select the harmonized field that you want to delete, for example **[!UICONTROL Region]**.
 
-1. Select ![Delete](../assets/icons/Delete.svg) **[!UICONTROL Delete]** from the **[!UICONTROL Edit harmonization values]** left pane.
+1. Select ![Delete](/help/assets//icons/Delete.svg) **[!UICONTROL Delete]** from the **[!UICONTROL Edit harmonization values]** left pane.
 
    >[!WARNING]
    >

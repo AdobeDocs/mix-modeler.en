@@ -35,7 +35,7 @@ To create a model, use the Mix Modeler step-by-step guided model configuration f
 
 To view a table of your current models, in the Mix Modeler interface:
 
-1. Select ![](../assets/icons/FileData.svg) **[!UICONTROL Models]** from the left rail.
+1. Select ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** from the left rail.
    
 1. You see a table of the current models.
 
@@ -52,14 +52,14 @@ To view a table of your current models, in the Mix Modeler interface:
 
     {style="table-layout:auto"}
 
-1. To change the columns displayed for the list, select ![Column settings](../assets/icons/ColumnSetting.svg) and toggle columns on ![Check](../assets/icons/Checkmark.svg) or off.
+1. To change the columns displayed for the list, select ![Column settings](/help/assets//icons/ColumnSetting.svg) and toggle columns on ![Check](/help/assets//icons/Checkmark.svg) or off.
 
 
 ### View details of a model
 
 To view more details of a model:
 
-   1. Select ![Info](../assets/icons/Info.svg) for a model to show a pop-up with details.
+   1. Select ![Info](/help/assets//icons/Info.svg) for a model to show a pop-up with details.
 
 
 
@@ -67,7 +67,7 @@ To view more details of a model:
 
 To view insights of a model, in the Mix Modeler interface:
 
-   1. Select ![](../assets/icons/FileData.svg) **[!UICONTROL Models]** from the left rail.
+   1. Select ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** from the left rail.
 
    1. Select the name of a model with a **[!UICONTROL Last run status]** of <span style="color:green">●</span> **[!UICONTROL Success]** from the **[!UICONTROL Models]** table. Model insights is only available on successfully trained models.
 
@@ -79,7 +79,7 @@ To view insights of a model, in the Mix Modeler interface:
 
 To re-score a model, in the Mix Modeler interface:
 
-   1. Select ![](../assets/icons/FileData.svg) **[!UICONTROL Models]** from the left rail.
+   1. Select ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** from the left rail.
 
    1. Select the name of a model with a **[!UICONTROL Last run status]** of <span style="color:green">●</span> **[!UICONTROL Success]** from the **[!UICONTROL Models]** table. Re-score is only available on successfully trained models.
 

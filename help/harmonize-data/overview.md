@@ -110,17 +110,17 @@ To build a harmonized dataset, like in the simplified [example](#an-example-of-h
 
 To see your harmonized data, in the Mix Modeler interface:
 
-1. Select ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized datasets]** from the left rail.
+1. Select ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized datasets]** from the left rail.
    
 1. Select **[!UICONTROL Harmonized Data]** from the top bar. Aa recap of your harmonized data is shown based on the fields, dataset rules, marketing touchpoints and conversions you have defined.
 
-    1. To redefine the period on which the recap of harmonized data is based, enter a date range for **[!UICONTROL Date range]** or use ![Calendar](../assets/icons/Calendar.svg) to select a data range.
+    1. To redefine the period on which the recap of harmonized data is based, enter a date range for **[!UICONTROL Date range]** or use ![Calendar](/help/assets//icons/Calendar.svg) to select a data range.
 
-    1. To modify the harmonized field columns displayed for the Harmonized data table, use ![Settings](../assets/icons/Setting.svg) to open the **[!UICONTROL Column settings]** dialog.
+    1. To modify the harmonized field columns displayed for the Harmonized data table, use ![Settings](/help/assets//icons/Setting.svg) to open the **[!UICONTROL Column settings]** dialog.
 
-       1. Select ![SelectBox](../assets/icons/SelectBox.svg) one or more columns from **[!UICONTROL AVAILABLE COLUMNS]** and use ![Chevron right](../assets/icons/ChevronRight.svg) to add these columns to **[!UICONTROL SELECTED COLUMNS]**. 
+       1. Select ![SelectBox](/help/assets//icons/SelectBox.svg) one or more columns from **[!UICONTROL AVAILABLE COLUMNS]** and use ![Chevron right](/help/assets//icons/ChevronRight.svg) to add these columns to **[!UICONTROL SELECTED COLUMNS]**. 
 
-       1. Select ![SelectBox](../assets/icons/SelectBox.svg) one or more columns from **[!UICONTROL SELECTED COLUMNS]** and use ![Chevron left](../assets/icons/ChevronLeft.svg) to remove the selected columns and return these columns back to **[!UICONTROL AVAILABLE COLUMNS]**.
+       1. Select ![SelectBox](/help/assets//icons/SelectBox.svg) one or more columns from **[!UICONTROL SELECTED COLUMNS]** and use ![Chevron left](/help/assets//icons/ChevronLeft.svg) to remove the selected columns and return these columns back to **[!UICONTROL AVAILABLE COLUMNS]**.
 
        1. Select a column from **[!UICONTROL DEFAULT SORT]** and toggle between **[!UICONTROL Ascending]** or **[!UICONTROL Descending]**.
 
@@ -128,4 +128,4 @@ To see your harmonized data, in the Mix Modeler interface:
 
     1. Select **[!UICONTROL Submit]** to submit your column setting changes. Select **[!UICONTROL Close]** to cancel any changes you made.
 
-1. If more pages are available, use ![Arrow left](../assets/icons/ChevronLeft.svg) or ![Arrow Right](../assets/icons/ChevronRight.svg) at **[!UICONTROL Page _x_ of _x_]** to move between pages.
+1. If more pages are available, use ![Arrow left](/help/assets//icons/ChevronLeft.svg) or ![Arrow Right](/help/assets//icons/ChevronRight.svg) at **[!UICONTROL Page _x_ of _x_]** to move between pages.
