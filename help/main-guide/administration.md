@@ -14,9 +14,9 @@ In the Adobe Experience Cloud UI:
 
 1. Select **[!UICONTROL Permissions]** from the left rail, underneath **[!UICONTROL ADMINISTRATION]**.
 
-1. Select ![Person](/help/assets/icons/User.svg) **[!UICONTROL Roles]** from the left panel.
+1. Select {{user}} **[!UICONTROL Roles]** from the left panel.
 
-1. Select an existing role, or create a role using **[!UICONTROL Create role]** (for example, **Mix Modeler**). If you select an existing role, select ![Edit](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]** to edit the permissions for the role. See [Manage Roles](https://helpx.adobe.com/enterprise/using/admin-console.html) for more information.
+1. Select an existing role, or create a role using **[!UICONTROL Create role]** (for example, **Mix Modeler**). If you select an existing role, select {{edit}} **[!UICONTROL Edit]** to edit the permissions for the role. See [Manage Roles](https://helpx.adobe.com/enterprise/using/admin-console.html) for more information.
 
 1. Ensure you have selected one or more sandboxes for the role.
    
