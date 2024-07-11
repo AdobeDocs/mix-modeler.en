@@ -6,7 +6,7 @@ user-guide-description: Learn how to use Mix Modeler.
 
 # Mix Modeler Guide {#using}
 
-+ [Mix Modeler Guide](/help/main-guide/overview.md)
++ [Mix Modeler Guide](/help/overview.md)
 
 + Get Started {#get-started}
   + [What is Mix Modeler?](/help/get-started/about.md)
