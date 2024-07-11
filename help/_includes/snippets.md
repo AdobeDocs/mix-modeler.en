@@ -3403,7 +3403,7 @@
 
 ## User {#user} 
 
-![User](/help/assets/icons/User.svg)
+<img src="./assets/icons/../../../assets/icons/User.svg">
 
 ## UserActivity {#useractivity} 
 
