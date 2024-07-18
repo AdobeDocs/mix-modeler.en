@@ -13,7 +13,7 @@ Here is a test of using Spectrum icons:
 | Option | Result |
 |---|---|
 |User icon with `![User](/help/assets/icons/User.svg)` |![User](/help/assets/icons/User.svg)|
-| User icon with `![User](/help/assets/icons/User.svg)\ {width="150"}` | ![User](/help/assets/icons/User.svg){width="150"} |
-| User icon with `<img src="../assets/icons/User.svg" width=150/>` | <img src="../assets/icons/User.svg" width=150/> |
+| User icon with `![User](/help/assets/icons/User.svg "User icon"){width="150"}` | ![User](/help/assets/icons/User.svg "User icon"){width="150"} |
+| User icon with `<img src="../assets/icons/User.svg" width="150"/>` | <img src="../assets/icons/User.svg" width=150/> |
 
 Downside of using `<img...>` is that is only seems to accept relative paths, which is difficult with articles on different levels....
