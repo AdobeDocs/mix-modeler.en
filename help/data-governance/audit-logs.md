@@ -61,4 +61,4 @@ To inspect the audit log, in the Mix Modeler interface:
 
 When the feature is enabled for your organization, audit logs are automatically collected as activity occurs. You do not need to enable audit log collection manually.
 
-To view and export audit logs, you must have been granted the Audit Logs Access access control permission. To learn how to manage individual permissions for Mix Modeler features, see the [access control documentation](../aai-data-governance/access-controls.md).
+To view and export audit logs, you must have been granted the Audit Logs Access access control permission. To learn how to manage individual permissions for Mix Modeler features, see the [access control documentation](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home).

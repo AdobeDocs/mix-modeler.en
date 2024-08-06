@@ -6,7 +6,7 @@ exl-id: 4dba7c30-ad1e-4213-a2b0-afc55f2448a3
 ---
 # Policies
 
-Once you go through the workflow to create a model and submit the model's configuration, [policy enforcement](../../../data-governance/enforcement/auto-enforcement.md) checks to see if there are any violations. If a policy violation occurs, a popover appears indicating that one or more policies have been violated. This check is to ensure that your data operations and marketing actions within Experience Platform are compliant with data usage policies.
+Once you go through the workflow to create a model and submit the model's configuration, [policy enforcement](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/enforcement/overview#automatic-enforcement) checks to see if there are any violations. If a policy violation occurs, a popover appears indicating that one or more policies have been violated. This check is to ensure that your data operations and marketing actions within Experience Platform are compliant with data usage policies.
 
 When violating a policy when building a dataset rule, you see a popover that displays information about the policy violation. 
 
