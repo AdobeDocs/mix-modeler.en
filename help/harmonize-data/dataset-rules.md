@@ -82,7 +82,7 @@ In the **[!UICONTROL Create]** screen,
 
          1. To delete a case or condition, select ![Close](/help/assets//icons/Close.svg) in the corresponding container.
 
-         1. To select whether any or all of the conditions should apply for a case, select **[!UICONTROL Any of]** or **[!UICONTROL All of]**.
+         1. To select whether any or all the conditions should apply for a case, select **[!UICONTROL Any of]** or **[!UICONTROL All of]**.
 
          1. To set the outcome value for a case, enter the value at **[!UICONTROL Then]**.
 
@@ -90,7 +90,7 @@ In the **[!UICONTROL Create]** screen,
 
       * uses a **[!UICONTROL Map Into]** **[!UICONTROL Mapping type]** to map the **[!UICONTROL Channel Type At Source]** harmonized field to the **[!UICONTROL channel_type]** field from the **[!DNL Luma Transactions]** dataset.
   
-      * uses a **[!UICONTROL Case]** **[!UICONTROL Mapping type]** to conditionally map the value of the **[!UICONTROL marketing.campaignName]** field in the **[!DNL Luma Transactions]** dataset to the **[!UICONTROL Campaign]** harmonized field. The Campaign harmonized field is set to:
+      * uses a **[!UICONTROL Case]** **[!UICONTROL Mapping type]** to map conditionally the value of the **[!UICONTROL marketing.campaignName]** field in the **[!DNL Luma Transactions]** dataset to the **[!UICONTROL Campaign]** harmonized field. The Campaign harmonized field is set to:
          
         * `Black Friday` when the **[!UICONTROL marketing.campaignName]** is `_black_friday` or `BlackFriday`. 
         * to the value of the **[!UICONTROL marketing.campaignName]** in all other cases.
@@ -120,7 +120,7 @@ To delete a dataset rule, in the ![DataSearch](/help/assets//icons/DataCheck.svg
 
 ## Sync data
 
-To sync data between your harmonized data and summary and / or event datasets, following all of the logic in your dataset rules: 
+To sync data between your harmonized data and summary and / or event datasets while applying the logic in your dataset rules: 
 
 1. Select **[!UICONTROL Sync data]**.
 
@@ -153,7 +153,7 @@ To ensure accurate model predictions, you can define data merge preferences:
 
    ![Data merge preferences](/help/assets//data-merge-preferences.png)
 
-   * Select a **[!UICONTROL Default metric preference]**. The selected default metric preference is applied when, during harmonization, multiple sources of data update a metric field for a given channel. The preference is applied at the sandbox level, unless overridden for specific metric based preferences. You can select between **[!UICONTROL Summary data]**, **[!UICONTROL Event data]** and **[!UICONTROL Sum of summmary and event data]**.
+   * Select a **[!UICONTROL Default metric preference]**. The selected default metric preference is applied when, during harmonization, multiple sources of data update a metric field for a given channel. The preference is applied at the sandbox level, unless overridden for specific metric based preferences. You can select between **[!UICONTROL Summary data]**, **[!UICONTROL Event data]** and **[!UICONTROL Sum of summary and event data]**.
 
    * To add specific metric based preferences:
    
@@ -175,11 +175,13 @@ To ensure accurate model predictions, you can define data merge preferences:
 
 1. Select **[!UICONTROL Save]** to save the data merge preferences. A re-sync of the data is initiated. <br/>Select **[!UICONTROL Cancel]** to cancel.
 
+## Delete a source dataset
 
-## Field-level access control
+When you delete a source dataset that is used in your harmonized data, the available entries relying on that source dataset are removed from the [[!UICONTROL Harmonized data]](/help/harmonize-data/overview.md) list. 
 
-When configuring dataset rules for harmonized datasets, Experience Platform's [attribute based access control](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview) is enforced on a field-level. A field is restricted when a label is attached to a schema field and an active policy is enabled that denies access for you to that field. As a result:
+When you return to your **[!UICONTROL Dataset rules]** configuration, you see a dialog explaining that one or more of the source datasets have been deleted. The harmonized data is impacted on a next sync. Review your dataset rule configuration fields.
 
-* you do not see the schema fields that are restricted for you when you create a dataset rule, 
-* you are not able to view or edit the mapping of one or more schema fields that are restricted for you. When you edit or view a dataset rule containing such restricted fields, you see the following screen.
-  ![Action not permitted](/help/assets//action-not-permitted.png)
+A ![DataRemove](/help/assets/icons/DataRemove.svg) indicates deleted source datasets in the list of datasets. To see more details on a deleted source dataset:
+
+* Select ![More](/help/assets/icons/More.svg) and ![Preview](/help/assets/icons/Preview.svg) **[!UICONTROL View]** from the context menu. 
+  The **[!UICONTROL Dataset rule mapping - Fields]** dialog displays information about the deleted source dataset and the fields used in the dataset rule configuration.

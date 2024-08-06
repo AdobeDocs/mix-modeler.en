@@ -1,12 +1,18 @@
 ---
-title: Audits
-description: Learn how to access audits from Mix Modeler.
+title: Audit logs
+description: Learn how to access audit logs from Mix Modeler.
 feature: Administration
 exl-id: aa65aac5-bea4-43ff-b0d0-9e8a6a97d3ca
 ---
-# Audit
+# Audit logs
 
-Use the Audit interface, part of the Experience Platform embedded in the Mix Modeler UI, to audit what users are doing in Mix Modeler.
+To increase the transparency and visibility of activities performed in the system, user activity within the Mix Modeler workflow is captured in Experience Platform audit logs to understand any user-driven changes to Mix Modeler categories. These logs form an audit trail that can help with troubleshooting issues, and can help your business effectively comply with corporate data stewardship policies and regulatory requirements.  
+
+<!-- DO WE HAVE TO ADD THIS
+If you are subject to the Health Insurance Portability and Accountability Act (HIPAA) and create, receive, maintain, or transmit permitted sensitive personal data through Mix Modeler, you are responsible for executing a BAA with Adobe and licensing Healthcare Shield.
+-->
+
+Ann audit log informs who performed what action, and when. Each action recorded in a log contains metadata that indicates the action type, date and time, the email ID of the user who performed the action, and additional attributes relevant to the action type. It tracks the create, update, and delete actions taken by users in Mix Modeler.
 
 To inspect the audit log, in the Mix Modeler interface:
 
@@ -49,5 +55,10 @@ To inspect the audit log, in the Mix Modeler interface:
 
 1. To modify the columns displayed in the Activity log, select ![Columns](/help/assets/icons/ColumnSetting.svg) and in the **[!UICONTROL Customize table]** dialog select the columns to show. Select **[!UICONTROL Apply]** to apply the selection, **[!UICONTROL Cancel]** to cancel the selection.
 
-1. To download the audit log, select ![Download](/help/assets/icons/Download.svg) **[!UICONTROL Download log]**. In the **[!UICONTROL Download log]** dialog select either **[!UICONTROL CSV]** or **[!UICONTROL JSON]** as the format and select **[!UICONTROL Download]**.
+1. To download the audit log, select ![Download](/help/assets/icons/Download.svg) **[!UICONTROL Download log]**. In the **[!UICONTROL Download log]** dialog, select either **[!UICONTROL CSV]** or **[!UICONTROL JSON]** as the format and select **[!UICONTROL Download]**.
 
+## Access to audit logs
+
+When the feature is enabled for your organization, audit logs are automatically collected as activity occurs. You do not need to enable audit log collection manually.
+
+To view and export audit logs, you must have been granted the Audit Logs Access access control permission. To learn how to manage individual permissions for Mix Modeler features, see the [access control documentation](../aai-data-governance/access-controls.md).
