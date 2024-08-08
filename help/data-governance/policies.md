@@ -26,7 +26,7 @@ For example:
 - you have applied the [!UICONTROL C9] - [!UICONTROL No data science] label to the `totalCost` field in your Conversion Data schema,
 - you want to set up a dataset rule that, amongst others, maps the `totalCost` field of the Conversion Data schema to the harmonized field with name `spend` (and display name `Spend`).
 
-When you want to save the dataset rule, you see a **[!UICONTROL Data govername policy violation detected]** popup, displaying a list of polices violated. When you select the policy name, in the [!UICONTROL Violation summary], you see a list of the [!UICONTROL Active data governance labels], containing [!UICONTROL Entity], [!UICONTROL Type], [!UICONTROL Field] and [!UICONTROL Government labels] applied.
+When you want to save the dataset rule, you see a **[!UICONTROL Data governance policy violation detected]** popup, displaying a list of polices violated. When you select the policy name, in the [!UICONTROL Violation summary], you see a list of the [!UICONTROL Active data governance labels], containing [!UICONTROL Entity], [!UICONTROL Type], [!UICONTROL Field] and [!UICONTROL Government labels] applied.
 
 <!-- pending screenshot -->
 
