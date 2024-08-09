@@ -18,7 +18,7 @@ These release notes cover the latest release of Mix Modeler. Mix Modeler release
 | **[!UICONTROL Policy enforcement]** | Experience Platform policies are enforced when configuring dataset rules and when modifying labels to the underlying data used in Mix Modeler. See [Policies](../data-governance/policies.md) for more details. | August 13, 2024 |
 | **Data hygiene** | Data hygiene rules are respected when deleting source data. See [Deleting a source dataset](../harmonize-data/dataset-rules.md#delete-a-source-dataset) | August 13, 2024 |
 | **Factor contribution insights** | In [!UICONTROL Model insights], the [[!UICONTROL Factors]](/help/models/insights.md#factors) tab offers external factor related insights. | August 13, 2024 |
-| **Marginal response curves** | The marginal response curves widget in Model insights now updates curve and corresponding values based on changes in the selected data range. Additionally, the widget shows point of marginal break even and point of diminishing returns. | August 20, 2024 |
+| **Marginal response curves** | The [marginal response curves](/help/models/insights.md#model-insights-1) widget in Model insights now updates the curve and corresponding values based on changes in the selected data range. Additionally, the widget shows the point of marginal break even and the point of diminishing returns. | August 20, 2024 |
 
 
 ## June 2024
