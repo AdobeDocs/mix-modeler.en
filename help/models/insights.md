@@ -14,7 +14,7 @@ To view model insights, in the ![Models](/help/assets//icons/FileData.svg) **[!U
 
 ![Model insights tab bar](/help/assets//model-insights-tabbar.png)
 
-You see when the specified model is last refreshed and widgets are displayed using four tabs: [Model insights](#model-insights), [Attribution](#attribution), [Diagnostics](#diagnostics), and [Historical overview](#historical-overview).
+You see when the specified model is last refreshed and widgets are displayed using four tabs: [Model insights](#model-insights), [Attribution](#attribution), [Factors](#factors), [Diagnostics](#diagnostics), and [Historical overview](#historical-overview).
 
 You can change the date period on which the widgets on each of the tabs are based on. Enter a date period or select ![Calendar](/help/assets//icons/Calendar.svg) to select a date period.
 
@@ -135,6 +135,15 @@ For each conversion path, you see:
 * for each channel, the attribution model contribution percentage, and
 * the sum of these channel attribution model contribution percentages.
 
+## **[!UICONTROL Factors]**
+
+The Factors tab shows external factor related insights.
+
+![Factors](/help/assets/factors.png)
+
+ To download a CSV file containing the data for the table, select ![Download](/help/assets//icons/Download.svg).
+
+ If no data is available you will see a message ![TableAndChart](/help/assets/icons/TableAndChart.svg) **[!UICONTROL No data is available, you may need to retrain your model, or change the date range to view insights]**.
 
 ## [!UICONTROL Diagnostics]
 
