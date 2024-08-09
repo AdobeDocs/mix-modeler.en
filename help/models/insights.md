@@ -28,7 +28,7 @@ The Model insights tab shows widgets for:
 
 * Marketing performance summary.
 
-* Marginal response curves. 
+* Marginal response curves.  Both the curve and corresponding values are calculated based on the selected data range. Additionally, this widget shows the point of marginal break evens and the point of diminishing returns.
   <br/>Select a channel from the **[!UICONTROL Channel]** dropdown list to update the widget for a specific channel.
 
 ![Model - Model insights](/help/assets//model-insights-insights.png)
@@ -143,7 +143,7 @@ The Factors tab shows external factor related insights.
 
  To download a CSV file containing the data for the table, select ![Download](/help/assets//icons/Download.svg).
 
- If no data is available you will see a message ![TableAndChart](/help/assets/icons/TableAndChart.svg) **[!UICONTROL No data is available, you may need to retrain your model, or change the date range to view insights]**.
+ If no data is available you see a message ![TableAndChart](/help/assets/icons/TableAndChart.svg) **[!UICONTROL No data is available, you may need to retrain your model, or change the date range to view insights]**.
 
 ## [!UICONTROL Diagnostics]
 
