@@ -28,7 +28,7 @@ The Model insights tab shows widgets for:
 
 * Marketing performance summary.
 
-* Marginal response curves.  Both the curve and corresponding values are calculated based on the selected data range. Additionally, this widget shows the point of marginal break evens and the point of diminishing returns.
+* Marginal response curves.  Both the curve and corresponding values are calculated based on the selected data range. Additionally, this widget shows the point of marginal break even and the point of diminishing returns.
   <br/>Select a channel from the **[!UICONTROL Channel]** dropdown list to update the widget for a specific channel.
 
 ![Model - Model insights](/help/assets//model-insights-insights.png)
