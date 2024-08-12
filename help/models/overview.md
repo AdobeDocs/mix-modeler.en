@@ -6,7 +6,7 @@ exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
 ---
 # Models
 
-The model functionality in Mix Modeler allows you to configure, train, and score AI/ML models specific to your business objectives and supported by AI-driven transfer learning between multitouch attribution and marketing mix modeling. 
+The model functionality in Mix Modeler allows you to configure, train, and score AI/ML models specific to your business objectives. The training and scoring supports AI-driven transfer learning between multitouch attribution and marketing mix modeling. 
 
 The models are based on the harmonized data that you create as part of the Mix Modeler application workflow.
 
@@ -23,7 +23,7 @@ A model can optionally include:
 
 * external factors,
 * internal factors,
-* so-called 'priors' (probability distribution representing knowledge or uncertainty of data prior or before observing that data), which indexes prior conversions by channel,
+* so-called *priors* (probability distribution representing knowledge or uncertainty of data prior or before observing that data), which indexes prior conversions by channel,
 * spend share, which uses relative spend share as a proxy when marketing data is sparse.
 
 
@@ -77,7 +77,7 @@ You can quickly duplicate a model.
 
 ### Model insights
 
-Model insights is only available on successfully trained models. To view insights of a model:
+The model insights functionality is only available on successfully trained models. To view the insights of a model:
 
    1. Select ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** from the left rail.
 
@@ -97,7 +97,7 @@ Re-train a model is only available on successfully trained models. To re-train a
       In the **[!UICONTROL Train model]** dialog, select the option to: 
 
       * **[!UICONTROL Train model with last 2 years of marketing data]**, or 
-      * **[!UICONTROL Train model using specific time range of data]**. 
+      * **[!UICONTROL Train model using specific date range of data]**. 
         Specify the date range. You can use the ![Calendar](/help/assets/icons/Calendar.svg) to select a date range. You have to select a data range with a minimum of one year.
 
       ![Re-train a model](../assets/re-train-model.png)
@@ -108,7 +108,7 @@ Re-train a model is only available on successfully trained models. To re-train a
 ### Score or re-score
 
 
-You can incrementally score a model based on new marketing data or re-score a model for a specific date range . To score or re-score a model:
+You can incrementally score a model based on new marketing data or re-score a model for a specific date range. To score or re-score a model:
 
    1. Select ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** from the left rail.
 
@@ -117,12 +117,12 @@ You can incrementally score a model based on new marketing data or re-score a mo
       In the **[!UICONTROL Score marketing data]** dialog, select the option to: 
 
       * **[!UICONTROL Score new marketing data from *mm/dd/yyyy*]**, to score your model incrementally using new marketing data, or 
-      * **[!UICONTROL Score specific time range of marketing data]** to re-score for a specific date range. 
+      * **[!UICONTROL Score specific date range of marketing data]** to re-score for a specific date range. 
         Specify the date range. You can use the ![Calendar](/help/assets/icons/Calendar.svg) to select a date range. 
 
       ![Re-train a model](../assets/re-score-model.png)
 
-   1. Select **[!UICONTROL Score]**. When re-scoring a model using a specific data range, you see an **[!UICONTROL Existing model will be replaced]** dialog, prompting you to confirm to replace the model with new scores for the selected date range. Select **[!UICONTROL Replace model]** to confirm.
+   1. Select **[!UICONTROL Score]**. When re-scoring a model using a specific data range, you see an **[!UICONTROL Existing model is replaced]** dialog, prompting you to confirm to replace the model with new scores for the selected date range. Select **[!UICONTROL Replace model]** to confirm.
 
 
 ### Delete a model
