@@ -55,14 +55,14 @@ The field group contains the following fields.
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`channel_typeAtSource` | String | |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`dataSource` | String | Globally unique identification of a data source. <br> **Example:** `Adobe Analytics`  |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`eventSource` | String | The source when the actual event happened. <br> **Example:** `Adobe.com` |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`eventType` | String | hThe primary event type for this time-series record. <br> **Example:** `Order` |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`eventType` | String | The primary event type for this time-series record. <br> **Example:** `Order` |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`geo` | String | The geographic location where the conversion was delivered `placeContext.geo.countryCode`. <br> **Example:** `US` |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`path` | String | |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`priceTotal` | Double | Revenue obtained through the conversion <br> **Example:** `99.9` |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`product` | String | The XDM identifier of the product itself. <br> **Example:** `RX 1080 ti` | 
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`productType` | String | The display name for the product as presented to the user for this product view. <br> **Example:** `Gpus` | 
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`quantity` | Integer | Quantity purchased during the conversion. <br> **Example:** `1`  | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`receivedTimeStamp` | DateTime | Received timestamp of the conversion. <br> **Example:** 2020-06-09T00:01:51.000Z |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`receivedTimeStamp` | DateTime | Received timestamp of the conversion. <br> **Example:** `2020-06-09T00:01:51.000Z` |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`skuId` | String | Stock keeping unit (SKU), the unique identifier for a product defined by the vendor. <br> **Example:** `MJ-03-XS-Black` |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`timestamp` | DateTime | Timestamp of the conversion. <br> **Example:** `2020-06-09T00:01:51.000Z`  |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`totalDaysToConversion` | Integer |  |
@@ -96,8 +96,8 @@ The field group contains the following fields.
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`lag` | Integer | |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`position` | String | |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`touchpointCountToConversion` | Integer | |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`touchpointName` | String | Name of the touchpoint that was configured during setup. <br> **Example:** PAID_SEARCH_CLICK |
-| `conversionName` | String | Name of the conversion that was configured during setup. <br> **Example:** Order, Lead, Visit  |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`touchpointName` | String | Name of the touchpoint that was configured during setup. <br> **Example:** `PAID_SEARCH_CLICK` |
+| `conversionName` | String | Name of the conversion that was configured during setup. <br> **Example:** `Order`, `Lead`, `Visit`  |
 | `scoreCreatedTime` | DateTime | |
 | `segmentation` | String | Conversion segment such as geo segmentation, which the model is built against. When segments are absent, `segmentation` is same as `conversionName`. <br> **Example:** `ORDER_US` |
 
