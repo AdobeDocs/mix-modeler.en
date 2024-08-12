@@ -6,9 +6,9 @@ exl-id: 2f2c3d20-7b14-41cc-a11a-03e8ad9e5d7a
 ---
 # Scoring data
 
-As part of scoring a model, scoring data is persisted within a dataset in Experience Platform. When you have enabled muti-touch attribution during model creation, additional event score data is persisted within a dataset in Experience Platform.
+As part of scoring a model, scoring data is persisted within a dataset in Experience Platform. When you have enabled muti-touch attribution during model creation, additional event score data are persisted within a dataset in Experience Platform.
 
-Each of these datasets conform to a schema. This article documents these schemas.
+Each of these datasets conforms to a schema. This article documents these schemas.
 
 
 ## Aggregate scoring data schema
@@ -31,7 +31,7 @@ The schema includes a field group with an object containing details about the sc
 | `mediaChannel` | String | Name of the channel that was used during the touchpoint setup step. |  
 | `mediaSubChannel` | String | Name of the subchannel. | 
 | `revenue` | Double | Revenue attributed to this conversion for the given touchpoint. |  
-| `scoreCreatedTime` | DateTime | Time when this score record is created. | 
+| `scoreCreatedTime` | DateTime | Timestamp when this score record is created. | 
 | `touchpointEndDate` | Date | End date of the touchpoint window. | 
 | `touchpointName` | String | Name of the touchpoint that was created during the touchpoint definition setup step. Currently the touchpoint is defined on the media channel. | 
 | `touchpointStartDate` | Date | Start date of the touchpoint window. |
@@ -71,7 +71,7 @@ The field group contains the following fields.
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`identity` | Object | |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`id` | String | |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`namespace` | String | Contains the details of the user used to build the model such as `id` and `namespace`. |
-| `touchpointsDetail` | Object[] | The list of touchpoint details leading to the conversion ordered by touchpoint occurrence or timestamp.  |
+| `touchpointsDetail` | Object[] | The list of touchpoint details leading to the conversion, ordered by touchpoint occurrence or timestamp.  |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`scores` | Object | Touchpoint contribution to this conversion as score.| 
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`algorithmicInfluenced` | Double | Influenced score is the fraction of the conversion that each marketing touchpoint is responsible for. |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`algorithmicSourced` | Double | Incremental score is the amount of marginal impact directly caused by a marketing touchpoint. |
@@ -79,7 +79,7 @@ The field group contains the following fields.
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`firstTouch` | Double  | Rule-based attribution score that assigns all credits to the initial touchpoint on a conversion path. |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`lastTouch` | Double | Rule-based attribution score that assigns all credit to the touchpoint closest to the conversion. | 
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`linear` | Double | Rule-based attribution score that assigns equal credit to each touchpoint on a conversion path.  |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`uShape` | Double | Rule-based attribution score that assigns 40% of the credit to the first touchpoint and 40% of the credit to the last touchpoint, with the other touchpoints splitting the remaining 20% equally. |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`uShape` | Double | Rule-based attribution score that assigns 40% of the credit to the first touchpoint and 40% of the credit to the last touchpoint. The other touchpoints splitting the remaining 20% equally. |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`touchPoint` | Object | Touchpoint metadata. |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`passThrough` | Object | |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`eventType` | String | |
@@ -99,7 +99,7 @@ The field group contains the following fields.
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`touchpointName` | String | Name of the touchpoint that was configured during setup. <br> **Example:** PAID_SEARCH_CLICK |
 | `conversionName` | String | Name of the conversion that was configured during setup. <br> **Example:** Order, Lead, Visit  |
 | `scoreCreatedTime` | DateTime | |
-| `segmentation` | String | Conversion segment such as geo segmentation which the model is built against. In case of the absence of segments, segment is same as conversionName. <br> **Example:** `ORDER_US` |
+| `segmentation` | String | Conversion segment such as geo segmentation, which the model is built against. When segments are absent, `segmentation` is same as `conversionName`. <br> **Example:** `ORDER_US` |
 
 
 
