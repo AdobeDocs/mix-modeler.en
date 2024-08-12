@@ -177,11 +177,11 @@ To ensure accurate model predictions, you can define data merge preferences:
 
 ## Delete a source dataset
 
-When you delete a source dataset that is used in your harmonized data, the available entries relying on that source dataset are removed from the [[!UICONTROL Harmonized data]](/help/harmonize-data/overview.md) list. 
-
-When you return to your **[!UICONTROL Dataset rules]** configuration, you see a dialog explaining that one or more of the source datasets have been deleted. The harmonized data is impacted on a next sync. Review your dataset rule configuration fields.
-
-A ![DataRemove](/help/assets/icons/DataRemove.svg) indicates deleted source datasets in the list of datasets. To see more details on a deleted source dataset:
+When you delete a source dataset that is used in your harmonized data, the underlying entries on that source dataset are removed from the [[!UICONTROL Harmonized data]](/help/harmonize-data/overview.md). However, the dataset rule with the deleted source dataset remains in the dataset rule config list with an icon ![DataRemove](/help/assets/icons/DataRemove.svg) indicating that the source dataset has been deleted. To get more details:
 
 * Select ![More](/help/assets/icons/More.svg) and ![Preview](/help/assets/icons/Preview.svg) **[!UICONTROL View]** from the context menu. 
   The **[!UICONTROL Dataset rule mapping - Fields]** dialog displays information about the deleted source dataset and the fields used in the dataset rule configuration.
+
+When you return to your **[!UICONTROL Dataset rules]** configuration, you see a dialog explaining that one or more of the source datasets have been deleted. The harmonized data is impacted on a next ad-hoc or scheduled sync. Review your dataset rule configuration.
+
+The harmonized data is updated without the deleted source data upon the next ad-hoc sync or scheduled sync. However, you continue to see alert dialogs prompting you to delete the dataset rule based on the deleted source dataset. This alert allows users to view and evaluate the impacted fields in the deleted dataset. And to determine the impact to marketing touchpoints or conversions that may be used in any models. Once you have reviewed and mitigated for this impact, you should delete the dataset rule from the list.
