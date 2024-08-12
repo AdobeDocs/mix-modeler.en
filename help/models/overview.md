@@ -48,51 +48,96 @@ To view a table of your current models, in the Mix Modeler interface:
     | Conversion event | The conversion you have selected for the model. |
     | Run frequency | The running frequency of training the model. |
     | Last run | The date and time of the last training of the model. |
-    | Status | The status of the last run of the training of the model. <br/><span style="color:green">●</span> Success<br/><span style="color:orange">●</span> Training issue<br/> <span style="color:orange">●</span> Awaiting training <br/><span style="color:red">●</span> Failed <br/><span style="color:gray">●</span> _ (when a last run is in progeress) |
+    | Status | The status of the last run of the training of the model. <br/>![StatusGreen](/help/assets/icons/StatusGreen.svg) Success<br/>![StatusOrange](/help/assets/icons/StatusOrange.svg) Training issue<br/> ![StatusOrange](/help/assets/icons/StatusOrange.svg) Awaiting training <br/>![StatusRed](/help/assets/icons/StatusRed.svg) Failed <br/>![StatusGreen](/help/assets/icons/StatusGray.svg) _ (when a last run is in progress) |
 
     {style="table-layout:auto"}
 
 1. To change the columns displayed for the list, select ![Column settings](/help/assets//icons/ColumnSetting.svg) and toggle columns on ![Check](/help/assets//icons/Checkmark.svg) or off.
 
+You can take the following actions on a specific model.
 
-### View details of a model
+### View details
 
 To view more details of a model:
 
-   1. Select ![Info](/help/assets//icons/Info.svg) for a model to show a pop-up with details.
+1. Select ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** from the left rail.
+   
+1. Select ![Info](/help/assets//icons/Info.svg) for a model to show a pop-up with details.
 
 
+
+### Duplicate
+
+You can quickly duplicate a model.
+
+1. Select ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** from the left rail.
+
+1. Select ![More](/help/assets/icons/More.svg) for a model, and from the context menu select **[!UICONTROL Duplicate]**.
+   
 
 ### Model insights
 
-To view insights of a model, in the Mix Modeler interface:
+Model insights is only available on successfully trained models. To view insights of a model:
 
    1. Select ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** from the left rail.
 
-   1. Select the name of a model with a **[!UICONTROL Last run status]** of <span style="color:green">●</span> **[!UICONTROL Success]** from the **[!UICONTROL Models]** table. Model insights is only available on successfully trained models.
+   1. Select ![More](/help/assets/icons/More.svg) for a model, and from the context menu select **[!UICONTROL Model Insights]**. Alternatively, you can select the model name. 
 
-   1. From the context menu, select **[!UICONTROL Model Insights]**. You are redirected to [Model Insights](insights.md).
+You are redirected to [Model Insights](insights.md).  
+   
 
+### Re-train
 
-### Re-score
-
-
-To re-score a model, in the Mix Modeler interface:
+Re-train a model is only available on successfully trained models. To re-train a model:
 
    1. Select ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** from the left rail.
 
-   1. Select the name of a model with a **[!UICONTROL Last run status]** of <span style="color:green">●</span> **[!UICONTROL Success]** from the **[!UICONTROL Models]** table. Re-score is only available on successfully trained models.
+   1. Select ![More](/help/assets/icons/More.svg) for a model, and from the context menu select **[!UICONTROL Train]**.
 
-   1. From the context menu, select **[!UICONTROL Re-score]**. It may take a few minutes to show an updated status for the model.
+      In the **[!UICONTROL Train model]** dialog, select the option to: 
+
+      * **[!UICONTROL Train model with last 2 years of marketing data]**, or 
+      * **[!UICONTROL Train model using specific time range of data]**. 
+        Specify the date range. You can use the ![Calendar](/help/assets/icons/Calendar.svg) to select a date range. You have to select a data range with a minimum of one year.
+
+      ![Re-train a model](../assets/re-train-model.png)
+
+   1. Select **[!UICONTROL Train]** to re-train the model.
+
+
+### Score or re-score
+
+
+You can incrementally score a model based on new marketing data or re-score a model for a specific date range . To score or re-score a model:
+
+   1. Select ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** from the left rail.
+
+   1. Select ![More](/help/assets/icons/More.svg) for a model, and from the context menu select **[!UICONTROL Score]**.
+
+      In the **[!UICONTROL Score marketing data]** dialog, select the option to: 
+
+      * **[!UICONTROL Score new marketing data from *mm/dd/yyyy*]**, to score your model incrementally using new marketing data, or 
+      * **[!UICONTROL Score specific time range of marketing data]** to re-score for a specific date range. 
+        Specify the date range. You can use the ![Calendar](/help/assets/icons/Calendar.svg) to select a date range. 
+
+      ![Re-train a model](../assets/re-score-model.png)
+
+   1. Select **[!UICONTROL Score]**. When re-scoring a model using a specific data range, you see an **[!UICONTROL Existing model will be replaced]** dialog, prompting you to confirm to replace the model with new scores for the selected date range. Select **[!UICONTROL Replace model]** to confirm.
 
 
 ### Delete a model
 
 To delete a model:
 
-   1. Select the name of the model that you want to delete.
+   1. Select ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** from the left rail.
 
-   1. From the context menu, select **[!UICONTROL Delete]** to delete the model. 
+   1. Select ![More](/help/assets/icons/More.svg) for a model, and from the context menu select **[!UICONTROL Delete]**.
+
+To delete multiple models:
+
+   1. Select multiple models.
+
+   1. From the blue action bar, select ![Delete](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** to delete the models. 
 
       >[!WARNING]
       >
