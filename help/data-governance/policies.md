@@ -16,7 +16,7 @@ By default, Mix Modeler checks for violations of Adobe defined policies associat
 | Restrict data science | C9 | Data Science |
 | Restrict data export | C12 | Data Export |
 
-Violations are also checked for the policies that you have defined yourself, and that do contain any of the labels and marketing actions listed in the table above.
+Violations are also checked for the policies that you have defined yourself, and that do contain any marketing actions listed in the table above.
 
 When violating a policy while building a dataset rule, you see a popover that displays information about the policy violation.
 
