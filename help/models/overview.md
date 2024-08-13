@@ -23,7 +23,6 @@ A model can optionally include:
 
 * external factors,
 * internal factors,
-* so-called *priors* (probability distribution representing knowledge or uncertainty of data prior or before observing that data), which indexes prior conversions by channel,
 * spend share, which uses relative spend share as a proxy when marketing data is sparse.
 
 
@@ -77,11 +76,11 @@ You can quickly duplicate a model.
 
 ### Model insights
 
-The model insights functionality is only available on successfully trained models. To view the insights of a model:
+The model insights functionality is only available on successfully trained and scored models. To view the insights of a model:
 
    1. Select ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** from the left rail.
 
-   1. Select ![More](/help/assets/icons/More.svg) for a model, and from the context menu select **[!UICONTROL Model Insights]**. Alternatively, you can select the model name. 
+   1. Select the model name. 
 
 You are redirected to [Model Insights](insights.md).  
    
@@ -92,7 +91,7 @@ Re-train a model is only available on successfully trained models. To re-train a
 
    1. Select ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** from the left rail.
 
-   1. Select ![More](/help/assets/icons/More.svg) for a model, and from the context menu select **[!UICONTROL Train]**.
+   1. Select ![More](/help/assets/icons/More.svg) for a model, and from the context menu select **[!UICONTROL Train]**. Alternatively, select ![DataRefresh](/help/assets/icons/DataRefresh.svg) **[!UICONTROL Train]** from the blue action bar.
 
       In the **[!UICONTROL Train model]** dialog, select the option to: 
 
@@ -112,7 +111,7 @@ You can incrementally score a model based on new marketing data or re-score a mo
 
    1. Select ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** from the left rail.
 
-   1. Select ![More](/help/assets/icons/More.svg) for a model, and from the context menu select **[!UICONTROL Score]**.
+   1. Select ![More](/help/assets/icons/More.svg) for a model, and from the context menu select **[!UICONTROL Score]**. Alternatively, select ![DataRefresh](/help/assets/icons/DataRefresh.svg) **[!UICONTROL Score]** from the blue action bar.
 
       In the **[!UICONTROL Score marketing data]** dialog, select the option to: 
 
@@ -131,7 +130,7 @@ To delete a model:
 
    1. Select ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** from the left rail.
 
-   1. Select ![More](/help/assets/icons/More.svg) for a model, and from the context menu select **[!UICONTROL Delete]**.
+   1. Select ![More](/help/assets/icons/More.svg) for a model, and from the context menu select **[!UICONTROL Delete]**. Alternatively, select ![Delete](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** from the blue action bar.
 
 To delete multiple models:
 
