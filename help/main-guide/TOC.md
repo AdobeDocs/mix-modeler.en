@@ -42,9 +42,11 @@ user-guide-description: Learn how to use Mix Modeler.
   + [Schemas](/help/ingest-data/schemas.md)
   + [Datasets](/help/ingest-data/datasets.md)
 
-+ Privacy {#privacy}
-  + [Policies](/help/privacy/policies.md)
-  + [Audit](/help/privacy/audits.md)
++ Data governance {#data-governance}
+  + [Overview](/help/data-governance/overview.md)
+  + [Access control](/help/data-governance/access-controls.md)
+  + [Audit logs](/help/data-governance/audit-logs.md)
+  + [Policies](/help/data-governance/policies.md)
 
 + [Use cases](/help/main-guide/use-cases.md)
 
