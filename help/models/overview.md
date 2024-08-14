@@ -14,16 +14,17 @@ A model in Mix Modeler is a machine learning model employed to measure and / or 
 
 A model requires:
 
-* one conversion,
-* one or more marketing touchpoints (channels) comprised of summary-level data, marketing touchpoint data (event data) or both,
-* a configurable lookback window for
-* a configurable training window.
+* One conversion.
+* One or more marketing touchpoints (channels) comprised of summary-level data, marketing touchpoint data (event data) or both.
+* A configurable lookback window.
+* A configurable training window.
 
 A model can optionally include:
 
-* external factors,
-* internal factors,
-* spend share, which uses relative spend share as a proxy when marketing data is sparse.
+* External factors.
+* Internal factors.
+* Prior knowledge of marketing contributions from other sources such as past stakeholder experience, incrementally testing, other models.
+* Spend share, which uses relative spend share as a proxy when marketing data is sparse.
 
 
 ## Create a model
