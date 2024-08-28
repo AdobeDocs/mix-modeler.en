@@ -2,6 +2,7 @@
 title: Access controls
 description: Learn how to configure access controls in Mix Modeler.
 feature: Administration
+exl-id: c9ec97d9-b9a2-41f5-8626-1cf967d5d7fe
 ---
 # Access controls
 
@@ -26,4 +27,3 @@ When configuring dataset rules for harmonized datasets, Experience Platform's [a
 * you do not see the schema fields that are restricted for you when you create a dataset rule, 
 * you are not able to view or edit the mapping of one or more schema fields that are restricted for you. When you edit or view a dataset rule containing such restricted fields, you see the following screen.
   ![Action not permitted](/help/assets//action-not-permitted.png)
-

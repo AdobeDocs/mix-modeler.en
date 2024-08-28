@@ -2,6 +2,7 @@
 title: Data governance
 description: Learn how to use the services and tools from Experience Platform that allow you to control your collected experience data. So, you comply with your business practices, legal obligations, and development process.
 feature: Administration
+exl-id: 87407c29-e158-48bf-bde9-b3c16a16107e
 ---
 # Data governance
 
@@ -22,4 +23,4 @@ The following data governance features are available:
 | Policies | As part of the harmonized data workflow, Experience Platform defined policies are enforced. Any violation of data usage labels is reported and displayed to the user. See [Policies](policies.md) for more information. |
 | Encryption | All datasets used for input and output of models follow the Experience Platform guidelines. Experience Platform data encryption applies for data at-rest and in-transit. |
 | Data hygiene | All datasets used for input and out of models follow the Experience Platform guidelines. Experience Platform provides a set of tools to manage the customer data lifecycle, including the support of different types of data expiration. When you delete a source dataset from Experience Platform, which is used as part of your harmonized data, you are notified. See [Dataset rules](/help/harmonize-data/dataset-rules.md) for more information. |
-| Customer Managed Keys | When you have licensed Mix Modeler with the Privacy Security Shield or Healthcare Shield add-on, you can use the Customer Managed Keys capability to leverage Azure Key Vault to bring your own keys via APIs. You have complete management of data being processed within models in Mix Modeler. | 
+| Customer Managed Keys | When you have licensed Mix Modeler with the Privacy Security Shield or Healthcare Shield add-on, you can use the Customer Managed Keys capability to leverage Azure Key Vault to bring your own keys via APIs. You have complete management of data being processed within models in Mix Modeler. |
