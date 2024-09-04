@@ -18,6 +18,8 @@ Test a table witn unicode characters
 {style="table-layout:fixed"}
 
 
+
+
 And we do support formulas as well?
 
 **The Cauchy-Schwarz Inequality**
