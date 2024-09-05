@@ -5,8 +5,8 @@ feature-set: Experience Cloud
 feature: Release Notes
 hide: yes
 hidefromtoc: yes
+exl-id: 5f832a79-7a0c-43cd-87cf-a5ceceb79032
 ---
-
 # Test
 
 Test a table witn unicode characters
@@ -24,5 +24,3 @@ And we do support formulas as well?
 
 **The Cauchy-Schwarz Inequality**
 $$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
-
-
