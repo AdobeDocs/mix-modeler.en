@@ -56,7 +56,6 @@ user-guide-description: Learn how to use Mix Modeler.
   + [Latest release](/help/releases/latest.md)
   + [2023 releases](/help/releases/2023.md)
   + [Test](../releases/test.md)
-  + [Index](../releases/index.md)
 
 + [Glossary](/help/main-guide/glossary.md)
 
