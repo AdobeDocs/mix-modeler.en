@@ -10,7 +10,7 @@ exl-id: 6c32f978-8a3e-4878-bb6b-550f1750d6b7
 
 To see an usage report of your harmonized data:
 
-1. Select ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** from the left rail.
+1. Select ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** from the left rail.
    
 1. Select **[!UICONTROL Usage report]** from the top bar. 
 

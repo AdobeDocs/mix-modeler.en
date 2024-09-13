@@ -16,7 +16,7 @@ These release notes cover the latest release of Mix Modeler. Mix Modeler release
 | Feature | Description | General Availability |
 |---|---|---|
 | **Factor contribution insights** | In [!UICONTROL Model insights], the [[!UICONTROL Factors]](/help/models/insights.md#factors) tab offers external factor related insights. | August 20, 2024 |
-| **Marginal response curves** | The [marginal response curves](/help/models/insights.md#model-insights-1) widget in Model insights now updates the curve and corresponding values based on changes in the selected data range. Additionally, the widget shows the point of marginal break even and the point of diminishing returns. | August 20, 2024 |
+| **Marginal response curves** | The [marginal response curves](/help/models/insights.md#model-insights-1) visualization in Model insights now updates the curve and corresponding values based on changes in the selected data range. Additionally, the visualization shows the point of marginal break even and the point of diminishing returns. | August 20, 2024 |
 | **Ad-hoc training and scoring** | You can initiate a model [re-train](/help/models/overview.md#re-train), [score (for new marketing data) or re-score](/help/models/overview.md#score-or-re-score) from the Models interface. | August 13, 2024 | 
 | **Policy enforcement** | Experience Platform policies are enforced when configuring dataset rules and when modifying labels to the underlying data used in Mix Modeler. See [Policies](../data-governance/policies.md) for more details. | August 13, 2024 |
 | **Data hygiene** | Data hygiene rules are respected when deleting source data. See [Deleting a source dataset](../harmonize-data/dataset-rules.md#delete-a-source-dataset) | August 13, 2024 |
@@ -56,7 +56,7 @@ These release notes cover the latest release of Mix Modeler. Mix Modeler release
 | Feature | Description | General Availability |
 |---|---|---|
 | **Enhanced downloads** | You can [download full model insights](../models/insights.md) in Microsoft&reg; Excel format | January 31, 2024 |
-| **Marginal response curves** | [Model insights](../models/insights.md) provide an additional widget to show marginal response curves. | January 31, 2024 |
+| **Marginal response curves** | [Model insights](../models/insights.md) provide an additional visualization to show marginal response curves. | January 31, 2024 |
 | **Data merge preferences** | You can define [data merge preferences](../harmonize-data/dataset-rules.md#data-merge-preferences) for dataset rules for harmonized datasets. | January 31, 2024 | 
 | **Usage report**| The Harmonized datasets UI has an additional [Usage report](../harmonize-data/usage-report.md) tab providing additional insights into usage of models and conversions.  | January 31, 2024 |
 | **Updated Plan Insights UI** | The Plan Insights UI is updated, allowing you to select on which ROI and channels to report. | January 31, 2024 |

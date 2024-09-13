@@ -26,4 +26,4 @@ When configuring dataset rules for harmonized datasets, Experience Platform's [a
 
 * you do not see the schema fields that are restricted for you when you create a dataset rule, 
 * you are not able to view or edit the mapping of one or more schema fields that are restricted for you. When you edit or view a dataset rule containing such restricted fields, you see the following screen.
-  ![Action not permitted](/help/assets//action-not-permitted.png)
+  ![Action not permitted](/help/assets/action-not-permitted.png)
