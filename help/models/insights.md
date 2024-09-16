@@ -51,7 +51,7 @@ The curve, break-even point, and corresponding values are calculated based on th
 
 To change the channel:
 
-* Select a channel from the **[!UICONTROL Channel]** dropdown list to update the visualization for a specific channel.
+* Select a channel from the **[!UICONTROL Channel]** dropdown menu to update the visualization for a specific channel.
 
 
 
@@ -71,7 +71,7 @@ Using the [!UICONTROL Attribution] tab, you can understand the effectiveness of 
 
 See [Multi-touch attribution](../get-started/about.md#multi-touch-attribution) for an introduction on the multi-touch attribution capability in Mix Modeler.
 
-Select one or more attribution models from the **[!UICONTROL Attribution Model]** dropdown list. The selected attribution models apply to all visualizations in the Attribution tab.
+Select one or more attribution models from the **[!UICONTROL Attribution Model]** dropdown menu. The selected attribution models apply to all visualizations in the Attribution tab.
 
 ![Attribution](/help/assets/model-insights-attribution.png)
 
