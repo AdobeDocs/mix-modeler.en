@@ -11,12 +11,12 @@ exl-id: 930fc1d5-8e28-4610-af7b-c4ec91f86a8a
 >[!BADGE Alpha]{type=Informative} The Plans tab in Mix Modeler Overview is an alpha feature and its functionality is subject to change.
 
 
-The Plans tab in Mix Modeler Overview shows widgets for [!UICONTROL Budget], [!UICONTROL Revenue], [!UICONTROL ROI] and [!UICONTROL KPI].
+The Plans tab in Mix Modeler Overview shows visualizations for [!UICONTROL Budget], [!UICONTROL Revenue], [!UICONTROL ROI] and [!UICONTROL KPI].
 
-The data displayed for the widgets is determined by:
+The data displayed for the visualizations is determined by:
 
 * The plan. Select a plan from **[!UICONTROL Plan name]** using the **[!UICONTROL _Select an option..._]**.
 
-* The specified date period. To change the date period, enter a start date and end date manually or select a date period, using ![Calendar](/help/assets//icons/Calendar.svg).
+* The specified date period. To change the date period, enter a start date and end date manually or select a date period, using ![Calendar](/help/assets/icons/Calendar.svg).
 
 

@@ -6,11 +6,11 @@ exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
 ---
 # Models
 
-The model functionality in Mix Modeler allows you to configure, train, and score AI/ML models specific to your business objectives. The training and scoring supports AI-driven transfer learning between multitouch attribution and marketing mix modeling. 
+The model functionality in Mix Modeler allows you to configure, train, and score models specific to your business objectives. The training and scoring supports AI-driven transfer learning between multitouch attribution and marketing mix modeling. 
 
 The models are based on the harmonized data that you create as part of the Mix Modeler application workflow.
 
-A model in Mix Modeler is a machine learning model employed to measure and / or predict a specified outcome based on a marketer's investments. Marketing touchpoints and summary-level data can be used as an input. Mix Modeler allows you to create variants of models based on different sets of variables, dimensions, and outcomes, such as revenues, units sold, leads.
+A model in Mix Modeler is a machine learning model employed to measure and predict a specified outcome based on a marketer's investments. Marketing touchpoints and summary-level data can be used as an input. Mix Modeler allows you to create variants of models based on different sets of variables, dimensions, and outcomes, such as revenues, units sold, leads.
 
 A model requires:
 
@@ -35,7 +35,7 @@ To create a model, use the Mix Modeler step-by-step guided model configuration f
 
 To view a table of your current models, in the Mix Modeler interface:
 
-1. Select ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** from the left rail.
+1. Select ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** from the left rail.
    
 1. You see a table of the current models.
 
@@ -52,7 +52,7 @@ To view a table of your current models, in the Mix Modeler interface:
 
     {style="table-layout:auto"}
 
-1. To change the columns displayed for the list, select ![Column settings](/help/assets//icons/ColumnSetting.svg) and toggle columns on ![Check](/help/assets//icons/Checkmark.svg) or off.
+1. To change the columns displayed for the list, select ![Column settings](/help/assets/icons/ColumnSetting.svg) and toggle columns on ![Check](/help/assets/icons/Checkmark.svg) or off.
 
 You can take the following actions on a specific model.
 
@@ -60,9 +60,9 @@ You can take the following actions on a specific model.
 
 To view more details of a model:
 
-1. Select ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** from the left rail.
+1. Select ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** from the left rail.
    
-1. Select ![Info](/help/assets//icons/Info.svg) for a model to show a pop-up with details.
+1. Select ![Info](/help/assets/icons/Info.svg) for a model to show a pop-up with details.
 
 
 
@@ -70,16 +70,18 @@ To view more details of a model:
 
 You can quickly duplicate a model.
 
-1. Select ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** from the left rail.
+1. Select ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** from the left rail.
 
 1. Select ![More](/help/assets/icons/More.svg) for a model, and from the context menu select **[!UICONTROL Duplicate]**.
    
 
 ### Model insights
 
-The model insights functionality is only available on successfully trained and scored models. To view the insights of a model:
+The model insights functionality is only available on successfully trained and scored models.
 
-   1. Select ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** from the left rail.
+To view the insights of a model:
+
+   1. Select ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** from the left rail.
 
    1. Select the model name. 
 
@@ -88,9 +90,16 @@ You are redirected to [Model Insights](insights.md).
 
 ### Re-train
 
-Re-train a model is only available on successfully trained models. To re-train a model:
 
-   1. Select ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** from the left rail.
+Re-train a model is only available on successfully trained models. 
+
+Consider to re-train a model when you want to:
+
+* Include new incremental marketing and factor data. For example, over the last quarter, market dynamics have changed or your marketing data distribution has changed significantly.
+
+To re-train a model:
+
+   1. Select ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** from the left rail.
 
    1. Select ![More](/help/assets/icons/More.svg) for a model, and from the context menu select **[!UICONTROL Train]**. Alternatively, select ![DataRefresh](/help/assets/icons/DataRefresh.svg) **[!UICONTROL Train]** from the blue action bar.
 
@@ -108,9 +117,16 @@ Re-train a model is only available on successfully trained models. To re-train a
 ### Score or re-score
 
 
-You can incrementally score a model based on new marketing data or re-score a model for a specific date range. To score or re-score a model:
+You can incrementally score a model based on new marketing data or re-score a model for a specific date range. 
 
-   1. Select ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** from the left rail.
+Consider to re-score a model when you want to:
+
+* Correct incorrect marketing data. For example, the recent paid search data you included in the training and scoring of the model missed a week of data.
+* Use new incremental marketing data that has become available through updates in the datasets you have configured as part of your harmonized data.
+
+To score or re-score a model:
+
+   1. Select ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** from the left rail.
 
    1. Select ![More](/help/assets/icons/More.svg) for a model, and from the context menu select **[!UICONTROL Score]**. Alternatively, select ![DataRefresh](/help/assets/icons/DataRefresh.svg) **[!UICONTROL Score]** from the blue action bar.
 
@@ -129,7 +145,7 @@ You can incrementally score a model based on new marketing data or re-score a mo
 
 To delete a model:
 
-   1. Select ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** from the left rail.
+   1. Select ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** from the left rail.
 
    1. Select ![More](/help/assets/icons/More.svg) for a model, and from the context menu select **[!UICONTROL Delete]**. Alternatively, select ![Delete](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** from the blue action bar.
 
