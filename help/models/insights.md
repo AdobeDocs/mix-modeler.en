@@ -20,7 +20,7 @@ You can change the date period on which the visualizations on each of the tabs a
 
 ## [!UICONTROL Model insights]
 
-The Model insights tab shows visualizations for [Contribution by date and base media](#contribution-by-date-and-base-media), [Contribution by channel](#contribution-by-channel), [Marketing performance summary](#marketing-performance-summary), and [Marginal response curves](#marginal-response-curves). The tab also provides a Touchpoint breakdown table.
+The Model insights tab shows visualizations for [Contribution by date and base media](#contribution-by-date-and-base-media), [Contribution by channel](#contribution-by-channel), [Marketing performance summary](#marketing-performance-summary), and [Marginal response curves](#marginal-response-curves). The tab also provides a [Touchpoint breakdown](#touchppint-breakdown) table.
 
 ![Model - Model insights](/help/assets/model-insights-insights.png)
 
@@ -54,7 +54,7 @@ To change the channel:
 * Select a channel from the **[!UICONTROL Channel]** dropdown menu to update the visualization for a specific channel.
 
 
-### Touchppint breakdown
+### Touchpoint breakdown
 
 The touchpoint breakdown table shows the touchpoint breakdowns for all or selected channels on a weekly base.
 
