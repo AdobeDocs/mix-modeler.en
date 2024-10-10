@@ -42,7 +42,7 @@ This technical documentation guide provides self help assistance for Adobe **Mix
 
 ## Explore the documentation
 
-<table style="table-layout:auto">
+<table style="table-layout:fixed">
   <tr style="border: 0;">
     <td>
       <img src="assets/Data.svg" width="35px"><br/>
