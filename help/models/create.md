@@ -20,33 +20,35 @@ To build your custom AI-powered models, the interface provides a step-by-step gu
 
 1. In the **[!UICONTROL Configure]** step:
 
-   1. In the **[!UICONTROL Conversion goal]** section, within the container:
+   1. In the **[!UICONTROL Conversion goal]** section:
 
-       1. Enter a **[!UICONTROL Conversion name]** for the conversion, for example `Conversion`
+       ![Model - conversion step](/help/assets/model-conversion-step.png)
 
-       1. Select a conversion from **[!UICONTROL *Select harmonized field*]**, containing the available conversions you defined as part of [Conversions](../harmonize-data/conversions.md) in [!UICONTROL Harmonized datasets]. For example, **[!UICONTROL Online Conversion]**. 
+       1. Select a conversion from the **[!UICONTROL Conversion]** dropdown menu. The available conversions are the conversion that you defined as part of [Conversions](../harmonize-data/conversions.md) in [!UICONTROL Harmonized datasets]. For example, **[!UICONTROL Online Conversion]**. 
 
-       1. You can select ![Reply](/help/assets/icons/Reply.svg) **[!UICONTROL Create new conversion]** to create a conversion directly from within the model configuration.
+       1. You can select ![LinkOutLight](/help/assets/icons/LinkOutLight.svg) **[!UICONTROL Create a conversion]** to create a conversion directly from within the model configuration.
 
-            ![Model - conversion step](/help/assets/model-conversion-step.png)
 
-   1. In the **[!UICONTROL Marketing touchpoints]** section, you see a number of marketing touchpoint containers, corresponding to the marketing touchpoints you defined as part of [Marketing touchpoints](../harmonize-data/marketing-touchpoints.md) in [!UICONTROL Harmonized datasets]. 
 
-       * For each container:
+   1. In the **[!UICONTROL Marketing touchpoints]** section, you can select one or more marketing touchpoints, corresponding to the marketing touchpoints you defined as part of [Marketing touchpoints](../harmonize-data/marketing-touchpoints.md) in [!UICONTROL Harmonized datasets]. 
 
-         1. You can modify the **[!UICONTROL Marketing touchpoint name]**. 
 
-         1. Select a marketing touchpoint from **[!UICONTROL _Select marketing touchpoint_]**.
+      ![Model - marketing touchpoint step](/help/assets/model-marketing-touchpoint-step.png)
 
-         1. You can select ![Reply](/help/assets/icons/Reply.svg) **[!UICONTROL Create new marketing touchpoint]** to create a marketing touchpoint directly from within the model configuration.
+      1. Select one or more marketing touchpoint from the **[!UICONTROL Touchpoint include]** dropdown menu.
 
-       * To add a marketing touchpoint container, select ![Add](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add marketing touchpoint]**.
+         * You can use ![CrossSize75](/help/assets/icons/CrossSize75.svg) to remove a touchpoint.
+         * You can use **[!UICONTROL Clear all]** to remove all touchpoints.
 
-       * To remove a marketing touchpoint container, within the container, select ![More](/help/assets/icons/More.svg), and select **[!UICONTROL Remove container]** from the context menu.
+      1. You can select ![LinkOutLight](/help/assets/icons/LinkOutLight.svg) **[!UICONTROL Create a touchpoint]** to create a marketing touchpoint directly from within the model configuration.
 
-            ![Model - marketing touchpoints-step](/help/assets/model-marketing-touchpoint-step.png)
+      >[!NOTE]
+      >
+      >You cannot set up the model with touchpoints that have overlapping data and there must be at least one touchpoint with spend.
 
    1. By default, a score is generated for all the data in your harmonized view. To only score a subset of the population, define one or more filters using containers in the **[!UICONTROL Eligible data population]** section. 
+
+      ![Model - Eligible data population](/help/assets/model-eligible-data-population-step.png)
 
        * For each container, define one or more events.
 
@@ -60,7 +62,7 @@ To build your custom AI-powered models, the interface provides a step-by-step gu
 
          1. To add an additional event in the container, select ![Add](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add event]**.
 
-         1. To remove an event from the container, select ![Close](/help/assets/icons/Close.svg).
+         1. To remove an event from the container, select ![Close](/help/assets/icons/CrossSize75.svg).
 
          1. To filter using all or any of multiple events defined in the container, select **[!UICONTROL Any of]** or **[!UICONTROL All of]**. The label correspondingly changes from **[!UICONTROL Include ... Or ...]** to **[!UICONTROL Include ... And ...]**.
        
@@ -68,36 +70,44 @@ To build your custom AI-powered models, the interface provides a step-by-step gu
 
        * To remove an eligible data population container, within the container, select ![More](/help/assets/icons/More.svg), and select **[!UICONTROL Remove marketing touchpoint]** from the context menu.
 
-         ![Model - Eligible data population](/help/assets/model-eligible-data-population-step.png)
+         
 
-   1. To add datasets containing external factors to your model, use one or more containers in the **[!UICONTROL External factors dataset]** section. 
+   1. To add datasets containing external factors to your model, use one or more containers in the **[!UICONTROL External factors dataset]** section. An example of external factors are S&P indices. 
+
+      ![Model - External factors dataset](/help/assets/model-external-factors-dataset-step.png)
 
        * For each container:
 
-         1. Enter a **[!UICONTROL Factor name]** at **[!UICONTROL _Enter factor_]**.
+         1. Enter a **[!UICONTROL External factor name]**, for example `External Factors`.
 
-         1. Select a dataset from **[!UICONTROL _Select a dataset_]**. You can select ![Data](/help/assets/icons/Data.svg) to manage datasets. See [Datasets](../ingest-data/datasets.md) for more information.
+         1. Select a dataset from the **[!UICONTROL Dataset]** dropdown menu. You can select ![Data](/help/assets/icons/Data.svg) to manage datasets. See [Datasets](../ingest-data/datasets.md) for more information.
+
+         1. Select an option from the **[!UICONTROL Impact on conversion]** dropdown menu: **[!UICONTROL Auto select]**, **[!UICONTROL Positive]** or **[!UICONTROL Negative]**.
 
        * To add an additional external factors dataset container, select ![Add](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add external factor]**.
 
-       * To remove an external factors dataset container, within the container, select ![More](/help/assets/icons/More.svg), and select **[!UICONTROL Remove external factor]** from the context menu.
+       * To remove an external factors dataset container, select ![RemoveCircle](/help/assets/icons/RemoveCircle.svg).
 
-         ![Model - External factors dataset](/help/assets/model-external-factors-dataset-step.png)
+         
 
 
-   1. To add datasets containing internal factors to your model, use one or more containers in the **[!UICONTROL Internal factors dataset]** section. 
+   1. To add datasets containing internal factors to your model, use one or more containers in the **[!UICONTROL Internal factors dataset]** section. An example of internal factors are email marketing data.
+
+      ![Model - Internal factors dataset](/help/assets/model-internal-factors-dataset-step.png)
 
        * For each container:
 
-         1. Enter a **[!UICONTROL Factor name]** at **[!UICONTROL _Enter factor_]**.
+         1. Enter a **[!UICONTROL Internal factor name]**, for example `Email Marketing Data`.
 
          1. Select a dataset from **[!UICONTROL _Select a dataset_]**. You can select ![Data](/help/assets/icons/Data.svg) to manage datasets. See [Datasets](../ingest-data/datasets.md) for more information.
 
+         1. Select an option from the **[!UICONTROL Impact on conversion]** dropdown menu: **[!UICONTROL Auto select]**, **[!UICONTROL Positive]** or **[!UICONTROL Negative]**.
+
        * To add an additional internal factors dataset container, select ![Add](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add internal factor]**.
 
-       * To remove an additional internal factors dataset container, within the container, select ![More](/help/assets/icons/More.svg), and **[!UICONTROL Remove internal factor]** from the context menu.
+       * To remove an internal factors dataset container, select ![RemoveCircle](/help/assets/icons/RemoveCircle.svg).
 
-         ![Model - Internal factors dataset](/help/assets/model-internal-factors-dataset-step.png)
+         
 
    1. To define the lookback window for the model, enter a value between `1` and `52` in **[!UICONTROL Give contribution credit to touchpoints occurring within]** ... **[!UICONTROL weeks prior to the conversion]**.
 
@@ -115,11 +125,17 @@ To build your custom AI-powered models, the interface provides a step-by-step gu
 
    1. In the **[!UICONTROL Spend share]** section:
 
-       * To use historical marketing investment ratios to inform the model when marketing data is sparse,  activate **[!UICONTROL Allow spend share]**.
+       * To use historical marketing investment ratios to inform the model when marketing data is sparse, activate **[!UICONTROL Allow spend share]**.
+
+   1. In the **[!UICONTROL MTA enabled]** section:
+
+       * To enable MTA features for the created mode, active **[!UICONTROL MTA enabled]**. Once enabled, 
 
    1. In the **[!UICONTROL Prior knowledge]** section:
 
-       1. Select the **[!UICONTROL Rule type]**.
+      ![Model - Prior knowledge](/help/assets/model-prior-knowledge-step.png)
+
+       1. Select the **[!UICONTROL Rule type]**, which is by default **[!UICONTROL Absolute values]**.
 
        1. Specify contribution percentages for any of the channels listed under **[!UICONTROL Name]**, using the **[!UICONTROL Contribution proportion]** column. 
 
@@ -127,11 +143,11 @@ To build your custom AI-powered models, the interface provides a step-by-step gu
 
        1. When needed, use **[!UICONTROL Clear all]** to clear all input values for the **[!UICONTROL Contribution proportion]** and **[!UICONTROL Level of confidence]** columns.
 
-          ![Model - Prior knowledge](/help/assets/model-prior-knowledge-step.png)
+          
 
-1. Select **[!UICONTROL Finish]** to finish you model configuration. 
+1. Select **[!UICONTROL Finish]** to finish your model configuration. 
    
-   * In the **[!UICONTROL Create instance?]** dialog, select **[!UICONTROL Ok]** to trigger the first set of training and scoring runs immediately. Your model is listed with status <span style="color:orange">●</span> **[!UICONTROL Awaiting training]**.
+   * In the **[!UICONTROL Create instance?]** dialog, select **[!UICONTROL Ok]** to trigger the first set of training and scoring runs immediately. Your model is listed with status ![StatusOrange](/help/assets/icons/StatusOrange.svg) **[!UICONTROL Awaiting training]**.
    
      Select **[!UICONTROL Cancel]** to cancel. 
   
