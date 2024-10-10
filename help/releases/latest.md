@@ -9,13 +9,19 @@ exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
 
 **Last update**: August 13, 2024.
 
-These release notes cover the latest release of Mix Modeler. Mix Modeler releases operate on a continuous delivery model, which allows for an approximate monthly release cadence. Accordingly, these release notes get updated, so check them regularly.
+These release notes cover the latest release of Mix Modeler. Mix Modeler releases operate on a continuous delivery model, which allows for an approximate monthly release cadence. Accordingly, these release notes get updated, so check them regularly.'
+
+## October 2024
+
+| Feature | Description | General Availability |
+|---|---|---|
+| **Touchpoint breakdown table** | In [!UICONTROL Models], the [[!UICONTROL Model insights]](/help/models/insights.md#factors) tab now offers an additional [Touchpoint breakdown](../models/insights.md#touchpoint-breakdown) table. | October 1, 2024 |
 
 ## August 2024
 
 | Feature | Description | General Availability |
 |---|---|---|
-| **Factor contribution insights** | In [!UICONTROL Model insights], the [[!UICONTROL Factors]](/help/models/insights.md#factors) tab offers external factor related insights. | August 20, 2024 |
+| **Factor contribution insights** | In [!UICONTROL Models], the [[!UICONTROL Factors]](/help/models/insights.md#factors) tab offers external factor related insights. | August 20, 2024 |
 | **Marginal response curves** | The [marginal response curves](/help/models/insights.md#model-insights-1) visualization in Model insights now updates the curve and corresponding values based on changes in the selected data range. Additionally, the visualization shows the point of marginal break even and the point of diminishing returns. | August 20, 2024 |
 | **Ad-hoc training and scoring** | You can initiate a model [re-train](/help/models/overview.md#re-train), [score (for new marketing data) or re-score](/help/models/overview.md#score-or-re-score) from the Models interface. | August 13, 2024 | 
 | **Policy enforcement** | Experience Platform policies are enforced when configuring dataset rules and when modifying labels to the underlying data used in Mix Modeler. See [Policies](../data-governance/policies.md) for more details. | August 13, 2024 |

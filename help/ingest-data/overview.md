@@ -6,7 +6,7 @@ exl-id: dc16a601-bbd9-467b-8a7e-c32654d4069a
 ---
 # Ingest data
 
-Mix Modeler works with event level data, aggregate oe summary marketing effort data from various walled gardens, and aggregrate or summary data from any other source, like offline advertising, internal factors or external factors. 
+Mix Modeler works with event level data, aggregate or summary marketing effort data from various walled gardens, and aggregrate or summary data from any other source, like offline advertising, internal factors or external factors. 
 
 Customers can use any kind of data that is ingested into Experience Platform as datasets and which is based on schemas using the XDM ExperienceEvent or XDM Summary Metrics as the base class. 
 
