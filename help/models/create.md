@@ -129,7 +129,7 @@ To build your custom AI-powered models, the interface provides a step-by-step gu
 
    1. In the **[!UICONTROL MTA enabled]** section:
 
-       * To enable MTA features for the created mode, active **[!UICONTROL MTA enabled]**. Once enabled, multi-touch attribution insights are available one you have trained and scored your model through the [Attribution](insights.md#attribution) tab in [Model insights](insights.md).
+       * To enable MTA features for the model, activate **[!UICONTROL MTA enabled]**. IF you have enabled MTA, multi-touch attribution insights are available after you have trained and scored your model. See the [Attribution](insights.md#attribution) tab in [Model insights](insights.md).
 
    1. In the **[!UICONTROL Prior knowledge]** section:
 
