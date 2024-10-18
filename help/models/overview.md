@@ -140,6 +140,25 @@ To score or re-score a model:
 
    1. Select **[!UICONTROL Score]**. When re-scoring a model using a specific data range, you see an **[!UICONTROL Existing model is replaced]** dialog, prompting you to confirm to replace the model with new scores for the selected date range. Select **[!UICONTROL Replace model]** to confirm.
 
+### Edit
+
+ 1. Select ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** from the left rail.
+
+    1. Select ![More](/help/assets/icons/More.svg) for a model, and from the context menu select **[!UICONTROL Edit]**.
+
+      In the **[!UICONTROL Edit model]** dialog, select the option to rename the model.
+
+      * Enter a new name and description.
+
+      * To enable scheduling, enable Status. 
+
+        
+
+      ![Re-train a model](../assets/model-edit.png)
+
+    1. Select **[!UICONTROL Score]**. When re-scoring a model using a specific data range, you see an **[!UICONTROL Existing model is replaced]** dialog, prompting you to confirm to replace the model with new scores for the selected date range. Select **[!UICONTROL Replace model]** to confirm.
+
+
 
 ### Delete a model
 
