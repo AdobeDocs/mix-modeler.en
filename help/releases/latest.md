@@ -7,7 +7,7 @@ exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
 ---
 # Current Mix Modeler release notes
 
-**Last update**: August 13, 2024.
+**Last update**: October 1, 2024.
 
 These release notes cover the latest release of Mix Modeler. Mix Modeler releases operate on a continuous delivery model, which allows for an approximate monthly release cadence. Accordingly, these release notes get updated, so check them regularly.'
 
