@@ -54,6 +54,28 @@ To change the channel:
 * Select a channel from the **[!UICONTROL Channel]** dropdown menu to update the visualization for a specific channel.
 
 
+### Touchpoint breakdown
+
+The touchpoint breakdown table shows the touchpoint breakdowns for all or selected channels on a weekly base.
+
+![Touchpoint breakdown](../assets/touchpoint-breakdown.png)
+
+The following columns are available:
+
+| Column | Description |
+|---|---|
+| **[!UICONTROL Date range]** | The week to report on. |
+| **[!UICONTROL Touchpoint]** | The specifc touchpoint channel. |
+| **[!UICONTROL ROI]** | The percentage of (**[!UICONTROL Revenue]** - **[!UICONTROL Spend]**) / **[!UICONTROL Spend]**. |
+| **[!UICONTROL Revenue]** | The revenue for the date range. |
+| **[!UICONTROL CPA]** | **[!UICONTROL Spend]** / **[!UICONTROL Conversions]**. |
+| **[!UICONTROL Conversions]** | The conversions for the date range. |
+| **[!UICONTROL Spend]** | The spend for the data range. |
+
+To select a specific channel or all channels, select from the **[!UICONTROL View]** dropdown menu.
+
+To download the contents of the Touchpoint breakdown table, select ![Download](/help/assets/icons/Download.svg) **[!UICONTROL Download CSV]**.
+
 
 ## [!UICONTROL Attribution]
 
