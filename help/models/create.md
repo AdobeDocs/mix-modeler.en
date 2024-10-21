@@ -115,14 +115,6 @@ To build your custom AI-powered models, the interface provides a step-by-step gu
 
 1. In the **[!UICONTROL Advanced]** step:
 
-   1. In the **[!UICONTROL Define training window]** section, select between 
-
-       * **[!UICONTROL Have Mix Modeler select a helpful training window]** and 
-
-       * **[!UICONTROL Manually input a training window]**. When selected, define the number of years in **[!UICONTROL Include events the following years prior to a conversion]**.
-
-         ![Model - Define training window](/help/assets/model-define-training-window.png)
-
    1. In the **[!UICONTROL Spend share]** section:
 
        * To use historical marketing investment ratios to inform the model when marketing data is sparse, activate **[!UICONTROL Allow spend share]**.
@@ -144,6 +136,30 @@ To build your custom AI-powered models, the interface provides a step-by-step gu
        1. When needed, use **[!UICONTROL Clear all]** to clear all input values for the **[!UICONTROL Contribution proportion]** and **[!UICONTROL Level of confidence]** columns.
 
           
+1. In the **[!UICONTROL Schedule]** step:
+
+   1. In the **[!UICONTROL Schedule]** section you can schedule model training and scoring.
+
+      ![Schedule model](../assets/model-schedule.png)
+      
+      To scheduled model scoring and training:
+
+      1. Turn on **[!UICONTROL Enable scheduled model scoring and training]**. 
+      1. Select a **[!UICONTROL Scoring frequency]**:
+
+         * **[!UICONTROL Daily]**: Enter a valid time (for example `05:22 pm`) or use ![Clock](/help/assets/icons/Clock.svg).
+         * **[!UICONTROL Weekly]**: Select a day of the week and enter a valid time (for example `05:22 pm`) or use ![Clock](/help/assets/icons/Clock.svg).
+         * **[!UICONTROL Monthly]**: Select a day of the month from the Run on every dropdown menu and enter a valid time (for example `05:22 pm`) or use ![Clock](/help/assets/icons/Clock.svg).
+
+      1. Select a **[!UICONTROL Training frequency]** from the dropdown menu: **[!UICONTROL Monthly]**, **[!UICONTROL Quarterly]**, **[!UICONTROL Yearly]**, or **[!UICONTROL None]**. 
+
+   1. In the **[!UICONTROL Define training window]** section, select between: 
+
+       ![Model - Define training window](/help/assets/model-define-training-window.png)
+
+       * **[!UICONTROL Have Mix Modeler select a helpful training window]** and 
+
+       * **[!UICONTROL Manually input a training window]**. When selected, define the number of years in **[!UICONTROL Include events the following years prior to a conversion]**.
 
 1. Select **[!UICONTROL Finish]** to finish your model configuration. 
    
