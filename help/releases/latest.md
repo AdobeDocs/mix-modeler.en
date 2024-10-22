@@ -15,7 +15,7 @@ These release notes cover the latest release of Mix Modeler. Mix Modeler release
 
 | Feature | Description | General Availability |
 |---|---|---|
-| **Schedule training and scoring** | You can schedule the training and scoring of a model when you [create a model](/help/models/create.md) and whe you edit a model from [Model insight](/help/models/insights.md#edit) or the [context menu of a model](/help/models/overview.md#edit) in the Models table. | October 21, 2024 |
+| **Schedule training and scoring** | You can schedule the training and scoring of a model when you [create a model](/help/models/create.md#schedule) and when you edit a model from [Model insight](/help/models/insights.md#edit) or the [context menu of a model](/help/models/overview.md#edit) in the Models table. | October 21, 2024 |
 | **Touchpoint breakdown table** | In [!UICONTROL Models], the [[!UICONTROL Model insights]](/help/models/insights.md#factors) tab now offers an additional [Touchpoint breakdown](../models/insights.md#touchpoint-breakdown) table. | October 1, 2024 |
 
 ## August 2024
