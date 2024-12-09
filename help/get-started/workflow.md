@@ -26,6 +26,7 @@ A typical workflow in Mix Modeler consists of the following activities:
 
 {style="table-layout:auto"}
 
+<!---
 The detailed data-oriented flowchart below illustrates how:
 
 * harmonized data is based on:
@@ -42,3 +43,5 @@ The detailed data-oriented flowchart below illustrates how:
 * mult-touch attribution event scores can potentially be fed back into Experience Platform data lake for use in subsequent model configuration, training and scoring.
 
 ![Comprehensive workflow](/help/assets/comprehensive-workflow.svg)
+
+-->
