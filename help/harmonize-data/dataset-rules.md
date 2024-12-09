@@ -140,12 +140,27 @@ To sync data between your harmonized data and summary and / or event datasets wh
 >
 >[!BADGE beta]{type=Informative} The Data merge preferences is a beta feature and its functionality is subject to change.
 
-Data merge preferences assists in resolving conflicts when data from summarized and event data sources are merged. Use cases are:
+To ensure accurate model predictions, you can define data merge preferences. This functionality enables users to resolve any conflicts post merging of summary level and event level data.
+
+You can configure a default metric preference to be applied in cases of conflicting updates. This default metric can be one of three options:
+
+* **[!UICONTROL Summary data]** 
+* **[!UICONTROL Sum of summary and event data]** 
+* **[!UICONTROL Event data]** 
+  
+When, during harmonization, multiple sources of data try to update a metric field for a given channel, the default preference configured by the user is applied. This preference is applied at the sandbox level unless overridden for certain metric based preferences configured additionally. 
+
+Under **[!UICONTROL Metric based preferences]**, user can configure the specific source (**[!UICONTROL Summary]** or **[!UICONTROL Event]**) for a given metric and the corresponding conversion type for that metric. 
+
+Typical use cases are:
 
 * the same advertising metric is measured and reported in multiple datasets, or
 * metrics measurement may be incomplete in some datasets, while another dataset may be a superset of a particular metric, resulting to double counting. 
-  
-To ensure accurate model predictions, you can define data merge preferences:
+
+### Configure
+
+To configure data merge preferences:
+
 
 1. Select ![Data merge preferences](/help/assets/icons/Merge.svg) [!BADGE beta].
 
