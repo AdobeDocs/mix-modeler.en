@@ -173,17 +173,13 @@ To score or re-score a model:
 To delete a model:
 
    1. Select ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** from the left rail.
-
    1. Select ![More](/help/assets/icons/More.svg) for a model, and from the context menu select **[!UICONTROL Delete]**. Alternatively, select ![Delete](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** from the blue action bar.
+   1. Select **[!UICONTROL Delete]** in the **[!UICONTROL Delete model]** confirmation dialog to delete the model. Select **[!UICONTROL Cancel]** to cancel.
 
 To delete multiple models:
 
    1. Select multiple models.
-
    1. From the blue action bar, select ![Delete](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** to delete the models. 
-
-      >[!WARNING]
-      >
-      >The model is deleted immediately.
+   1. Select **[!UICONTROL Delete]** in the **[!UICONTROL Delete *x* models]** confirmation dialog to delete the models. Select **[!UICONTROL Cancel]** to cancel.
 
 
