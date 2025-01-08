@@ -48,9 +48,26 @@ To view a table of your current models, in the Mix Modeler interface:
     | Conversion event | The conversion you have selected for the model. |
     | Run frequency | The running frequency of training the model. |
     | Last run | The date and time of the last training of the model. |
-    | Status | The status of the last run of the training of the model. <br/>![StatusGreen](/help/assets/icons/StatusGreen.svg) Success<br/>![StatusOrange](/help/assets/icons/StatusOrange.svg) Training issue<br/> ![StatusOrange](/help/assets/icons/StatusOrange.svg) Awaiting training <br/>![StatusRed](/help/assets/icons/StatusRed.svg) Failed <br/>![StatusGreen](/help/assets/icons/StatusGray.svg) _ (when a last run is in progress) |
+    | Status | The status of the last run of the training of the model. See the table below for an explanation of the various statuses that are reported depending on the phase the model is in. |
 
     {style="table-layout:auto"}
+
+
+    | Status | Create | Train | Score | Re-train | Re-score |
+    |---|:---:|:---:|:---:|:---:|:---:|
+    | In progress | ![Checkmark](/help/assets/icons/Checkmark.svg) | | | | |
+    | In progress | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Clock](/help/assets/icons/Clock.svg) | | | |
+    | In progress | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Clock](/help/assets/icons/Clock.svg) | | |
+    | In progress | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Clock](/help/assets/icons/Clock.svg) | | 
+    | In progress | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) |  ![Clock](/help/assets/icons/Clock.svg) |
+    | Training failed | ![Checkmark](/help/assets/icons/Checkmark.svg)  | ![Close](/help/assets/icons/Close.svg) | | | | 
+    | Training failed | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Close](/help/assets/icons/Close.svg) | |
+    | Training successful | ![Checkmark](/help/assets/icons/Checkmark.svg)  | ![Checkmark](/help/assets/icons/Checkmark.svg) | | | | 
+    | Training successful | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) | |
+    | Scoring failed | ![Checkmark](/help/assets/icons/Checkmark.svg)  | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Close](/help/assets/icons/Close.svg) | | | 
+    | Scoring failed | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Close](/help/assets/icons/Close.svg)|
+    | Scoring successful | ![Checkmark](/help/assets/icons/Checkmark.svg)  | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) | | | 
+    | Scoring successful | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg)|
 
 1. To change the columns displayed for the list, select ![Column settings](/help/assets/icons/ColumnSetting.svg) and toggle columns on ![Check](/help/assets/icons/Checkmark.svg) or off.
 
