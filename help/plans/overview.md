@@ -87,16 +87,14 @@ To compare plans:
 
 ### Delete plans
 
-To delete plans:
+To delete a plan:
 
-1. Select one or more plans from the table.
-1. Select ![Delete](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** from the action bar.
+   1. Select ![](/help/assets/icons/FileChart.svg) **[!UICONTROL Plans]** from the left rail.
+   1. Select ![More](/help/assets/icons/More.svg) for a plan, and from the context menu select **[!UICONTROL Delete]**. Alternatively, select ![Delete](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** from the blue action bar.
+   1. Select **[!UICONTROL Delete]** in the **[!UICONTROL Delete moplandel]** confirmation dialog to delete the plan. Select **[!UICONTROL Cancel]** to cancel.
 
-Alternatively:
+To delete multiple plans:
 
-1. Select ![More](/help/assets/icons/More.svg) for a plan in the table.
-1. Select **[!UICONTROL Delete]** from the context menu. A new plan, with a name composed of the original plan's name appended with **[!UICONTROL (Copy)]**, is added to the top of the table.
-   
-   >[!WARNING]
-   >
-   >   The selected plans are deleted immediately!
+   1. Select multiple plans.
+   1. From the blue action bar, select ![Delete](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** to delete the plans. 
+   1. Select **[!UICONTROL Delete]** in the **[!UICONTROL Delete *x* plans]** confirmation dialog to delete the plans. Select **[!UICONTROL Cancel]** to cancel.
