@@ -70,10 +70,11 @@ You configure your model in the **[!UICONTROL Configure]** step. Configuration i
 
       1. To filter using all or any of multiple events defined in the container, select **[!UICONTROL Any of]** or **[!UICONTROL All of]**. The label correspondingly changes from **[!UICONTROL Include ... Or ...]** to **[!UICONTROL Include ... And ...]**.
     
-    * To add an eligible data population container, select ![Add](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add eligible population]**.
+    * To add an eligible data population container, select ![Add](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add eligible population]**. 
 
     * To remove an eligible data population container, within the container, select ![More](/help/assets/icons/More.svg), and select **[!UICONTROL Remove marketing touchpoint]** from the context menu.
 
+    * Select **And** and **Or** between containers to build more complex definitions for your eligible data population. 
       
 
 1. To add datasets containing external factors to your model, use one or more containers in the **[!UICONTROL External factors dataset]** section. An example of external factors are S&P indices. 
