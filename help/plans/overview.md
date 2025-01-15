@@ -102,3 +102,5 @@ To delete multiple plans:
    1. Select multiple plans.
    1. From the blue action bar, select ![Delete](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** to delete the plans. 
    1. Select **[!UICONTROL Delete]** in the **[!UICONTROL Delete *x* plans]** confirmation dialog to delete the plans. Select **[!UICONTROL Cancel]** to cancel.
+
+
