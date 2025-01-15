@@ -95,7 +95,7 @@ To delete a plan:
 
    1. Select ![](/help/assets/icons/FileChart.svg) **[!UICONTROL Plans]** from the left rail.
    1. Select ![More](/help/assets/icons/More.svg) for a plan, and from the context menu select **[!UICONTROL Delete]**. Alternatively, select ![Delete](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** from the blue action bar.
-   1. Select **[!UICONTROL Delete]** in the **[!UICONTROL Delete moplandel]** confirmation dialog to delete the plan. Select **[!UICONTROL Cancel]** to cancel.
+   1. Select **[!UICONTROL Delete]** in the **[!UICONTROL Delete plan]** confirmation dialog to delete the plan. Select **[!UICONTROL Cancel]** to cancel.
 
 To delete multiple plans:
 

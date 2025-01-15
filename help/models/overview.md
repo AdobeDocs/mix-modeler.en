@@ -168,7 +168,7 @@ To score or re-score a model:
    1. Select **[!UICONTROL Score]**. When re-scoring a model using a specific data range, you see an **[!UICONTROL Existing model is replaced]** dialog, prompting you to confirm to replace the model with new scores for the selected date range. Select **[!UICONTROL Replace model]** to confirm.
 
 
-### Delete a model
+### Delete models
 
 To delete a model:
 
