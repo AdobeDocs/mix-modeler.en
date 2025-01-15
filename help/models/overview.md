@@ -182,4 +182,3 @@ To delete multiple models:
    1. From the blue action bar, select ![Delete](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** to delete the models. 
    1. Select **[!UICONTROL Delete]** in the **[!UICONTROL Delete *x* models]** confirmation dialog to delete the models. Select **[!UICONTROL Cancel]** to cancel.
 
-

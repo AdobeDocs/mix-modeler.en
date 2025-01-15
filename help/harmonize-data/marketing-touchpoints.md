@@ -29,7 +29,6 @@ The table columns specify details about the marketing touchpoint:
 | Created | Date and time of the creation of the marketing touchpoint. |
 | Last modified | Date and time of the last modification of the marketing touchpoint. |
 
-{style="table-layout:auto"}
 
 ## Add a marketing touchpoint
 

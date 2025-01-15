@@ -29,7 +29,6 @@ The table columns specify details about the conversion:
 | Created | Date and time of the creation of the conversion. |
 | Last modified | Date and time of the last modification of the conversion. |
 
-{style="table-layout:auto"}
 
 ## Add a conversion
 
