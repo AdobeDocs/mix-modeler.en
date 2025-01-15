@@ -41,9 +41,13 @@ To view a table of your current plans, in the Mix Modeler interface:
     | Budget | The total budget for a plan. |
     | Forecasted return | The forecasted return for a plan |
     | Forecasted ROI | The forecasted ROI for a plan. |
+    | Forecasted conversion | The forecasted conversion for a plan |
+    | Forecasted CPA | The forecasted CPA for a plan |
     | Status | The status of a plan: <p><span style="color:red">●</span> Failed, <p><span style="color:blue">●</span> Processing, or <p><span style="color:green">●</span> Complete. |
 
     {style="table-layout:auto"}
+
+    You can use ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) to select ![Checkmark](/help/assets/icons/Checkmark.svg) the columns to display in the table. 
 
 1. Use ![Search](/help/assets/icons/Search.svg) to search and filter the table for one or more specific plans.
 
