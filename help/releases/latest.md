@@ -16,7 +16,7 @@ These release notes cover the latest release of Mix Modeler. Mix Modeler release
 | Feature | Description | General Availability |
 |---|---|---|
 | **Nested conditions** | You can create nested conditions using AND and OR when you define an eligible data population as part of the [configuration of a model](/help/models/create.md#configure). | January 15, 2025 |
-| **View reports** | You can view a report on a conversion of a marketing touchpoint you have defined as part of harmonizing data. | January 15, 2025 |
+| **View reports** | You can view a report on a [conversion](/help/harmonize-data/conversions.md#view-report) or a [marketing touchpoint](/help/harmonize-data/marketing-touchpoints.md#view-report) you have defined as part of harmonizing data. | January 15, 2025 |
 | **Delete confirmation** | You are prompted to confirm the deletion of a [plan](/help/plans/overview.md#delete-plans) or a [model](/help/models/overview.md#delete-models). | January 15, 2025 |
 | **Factors UI improvement** | You can select which [factors](/help/models/insights.md#factors-beta) you want to display in Model insights. | January 15, 2025 |
 
