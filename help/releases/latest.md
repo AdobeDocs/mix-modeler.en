@@ -22,7 +22,7 @@ These release notes cover the latest release of Mix Modeler. Mix Modeler release
 
 ## Release strategy
 
-[!UICONTROL Mox Modeler] uses feature flags (also known as "toggles") to control the visibility of new features, allowing for controlled scale testing prior to full release. This release strategy includes the following phases:
+[!UICONTROL Mixx Modeler] uses feature flags (also known as "toggles") to control the visibility of new features, allowing for controlled scale testing prior to full release. This release strategy includes the following phases:
 
 * **Limited Testing**: A phased release begins with testing by internal Adobe users. It is then made available to a small group of customer accounts to ensure that the feature meets customer needs and expectations. 
 
