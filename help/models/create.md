@@ -1,14 +1,14 @@
 ---
-title: Create a model
-description: Learn how to create a model in Mix Modeler.
+title: Build models
+description: Learn how to build models in Mix Modeler.
 feature: Models
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
 ---
-# Create a model
+# Build models
 
-To create a model, in the ![Models](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** interface in Mix Modeler, select **[!UICONTROL Open model canvas]**.
+To build your custom AI-powered models, the interface provides a step-by-step guided model configuration flow. 
 
-To build your custom AI-powered models, the interface provides a step-by-step guided model configuration flow.
+In the ![Models](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** interface in Mix Modeler, select **[!UICONTROL Open model canvas]**.
 
 ## Setup
 

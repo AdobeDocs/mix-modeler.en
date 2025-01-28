@@ -1,10 +1,10 @@
 ---
-title: Scoring data
+title: USe scoring data
 description: Learn how a model's scoring data in Mix Modeler is persisted.
 feature: Models
 exl-id: 2f2c3d20-7b14-41cc-a11a-03e8ad9e5d7a
 ---
-# Scoring data
+# Use scoring data
 
 As part of scoring a model, scoring data is persisted within a dataset in Experience Platform. When you have enabled muti-touch attribution during model creation, additional event score data are persisted within a dataset in Experience Platform.
 

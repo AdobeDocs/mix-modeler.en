@@ -12,24 +12,24 @@ user-guide-description: Learn how to use Mix Modeler.
   + [What is Mix Modeler?](/help/get-started/about.md)
   + [Application workflow](/help/get-started/workflow.md)
 
-+ Dashboard {#dashboard}
-  + [Overview](/help/dashboard/overview.md)
++ Home {#dashboard}
+  + [Home overview](/help/dashboard/overview.md)
   + [Harmonized Data](/help/dashboard/harmonized-data.md)
   + [Plans](/help/dashboard/plans.md)
 
 + Models {#models}
   + [Overview](/help/models/overview.md)
-  + [Create a model](/help/models/create.md)
+  + [Build models](/help/models/create.md)
   + [Model insights](/help/models/insights.md)
-  + [Scoring data](/help/models/scoring-data.md)
+  + [Use scoring data](/help/models/scoring-data.md)
   
 + Plans {#plans}
   + [Overview](/help/plans/overview.md)
-  + [Create a plan](/help/plans/create.md)
-  + [Edit a plan](/help/plans/edit.md)
+  + [Build plans](/help/plans/create.md)
+  + [Plan insights](/help/plans/edit.md)
   + [Compare plans](/help/plans/compare.md)
   
-+ Harmonize data {#harmonize-data}
++ Harmonize datasets {#harmonize-data}
   + [Overview](/help/harmonize-data/overview.md)
   + [Fields](/help/harmonize-data/fields.md)
   + [Dataset rules](/help/harmonize-data/dataset-rules.md)

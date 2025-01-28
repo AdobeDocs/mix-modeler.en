@@ -1,10 +1,10 @@
 ---
-title: Model Insights
+title: Model insights
 description: Learn how to get details about your model, like historical overview, model insights, and model quality in Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
 ---
-# Model Insights
+# Model insights
 
 To view model insights, in the ![Models](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** interface in Mix Modeler:
 
