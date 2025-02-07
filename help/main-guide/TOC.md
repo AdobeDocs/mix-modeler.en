@@ -19,14 +19,14 @@ user-guide-description: Learn how to use Mix Modeler.
 
 + Models {#models}
   + [Overview](/help/models/overview.md)
-  + [Build models](/help/models/create.md)
+  + [Build models](/help/models/build.md)
   + [Model insights](/help/models/insights.md)
   + [Use scoring data](/help/models/scoring-data.md)
   
 + Plans {#plans}
   + [Overview](/help/plans/overview.md)
-  + [Build plans](/help/plans/create.md)
-  + [Plan insights](/help/plans/edit.md)
+  + [Build plans](/help/plans/build.md)
+  + [Plan insights](/help/plans/insights.md)
   + [Compare plans](/help/plans/compare.md)
   
 + Harmonize datasets {#harmonize-data}

@@ -84,7 +84,7 @@ To download the contents of the Touchpoint breakdown table, select ![Download](/
 >The Attribution tab is only available for MTA enabled models.
 
 
-Using the [!UICONTROL Attribution] tab, you can understand the effectiveness of touchpoints and marketing campaigns that have event level data.  See [Create a model](create.md). 
+Using the [!UICONTROL Attribution] tab, you can understand the effectiveness of touchpoints and marketing campaigns that have event level data.  See [Build model](build.md). 
 
 The following attribution models are supported:
 
