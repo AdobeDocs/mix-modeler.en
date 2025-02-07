@@ -25,7 +25,7 @@ A plan can optionally include:
 
 ## Build plans
 
-To build a plan, use the Mix Modeler plan creation wizard. See [Build plans](create.md) for more details.
+To build a plan, use the Mix Modeler plan creation wizard. See [Build plans](build.md) for more details.
 
 ## Manage plans
 
@@ -63,7 +63,7 @@ To view the insights of a plan and to edit a plan:
 
    1. Select the plan name. 
    
-   You are redirected to [Plan insights](edit.md).  
+   You are redirected to [Plan insights](insights.md).  
 
 
 ### Duplicate a plan

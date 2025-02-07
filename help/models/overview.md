@@ -29,7 +29,7 @@ A model can optionally include:
 
 ## Build models
 
-To build a model, use the Mix Modeler step-by-step guided model configuration flow available when you select **[!UICONTROL Open model canvas]**. See [Build models](create.md) for more details.
+To build a model, use the Mix Modeler step-by-step guided model configuration flow available when you select **[!UICONTROL Open model canvas]**. See [Build models](build.md) for more details.
 
 ## Manage models
 
