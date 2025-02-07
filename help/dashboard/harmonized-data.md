@@ -1,12 +1,12 @@
 ---
-title: Harmonized data overview dashboard
+title: Harmonized data dashboard
 description: Learn how to use the harmonized data overview dashboard in Mix Modeler.
 feature: Dashboard, Harmonized Data
 exl-id: fbb01613-d648-4db1-a782-a7720b7a03ad
 ---
-# Harmonized data overview
+# Harmonized data
 
-The Harmonized Data tab in Mix Modeler Overview provides insights into the harmonized data you have configured to be used as part of the ingested data and harmonized data setup.
+The **[!UICONTROL Harmonized data]** tab in Mix Modeler ![Home](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** provides insights into the harmonized data you have configured to be used as part of the ingested data and harmonized data setup.
 
 The overview shows four KPI status card visualizations  (top row) and six other configurable visualizations .
 

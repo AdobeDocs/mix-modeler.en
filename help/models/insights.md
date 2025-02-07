@@ -1,10 +1,10 @@
 ---
-title: Model Insights
+title: Model insights
 description: Learn how to get details about your model, like historical overview, model insights, and model quality in Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
 ---
-# Model Insights
+# Model insights
 
 To view model insights, in the ![Models](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** interface in Mix Modeler:
 
@@ -84,7 +84,7 @@ To download the contents of the Touchpoint breakdown table, select ![Download](/
 >The Attribution tab is only available for MTA enabled models.
 
 
-Using the [!UICONTROL Attribution] tab, you can understand the effectiveness of touchpoints and marketing campaigns that have event level data.  See [Create a model](create.md). 
+Using the [!UICONTROL Attribution] tab, you can understand the effectiveness of touchpoints and marketing campaigns that have event level data.  See [Build model](build.md). 
 
 The following attribution models are supported:
 

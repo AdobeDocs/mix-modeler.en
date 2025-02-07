@@ -1,10 +1,10 @@
 ---
-title: Models
-description: Learn how to configure and use models in Mix Modeler.
+title: Models overview
+description: Learn how to build and use models in Mix Modeler.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
 ---
-# Models
+# Models overview
 
 The model functionality in Mix Modeler allows you to configure, train, and score models specific to your business objectives. The training and scoring supports AI-driven transfer learning between multitouch attribution and marketing mix modeling. 
 
@@ -27,9 +27,9 @@ A model can optionally include:
 * Spend share, which uses relative spend share as a proxy when marketing data is sparse.
 
 
-## Create a model
+## Build models
 
-To create a model, use the Mix Modeler step-by-step guided model configuration flow available when you select **[!UICONTROL Open model canvas]**. See [Create a model](create.md) for more details.
+To build a model, use the Mix Modeler step-by-step guided model configuration flow available when you select **[!UICONTROL Open model canvas]**. See [Build models](build.md) for more details.
 
 ## Manage models
 

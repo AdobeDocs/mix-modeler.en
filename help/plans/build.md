@@ -1,11 +1,11 @@
 ---
-title: Create a plan
-description: Learn how to create a plan in Mix Modeler.
+title: Build plans
+description: Learn how to build plans in Mix Modeler.
 feature: Plans
 exl-id: 6d61d0b2-5871-4d00-9a35-73fff0a1c3e5
 ---
 
-# Create a plan
+# Build plans
 
 In Mix Modeler, you create a plan using the plan canvas. In the plan canvas, you can set up the details and budgets of your plan and the underlying model to use for your plan. Once you have specified details, budget and model you can go ahead with an AI-recommended plan or edit the spend by channel.
 

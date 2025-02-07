@@ -54,13 +54,13 @@ This technical documentation guide provides self help assistance for Adobe **Mix
     </td>
     <td>
       <img src="assets/FileGear.svg" width="35px"><br/>
-      <strong>Models</strong><br/><a href="/help/models/overview.md">Overview</a> - <a href="/help/models/create.md">Create a model</a> - <a href="/help/models/insights.md">Model insights</a> - <a href="/help/models/scoring-data.md">Scoring data</a>
+      <strong>Models</strong><br/><a href="/help/models/overview.md">Overview</a> - <a href="/help/models/build.md">Build models</a> - <a href="/help/models/insights.md">Model insights</a> - <a href="/help/models/scoring-data.md">Use scoring data</a>
     </td>
   </tr>
   <tr style="border: 0;">
     <td>
       <img src="assets/FileChart.svg" width="35px"><br/>
-      <strong>Plans</strong><br/><a href="/help/plans/overview.md">Plans</a> - <a href="/help/plans/create.md">Create a plan</a> - <a href="/help/plans/compare.md">Compare plans</a> - <a href="/help/plans/edit.md">Edit a plan</a>
+      <strong>Plans</strong><br/><a href="/help/plans/overview.md">Plans</a> - <a href="/help/plans/build.md">Build plans</a> - <a href="/help/plans/compare.md">Compare plans</a> - <a href="/help/plans/build.md">Plan insights</a>
     </td>
     <td>
       <img src="assets/Dashboard.svg" width="35px"><br/>

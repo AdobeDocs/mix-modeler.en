@@ -1,10 +1,10 @@
 ---
-title: Harmonize data
+title: Harmonize datasets overview
 description: Learn how to harmonize data in Mix Modeler.
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
 ---
-# Harmonize data
+# Harmonize datasets overview
 
 The data in Mix Modeler is of different nature depending on the source of data. The data can be:
 
