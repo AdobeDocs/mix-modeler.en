@@ -19,7 +19,7 @@ Factors are key to model building and you want to understand what impacts the bu
 
 * Internal factors are specific to your organization and can impact your conversions. For example, your sale season, promotions, and more.
 
-* External factors are factors outside the control of your organization but which can still impact the conversions you achieve. Examples are CPI, S&P 500, and more. *
+* External factors are factors outside the control of your organization but which can still impact the conversions you achieve. Examples are CPI, S&P 500, and more.
 
 
 
