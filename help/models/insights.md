@@ -76,6 +76,21 @@ To select a specific channel or all channels, select from the **[!UICONTROL View
 
 To download the contents of the Touchpoint breakdown table, select ![Download](/help/assets/icons/Download.svg) **[!UICONTROL Download CSV]**.
 
+## **[!UICONTROL Factors]** [!BADGE beta]
+
+The Factors [!BADGE beta] tab shows external factor related insights. 
+
+![Factors](/help/assets/factors.png)
+
+This visualization helps you to understand the incremental effect that various internal and external factors have on the baseline of conversions. For example, economic conditions or promotional activities.
+
+Use the **[!UICONTROL Factors]** dropdown menu to select which factors you want to display.
+
+<!-- need to update the image when we do have a proper example -->
+
+To download a CSV file containing the data for the table, select ![Download](/help/assets/icons/Download.svg).
+
+If no data is available you see a message ![TableAndChart](/help/assets/icons/TableAndChart.svg) **[!UICONTROL No data is available, you may need to retrain your model, or change the date range to view insights]**.
 
 ## [!UICONTROL Attribution]
 
@@ -180,21 +195,6 @@ For each conversion path, you see:
 * for each channel, the attribution model contribution percentage, and
 * the sum of these channel attribution model contribution percentages.
 
-## **[!UICONTROL Factors]** [!BADGE beta]
-
-The Factors [!BADGE beta] tab shows external factor related insights. 
-
-![Factors](/help/assets/factors.png)
-
-This visualization helps you to understand the incremental effect that various internal and external factors have on the baseline of conversions. For example, economic conditions or promotional activities.
-
-Use the **[!UICONTROL Factors]** dropdown menu to select which factors you want to display.
-
-<!-- need to update the image when we do have a proper example -->
-
-To download a CSV file containing the data for the table, select ![Download](/help/assets/icons/Download.svg).
-
-If no data is available you see a message ![TableAndChart](/help/assets/icons/TableAndChart.svg) **[!UICONTROL No data is available, you may need to retrain your model, or change the date range to view insights]**.
 
 ## [!UICONTROL Diagnostics]
 

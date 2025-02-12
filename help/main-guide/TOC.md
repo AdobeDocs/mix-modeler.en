@@ -12,7 +12,7 @@ user-guide-description: Learn how to use Mix Modeler.
   + [Application workflow](/help/get-started/workflow.md)
 
 + Home {#dashboard}
-  + [Home overview](/help/dashboard/overview.md)
+  + [Overview](/help/dashboard/overview.md)
   + [Harmonized Data](/help/dashboard/harmonized-data.md)
   + [Plans](/help/dashboard/plans.md)
 
