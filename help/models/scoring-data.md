@@ -1,5 +1,5 @@
 ---
-title: USe scoring data
+title: Use scoring data
 description: Learn how a model's scoring data in Mix Modeler is persisted.
 feature: Models
 exl-id: 2f2c3d20-7b14-41cc-a11a-03e8ad9e5d7a
