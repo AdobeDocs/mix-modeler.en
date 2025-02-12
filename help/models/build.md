@@ -87,7 +87,7 @@ You configure your model in the **[!UICONTROL Configure]** step. Configuration i
 
       1. Select a dataset from the **[!UICONTROL Dataset]** dropdown menu. You can select ![Data](/help/assets/icons/Data.svg) to manage datasets. See [Datasets](../ingest-data/datasets.md) for more information.
 
-      1. Select an option from the **[!UICONTROL Impact on conversion]** dropdown menu: **[!UICONTROL Auto select]**, **[!UICONTROL Positive]** or **[!UICONTROL Negative]**.
+      1. Select an option from the **[!UICONTROL Impact on conversion]** dropdown menu: **[!UICONTROL Auto select]**, **[!UICONTROL Positive]** or **[!UICONTROL Negative]**. The default option is **[!UICONTROL Auto select]**, which allows the model to determine the impact. You can override the default.
 
     * To add an additional external factors dataset container, select ![Add](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add external factor]**.
 
