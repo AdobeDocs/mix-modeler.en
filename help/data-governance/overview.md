@@ -1,10 +1,10 @@
 ---
-title: Data governance
+title: Data governance overview
 description: Learn how to use the services and tools from Experience Platform that allow you to control your collected experience data. So, you comply with your business practices, legal obligations, and development process.
 feature: Administration
 exl-id: 87407c29-e158-48bf-bde9-b3c16a16107e
 ---
-# Data governance
+# Data governance overview
 
 The integration between Mix Modeler and Experience Platform provides Mix Modeler with the capabilities to leverage the intrinsic data governance features of Experience Platform. This section of the documentation details the specifics of the data governance features available in Mix Modeler.
 

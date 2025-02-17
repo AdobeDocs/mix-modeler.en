@@ -1,13 +1,12 @@
 ---
-title: Edit a plan
-description: Learn how to edit a plan in Mix Modeler.
+title: Plan insights
+description: Learn how to see insights of your plan and edit a plan in Mix Modeler.
 feature: Plans
 exl-id: 91385595-284f-4fcb-b54b-9539905e552b
 ---
-# Edit a plan
+# Plan insights
 
-To edit a plan, in the ![PLan](/help/assets/icons/FileChart.svg) **[!UICONTROL Plans]** interface in Mix Modeler, select your plan by its name.
-   
+  
 In [!UICONTROL Plan insights], your plan insights are created, showing the [!UICONTROL Model], the [!UICONTROL Data range], and [!UICONTROL Total budget] on which the plan is based.
 
 When finished retrieving, you see an overview of your plan, consisting of: 
@@ -38,7 +37,7 @@ When finished retrieving, you see an overview of your plan, consisting of:
 
 1. To view the Date range breakdown by category of channels, select **[!UICONTROL All channels]**, **[!UICONTROL Paid channels]**, or **[!UICONTROL Non-paid channels]** from the **[!UICONTROL View]** selection.
 
-1. To edit your plan, select **[!UICONTROL Edit plan]**:
+1. To edit your plan, select ![Edit](/help/assets/icons/Edit.svg) **[!UICONTROL Edit plan]**:
     
     1. In the **[!UICONTROL Spend selection]** section, for each budget date range, use the ![Chevron](/help/assets/icons/ChevronRight.svg) to open the channel distribution view for that data range.
 

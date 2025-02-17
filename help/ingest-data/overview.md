@@ -1,10 +1,10 @@
 ---
-title: Ingest data
+title: Ingest data overview
 description: Learn how to ingest data into Mix Modeler.
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
 exl-id: dc16a601-bbd9-467b-8a7e-c32654d4069a
 ---
-# Ingest data
+# Ingest data overview
 
 Mix Modeler works with event level data, aggregate or summary marketing effort data from various walled gardens, and aggregrate or summary data from any other source, like offline advertising, internal factors or external factors. 
 

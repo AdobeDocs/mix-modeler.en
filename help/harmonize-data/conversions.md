@@ -29,7 +29,6 @@ The table columns specify details about the conversion:
 | Created | Date and time of the creation of the conversion. |
 | Last modified | Date and time of the last modification of the conversion. |
 
-{style="table-layout:auto"}
 
 ## Add a conversion
 
@@ -60,14 +59,28 @@ To add a conversion, in the ![DataSearch](/help/assets/icons/DataCheck.svg) **[!
 1. When created, the conversion is added to the conversions table.
 
 
-## View a conversion
+## View details
 
-To view a conversion:
+To view details of a conversion:
 
 1. Select ![More](/help/assets/icons/More.svg) when hovering over a conversion name in the table.
 
-1. Select ![View](/help/assets/icons/ViewDetail.svg) **View**. A dialog shows details of the conversion. See [Add a conversion](#add-a-conversion) for more information. Select **[!UICONTROL Cancel]** to close the dialog.
+1. Select ![View](/help/assets/icons/ViewDetail.svg) **View details**. A dialog shows details of the conversion. See [Add a conversion](#add-a-conversion) for more information. Select **[!UICONTROL Cancel]** to close the dialog.
 
+## View report
+
+To view a report of a conversion:
+
+1. Select ![More](/help/assets/icons/More.svg) when hovering over a conversion name in the table.
+
+1. Select ![GraphTrend](/help/assets/icons/GraphTrend.svg) **View report**. A dialog shows a report of the conversion.
+
+   ![Conversion view report](../assets/conversion-view-report.png)
+
+   * To change the granularity to report on, select a value from the **[!UICONTROL Weekly]** dropdown menu.
+   * To change the period to report on, enter a start and end date or use ![Calendar](/help/assets/icons/Calendar.svg) to define a period in the calendar popup.
+
+1. Select **[!UICONTROL Close]** to close the dialog.
 
 ## Delete a conversion
 

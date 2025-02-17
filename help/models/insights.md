@@ -1,10 +1,10 @@
 ---
-title: Model Insights
+title: Model insights
 description: Learn how to get details about your model, like historical overview, model insights, and model quality in Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
 ---
-# Model Insights
+# Model insights
 
 To view model insights, in the ![Models](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** interface in Mix Modeler:
 
@@ -76,6 +76,21 @@ To select a specific channel or all channels, select from the **[!UICONTROL View
 
 To download the contents of the Touchpoint breakdown table, select ![Download](/help/assets/icons/Download.svg) **[!UICONTROL Download CSV]**.
 
+## **[!UICONTROL Factors]** [!BADGE beta]
+
+The Factors [!BADGE beta] tab shows external factor related insights. 
+
+![Factors](/help/assets/factors.png)
+
+This visualization helps you to understand the incremental effect that various internal and external factors have on the baseline of conversions. For example, economic conditions or promotional activities.
+
+Use the **[!UICONTROL Factors]** dropdown menu to select which factors you want to display.
+
+<!-- need to update the image when we do have a proper example -->
+
+To download a CSV file containing the data for the table, select ![Download](/help/assets/icons/Download.svg).
+
+If no data is available you see a message ![TableAndChart](/help/assets/icons/TableAndChart.svg) **[!UICONTROL No data is available, you may need to retrain your model, or change the date range to view insights]**.
 
 ## [!UICONTROL Attribution]
 
@@ -84,7 +99,7 @@ To download the contents of the Touchpoint breakdown table, select ![Download](/
 >The Attribution tab is only available for MTA enabled models.
 
 
-Using the [!UICONTROL Attribution] tab, you can understand the effectiveness of touchpoints and marketing campaigns that have event level data.  See [Create a model](create.md). 
+Using the [!UICONTROL Attribution] tab, you can understand the effectiveness of touchpoints and marketing campaigns that have event level data.  See [Build model](build.md). 
 
 The following attribution models are supported:
 
@@ -180,18 +195,6 @@ For each conversion path, you see:
 * for each channel, the attribution model contribution percentage, and
 * the sum of these channel attribution model contribution percentages.
 
-## **[!UICONTROL Factors]**
-
-The Factors tab shows external factor related insights. 
-
-![Factors](/help/assets/factors.png)
-
-This visualization helps you to understand the incremental effect that various internal and external factors have on the baseline of conversions. For example, economic conditions or promotional activities.
-
-
-To download a CSV file containing the data for the table, select ![Download](/help/assets/icons/Download.svg).
-
-If no data is available you see a message ![TableAndChart](/help/assets/icons/TableAndChart.svg) **[!UICONTROL No data is available, you may need to retrain your model, or change the date range to view insights]**.
 
 ## [!UICONTROL Diagnostics]
 

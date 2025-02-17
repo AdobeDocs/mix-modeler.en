@@ -18,9 +18,23 @@ Test a table witn unicode characters
 {style="table-layout:fixed"}
 
 
+## Using SVGs in shaded box
+
+We do not seem to properly support SVGs in a shaded box. See different between preview (corp.adobe.com) and published site (adobe.com).
+
+>[!BEGINSHADEBOX]
+
+This article documents the Attribution panel in ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) **Adobe Analytics**.<br/>See [Attribution panel](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/attribution) for the ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) **Customer Journey Analytics** version of this article.
+
+>[!ENDSHADEBOX]
 
 
-And we do support formulas as well?
+## Formulas
+
+And we do support formulas?
 
 **The Cauchy-Schwarz Inequality**
 $$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
+
+
+

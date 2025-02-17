@@ -1,17 +1,27 @@
 ---
-title: Harmonize data
+title: Harmonize datasets overview
 description: Learn how to harmonize data in Mix Modeler.
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
 ---
-# Harmonize data
+# Harmonize datasets overview
 
 The data in Mix Modeler is of different nature depending on the source of data. The data can be:
 
 * aggregate or summary data, for example collected from walled garden data sources or offline advertising data gathered (like spend) from running a billboard campaign, an event, or a physical ad campaign,
 * event data, for example from first party data sources. This event data can be data collected through the Adobe Analytics source connector from Adobe Analytics, or through the Experience Platform Web or Mobile SDK or Edge Network API, or data ingested using source connectors.
 
-The harmonization service of Mix Modeler assimilates the aggregate and event data into a consistent data view. This data view, combined with internal and external factors data, is the source for the models in Mix Modeler. The service uses the highest granularity across the different datasets. For example, if one dataset has a granularity of monthly and remaining datasets do have weekly and daily granularity, the harmonization service creates a data view using monthly granularity.
+The harmonization service of Mix Modeler assimilates the aggregate and event data into a consistent data view. This data view, combined with [internal and external factors data](#factors), is the source for the models in Mix Modeler. The service uses the highest granularity across the different datasets. For example, if one dataset has a granularity of monthly and remaining datasets do have weekly and daily granularity, the harmonization service creates a data view using monthly granularity.
+
+## Factors
+
+Factors are key to model building and you want to understand what impacts the business holistically. Factors might not be related to marketing data.
+
+* Internal factors are specific to your organization and can impact your conversions. For example, your sale season, promotions, and more.
+
+* External factors are factors outside the control of your organization but which can still impact the conversions you achieve. Examples are CPI, S&P 500, and more.
+
+
 
 ## An example of harmonized data
 

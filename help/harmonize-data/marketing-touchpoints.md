@@ -29,7 +29,6 @@ The table columns specify details about the marketing touchpoint:
 | Created | Date and time of the creation of the marketing touchpoint. |
 | Last modified | Date and time of the last modification of the marketing touchpoint. |
 
-{style="table-layout:auto"}
 
 ## Add a marketing touchpoint
 
@@ -60,14 +59,29 @@ To add a marketing touchpoint, in the ![DataSearch](/help/assets/icons/DataCheck
 1. When created, the touchpoint is added to the marketing touchpoints table.
 
 
-## View a marketing touchpoint
+## View details
 
-To view a marketing touchpoint:
+To view details of a marketing touchpoint:
 
 1. Select ![More](/help/assets/icons/More.svg) when hovering over a marketing touchpoint name in the table.
 
 1. Select ![View](/help/assets/icons/ViewDetail.svg) **View**. A dialog shows details of the marketing touchpoint. See [Add a marketing touchpoint](#add-a-marketing-touchpoint) for more information. Select **[!UICONTROL Cancel]** to close the dialog.
 
+
+## View report
+
+To view a report of a marketing touchpoint:
+
+1. Select ![More](/help/assets/icons/More.svg) when hovering over a marketing touchpoint name in the table.
+
+1. Select ![GraphTrend](/help/assets/icons/GraphTrend.svg) **View report**. A dialog shows a report of the marketing touchpoint.
+
+   ![Marketing touchpoint view report](../assets/marketingtouchpoint-view-report.png)
+
+   * To change the granularity to report on, select a value from the **[!UICONTROL Weekly]** dropdown menu.
+   * To change the period to report on, enter a start and end date or use ![Calendar](/help/assets/icons/Calendar.svg) to define a period in the calendar popup.
+
+1. Select **[!UICONTROL Close]** to close the dialog.
 
 ## Delete a marketing touchpoint
 

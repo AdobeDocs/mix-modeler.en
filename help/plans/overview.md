@@ -1,10 +1,10 @@
 ---
-title: Plans
+title: Plans overview
 description: Learn how to view, select, and action on plans in Mix Modeler.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
 ---
-# Plans
+# Plans overview
 
 Plans in Mix Modeler allow you to allocate budgets by business unit and channel. The planning functionality is integrated with the outcomes of the trained models based on your harmonized data.
 
@@ -22,6 +22,12 @@ A plan can optionally include:
 - multiple flight dates with each having a target budget,
 - minimum and maximum budget constraints by channel and flight date.
 
+If a model that you have used for your plan is scored on new data you need to create a new plan to take into account the re-scored data.
+
+
+## Build plans
+
+To build a plan, use the Mix Modeler plan creation wizard. See [Build plans](build.md) for more details.
 
 ## Manage plans
 
@@ -41,62 +47,55 @@ To view a table of your current plans, in the Mix Modeler interface:
     | Budget | The total budget for a plan. |
     | Forecasted return | The forecasted return for a plan |
     | Forecasted ROI | The forecasted ROI for a plan. |
+    | Forecasted conversion | The forecasted conversion for a plan |
+    | Forecasted CPA | The forecasted CPA for a plan |
     | Status | The status of a plan: <p><span style="color:red">●</span> Failed, <p><span style="color:blue">●</span> Processing, or <p><span style="color:green">●</span> Complete. |
 
     {style="table-layout:auto"}
 
+    You can use ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) to select ![Checkmark](/help/assets/icons/Checkmark.svg) the columns to display in the table. 
+
 1. Use ![Search](/help/assets/icons/Search.svg) to search and filter the table for one or more specific plans.
 
-## Create a plan
+### Plan insights
 
-To create a plan, use the Mix Modeler plan creation wizard. See [Create a plan](create.md) for more details.
+To view the insights of a plan and to edit a plan:
 
+   1. Select ![PLan](/help/assets/icons/FileChart.svg) **[!UICONTROL Plans]** from the left rail.
 
-## Edit a plan
+   1. Select the plan name. 
+   
+   You are redirected to [Plan insights](insights.md).  
 
-To edit a plan, select the name of the plan from the table. See [Edit a plan](edit.md) for more information.
-
-
-## Select and action on plans
-
-You can select one or more plans, which reveals the Plans action bar. The action bar allows you to delete, compare, or duplicate plans. 
-
-To remove all selections in the Plans table, select ![Close](/help/assets/icons/Close.svg) in the action bar
-
-![Plans action bar](/help/assets/plans-action-bar.png)
 
 ### Duplicate a plan
 
 To duplicate a plan:
 
-1. Select a single plan from the table.
-1. Select ![Copy](/help/assets/icons/Copy.svg) **[!UICONTROL Duplicate]** from the action bar. A new plan, with a name composed of the original plan's name appended with **[!UICONTROL (Copy)]**, is added to the top of the table. 
+- Select ![More](/help/assets/icons/More.svg) for a plan. From from the context menu, select **[!UICONTROL Duplicate]**.
+- Alternatively, select a plan in the table ![SelectBox](/help/assets/icons/SelectBox.svg) and select ![Copy](/help/assets/icons/Copy.svg) **[!UICONTROL Duplicate]** from the blue action bar.
 
-Alternatively:
-
-1. Select ![More](/help/assets/icons/More.svg) for a plan in the table.
-1. Select **[!UICONTROL Duplicate]** from the context menu. A new plan, with a name composed of the original plan's name appended with **[!UICONTROL (Copy)]**, is added to the top of the table.
+A new plan, with a name composed of the original plan's name appended with **[!UICONTROL (Copy)]**, is added to the top of the table.
 
 ### Compare plans
 
 To compare plans:
 
 1. Select two plans from the table.
-1. Select ![Compare](/help/assets/icons/Compare.svg) **[!UICONTROL Compare]** from the action bar. You see the **[!UICONTROL Compare plans]** UI. 
+1. Select ![Compare](/help/assets/icons/Compare.svg) **[!UICONTROL Compare]** from the blue action bar. You see the **[!UICONTROL Compare plans]** UI. 
 
 
 ### Delete plans
 
-To delete plans:
+To delete a plan:
 
-1. Select one or more plans from the table.
-1. Select ![Delete](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** from the action bar.
+   1. Select ![More](/help/assets/icons/More.svg) for a plan. From the context menu select **[!UICONTROL Delete]**. <br/>Alternatively, select a plan in the table ![SelectBox](/help/assets/icons/SelectBox.svg) and select ![Delete](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** from the blue action bar.
+   1. Select **[!UICONTROL Delete]** in the **[!UICONTROL Delete plan]** confirmation dialog to delete the plan. Select **[!UICONTROL Cancel]** to cancel.
 
-Alternatively:
+To delete multiple plans:
 
-1. Select ![More](/help/assets/icons/More.svg) for a plan in the table.
-1. Select **[!UICONTROL Delete]** from the context menu. A new plan, with a name composed of the original plan's name appended with **[!UICONTROL (Copy)]**, is added to the top of the table.
-   
-   >[!WARNING]
-   >
-   >   The selected plans are deleted immediately!
+   1. Select multiple plans.
+   1. From the blue action bar, select ![Delete](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** to delete the plans. 
+   1. Select **[!UICONTROL Delete]** in the **[!UICONTROL Delete *x* plans]** confirmation dialog to delete the plans. Select **[!UICONTROL Cancel]** to cancel.
+
+

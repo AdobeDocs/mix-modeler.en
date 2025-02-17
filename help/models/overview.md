@@ -1,10 +1,10 @@
 ---
-title: Models
-description: Learn how to configure and use models in Mix Modeler.
+title: Models overview
+description: Learn how to build and use models in Mix Modeler.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
 ---
-# Models
+# Models overview
 
 The model functionality in Mix Modeler allows you to configure, train, and score models specific to your business objectives. The training and scoring supports AI-driven transfer learning between multitouch attribution and marketing mix modeling. 
 
@@ -27,9 +27,9 @@ A model can optionally include:
 * Spend share, which uses relative spend share as a proxy when marketing data is sparse.
 
 
-## Create a model
+## Build models
 
-To create a model, use the Mix Modeler step-by-step guided model configuration flow available when you select **[!UICONTROL Open model canvas]**. See [Create a model](create.md) for more details.
+To build a model, use the Mix Modeler step-by-step guided model configuration flow available when you select **[!UICONTROL Open model canvas]**. See [Build models](build.md) for more details.
 
 ## Manage models
 
@@ -185,22 +185,17 @@ To score or re-score a model:
    1. Select **[!UICONTROL Score]**. When re-scoring a model using a specific data range, you see an **[!UICONTROL Existing model is replaced]** dialog, prompting you to confirm to replace the model with new scores for the selected date range. Select **[!UICONTROL Replace model]** to confirm.
 
 
-### Delete a model
+### Delete models
 
 To delete a model:
 
    1. Select ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** from the left rail.
-
    1. Select ![More](/help/assets/icons/More.svg) for a model, and from the context menu select **[!UICONTROL Delete]**. Alternatively, select ![Delete](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** from the blue action bar.
+   1. Select **[!UICONTROL Delete]** in the **[!UICONTROL Delete model]** confirmation dialog to delete the model. Select **[!UICONTROL Cancel]** to cancel.
 
 To delete multiple models:
 
    1. Select multiple models.
-
    1. From the blue action bar, select ![Delete](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** to delete the models. 
-
-      >[!WARNING]
-      >
-      >The model is deleted immediately.
-
+   1. Select **[!UICONTROL Delete]** in the **[!UICONTROL Delete *x* models]** confirmation dialog to delete the models. Select **[!UICONTROL Cancel]** to cancel.
 
