@@ -57,7 +57,7 @@ To view a table of your current models, in the Mix Modeler interface:
    In the table below:
 
    * ![Checkmark](/help/assets/icons/Checkmark.svg) - indicates a successful execution of a step in the model workflow.
-   * ![Clock](/help/assets/icons/Clock.svg) - - indicates a current ongoing execution of a step in the model workflow.
+   * ![Clock](/help/assets/icons/Clock.svg) - indicates a current ongoing execution of a step in the model workflow.
    * ![Close](/help/assets/icons/Close.svg) - indicates a failed execution of a step in the model workflow.
   
    | Status | Create | Train | Score | Re-train | Re-score |
@@ -110,7 +110,7 @@ You can quickly duplicate a model.
 
 1. Select ![More](/help/assets/icons/More.svg) for a model, and from the context menu select **[!UICONTROL Duplicate]**.
 
-A new model, with a name composed of the original model's name appended with **[!UICONTROL (Copy)] (_n_)**, is added to the top of the table.
+You are redirected to the steps to create a new model, with a proposed name composed of the original model's name appended with **[!UICONTROL (Copy)] (_n_)**.
 
 ### Edit
 
