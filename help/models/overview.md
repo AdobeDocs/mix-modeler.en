@@ -52,13 +52,13 @@ To view a table of your current models, in the Mix Modeler interface:
 
    {style="table-layout:auto"}
 
-   The reported status of the model is dependent on whether a model is created, (re-)trained successfully or not, or (re-)scored successfully or not. 
+   The reported status of the model is dependent on where a model is within its lifecycle. For example, whether a model is created, (re-)trained successfully or not, or (re-)scored successfully or not. 
    
    In the table below:
 
-   * ![Checkmark](/help/assets/icons/Checkmark.svg) - indicates a successful execution of a step in the model workflow.
-   * ![Clock](/help/assets/icons/Clock.svg) - indicates a current ongoing execution of a step in the model workflow.
-   * ![Close](/help/assets/icons/Close.svg) - indicates a failed execution of a step in the model workflow.
+   * ![Checkmark](/help/assets/icons/Checkmark.svg) - indicates a successful execution of a step in the model lifecycle.
+   * ![Clock](/help/assets/icons/Clock.svg) - indicates a current ongoing execution of a step in the model lifecycle.
+   * ![Close](/help/assets/icons/Close.svg) - indicates a failed execution of a step in the model lifecycle.
   
    | Status | Create | Train | Score | Re-train | Re-score |
    |---|:---:|:---:|:---:|:---:|:---:|
