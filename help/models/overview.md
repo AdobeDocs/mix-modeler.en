@@ -39,18 +39,42 @@ To view a table of your current models, in the Mix Modeler interface:
    
 1. You see a table of the current models.
 
-    The table columns specify details about the model.
+   The table columns specify details about the model.
 
-    | Column name | Details |
-    |---|---|
-    | Name | Name of the model |
-    | Description | Description of the model |
-    | Conversion event | The conversion you have selected for the model. |
-    | Run frequency | The running frequency of training the model. |
-    | Last run | The date and time of the last training of the model. |
-    | Status | The status of the last run of the training of the model. <br/>![StatusGreen](/help/assets/icons/StatusGreen.svg) Success<br/>![StatusOrange](/help/assets/icons/StatusOrange.svg) Training issue<br/> ![StatusOrange](/help/assets/icons/StatusOrange.svg) Awaiting training <br/>![StatusRed](/help/assets/icons/StatusRed.svg) Failed <br/>![StatusGreen](/help/assets/icons/StatusGray.svg) _ (when a last run is in progress) |
+   | Column name | Details |
+   |---|---|
+   | Name | Name of the model |
+   | Description | Description of the model |
+   | Conversion event | The conversion you have selected for the model. |
+   | Run frequency | The running frequency of training the model. |
+   | Last run | The date and time of the last training of the model. |
+   | Status | The status of the model. |
 
-    {style="table-layout:auto"}
+   {style="table-layout:auto"}
+
+   The reported status of the model is dependent on where a model is within its lifecycle. For example, whether a model is created, (re-)trained successfully or not, or (re-)scored successfully or not. 
+   
+   In the table below:
+
+   * ![Checkmark](/help/assets/icons/Checkmark.svg) - indicates a successful execution of a step in the model lifecycle.
+   * ![Clock](/help/assets/icons/Clock.svg) - indicates a current ongoing execution of a step in the model lifecycle.
+   * ![Close](/help/assets/icons/Close.svg) - indicates a failed execution of a step in the model lifecycle.
+  
+   | Status | Create | Train | Score | Re-train | Re-score |
+   |---|:---:|:---:|:---:|:---:|:---:|
+   | In progress | ![Checkmark](/help/assets/icons/Checkmark.svg) | | | | |
+   | In progress | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Clock](/help/assets/icons/Clock.svg) | | | |
+   | In progress | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Clock](/help/assets/icons/Clock.svg) | | |
+   | In progress | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Clock](/help/assets/icons/Clock.svg) | | 
+   | In progress | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) |  ![Clock](/help/assets/icons/Clock.svg) |
+   | Training failed | ![Checkmark](/help/assets/icons/Checkmark.svg)  | ![Close](/help/assets/icons/Close.svg) | | | | 
+   | Training failed | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Close](/help/assets/icons/Close.svg) | |
+   | Training successful | ![Checkmark](/help/assets/icons/Checkmark.svg)  | ![Checkmark](/help/assets/icons/Checkmark.svg) | | | | 
+   | Training successful | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) | |
+   | Scoring failed | ![Checkmark](/help/assets/icons/Checkmark.svg)  | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Close](/help/assets/icons/Close.svg) | | | 
+   | Scoring failed | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Close](/help/assets/icons/Close.svg)|
+   | Scoring successful | ![Checkmark](/help/assets/icons/Checkmark.svg)  | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) | | | 
+   | Scoring successful | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg)|
 
 1. To change the columns displayed for the list, select ![Column settings](/help/assets/icons/ColumnSetting.svg) and toggle columns on ![Check](/help/assets/icons/Checkmark.svg) or off.
 
@@ -86,6 +110,7 @@ You can quickly duplicate a model.
 
 1. Select ![More](/help/assets/icons/More.svg) for a model, and from the context menu select **[!UICONTROL Duplicate]**.
 
+You are redirected to the steps to create a new model, with a proposed name composed of the original model's name appended with **[!UICONTROL (Copy)] (_n_)**.
 
 ### Edit
 
