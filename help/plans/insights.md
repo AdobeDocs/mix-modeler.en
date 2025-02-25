@@ -13,6 +13,8 @@ When finished retrieving, you see an overview of your plan, consisting of:
 
 - [!UICONTROL Forecasted paid channel ROI] visualization
 - [!UICONTROL Forecasted revenue] visualization 
+- [!UICONTROL Forecasted conversion] visualization
+- [!UICONTROL Marginal channel return] visualization
 - [!UICONTROL Data range breakdown] table of the plan, showing columns for
 
   - Channel
@@ -22,11 +24,45 @@ When finished retrieving, you see an overview of your plan, consisting of:
   - Conversion goal
   - Spend
 
-![Overview of a plan](/help/assets/overview-plan.png)
+To close the interface, select **[!UICONTROL Close]**. 
 
-1. Select **[!UICONTROL Close]** to return to the Plans interface. 
+To change how to view the ROI of your plan, select **[!UICONTROL X]** or **[!UICONTROL  %]** at **[!UICONTROL View ROI]**. 
 
-1. Select **[!UICONTROL X]** or **[!UICONTROL  %]** on how to **[!UICONTROL View ROI]**. 
+## Forecasted paid channel spend and ROI
+
+This visualization shows a scatterplot for the forcasted spend and return on investment on your paid channels, based on the model, date range and budget.
+
+![Forecasted paid channel spend and ROI visualization](../assets/overview-plan-forecasted-paid-channel-send-roi.png)
+
+
+## Forecasted revenue
+
+This bar chart visualization shows the forecasted revenue for your channels based on the model, date range and budget.
+
+![Forecasted revenue visualization](../assets/overview-plan-forecasted-revenue.png)
+
+
+## Forecasted conversions
+
+This bar chart visualization shows the forecasted conversions for your channels based on the model, date range and budget.
+
+![Forecasted conversions visualization](../assets/overview-plan-forecasted-conversions.png)
+
+
+## Marginal channel return
+
+This line chart visualization shows a marginal return curve for the selected channel with indicators for the **[!UICONTROL Marginal break-even]** and **[!UICONTROL Return point]**.
+
+![Marginal channel return visualization](../assets/overview-plan-marginal-channel-return.png)
+
+To select a specific channel for the visualization, select a channel from the **[!UICONTROL View]** dropdown menu.
+
+
+## Date range breakdown
+
+The [!UICONTROL Date range breakdown] table shows detailed granular data per channel for [!UICONTROL ROI], [!UICONTROL Revenue], [!UICONTROL CPA], [!UICONTROL Conversions] and [!UICONTROL Spend].
+
+![Date range breakdown table](../assets/overview-plan-date-range-breakdown.png)
 
 1. To download a CSV file containing the data of the Date range breakdown, select ![Download](/help/assets/icons/Download.svg) **[!UICONTROL Download CSV]**. From the context menu:
 
@@ -36,6 +72,9 @@ When finished retrieving, you see an overview of your plan, consisting of:
    Detailed data is granular data keyed by week. Summary data is data keyed by the model-provided date range.
 
 1. To view the Date range breakdown by category of channels, select **[!UICONTROL All channels]**, **[!UICONTROL Paid channels]**, or **[!UICONTROL Non-paid channels]** from the **[!UICONTROL View]** selection.
+
+
+## Edit plan
 
 1. To edit your plan, select ![Edit](/help/assets/icons/Edit.svg) **[!UICONTROL Edit plan]**:
     
