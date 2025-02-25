@@ -26,6 +26,8 @@ A model can optionally include:
 * Prior knowledge of marketing contributions from other sources such as past stakeholder experience, incrementally testing, other models.
 * Spend share, which uses relative spend share as a proxy when marketing data is sparse.
 
+When a model is first created, the creation immediately kicks off the training and scoring process. After the completion of the initial training and scoring run, model insights will be available for review. A model may subsequently be re-trained. Also, data may be added to the model which requires you to re-score the model manually. Re-trainng and re-scoring are an iterative process as new findings and information emerge and adjustments are needed to obtain a model fit that is most appropriate for your business objectives. 
+
 
 ## Build models
 

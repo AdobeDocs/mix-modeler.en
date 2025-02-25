@@ -20,7 +20,7 @@ These release notes cover the latest release of Mix Modeler. Mix Modeler release
 | **Delete confirmations** | You are prompted to confirm the deletion of a [plan](/help/plans/overview.md#delete-plans) or a [model](/help/models/overview.md#delete-models). | January 15, 2025 | February 18, 2025 |
 | **Factors UI improvement** | You can select which [factors](/help/models/insights.md#factors-beta) you want to display in Model insights. | January 15, 2025 | February 18, 2025 |
 | **Error handling** | User-friendly error messages and improved user experience for error scenarios in data harmonization and plans. | February 18, 2025 | February 18, 2025 |
-| **Model status** | Redefinition of [model statuses](/help/models/overview.md#manage-models) across the model lifecycle. | February 18, 2025 | t.b.d. |
+| **Model status** | Redefinition of [model statuses](/help/models/overview.md#manage-models) across the model lifecycle. | February 18, 2025 | February 18, 2025 |
 
 
 ## Release strategy
