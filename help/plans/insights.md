@@ -51,7 +51,7 @@ This bar chart visualization shows the forecasted conversions for your channels 
 
 ## Marginal channel return
 
-This line chart visualization shows a marginal return curve for the selected channel with indicators for the **[!UICONTROL Marginal break-even]** and **[!UICONTROL Return point]**.
+This line chart visualization shows a marginal return curve for the selected channel with indicators for the **[!UICONTROL Marginal break-even]** and **[!UICONTROL Return point]**. This visualization helps you to understand how spend for a channel is from reaching a marginal break-even point and whether you have room to increase spend in a channel or should spend less on a channel to improve the channel spend efficiency.
 
 ![Marginal channel return visualization](../assets/overview-plan-marginal-channel-return.png)
 
