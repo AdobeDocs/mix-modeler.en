@@ -11,12 +11,12 @@ In Mix Modeler, you create a plan using the plan canvas. In the plan canvas, you
 
 To create a plan, in the ![PLan](/help/assets/icons/FileChart.svg) **[!UICONTROL Plans]** interface in Mix Modeler, select **[!UICONTROL Create plan]**.
 
-1. In the Plan creation screen:
+1. In the **[!UICONTROL Plan creation]** screen:
 
-    1. In the **[!UICONTROL Setup]** section
+    1. In the **[!UICONTROL Setup]** section:
 
         1. Enter a **[!UICONTROL Plan name]**, for example `Demo plan`. Enter a **[!UICONTROL Description]**, for example `Demo plan for Luma company`.
-        1. Select a **[!UICONTROL Model]** from **[!UICONTROL _Select an option.._.]**.
+        1. Select a **[!UICONTROL Model]** from **[!UICONTROL _Select an option.._.]**
         1. You can select ![LinkOut](/help/assets/icons/LinkOut.svg) **[!UICONTROL Create model]** to create a model directly from within the plan creation. This will open a new tab in your browser and show the [Models](../models/overview.md) interface.
 
            ![Plan Setup](/help/assets/plan-setup.png)

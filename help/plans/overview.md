@@ -75,7 +75,7 @@ To duplicate a plan:
 - Select ![More](/help/assets/icons/More.svg) for a plan. From from the context menu, select **[!UICONTROL Duplicate]**.
 - Alternatively, select a plan in the table ![SelectBox](/help/assets/icons/SelectBox.svg) and select ![Copy](/help/assets/icons/Copy.svg) **[!UICONTROL Duplicate]** from the blue action bar.
 
-A new plan, with a name composed of the original plan's name appended with **[!UICONTROL (Copy)] (_n_)**, is added to the top of the table.
+A new plan, with a name composed of the original plan's name appended with **[!UICONTROL (Copy)] (_n_)**, is created. You are automatically redirected to [Plan creation](build.md) to provide updated details for the copied plan. Details (like Description, Budget, and more) from the original plan are copied over. You have the option to select another model as the base for the copied plan.
 
 ### Compare plans
 
