@@ -26,7 +26,7 @@ A model can optionally include:
 * Prior knowledge of marketing contributions from other sources such as past stakeholder experience, incrementally testing, other models.
 * Spend share, which uses relative spend share as a proxy when marketing data is sparse.
 
-When a model is first created, the creation immediately kicks off the training and scoring process. After the completion of the initial training and scoring run, model insights will be available for review. A model may subsequently be re-trained. Also, data may be added to the model which requires you to re-score the model manually. Re-trainng and re-scoring are an iterative process as new findings and information emerge and adjustments are needed to obtain a model fit that is most appropriate for your business objectives. 
+When a model is first created, the creation immediately kicks off the training and scoring process. After the completion of the initial training and scoring run, model insights are available for review. A model may subsequently be re-trained. Also, data may be added to the model which requires you to re-score the model manually. Re-trainng and re-scoring are an iterative process as new findings and information emerge and adjustments are needed to obtain a model fit that is most appropriate for your business objectives. 
 
 
 ## Build models
@@ -77,6 +77,8 @@ To view a table of your current models, in the Mix Modeler interface:
    | Scoring failed | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Close](/help/assets/icons/Close.svg)|
    | Scoring successful | ![Checkmark](/help/assets/icons/Checkmark.svg)  | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) | | | 
    | Scoring successful | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg)|
+
+   {style="table-layout:fixed"}
 
 1. To change the columns displayed for the list, select ![Column settings](/help/assets/icons/ColumnSetting.svg) and toggle columns on ![Check](/help/assets/icons/Checkmark.svg) or off.
 
