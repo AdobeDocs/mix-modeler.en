@@ -29,6 +29,7 @@ If a model that you have used for your plan is scored on new data you need to cr
 
 To build a plan, use the Mix Modeler plan creation wizard. See [Build plans](build.md) for more details.
 
+
 ## Manage plans
 
 To view a table of your current plans, in the Mix Modeler interface:
@@ -75,7 +76,15 @@ To duplicate a plan:
 - Select ![More](/help/assets/icons/More.svg) for a plan. From from the context menu, select **[!UICONTROL Duplicate]**.
 - Alternatively, select a plan in the table ![SelectBox](/help/assets/icons/SelectBox.svg) and select ![Copy](/help/assets/icons/Copy.svg) **[!UICONTROL Duplicate]** from the blue action bar.
 
-A new plan, with a name composed of the original plan's name appended with **[!UICONTROL (Copy)] (_n_)**, is added to the top of the table.
+A new plan, with a name composed of the original plan's name appended with **[!UICONTROL (Copy)] (_n_)**, is created. You are automatically redirected to [Plan creation](build.md) to provide updated details for the copied plan. 
+
+- Details (like Description, Budget, and more) from the original plan are copied over. 
+- Budget constraints from the original plan are copied over to the newly created plan.
+- You have the option to select another model as the base for the copied plan.
+  - For touchpoints or channels that do exist in the copied plan but do not exist in the newly selected model, any constraints for these touchpoints or channels are removed from the plan.
+  - For touchpoints or channels that do not exist in the copied plan but do exist in the newly selected model, the constraints are set to a minimum value of `0` and a maximum value in line with the plan flight range budget. 
+
+
 
 ### Compare plans
 
