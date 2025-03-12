@@ -29,6 +29,7 @@ If a model that you have used for your plan is scored on new data you need to cr
 
 To build a plan, use the Mix Modeler plan creation wizard. See [Build plans](build.md) for more details.
 
+
 ## Manage plans
 
 To view a table of your current plans, in the Mix Modeler interface:
