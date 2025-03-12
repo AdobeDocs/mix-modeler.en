@@ -8,7 +8,7 @@ exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
 
 Plans in Mix Modeler allow you to allocate budgets by business unit and channel. The planning functionality is integrated with the outcomes of the trained models based on your harmonized data.
 
-A plan outlines the discreionary investments (for example budgets) a business intends to spend on marketing-related projects over the course of a given timeframe in service of common KPI (for example orders, revenue). Plans can incluse expenses from channels such as paid advertising, sponsored web content, events.
+A plan outlines the discretionary investments (for example budgets) a business intends to spend on marketing-related projects over the course of a given timeframe in service of common KPI (for example orders, revenue). Plans can incluse expenses from channels such as paid advertising, sponsored web content, events.
 
 A plan requires:
 
