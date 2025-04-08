@@ -19,5 +19,11 @@ The following terminology and acronyms are used in the documentation:
 | Marketing attribution | The process of assigning revenue credit to a marketing touchpoint. This is done by tracking a prospect's entire customer journey, starting from their first interaction with a company to when the deal closes. The revenue generated from the deal gets attributed back to the marketing touchpoints that drove the sale. The amount of revenue credit given to a touchpoint depends on how much that touchpoint influenced the customer's purchasing decision. |
 | Multi Touch Attribution (MTA) |  A strategy for evaluating the effectiveness of your marketing touchpoints and giving credit to the most valuable in the buyer journey. |
 | Marketing Mix Modeling (MMM) | A service that enables you to measure, optimize, and plan marketing investments by applying machine learning models to provide insights on the historical and future impact of marketing investments on key business goals. |
+| Forecasted Return | Forecasted Revenue - Spend |
+| Forecasted ROI | Forecasted Return / Spend<br>or<br>(Forecasted Revenue - Spend) / Spend |
+| Forcasted ROI (%) | ((Forecasted Revenue - Spend) / Spend) x 100% |
+| Forecasted CPA for a Channel | Channel Spend / Forecasted number of conversions attributed to all paid channels |
+| Overall Paid Channel Forecasted CPA | Total Paid Channel Spend / Forecasted number of conversions attributed to all paid channels |
+| Total Forcasted CPA |  Total Spend / Total forecasted number of conversions (across all channels + base channel) |
 
 {style="table-layout:auto"}
