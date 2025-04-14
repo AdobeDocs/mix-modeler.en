@@ -270,14 +270,18 @@ This visualization represents the spend distribution across various channels wit
 
 This visualization represents the spend distribution across paid touchpoints for each quarter within the given date range. The visualization enables understanding of which touchpoints are prioritized within specific channels and quarters. The visualization helps to identify channel spending patterns and trends, particularly channels with low and infrequent spending over time.
 
-You can select an alternative spend-based channel to display for this visualization. Select a channel from **[!UICONTROL Channels]**.
+To can select an alternative spend-based channel to display for this visualization:
+
+* Select a channel from **[!UICONTROL Channels]**.
 
 
 ### Touchpoint Volume
 
 This visualization represents the volume distribution across all touchpoints for each quarter within the given date range.
 
-You can select an alternative volume-based channel to display for this visualization. Select a channel from **[!UICONTROL Channels]**.
+To can select an alternative volume-based channel to display for this visualization:
+
+* Select a channel from **[!UICONTROL Channels]**.
 
 
 ## **[!UICONTROL Edit]**
