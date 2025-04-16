@@ -55,8 +55,6 @@ A donut visualization that shows a distribution of the contribution by various c
 
 ### Marketing performance summary.
 
-A horizontal bar graph displaying the ROI performance by channel.
-
 A horizontal bar graph visualization that displays the ROI or CPA performance by each of the channels. This visualization highlights the ROI / CPA of your marketing investments. The channels are ranked in descending order based on ROI / CPA. The visualization helps to identify which channels are most effective and which might need optimization.
 
 ### Marginal response curves.  
