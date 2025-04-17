@@ -26,6 +26,14 @@ You see when the specified model is last refreshed and visualizations are displa
 
 You can change the date period on which the visualizations on each of the tabs are based on. Enter a date period or select ![Calendar](/help/assets/icons/Calendar.svg) to select a date period.
 
+## Model drift
+
+{{release-limited-testing-section}}
+
+If model drift is detected on the model, you will see a **[!UICONTROL Model drift detected]** dialog with options to be reminded later or to immediately [**[!UICONTROL Retrain]**](overview.md#retrain) the model. If you select **[!UICONTROL Remind me later]**, you are reminded the next day or at the next login. 
+
+![Model drift detected dialog](/help/assets/model-drift-dialog.png)
+
 ## [!UICONTROL Model insights]
 
 The Model insights tab shows visualizations for [Contribution by date and base media](#contribution-by-date-and-base-media), [Contribution by channel](#contribution-by-channel), [Marketing performance summary](#marketing-performance-summary), and [Marginal response curves](#marginal-response-curves). The tab also provides a [Touchpoint breakdown](#touchppint-breakdown) table.
@@ -245,6 +253,19 @@ The Diagnostics tab shows visualizations for:
   * [!UICONTROL Total volume]: The aggregate number of times a user touches a touchpoint. The number is inclusive of touchpoints that appear on a path achieving conversion as well as paths *not* resulting in conversion.
 
 ![Diagnostics](/help/assets/model-insights-diagnostics.png)
+
+### Model drift detection
+
+>[!AVAILABILITY]
+>
+>The functionality described in this section is in the Limited Testing phase of release and might not be available yet in your environment. This note will be removed when the functionality is generally available. For information about the Mix Modeler release process, see [Mix Modeler feature releases](/help/release-notes/releases.md).
+>
+
+If model drift is detected, you see a **[!UICONTROL Model drift detected]** notification at the top.
+
+![Model drift notification](/help/assets/model-drift-notification.png)
+
+Select **[!UICONTROL Hide]** to hide the notification. The notification will re-appear the next day or at the next login.
 
 
 ## [!UICONTROL Historical overview]
