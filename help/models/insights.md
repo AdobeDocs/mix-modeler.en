@@ -258,7 +258,7 @@ The Diagnostics tab shows visualizations for:
 
 >[!AVAILABILITY]
 >
->The functionality described in this section is in the Limited Testing phase of release and might not be available yet in your environment. This note will be removed when the functionality is generally available. For information about the Mix Modeler release process, see [Mix Modeler feature releases](/help/release-notes/releases.md).
+>The functionality described in this section is in the Limited Testing phase of release and might not be available yet in your environment. This note will be removed when the functionality is generally available. For information about the Mix Modeler release process, see [Mix Modeler feature releases](/help/releases/latest.md).
 >
 
 If model drift is detected, you see a **[!UICONTROL Model drift detected]** notification at the top.
