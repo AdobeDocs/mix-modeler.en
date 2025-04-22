@@ -8,7 +8,7 @@ exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
 
 Plans in Mix Modeler allow you to allocate budgets by business unit and channel. The planning functionality is integrated with the outcomes of the trained models based on your harmonized data.
 
-A plan outlines the discretionary investments (for example budgets) a business intends to spend on marketing-related projects over the course of a given timeframe in service of common KPI (for example orders, revenue). Plans can incluse expenses from channels such as paid advertising, sponsored web content, events.
+A plan outlines the discretionary investments (for example budgets) a business intends to spend on marketing-related projects over the course of a given timeframe. These investments are in service of common KPIs (for example orders, revenue). Plans can inclusd expenses from channels such as paid advertising, sponsored web content, events.
 
 A plan requires:
 
@@ -22,7 +22,7 @@ A plan can optionally include:
 - multiple flight dates with each having a target budget,
 - minimum and maximum budget constraints by channel and flight date.
 
-If a model that you have used for your plan is scored on new data you need to create a new plan to take into account the re-scored data.
+If a model that you have used for your plan is scored on new data, you need to create a new plan to take into account the re-scored data.
 
 
 ## Build plans
@@ -46,10 +46,10 @@ To view a table of your current plans, in the Mix Modeler interface:
     | Model | The model used as the base for the plan. |
     | Date range | The full date range for a plan. |
     | Budget | The total budget for a plan. |
-    | Forecasted return | The forecasted return for a plan |
-    | Forecasted ROI | The forecasted ROI for a plan. |
-    | Forecasted conversion | The forecasted conversion for a plan |
-    | Forecasted CPA | The forecasted CPA for a plan |
+    | Forecasted return | The [forecasted return](/help/main-guide/glossary.md) for a plan |
+    | Forecasted ROI | The [forecasted ROI](/help/main-guide/glossary.md) for a plan. |
+    | Forecasted conversion | The [forecasted conversion](/help/main-guide/glossary.md) for a plan |
+    | Forecasted CPA | The [forecasted CPA](/help/main-guide/glossary.md)for a plan |
     | Status | The status of a plan: <p><span style="color:red">●</span> Failed, <p><span style="color:blue">●</span> Processing, or <p><span style="color:green">●</span> Complete. |
 
     {style="table-layout:auto"}
@@ -81,8 +81,10 @@ A new plan, with a name composed of the original plan's name appended with **[!U
 - Details (like Description, Budget, and more) from the original plan are copied over. 
 - Budget constraints from the original plan are copied over to the newly created plan.
 - You have the option to select another model as the base for the copied plan.
-  - For touchpoints or channels that do exist in the copied plan but do not exist in the newly selected model, any constraints for these touchpoints or channels are removed from the plan.
-  - For touchpoints or channels that do not exist in the copied plan but do exist in the newly selected model, the constraints are set to a minimum value of `0` and a maximum value in line with the plan flight range budget. 
+  - For touchpoints or channels that do exist in the copied plan, but do not exist in the newly selected model, any constraints for these touchpoints or channels are removed from the plan.
+  - For touchpoints or channels that do not exist in the copied plan, but do exist in the newly selected model, the constraints are set to:
+    - a minimum value of `0`, 
+    - a maximum value in line with the plan flight range budget. 
 
 
 
@@ -98,7 +100,7 @@ To compare plans:
 
 To delete a plan:
 
-   1. Select ![More](/help/assets/icons/More.svg) for a plan. From the context menu select **[!UICONTROL Delete]**. <br/>Alternatively, select a plan in the table ![SelectBox](/help/assets/icons/SelectBox.svg) and select ![Delete](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** from the blue action bar.
+   1. Select ![More](/help/assets/icons/More.svg) for a plan. From the context menu, select **[!UICONTROL Delete]**. <br/>Alternatively, select a plan in the table ![SelectBox](/help/assets/icons/SelectBox.svg) and select ![Delete](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** from the blue action bar.
    1. Select **[!UICONTROL Delete]** in the **[!UICONTROL Delete plan]** confirmation dialog to delete the plan. Select **[!UICONTROL Cancel]** to cancel.
 
 To delete multiple plans:

@@ -37,9 +37,9 @@ To inspect the audit log, in the Mix Modeler interface:
    | Mix Modeler Model | Create | Allow or Deny |
    | Mix Modeler Model | Update | Allow or Deny |
    | Mix Modeler Model | Delete | Allow or Deny |
-   | Mix Modeler Model | Re-score | Allow or Deny |
+   | Mix Modeler Model | Rescore | Allow or Deny |
    | Mix Modeler Model | Clone | Allow or Deny |
-   | Mix Modeler Model | Train / Re-train | Allow or Deny |
+   | Mix Modeler Model | Train / Retrain | Allow or Deny |
    | Mix Modeler Model | Download / Save metadata | Allow or Deny |
    | Mix Modeler Plan | Create | Allow or Deny |
    | Mix Modeler Plan | Update | Allow or Deny |
