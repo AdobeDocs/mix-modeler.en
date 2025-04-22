@@ -127,7 +127,7 @@ You can specify advanced settings in the **[!UICONTROL Advanced]** step. In this
 
     * To use historical marketing investment ratios to inform the model when marketing data is sparse, activate **[!UICONTROL Allow spend share]**. This setting is recommended, especially in the following scenarios:
       * A channel doesn't have enough observations (for example, low frequency of spend, impressions or clicks).
-      * You are modeling spiky but regular, and potentially high-spend media (like TV for some brands) where signal may be sparse.
+      * You are modeling spiky but regular, and potentially high-spend media (like TV for some brands), where data may be sparse.
      
       >[!NOTE]
       >
