@@ -77,3 +77,8 @@ Currently, Mix Modeler does support a subset of Experience Platform data types. 
 - Byte
 - Date
 - Date-time
+
+
+>[!MORELIKETHIS]
+>
+>- [Schemas](schemas.md)
