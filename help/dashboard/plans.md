@@ -8,15 +8,12 @@ exl-id: 930fc1d5-8e28-4610-af7b-c4ec91f86a8a
 
 >[!NOTE]
 >
->The **[!UICONTROL Performance to plan]** [!BADGE Alpha]{type=Informative} tab in Mix Modeler ![Home](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** is an alpha feature and its functionality is subject to change. The feature is available to a limited number of customers.
+>The **[!UICONTROL Plans]** [!BADGE Alpha]{type=Informative} tab in Mix Modeler ![Home](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** is an alpha feature and its functionality is subject to change. The feature is available to a limited number of customers.
 
 
 
 
-
-
-
-The **[!UICONTROL Performance to plan]** [!BADGE Alpha]{type=Informative} tab in Mix Modeler ![Home](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** provides a tracking dashboard to monitor how well your marketing performs against the plan. 
+The **[!UICONTROL Plans]** [!BADGE Alpha]{type=Informative} tab in Mix Modeler ![Home](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** provides a tracking dashboard to monitor how well your marketing performs against the plan. 
 
 To select what data is displayed for the KPI status cards and visualizations:
 
@@ -24,7 +21,7 @@ To select what data is displayed for the KPI status cards and visualizations:
 
 * Specify a date period. To change the date period, enter a start date and end date manually or select a date period, using ![Calendar](/help/assets/icons/Calendar.svg).
 
-The **[!UICONTROL Performance to plan]** [!BADGE Alpha]{type=Informative} tab shows:
+The **[!UICONTROL Plans]** [!BADGE Alpha]{type=Informative} tab shows:
 
 * KPI status cards
 
