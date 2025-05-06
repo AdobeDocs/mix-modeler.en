@@ -16,5 +16,5 @@ See the [Datasets UI guide](https://experienceleague.adobe.com/docs/experience-p
 
 >[!MORELIKETHIS]
 >
->* [Ingest data](overview.md)
+>* [Ingest data](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home)
 >* [Schemas](schemas.md)
