@@ -43,7 +43,7 @@ To create a plan, in the ![PLan](/help/assets/icons/FileChart.svg) **[!UICONTROL
 
     ![Plan Done](/help/assets/plan-done-required-fields.png)
 
-    * Select <img src="/help/assets/icons/NewPlan.svg" width=25/> **[!UICONTROL Create plan now]** if you want to generate an AI recommended plan with forecasted ROI.
+    * Select ![NewPlan](../assets/icons/NewPlan.svg) **[!UICONTROL Create plan now]** if you want to generate an AI recommended plan with forecasted ROI.
 
       Select **[!UICONTROL OK]**. Your plan is created.
 
@@ -65,3 +65,5 @@ To create a plan, in the ![PLan](/help/assets/icons/FileChart.svg) **[!UICONTROL
     1. When finished, select **[!UICONTROL Create]**. 
 
     1. In the **[!UICONTROL Create plan]** dialog, select **[!UICONTROL Create plan]** to create your plan. Select **[!UICONTROL Cancel]** to cancel the creation of your plan. A **[!UICONTROL No work is saved]** dialog is shown to confirm.
+
+1. In the Advanced configurations section, you c
