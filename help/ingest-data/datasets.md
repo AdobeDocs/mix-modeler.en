@@ -18,3 +18,5 @@ See the [Datasets UI guide](https://experienceleague.adobe.com/docs/experience-p
 >
 >* [Ingest data](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home)
 >* [Schemas](schemas.md)
+>* [Data ingestion overview (Experience Platform)](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home)
+>* [Source connectors (Experience Platform)](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
