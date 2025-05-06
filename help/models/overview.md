@@ -195,6 +195,11 @@ To score or rescore a model:
 
    1. Select **[!UICONTROL Score]**. When re-scoring a model using a specific data range, you see an **[!UICONTROL Existing model is replaced]** dialog, prompting you to confirm to replace the model with new scores for the selected date range. Select **[!UICONTROL Replace model]** to confirm.
 
+>[!IMPORTANT]
+>
+>Rescore of a model does not change any Plans that are already created based on the rescored model. To use the new rescored model in a plan, you have to create a new plan.
+
+
 
 ### Delete models
 
