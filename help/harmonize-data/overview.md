@@ -122,7 +122,7 @@ To see your harmonized data, in the Mix Modeler interface:
 
 1. Select ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized datasets]** from the left rail.
    
-1. Select **[!UICONTROL Harmonized Data]** from the top bar. Aa recap of your harmonized data is shown based on the fields, dataset rules, marketing touchpoints and conversions you have defined.
+1. Select **[!UICONTROL Harmonized data]** from the top bar. Aa recap of your harmonized data is shown based on the fields, dataset rules, marketing touchpoints and conversions you have defined.
 
     1. To redefine the period on which the recap of harmonized data is based, enter a date range for **[!UICONTROL Date range]** or use ![Calendar](/help/assets/icons/Calendar.svg) to select a data range.
 
@@ -139,3 +139,13 @@ To see your harmonized data, in the Mix Modeler interface:
     1. Select **[!UICONTROL Submit]** to submit your column setting changes. Select **[!UICONTROL Close]** to cancel any changes you made.
 
 1. If more pages are available, use ![Arrow left](/help/assets/icons/ChevronLeft.svg) or ![Arrow Right](/help/assets/icons/ChevronRight.svg) at **[!UICONTROL Page _x_ of _x_]** to move between pages.
+
+1. You can optionally download the harmonized data.
+
+   1. Select ![Download](/help/assets/icons/Download.svg) [!BADGE beta].
+   1. In the popup, select ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Create]**.
+   1. Enter a **[!UICONTROL Report name]**, for example `Test Report`.
+   1. Select ![FileCSV](/help/assets/icons/FileCSV.svg) **[!UICONTROL Report]**.
+
+   A CSV report with a title based on your provided report name and current date and time (for example `Test Report_2025_04_23_9-5-18.csv`) is downloaded to your default download folder.
+

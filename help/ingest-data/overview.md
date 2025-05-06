@@ -17,8 +17,7 @@ For example:
 * aggregate or summary data from walled gardens (like Facebook, YouTube), traffic sources or offline advertising data,
 * non-marketing aggregate or summary data containing internal or external factors that are useful for model building.
 
-You can use any kind of mechanism, supported by Experience Platform, to ingest your experience event-level, aggregate marketing effort data, and data from other sources. Such as the Experience Platform SDKs, APIs, source connectors, and streaming and batch ingestion.
-
+You can use any kind of mechanism, supported by Experience Platform, to ingest your experience event-level, aggregate marketing effort data, and data from other sources. Ingestion mechanisms include the Experience Platform SDKs, APIs, source connectors, streaming and batch ingestion. To learn more about ingesting your data in Experience Platform for use in Adobe Mix Modeler, see [Data Ingestion overview](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home).
 
 ## Guidelines
 
@@ -75,6 +74,16 @@ Find below some examples of data typically used in Mix Modeler beyond the more s
 +++
 
 To work with data in Mix Modeler, you need data collected in datasets and modeled after schemas in Experience Platform. The Mix Modeler interface provides easy access to both the Experience Platform Schemas and Datasets UI.
+
+
+## Validate
+
+To validate whether your data is properly available in Mix Modeler, you can do the following:
+
+* Use visualizations in  [Overview](/help/overview.md).
+* Download and inspect data from [Harmonized data](/help/harmonize-data/overview.md) in Harmonized datasets.
+
+To validate whether your data is ingested properly in Experience Platform, you can [write and execute SQL queries using Experience Platform Query Service](https://experienceleague.adobe.com/en/docs/experience-platform/query/home).
 
 
 >[!MORELIKETHIS]

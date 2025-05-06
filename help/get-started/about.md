@@ -7,10 +7,6 @@ exl-id: aa1018d5-b073-4dfb-b40c-ca16a8970b2f
 ---
 # Mix Modeler overview
 
-See this video for a quick overview of the Mix Modeler capabilities.
-
->[!VIDEO](https://video.tv.adobe.com/v/3424872/?learn=on)
-
 Mix Modeler, powered by Adobe Sensei, enables marketers to measure campaigns and optimize planning holistically across all channels: paid, earned, and owned. Its unified methodology measures incrementally at both marketing touchpoints and aggregate levels, while ensuring fully consistent results.
 
 Mix Modeler provides the incremental impact of all marketing activities on business and campaign outcomes through a holistic (end-to-end) measurement application for digital and offline marketing. 

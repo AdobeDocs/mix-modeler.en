@@ -6,6 +6,14 @@ exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
 ---
 # Model insights
 
+Each visualization in model insights is designed to help you to:
+
+* Visualize and quantify the impact of your organization's marketing activities.
+* Identify which channels are high-performing.
+* Identify which channels might need optimization.
+
+These insights then help you to support resource prioritization and allocation.
+
 To view model insights, in the ![Models](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** interface in Mix Modeler:
 
 1. From the **[!UICONTROL Models]** table, select the name of a model that has a **[!UICONTROL Last run status]** of <span style="color:green">●</span> **[!UICONTROL Success]**.
@@ -17,6 +25,14 @@ To view model insights, in the ![Models](/help/assets/icons/FileData.svg) **[!UI
 You see when the specified model is last refreshed and visualizations are displayed using four tabs: [Model insights](#model-insights), [Attribution](#attribution), [Factors](#factors), [Diagnostics](#diagnostics), and [Historical overview](#historical-overview).
 
 You can change the date period on which the visualizations on each of the tabs are based on. Enter a date period or select ![Calendar](/help/assets/icons/Calendar.svg) to select a date period.
+
+## Model drift
+
+{{release-limited-testing-section}}
+
+If model drift is detected on the model, you will see a **[!UICONTROL Model drift detected]** dialog with options to be reminded later or to immediately [**[!UICONTROL Retrain]**](overview.md#retrain) the model. If you select **[!UICONTROL Remind me later]**, you are reminded the next day or at the next login. 
+
+![Model drift detected dialog](/help/assets/model-drift-dialog.png)
 
 ## [!UICONTROL Model insights]
 
@@ -33,15 +49,21 @@ The Model insights tab shows visualizations for [Contribution by date and base m
 
 ### Contribution by date and base media. 
 
-The stacked graph is ordered: Base at the bottom, Non-spend channels in the middle, and Spend channels on top.
+This stacked graph visualization is ordered as follows: 
+
+* Base at the bottom. 
+* Non-spend channels in the middle.
+* Spend channels on top. 
+
+This visualization represents the contribution proportion achieved by base, by spend channels, and by non-spend channels, across a date range. This visualization is helpful to showcase incrementality. The base represents what would have happened without any marketing at all, and the non-spend channels plus spend channels (on top of the base) attribute to your marketing's impact. In short, non-spend plus spend equals the incremental impact of your marketing efforts and the visualization provides easy insight into the value that marketing generates.
 
 ### Contribution by channel
 
-The donut visualization shows a distribution of the contribution by channel.
+A donut visualization that shows a distribution of the contribution by various channels. This visualization showcases incrementality through the lens of the top three performing channels (excluding base and *All others* categories). The visualization helps to support prioritization and budget allocation.
 
 ### Marketing performance summary.
 
-A horizontal bar graph displaying the ROI performance by channel.
+A horizontal bar graph visualization that displays the ROI or CPA performance by each of the channels. This visualization highlights the ROI / CPA of your marketing investments. The channels are ranked in descending order based on ROI / CPA. The visualization helps to identify which channels are most effective and which might need optimization.
 
 ### Marginal response curves.  
 
@@ -56,7 +78,7 @@ To change the channel:
 
 ### Touchpoint breakdown
 
-The touchpoint breakdown table shows the touchpoint breakdowns for all or selected channels on a weekly base.
+The touchpoint breakdown table shows the weekly touchpoint breakdowns for all or selected channels on a weekly base, displaying key metrics associated to each. The table allows for easy comparison, trend identification and performance tracking at a more granular channel level. This table explicitly complements the [Contribution by date and base media](#contribution-by-date-and-base-media) visualization and the [Contribution by channel](#contribution-by-channel) visualization.
 
 ![Touchpoint breakdown](../assets/touchpoint-breakdown.png)
 
@@ -65,7 +87,7 @@ The following columns are available:
 | Column | Description |
 |---|---|
 | **[!UICONTROL Date range]** | The week to report on. |
-| **[!UICONTROL Touchpoint]** | The specifc touchpoint channel. |
+| **[!UICONTROL Touchpoint]** | The specific touchpoint channel. |
 | **[!UICONTROL ROI]** | The percentage of (**[!UICONTROL Revenue]** - **[!UICONTROL Spend]**) / **[!UICONTROL Spend]**. |
 | **[!UICONTROL Revenue]** | The revenue for the date range. |
 | **[!UICONTROL CPA]** | **[!UICONTROL Spend]** / **[!UICONTROL Conversions]**. |
@@ -232,24 +254,54 @@ The Diagnostics tab shows visualizations for:
 
 ![Diagnostics](/help/assets/model-insights-diagnostics.png)
 
+### Model drift detection
+
+>[!AVAILABILITY]
+>
+>The functionality described in this section is in the Limited Testing phase of release and might not be available yet in your environment. This note will be removed when the functionality is generally available. For information about the Mix Modeler release process, see [Mix Modeler feature releases](/help/releases/latest.md).
+>
+
+If model drift is detected, you see a **[!UICONTROL Model drift detected]** notification at the top.
+
+![Model drift notification](/help/assets/model-drift-notification.png)
+
+Select **[!UICONTROL Hide]** to hide the notification. The notification will re-appear the next day or at the next login.
+
 
 ## [!UICONTROL Historical overview]
 
 The Historical overview tab shows visualizations for:
 
-* Conversion and Spend by Fiscal Qtr and Product.
-  
-* Spend by Channel.
-
-* Touchpoint Spend.
-
-  You can select an alternative spend-based channel to display for this visualization. Select a channel from **[!UICONTROL Channels]**.
-
-* Touchpoint Volume.
-
-    You can select an alternative volume-based channel to display for this visualization. Select a channel from **[!UICONTROL Channels]**.
-
 ![Model - Historical overview](/help/assets/model-insights-historical-overview.png)
+
+
+### Conversion and Spend by Fiscal Qtr and Product
+
+This visualization represents the conversion and spend distribution across various quarters within the given date range. The visualization helps to identify high-performing quarters where spend is driving conversions.
+
+
+### Spend by Channel
+
+This visualization represents the spend distribution across various channels within the given date range. The visualization supports quick identification of which channels receive the most spend.
+
+
+### Touchpoint Spend
+
+This visualization represents the spend distribution across paid touchpoints for each quarter within the given date range. The visualization enables understanding of which touchpoints are prioritized within specific channels and quarters. The visualization helps to identify channel spending patterns and trends, particularly channels with low and infrequent spending over time.
+
+To can select an alternative spend-based channel to display for this visualization:
+
+* Select a channel from **[!UICONTROL Channels]**.
+
+
+### Touchpoint Volume
+
+This visualization represents the volume distribution across all touchpoints for each quarter within the given date range.
+
+To can select an alternative volume-based channel to display for this visualization:
+
+* Select a channel from **[!UICONTROL Channels]**.
+
 
 ## **[!UICONTROL Edit]**
 
