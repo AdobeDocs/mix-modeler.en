@@ -92,5 +92,3 @@ To validate whether your data is ingested properly in Experience Platform, you c
 >
 >* [Schemas](schemas.md)
 >* [Datasets](datasets.md)
->* [Data ingestion overview (Experience Platform)](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home)
->* [Source connectors (Experience Platform)](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
