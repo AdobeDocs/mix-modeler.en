@@ -76,6 +76,16 @@ Find below some examples of data typically used in Mix Modeler beyond the more s
 To work with data in Mix Modeler, you need data collected in datasets and modeled after schemas in Experience Platform. The Mix Modeler interface provides easy access to both the Experience Platform Schemas and Datasets UI.
 
 
+## Validate
+
+To validate whether your data is properly available in Mix Modeler, you can do the following:
+
+* Use visualizations in  [Overview](/help/overview.md).
+* Download and inspect data from [Harmonized data](/help/harmonize-data/overview.md) in Harmonized datasets.
+
+To validate whether your data is ingested properly in Experience Platform, you can [write and execute SQL queries using Experience Platform Query Service](https://experienceleague.adobe.com/en/docs/experience-platform/query/home).
+
+
 >[!MORELIKETHIS]
 >
 >See for more details on how to manage schemas and datasets:
