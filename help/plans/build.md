@@ -56,6 +56,19 @@ To create a plan, in the ![PLan](/help/assets/icons/FileChart.svg) **[!UICONTROL
 
 1. In the **[!UICONTROL Spend selection]** section, for each budget date range, use the ![Chevron](/help/assets/icons/ChevronRight.svg) top open the channel distribution view for that data range.
 
+    You can use historical reference data if you want to use past marketing spend data and insights. You should consider historical reference data to:
+
+    * Improve budget allocation by highlighting high-performing channels and poorly performing channels.
+    * Support trend analysis. 
+    * Identify effective strategies and avoid mistakes while configuring plans. 
+    
+    If you select a historical reference period, you align to previous spend pattern preferences and Mix Modeler's planner can generate plans that are within your expectations. These plans should ultimately enhance stakeholder confidence, ensure that marketing plans are strategic, efficient, and that these plans are grounded in proven performance data and business needs.
+
+    1. Select the **[!UICONTROL Spend pattern]**. 
+ 
+       * By default this is **[!UICONTROL Automatic]**. 
+       * Select **[!UICONTROL Historical reference]** and enter a **[!UICONTROL Start date]** to refer to past marketing spend data already available to Mix Modeler. The **[!UICONTROL End date]** is automatically determined based on the selected data range. 
+
     1. To define budgets for each channel, enter a value for **[!UICONTROL Min]** and **[!UICONTROL Max]** or use the sliders.
 
     1. To toggle between currency or percentage input, select **[!UICONTROL $]** or **[!UICONTROL %]** for **[!UICONTROL View spend by]**.
