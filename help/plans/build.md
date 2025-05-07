@@ -64,6 +64,8 @@ To create a plan, in the ![PLan](/help/assets/icons/FileChart.svg) **[!UICONTROL
     
     If you select a historical reference period, you align to previous spend pattern preferences and Mix Modeler's planning functionality can generate plans that are within your expectations. These plans should ultimately enhance stakeholder confidence, ensure that marketing plans are strategic, efficient, and that these plans are grounded in proven performance data and business needs.
 
+    ![Spend selection](/help/assets/plan-spend-selection.png)
+
     1. Select the **[!UICONTROL Spend pattern]**. 
  
        * By default this is **[!UICONTROL Automatic]**. 
@@ -72,8 +74,6 @@ To create a plan, in the ![PLan](/help/assets/icons/FileChart.svg) **[!UICONTROL
     1. To define budgets for each channel, enter a value for **[!UICONTROL Min]** and **[!UICONTROL Max]** or use the sliders.
 
     1. To toggle between currency or percentage input, select **[!UICONTROL $]** or **[!UICONTROL %]** for **[!UICONTROL View spend by]**.
-
-       ![Spend selection](/help/assets/plan-spend-selection.png)
 
     1. When finished, select **[!UICONTROL Create]**. 
 
