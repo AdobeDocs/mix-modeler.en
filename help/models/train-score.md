@@ -5,7 +5,7 @@ feature: Models
 ---
 # Train and score models
 
-After you create a model, the model is automatically trained and scored. You can manually retrain or rescore a model.
+After you have [built](/help/models/build.md) a model, the model is automatically trained and scored. You can manually retrain or rescore a model.
 
 ## Train
 

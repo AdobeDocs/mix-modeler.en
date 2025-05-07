@@ -62,7 +62,7 @@ To view a table of your current models, in the Mix Modeler interface:
    * ![Clock](/help/assets/icons/Clock.svg) - indicates a current ongoing execution of a step in the model lifecycle.
    * ![Close](/help/assets/icons/Close.svg) - indicates a failed execution of a step in the model lifecycle.
   
-   | Status | Create | Train | Score | Retrain | Rescore |
+   | Status | [Build](/help/models/build.md) | [Train](/help/models/train-score.md#train) | [Score](/help/models/train-score.md#score) | [Retrain](/help/models/train-score.md#train) | [Rescore](/help/models/train-score.md#score) |
    |---|:---:|:---:|:---:|:---:|:---:|
    | In progress | ![Checkmark](/help/assets/icons/Checkmark.svg) | | | | |
    | In progress | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Clock](/help/assets/icons/Clock.svg) | | | |
