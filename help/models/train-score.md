@@ -2,6 +2,7 @@
 title: Train and score models
 description: Learn how to train and score models.
 feature: Models
+exl-id: c4fbe13e-4548-421b-ba90-274fc42f4be2
 ---
 # Train and score models
 
@@ -60,4 +61,3 @@ To score or rescore a model:
 >[!IMPORTANT]
 >
 >Rescore of a model does not change any Plans that are already created based on the rescored model. To use the new rescored model in a plan, you have to create a new plan.
-
