@@ -43,7 +43,7 @@ To create a plan, in the ![PLan](/help/assets/icons/FileChart.svg) **[!UICONTROL
 
     ![Plan Done](/help/assets/plan-done-required-fields.png)
 
-    * Select <img src="/help/assets/icons/NewPlan.svg" width=25/> **[!UICONTROL Create plan now]** if you want to generate an AI recommended plan with forecasted ROI.
+    * Select ![NewPlan](/help/assets/icons/NewPlan.svg) **[!UICONTROL Create plan now]** if you want to generate an AI recommended plan with forecasted ROI.
 
       Select **[!UICONTROL OK]**. Your plan is created.
 
