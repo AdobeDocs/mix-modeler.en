@@ -19,6 +19,7 @@ user-guide-description: Learn how to use Mix Modeler.
 + Models {#models}
   + [Overview](/help/models/overview.md)
   + [Build models](/help/models/build.md)
+  + [Train and score models](/help/models/train-score.md)
   + [Model insights](/help/models/insights.md)
   + [Use scoring data](/help/models/scoring-data.md)
   
