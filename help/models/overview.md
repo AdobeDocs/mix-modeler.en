@@ -62,7 +62,7 @@ To view a table of your current models, in the Mix Modeler interface:
    * ![Clock](/help/assets/icons/Clock.svg) - indicates a current ongoing execution of a step in the model lifecycle.
    * ![Close](/help/assets/icons/Close.svg) - indicates a failed execution of a step in the model lifecycle.
   
-   | Status | Create | Train | Score | Retrain | Rescore |
+   | Status | [Build](/help/models/build.md) | [Train](/help/models/train-score.md#train) | [Score](/help/models/train-score.md#score) | [Retrain](/help/models/train-score.md#train) | [Rescore](/help/models/train-score.md#score) |
    |---|:---:|:---:|:---:|:---:|:---:|
    | In progress | ![Checkmark](/help/assets/icons/Checkmark.svg) | | | | |
    | In progress | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Clock](/help/assets/icons/Clock.svg) | | | |
@@ -144,61 +144,14 @@ You can edit the name, description and the scheduling of training and scoring of
    
 
 
-### Retrain
+### Train
 
-Retrain a model is only available on successfully trained models. 
-
-Consider to retrain a model when you want to:
-
-* Include new incremental marketing and factor data. For example, over the last quarter, market dynamics have changed or your marketing data distribution has changed significantly.
-
-To retrain a model:
-
-   1. Select ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** from the left rail.
-
-   1. Select ![More](/help/assets/icons/More.svg) for a model, and from the context menu select **[!UICONTROL Train]**. Alternatively, select ![DataRefresh](/help/assets/icons/DataRefresh.svg) **[!UICONTROL Train]** from the blue action bar.
-
-      In the **[!UICONTROL Train model]** dialog, select the option to: 
-
-      * **[!UICONTROL Train model with last 2 years of marketing data]**, or 
-      * **[!UICONTROL Train model using specific date range of data]**. 
-        Specify the date range. You can use the ![Calendar](/help/assets/icons/Calendar.svg) to select a date range. You have to select a data range with a minimum of one year.
-
-      ![Retrain a model](../assets/retrain-model.png)
-
-   1. Select **[!UICONTROL Train]** to retrain the model.
+Consider to retrain a model when you want to include new incremental marketing and factor data. See [Train and score models](train-score.md#train) for more information.
 
 
-### Score or rescore
+### Score
 
-
-You can incrementally score a model based on new marketing data or rescore a model for a specific date range. 
-
-Consider to rescore a model when you want to:
-
-* Correct incorrect marketing data. For example, the recent paid search data you included in the training and scoring of the model missed a week of data.
-* Use new incremental marketing data that has become available through updates in the datasets you have configured as part of your harmonized data.
-
-To score or rescore a model:
-
-   1. Select ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** from the left rail.
-
-   1. Select ![More](/help/assets/icons/More.svg) for a model, and from the context menu select **[!UICONTROL Score]**. Alternatively, select ![DataRefresh](/help/assets/icons/DataRefresh.svg) **[!UICONTROL Score]** from the blue action bar.
-
-      In the **[!UICONTROL Score marketing data]** dialog, select the option to: 
-
-      * **[!UICONTROL Score new marketing data from *mm/dd/yyyy*]**, to score your model incrementally using new marketing data, or 
-      * **[!UICONTROL Score specific date range of marketing data]** to rescore for a specific date range. 
-        Specify the date range. You can use the ![Calendar](/help/assets/icons/Calendar.svg) to select a date range. 
-
-      ![Rescore a model](../assets/rescore-model.png)
-
-   1. Select **[!UICONTROL Score]**. When re-scoring a model using a specific data range, you see an **[!UICONTROL Existing model is replaced]** dialog, prompting you to confirm to replace the model with new scores for the selected date range. Select **[!UICONTROL Replace model]** to confirm.
-
->[!IMPORTANT]
->
->Rescore of a model does not change any Plans that are already created based on the rescored model. To use the new rescored model in a plan, you have to create a new plan.
-
+You can incrementally score a model based on new marketing data or rescore a model for a specific date range. See [Train and score models](train-score.md#score) for more information.
 
 
 ### Delete models
