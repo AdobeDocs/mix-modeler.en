@@ -82,6 +82,7 @@ To create a plan, in the ![PLan](/help/assets/icons/FileChart.svg) **[!UICONTROL
 
     1. Select **[!UICONTROL Next]**.
 
+
    
 1. In the **[!UICONTROL Advanced configurations]** section, you can enter optional advanced configurations.
 
