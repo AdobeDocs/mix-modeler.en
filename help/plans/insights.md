@@ -115,7 +115,7 @@ The [!UICONTROL Date range breakdown] table shows detailed granular data per cha
 
        - Your plan name , model, date range and total budget are summarized.
 
-       - By default, Mix Modeler automatically calculates the average revenue per conversion using the latest historical seasonal data. In **[!UICONTROL Average Revenue per conversion]** you can define specific average revenu per conversion.
+       - By default, Mix Modeler automatically calculates the average revenue per conversion using the latest historical seasonal data. In **[!UICONTROL Average Revenue per conversion]** you can define specific average revenue per conversion.
 
          1. For each date range in your budget:
             1. Select a date range from the **[!UICONTROL Date range]** dropdown menu.
