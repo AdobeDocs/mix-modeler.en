@@ -109,6 +109,39 @@ The [!UICONTROL Date range breakdown] table shows detailed granular data per cha
 
           ![Plan Details](/help/assets/plan-details.png)
 
+    1. If you have defined advanced configurations for your plan, select **[!UICONTROL Next]**.
+
+       ![Edit advanced configuration](../assets/edit-plan-advanced-configuration.png)
+
+       - Your plan name , model, date range and total budget are summarized.
+
+       - By default, Mix Modeler automatically calculates the average revenue per conversion using the latest historical seasonal data. In **[!UICONTROL Average Revenue per conversion]** you can define specific average revenue per conversion.
+
+         1. For each date range in your budget:
+            1. Select a date range from the **[!UICONTROL Date range]** dropdown menu.
+            1. Enter an **[!UICONTROL Average revenue]** value.
+      
+         1. Select ![AddCircle](/help/assets/icons/AddCircle.svg) Add custom average revenue per conversion unit to add a date range.
+         1. Select ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) to remove a date range.
+
+         >[!NOTE]
+         >
+         >If your model doesn't include historical revenue data, you must define an average revenue per conversion for each date range you specified for your budget.
+         >
+
+       - By default, Mix Modeler automatically calculates channel costs using the latest historical seasonal data. In **[!UICONTROL Channel costs]** you can define custom channel costs.
+
+         1. For each channel in your model, define custom channel cost.
+            1. Select a channel from the **[!UICONTROL Channel]** dropdown menu.
+            1. For each date range in your budget:   
+               1. Select a date range from the **[!UICONTROL Date range]** dropdown menu.
+               1. Enter an **[!UICONTROL Average revenue]** value.
+            1. Select ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add custom average revenue per conversion unit]** to add a date range.
+            1. Select ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) to remove a date range.
+
+         1. Select ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add custom channel cost]** to add a channel.
+         1. Select ![CrossSize400](/help/assets/icons/CrossSize400.svg) to remove a custom channel.
+
 
 1. When finished editing your plan, select **[!UICONTROL Edit]**.
 

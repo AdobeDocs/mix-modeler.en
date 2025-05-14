@@ -11,6 +11,7 @@ In Mix Modeler, you create a plan using the plan canvas. In the plan canvas, you
 
 To create a plan, in the ![PLan](/help/assets/icons/FileChart.svg) **[!UICONTROL Plans]** interface in Mix Modeler, select **[!UICONTROL Create plan]**.
 
+
 1. In the **[!UICONTROL Plan creation]** screen:
 
     1. In the **[!UICONTROL Setup]** section:
@@ -43,12 +44,12 @@ To create a plan, in the ![PLan](/help/assets/icons/FileChart.svg) **[!UICONTROL
 
     ![Plan Done](/help/assets/plan-done-required-fields.png)
 
-    * Select <img src="/help/assets/icons/NewPlan.svg" width=25/> **[!UICONTROL Create plan now]** if you want to generate an AI recommended plan with forecasted ROI.
+    * Select ![NewPlan](../assets/icons/NewPlan.svg) **[!UICONTROL Create plan now]** if you want to generate an AI recommended plan with forecasted ROI.
 
       Select **[!UICONTROL OK]**. Your plan is created.
 
 
-    * Select ![TableEdit](/help/assets/icons/TableEdit.svg) **[!UICONTROL Edit channel budgets first]** if you want to edit channel budget before creating a plan with forecasted ROI.
+    * Select ![TableEdit](/help/assets/icons/TableEdit.svg) **[!UICONTROL Edit channel budgets first]** if you want to edit channel budget and define advanced configurations before a plan with forecasted ROI is created.
 
       Select **[!UICONTROL OK]**, so you can define your channel spend in **[!UICONTROL Spend selection]** in the next step.
 
@@ -62,6 +63,46 @@ To create a plan, in the ![PLan](/help/assets/icons/FileChart.svg) **[!UICONTROL
 
        ![Spend selection](/help/assets/plan-spend-selection.png)
 
-    1. When finished, select **[!UICONTROL Create]**. 
+    1. Select **[!UICONTROL Next]**.
 
-    1. In the **[!UICONTROL Create plan]** dialog, select **[!UICONTROL Create plan]** to create your plan. Select **[!UICONTROL Cancel]** to cancel the creation of your plan. A **[!UICONTROL No work is saved]** dialog is shown to confirm.
+   
+1. In the **[!UICONTROL Advanced configurations]** section, you can enter optional advanced configurations.
+
+   ![Plan summary](../assets/plan-advanced-configurations.png)
+
+   * Your plan name , model, date range and total budget are summarized.
+
+   * By default, Mix Modeler automatically calculates the average revenue per conversion using the latest historical seasonal data. In **[!UICONTROL Average Revenue per conversion]** you can define specific average revenue per conversion.
+
+     1. For each date range in your budget:
+   
+        1. Select a date range from the **[!UICONTROL Date range]** dropdown menu.
+        1. Enter an **[!UICONTROL Average revenue]** value.
+   
+     1. Select ![AddCircle](/help/assets/icons/AddCircle.svg) Add custom average revenue per conversion unit to add a date range.
+     1. Select ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) to remove a date range.
+
+     >[!NOTE]
+     >
+     >If your model doesn't include historical revenue data, you must define an average revenue per conversion for each date range you specified for your budget.
+     >
+
+   * By default, Mix Modeler automatically calculates channel costs using the latest historical seasonal data. In **[!UICONTROL Channel costs]** you can define custom channel costs.
+
+     1. For each channel in your model, define custom channel cost.
+
+        1. Select a channel from the **[!UICONTROL Channel]** dropdown menu.
+        1. For each date range in your budget:   
+           1. Select a date range from the **[!UICONTROL Date range]** dropdown menu.
+           1. Enter an **[!UICONTROL Average revenue]** value.
+        1. Select ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add custom average revenue per conversion unit]** to add a date range.
+        1. Select ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) to remove a date range.
+
+     1. Select ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add custom channel cost]** to add a channel.
+     1. Select ![CrossSize400](/help/assets/icons/CrossSize400.svg) to remove a custom channel.
+
+        
+   1. When finished, select **[!UICONTROL Create]**. 
+
+   1. In the **[!UICONTROL Create plan]** dialog, select **[!UICONTROL Create plan]** to create your plan. Select **[!UICONTROL Cancel]** to cancel the creation of your plan. A **[!UICONTROL No work is saved]** dialog is shown to confirm.
+
