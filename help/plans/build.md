@@ -54,7 +54,7 @@ To create a plan, in the ![PLan](/help/assets/icons/FileChart.svg) **[!UICONTROL
 
     
 
-1. In the **[!UICONTROL Spend selection]** section, for each budget date range, use the ![Chevron](/help/assets/icons/ChevronRight.svg) top open the channel distribution view for that data range.
+1. In the **[!UICONTROL Spend selection]** section, for each budget date range, use the ![Chevron](/help/assets/icons/ChevronRight.svg) to open the channel distribution view for that data range.
 
     You can use historical reference data if you want to use past marketing spend data and insights. You should consider historical reference data to:
 
