@@ -26,6 +26,9 @@ A typical workflow in Mix Modeler consists of the following activities:
 
 {style="table-layout:auto"}
 
+An overview of how input data can flow into Mix Modeler and how Mix Modeler can produce output data for its own interface but also for other solutions, like Customer Journey Analytics, is illustrated below.
+
+![Mix Modeler input output data flow](../assets/mm-input-output.png)
 <!---
 The detailed data-oriented flowchart below illustrates how:
 
