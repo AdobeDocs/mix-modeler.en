@@ -149,3 +149,27 @@ To see your harmonized data, in the Mix Modeler interface:
 
    A CSV report with a title based on your provided report name and current date and time (for example `Test Report_2025_04_23_9-5-18.csv`) is downloaded to your default download folder.
 
+
+## Best practices
+
+When you build your harmonized dataset, please apply the following best practices.
+
+### Schema
+
+* Avoid data type mismatches. Mismatches occur when the data type of a field in records of your ingested datasets do not conform to the data type you configured for that field in the underlying schema.
+* Avoid incorrect schema types. Incorrect schema types occur when you try to ingest specific type of data using a dataset that does not match the schema for that data. For example, you try to ingest summary data using an external factor dataset.
+
+### Data mapping
+
+* Ensure you have set up identities properly for each of the event datasets.
+
+### Data quality
+
+* Ensure you use date format and time format consistently for all records in datasets that require timestamped data.
+* Ensure you use the same granularity (day or week) for records in aggregate or summary datasets.
+
+### Calculation of data
+
+* Avoid duplicate rows in a dataset.
+* Ensure each dataset that you upload is specific for a unique channel and conversion type. Duplicate touchpoints or conversions across multiple datasets impact model output and quality.
+
