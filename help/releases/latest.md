@@ -7,15 +7,24 @@ exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
 ---
 # Current Mix Modeler release notes
 
-**Last update**: February, 2025.
+**Last update**: May 14, 2025.
 
 These release notes cover the latest release of Mix Modeler. Mix Modeler releases operate on a continuous delivery model, which allows for an approximate monthly release cadence. Accordingly, these release notes get updated, so check them regularly.
+
+
+## May - June 2025
+
+| Feature | Description | [Rollout start](#release-strategy) | [General Availability](#release-strategy) |
+|---|---|---|---|
+| **Spend pattern config** | When you build a plan, you now do have the option to use [historical reference](/help/plans/build.md) data (like past marketing spend data and insights) when defining the spend pattern for for each budget date range. | May 14, 2025 | May 14, 2025 |
+| **Advanced plan configurations** | You can define [advanced configurations](/help/plans/build.md) for your plan, like average revenue per conversion and channel costs. | May 14, 2025 | May 14, 2025 | 
 
 ## March - April 2025
 
 | Feature | Description | [Rollout start](#release-strategy) | [General Availability](#release-strategy) |
 |---|---|---|---|
-| **Model drift detection** | When opening a model, you are [prompted to retrain the model when model drift is detected](/help/models/insights.md#model-drift). | April 3, 2025 | t.b.d. |
+| **Model drift detection** | When you open a model, you are [prompted to retrain the model when model drift is detected](/help/models/insights.md#model-drift). | April 3, 2025 | May 7, 2025 |
+| **Marginal channel return in plan insights** | A [marginal channel return](/help/plans/insights.md#marginal-channel-return) visualization is added to Plan insights, which shows marginal break even and plan return for all or selected channels. | April 3, 2025 | April 24, 2025 | 
 
 
 ## January - February 2025

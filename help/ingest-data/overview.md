@@ -17,8 +17,7 @@ For example:
 * aggregate or summary data from walled gardens (like Facebook, YouTube), traffic sources or offline advertising data,
 * non-marketing aggregate or summary data containing internal or external factors that are useful for model building.
 
-You can use any kind of mechanism, supported by Experience Platform, to ingest your experience event-level, aggregate marketing effort data, and data from other sources. Such as the Experience Platform SDKs, APIs, source connectors, and streaming and batch ingestion.
-
+You can use any kind of mechanism, supported by Experience Platform, to ingest your experience event-level, aggregate marketing effort data, and data from other sources. Ingestion mechanisms include the Experience Platform SDKs, APIs, source connectors, streaming and batch ingestion. To learn more about ingesting your data in Experience Platform for use in Adobe Mix Modeler, see [Data Ingestion overview](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home).
 
 ## Guidelines
 
