@@ -16,7 +16,7 @@ To change the date period for data to be displayed in the visualizations, enter 
 
 You can filter the data displayed for all visualizations using the ![Filter](/help/assets/icons/Filter.svg) **[!UICONTROL Category Filters]** pane. 
 
-Select one or more filters for each category (**[!UICONTROL Brands]**, **[!UICONTROL Campaigns]**, **[!UICONTROL Cannels Type]**, **[!UICONTROL Conversion types]**, **[!UICONTROL Datasets]**, **[!UICONTROL Media types]**, **[!UICONTROL Source types]**, and **[!UICONTROL Traffic Source]**). 
+Select one or more filters for each category (**[!UICONTROL Brands]**, **[!UICONTROL Campaigns]**, **[!UICONTROL Channels Type]**, **[!UICONTROL Conversion types]**, **[!UICONTROL Datasets]**, **[!UICONTROL Media types]**, **[!UICONTROL Source types]**, and **[!UICONTROL Traffic Source]**). 
 
    Selected filters are displayed on top of the visualizations at **[!UICONTROL FILTERING BY:]**. 
 
