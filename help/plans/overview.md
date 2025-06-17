@@ -46,6 +46,7 @@ To view a table of your current plans, in the Mix Modeler interface:
     | Model | The model used as the base for the plan. |
     | Date range | The full date range for a plan. |
     | Budget | The total budget for a plan. |
+    | Plan target | The target metric defined for a target based plan. |
     | Forecasted return | The [forecasted return](/help/main-guide/glossary.md) for a plan |
     | Forecasted ROI | The [forecasted ROI](/help/main-guide/glossary.md) for a plan. |
     | Forecasted conversion | The [forecasted conversion](/help/main-guide/glossary.md) for a plan |

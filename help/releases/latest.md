@@ -16,6 +16,7 @@ These release notes cover the latest release of Mix Modeler. Mix Modeler release
 
 | Feature | Description | [Rollout start](#release-strategy) | [General Availability](#release-strategy) |
 |---|---|---|---|
+| **Goal based plans** | Next to budgets, you can define a goal (target) when you create or edit a plan. Exampls of target metrics are revenue, conversion, CPA, or ROI. | June 18, 2025 | July 8, 2025 |
 | **Spend pattern config** | When you build a plan, you now do have the option to use [historical reference](/help/plans/build.md) data (like past marketing spend data and insights) when defining the spend pattern for for each budget date range. | May 14, 2025 | May 14, 2025 |
 | **Advanced plan configurations** | You can define [advanced configurations](/help/plans/build.md) for your plan, like average revenue per conversion and channel costs. | May 14, 2025 | May 14, 2025 | 
 

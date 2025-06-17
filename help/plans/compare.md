@@ -14,15 +14,15 @@ To compare plans in the Mix Modeler Plans interface:
 
 The Compare plans interface shows information and visualizations on:
 
-* Plan
-* Date range
-* Model
-* Total budget
-* Channel budgeting: **[!UICONTROL AI automated]** or **[!UICONTROL Custom + AI]**
-* Planned spend
-* Forecasted ROI (return on investment) or CPA (cost per action)
-* ROI (return on investment) or CPA (cost per action) breakdown
-* Forecasted return
+* **[!UICONTROL Plan]**. If the plan is a target based plan, you see a badge that displays the status of the target.
+* **[!UICONTROL Date range]**
+* **[!UICONTROL Model]**
+* **[!UICONTROL Total budget]**
+* **[!UICONTROL Channel budgeting]**: **[!UICONTROL AI automated]** or **[!UICONTROL Custom + AI]**
+* **[!UICONTROL Planned spend]**
+* **[!UICONTROL Forecasted ROI]** (return on investment) or **[!UICONTROL CPA]** (cost per action)
+* **[!UICONTROL ROI]** (return on investment) or **[!UICONTROL CPA]** (cost per action) breakdown
+* **[!UICONTROL Forecasted return]**
 
 Whereby:
 
