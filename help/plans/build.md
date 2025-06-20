@@ -18,7 +18,7 @@ To create a plan, in the ![PLan](/help/assets/icons/FileChart.svg) **[!UICONTROL
 
    1. In the **[!UICONTROL Setup]** section:
 
-      1. Enter a **[!UICONTROL Plan name]**, for example `Demo plan`. Enter a **[!UICONTROL Description]**, for example `Demo plan for Luma company`.
+      1. Enter a **[!UICONTROL Plan name]**, for example `Goal based plan`. Enter a **[!UICONTROL Description]**, for example `A goal based plan`.
       1. Select a **[!UICONTROL Model]** from **[!UICONTROL _Select an option.._.]**
 
          ![Plan Setup](/help/assets/plan-setup.png)
