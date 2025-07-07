@@ -46,19 +46,7 @@ In the **[!UICONTROL Create]** screen,
 
 1. Select **[!UICONTROL Daily]**, **[!UICONTROL Weekly]**, **[!UICONTROL Monthly]** or **[!UICONTROL Yearly]** for **[!UICONTROL Granularity]**.
 
-1. When you have selected a dataset of the **[!UICONTROL Summary]** category:
-
-   1. To define whether data for the dataset aggregates or replaces existing data, select **[!UICONTROL Aggregation]** or **[!UICONTROL Replacement]** for **[!UICONTROL Data restatement is by]**. 
-   
-   1. Map each of the **[!UICONTROL Available dataset fields]** to corresponding **[!UICONTROL Standard harmonized fields]** in **[!UICONTROL Map to harmonized fields]**. If you do not want to map a dataset field to a harmonized field, explicitly select **[!UICONTROL -- None --]**.
-
-   1. If you need a new harmonized field, not available from the list, select **[!UICONTROL Create New]** to create a new harmonized field. You see the dialog as outlined in [Add a new harmonized field](fields.md#add-a-harmonized-field).
-
-   1. When the mapping is completed for all fields for the rule, select **[!UICONTROL Save as draft]** to save a draft version of the rule or **[!UICONTROL Save]** to save and activate the rule. Select **[!UICONTROL Cancel]** to cancel the rule configuration.
-
-      ![Create dataset rules](/help/assets/dataset-create-summary.png)
-  
-1. When you have selected an event category dataset (**[!UICONTROL Experience Events]**, **[!UICONTROL Adobe Analytics]**, **[!UICONTROL Consumer Experience Events]**), in the box underneath **[!UICONTROL Map to harmonized fields]**:
+1. In the **[!UICONTROL Map to harmonized fields]** section:
 
    1. Select a harmonized field from **[!UICONTROL Standard harmonized field]**.
 
@@ -101,6 +89,12 @@ In the **[!UICONTROL Create]** screen,
 
 When finished, select **[!UICONTROL Save as draft]** to save a draft version of the rule or **[!UICONTROL Save]** to save and activate the rule. Select **[!UICONTROL Cancel]** to cancel the rule configuration.
 
+>[!NOTE]
+>
+>The dedicated **[!UICONTROL Map to harmonized fields]** experience for summary datasets rules is deprecated. All datasets now use the same **[!UICONTROL Map to harmonized fields]** experience. For summary datasets for which you have defined rules using the deprecated **[!UICONTROL Map to harmonized fields]** experience, you might want to verify these rules against the new **[!UICONTROL Map to harmonized field]** experience.
+>
+
+
 
 ### Edit a dataset rule
 
@@ -116,7 +110,8 @@ To delete a dataset rule, in the ![DataSearch](/help/assets/icons/DataCheck.svg)
 
 1. Select ![More](/help/assets/icons/More.svg) in the **[!UICONTROL Dataset]** column for the dataset rule that you want to delete.
 1. From the context menu, select ![Delete](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** to delete the dataset rule. You are prompted for confirmation. Select **[!UICONTROL Delete]** to delete the selected dataset rule permanently.
-   
+
+
 
 ## Sync data
 
