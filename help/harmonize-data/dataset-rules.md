@@ -97,6 +97,15 @@ In the **[!UICONTROL Create]** screen,
 
          ![Dataset rule event](/help/assets/dataset-create-event.png)
 
+      When you map a standard harmonized field from a summary dataset, Mix Modeler tries to deduce the corresponding Experience Platform dataset field. When successful:
+
+      * If the field is of type dimension, **[!UICONTROL Map into]** is selected as **[!UICONTROL Mapping type]**.
+      * If the field is of type metric, **[!UICONTROL Sum]** is selected as **[!UICONTROL Mapping type]**.
+      * **[!UICONTROL Field]** is selected as the **[!UICONTROL Default]** mapping type.
+      * The corresponding Experience Platform dataset field is inserted automatically for *AEP Dataset Field*.
+
+      You can change any of the proposed values if these are incorrect or not supporting your specific use case.
+
 1. Select ![Add](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add field]** to define additional fields.
 
 When finished, select **[!UICONTROL Save as draft]** to save a draft version of the rule or **[!UICONTROL Save]** to save and activate the rule. Select **[!UICONTROL Cancel]** to cancel the rule configuration.
