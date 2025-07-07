@@ -91,7 +91,7 @@ When finished, select **[!UICONTROL Save as draft]** to save a draft version of 
 
 >[!NOTE]
 >
->The dedicated **[!UICONTROL Map to harmonized fields]** experience for summary datasets rules is deprecated. All datasets now use the same **[!UICONTROL Map to harmonized fields]** experience. For summary datasets for which you have defined rules using the deprecated **[!UICONTROL Map to harmonized fields]** experience, you might want to verify these rules against the new **[!UICONTROL Map to harmonized field]** experience.
+>The dedicated **[!UICONTROL Map to harmonized fields]** experience for summary datasets rules is deprecated. All datasets now use the same generic **[!UICONTROL Map to harmonized fields]** experience. For summary datasets for which you have defined rules using the deprecated **[!UICONTROL Map to harmonized fields]** experience, you might want to verify these rules against the generic **[!UICONTROL Map to harmonized field]** experience.
 >
 
 
