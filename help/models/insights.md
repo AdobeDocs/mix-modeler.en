@@ -20,9 +20,15 @@ To view model insights, in the ![Models](/help/assets/icons/FileData.svg) **[!UI
    
 1. From the context menu, select **[!UICONTROL Model Insights]**.
 
-![Model insights tab bar](/help/assets/model-insights-tabbar.png)
 
-You see when the specified model is last refreshed and visualizations are displayed using four tabs: [Model insights](#model-insights), [Attribution](#attribution), [Factors](#factors), [Diagnostics](#diagnostics), and [Historical overview](#historical-overview).
+
+The following tabs are available:
+
+* [Model insights](#model-insights)
+* [Factors](#factors-beta) [!BADGE beta]
+* [Attribution](#attribution) (only for MTA enabled models) 
+* [Diagnostics](#diagnostics) 
+* [Historical overview](#historical-overview).
 
 You can change the date period on which the visualizations on each of the tabs are based on. Enter a date period or select ![Calendar](/help/assets/icons/Calendar.svg) to select a date period.
 
@@ -222,29 +228,44 @@ For each conversion path, you see:
 
 The Diagnostics tab shows visualizations for:
 
-* [!UICONTROL Model Assessment] visualization, which you can break down on Actual vs. Predicted or Residual conversions.
+* **[!UICONTROL Model Assessment]** visualizations, that consist of:
 
-  To break down the visualization, select **[!UICONTROL Actual vs. Predicted]** or **[!UICONTROL Residuals]** from the **[!UICONTROL Breakdown]** list.
-
-* [!UICONTROL Model fitting metrics] table, showing the following columns for each conversion metric:
+  ![Model assessment](../assets/model-assessment.png)
   
-  * Actual Conversion
+  * A graph which you can break down on actual vs. predicted or residual conversions.
+    To break down the visualization, select one of the following options from the **[!UICONTROL Breakdown]** list.
+
+    * **[!UICONTROL Actual vs Predicted]**: This option compares real values to model predictions. Ideally, the predicted values should tightly align with the actual values, though some deviation is expected. Large or systematic deviations or patterns may indicate missing relationships and data or potential biases.
+
+    * **[!UICONTROL Residuals]**: This options shows the difference between actual and predicted values. A well-performing model has residuals that are randomly distributed, without clear patterns or increasing spread. Structured trends or widening residuals may signal missing relationships and data or variance issues.
+
+  * A table howing the following columns for each conversion metric:
+  
+    * Actual Conversion
+    * Predicted Conversion
+    * Residual Conversion
+    * R<sup>2</sup> score, which tells how well the data fits the regression model (the goodness of fit).
+    * MAPE (Mean Absolute Percentage Error), which is one of the most commonly used KPIs to measure forecast accuracy and expresses the forecast error as a percentage of the actual value.
+    * RMSE (Root Mean Square Error): which shows the average error, weighted according to the square of the error.
     
-  * Modeled Conversion
-    
-  * Residual Conversion (difference between actual and modeled conversion)
-    
-  * Model quality score values:
-
-      * R2 (R-squared), which tells how well the data fits the regression model (the goodness of fit).
-
-      * MAPE (Mean Absolute Percentage Error), which is one of the most commonly used KPIs to measure forecast accuracy and expresses the forecast error as a percentage of the actual value.
-
-      * RMSE (Root Mean Square Error): which shows the average error, weighted according to the square of the error.
-
   To download a CSV file containing the data for the table, select ![Download](/help/assets/icons/Download.svg).
 
-* [!UICONTROL Touchpoint effectiveness] table, representing the outcome of the Attribution AI algorithmic model. The data for this table is only generated for specific periods of time. Select **[!UICONTROL As of *xx/xx/xx, xx:xx TZ*]**  ![Info](/help/assets/icons/InfoOutline.svg) for more details.  
+* **[!UICONTROL Model training fit metrics]** table, that displays for each conversion metric:
+
+  ![Model training fit metrics table](../assets/model-training-fit-metrics.png)
+
+  * Training R<sup>2</sup> (R-squared): Indicates the proportion of variance in the actual values explained by the model's predictions, ranging from 0 to 1.
+  * Training Symmetric Mean Absolute Percentage Error (sMAPE): Measures average percentage error on training data. Lower values indicate better accuracy.
+  * Training Root Mean Squared Error (RMSE): Measures average percentage error on training data. Penalizes larger errors more than MAPE. Lower RMSE suggests better predictive accuracy but is sensitive to outliers.
+  * Out-of-sample symmetric MAPE: Evaluates percentage error on unseen data, balancing over- and under-predictions. Helps to assess generalization. Currently, Mix Modeler evaluates percentage error using the last quarter of training data as a holdout set.
+  * Out-of-sample RMSE: Evaluates percentage error on unseen data, balancing over- and under-predictions. Helps assess generalization. Currently, Mix Modeler evaluates percentage error using the last quarter of training data as a holdout set. RMSE penalizes larger errors more than MAPE.
+
+
+* **[!UICONTROL Touchpoint effectiveness]** table, representing the outcome of the Attribution AI algorithmic model. 
+
+  ![Touchpoint effectiveness table](../assets/touchpoint-effectiveness.png)
+  
+   The data for this table is only generated for specific periods of time. Select **[!UICONTROL As of *xx/xx/xx, xx:xx TZ*]**  ![Info](/help/assets/icons/InfoOutline.svg) for more details.  
   
   The visualization shows, in descending order of [!UICONTROL Efficiency measure] ![Descending Order](/help/assets/icons/SortOrderDown.svg), for each touchpoint:
 
@@ -252,7 +273,6 @@ The Diagnostics tab shows visualizations for:
   * [!UICONTROL Efficiency measure]: generated by the algorithmic attribution model, the efficiency measure indicates the relative importance of a touchpoint toward conversion, independent of touchpoint volume. The efficiency is measured on a scale of 1 to 5. Note that higher touchpoint volume does not guarantee higher efficiency measure.
   * [!UICONTROL Total volume]: The aggregate number of times a user touches a touchpoint. The number is inclusive of touchpoints that appear on a path achieving conversion as well as paths *not* resulting in conversion.
 
-![Diagnostics](/help/assets/model-insights-diagnostics.png)
 
 ### Model drift detection
 
