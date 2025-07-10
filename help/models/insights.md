@@ -57,7 +57,7 @@ The Model insights tab shows visualizations for [Contribution by date and base m
 
 This stacked graph visualization is ordered as follows: 
 
-* Base are displayed at the bottom. 
+* The base is displayed at the bottom. 
 * Non-spend channels are displayed in the middle.
 * Spend channels are displayed on top. 
 
