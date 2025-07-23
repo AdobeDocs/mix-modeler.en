@@ -224,7 +224,7 @@ For each conversion path, you see:
 * the sum of these channel attribution model contribution percentages.
 
 
-## [!UICONTROL Diagnostics]
+## [!UICONTROL Diagnostics] {#diagnostics}
 
 
 >[!CONTEXTUALHELP]
