@@ -6,6 +6,13 @@ exl-id: 42851107-7568-4bc9-92ca-3cba713a522e
 ---
 # Marketing touchpoints
 
+
+>[!CONTEXTUALHELP]
+>id="harmonizeddata_marketingtouchpoint"
+>title="Marketing touchpoint"
+>abstract="Marketing touchpoints are recipient, individual, and or cookie-level marketing events used to evaluate the impact of marketing investments on numeric or revenue-based conversions."
+
+
 Marketing touchpoints are recipient, individual, and or cookie-level marketing events used to evaluate the impact of marketing investments on numeric or revenue-based conversions.
 
 You define marketing touchpoints to assist you in attribution analysis.
