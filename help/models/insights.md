@@ -224,9 +224,30 @@ For each conversion path, you see:
 * the sum of these channel attribution model contribution percentages.
 
 
-## [!UICONTROL Diagnostics]
+## [!UICONTROL Diagnostics] {#diagnostics}
 
-The Diagnostics tab shows visualizations for:
+
+>[!CONTEXTUALHELP]
+>id="models_diagnostics_modelassessment"
+>title="Model assessment graphs"
+>abstract="Model assessment visualizations breaks down on actual vs predicted or residual conversions."
+>additional-url="https://experienceleague.adobe.com/en/docs/mix-modeler/using/overview" text="Mix Modeler overview"
+>additional-url="https://video.tv.adobe.com/v/3440794/?learn=on&enablevpops" text="Mix Modeler demo"
+
+
+>[!CONTEXTUALHELP]
+>id="models_diagnostics_pathstouched"
+>title="Paths touched"
+>abstract="Paths touched is the percentage of paths that are achieving conversion and percentage of paths not achieving conversion for each touchpoint."
+
+
+>[!CONTEXTUALHELP]
+>id="models_diagnostics_modeldateinfo"
+>title="Model date as of"
+>abstract="The data for this table is only generated for specific periods of time.  The **[!UICONTROL As of]** date indicates when the data was generated and is based on data from startDate to endDate."
+
+
+The **[!UICONTROL Diagnostics]** tab shows visualizations for:
 
 * **[!UICONTROL Model Assessment]** visualizations, that consist of:
 
