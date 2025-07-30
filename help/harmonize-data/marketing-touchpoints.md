@@ -4,7 +4,13 @@ description: Learn how to create marketing touchpoints to use as part of harmoni
 feature: Harmonized Data, Marketing Touch Points
 exl-id: 42851107-7568-4bc9-92ca-3cba713a522e
 ---
-# Marketing touchpoints
+# Marketing touchpoints {#marketing-touchpoints}
+
+>[!CONTEXTUALHELP]
+>id="harmonizeddata_marketingtouchpoint"
+>title="Marketing touchpoint"
+>abstract="Marketing touchpoints are recipient, individual, and or cookie-level marketing events used to evaluate the impact of marketing investments on numeric or revenue-based conversions."
+
 
 Marketing touchpoints are recipient, individual, and or cookie-level marketing events used to evaluate the impact of marketing investments on numeric or revenue-based conversions.
 
