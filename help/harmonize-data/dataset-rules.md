@@ -45,6 +45,14 @@ In the **[!UICONTROL Create]** screen,
 1. Select a day for the **[!UICONTROL Start of the week]**.
 
 1. Select **[!UICONTROL Daily]**, **[!UICONTROL Weekly]**, **[!UICONTROL Monthly]** or **[!UICONTROL Yearly]** for **[!UICONTROL Granularity]**.
+   
+1. When you have selected a dataset of the **[!UICONTROL Summary]** category, select **[!UICONTROL Aggregation]** or **[!UICONTROL Replacement]** for **[!UICONTROL Data restatement is by]**. 
+
+   Reporting data from publishers is very important to marketing analysts since working with publishers often implies significant spend, and changes in the reporting data may result in very different insights and investment plans. Furthermore, marketing analysts need accurate data to derive the right insights and present convincing proposals to gain stakeholder confidence. However, these publishers, such as Google and Facebook, often restate or delete reporting data as they reconcile their data. The time frame for most of the changes is within 7 days of the reported media performance. Additional changes in the data are possible within 30 days. In general, after 30 days, books are considered closed and data complete. 
+
+   Mix Modeler supports data restatement. To ensure that the data that is used for reporting, modeling, and planning is accurate. And that the data is able to support the brand and marketing analyst's expectations and needs.
+   
+   You can send restated rows of summary data as incremental rows in an Experience Platform dataset and the harmonization service updates the harmonized dataset with that restated data. Similarly, you can also remove rows of summary data that needs to be reflected in the harmonization service. 
 
 1. In the **[!UICONTROL Map to harmonized fields]** section:
 
