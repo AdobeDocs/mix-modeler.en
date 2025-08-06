@@ -17,7 +17,7 @@ These release notes cover the latest release of Mix Modeler. Mix Modeler release
 
 | Feature | Description | [Rollout start](#release-strategy) | [General Availability](#release-strategy) |
 |---|---|---|---|
-| **Harmonization updates** | All datasets rules now use the same [generic Map to harmonized fields experience](/help/harmonize-data/dataset-rules.md), irrespective of the dataset type. | July 29, 2025 | July 29, 2025 |
+| **Harmonization updates** | All datasets rules now use a similar [generic Map to harmonized fields experience](/help/harmonize-data/dataset-rules.md), irrespective of the dataset type. When you map a standard harmonized field from a summary dataset, Mix Modeler tries to deduce the corresponding Experience Platform dataset field automatically. | July 29, 2025 | July 29, 2025 |
 
 
 ## May - June 2025
