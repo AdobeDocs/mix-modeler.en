@@ -7,9 +7,17 @@ exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
 ---
 # Current Mix Modeler release notes
 
-**Last update**: May 14, 2025.
+**Last update**: August 6, 2025.
 
 These release notes cover the latest release of Mix Modeler. Mix Modeler releases operate on a continuous delivery model, which allows for an approximate monthly release cadence. Accordingly, these release notes get updated, so check them regularly.
+
+
+
+## July - August 2025
+
+| Feature | Description | [Rollout start](#release-strategy) | [General Availability](#release-strategy) |
+|---|---|---|---|
+| **Harmonization updates** | All datasets rules now use the same [generic Map to harmonized fields experience](/help/harmonize-data/dataset-rules.md), irrespective of the dataset type. | July 29, 2025 | July 29, 2025 |
 
 
 ## May - June 2025
