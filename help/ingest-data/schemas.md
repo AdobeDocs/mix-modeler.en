@@ -63,6 +63,18 @@ See below for a more comprehensive example of a **[!DNL LumaPaidMarketingSchema]
 
 Given the asynchronous nature of profile ingestion, when collecting aggregate or summary data from external sources, it is encouraged to use the External Source System Audit Details field group as part of a schema. This field group defines a set of audit properties for external sources.
 
+## Factor Standard Fields field group [!BADGE Beta]
+
+For convenience, Experience Platform supports a dedicated Factor Standard Fields field group for internal and external factors data often part of summary data. This field group defines the following fields:
+
+| Field Display Name | Field Name | Field Type | Data Type | Required | Description |
+|---|---|---|---|:-:|---|
+| Factor Name | factorName | Dimension | String | ![Checkmark](/help/assets/icons/Checkmark.svg) | The name of the factor |
+| Factor Value | factorValue | Metric | Double | ![Checkmark](/help/assets/icons/Checkmark.svg)  | The value of the factor |
+| Factor Type | factorType | Dimension | String (Enum)| | The type of the factor.<br/>Possible values are: <ul><li>Internal (Internal Factor)</li><li>External (External Factor)</li></ul> |
+| Value Type | valueType | Dimension | String (Enum) | | Possible values are:<ul><li>Actual (Actual Value)</li><li>Forecasted (Forecasted Value)</li></ul>When no value, Actual is the default value. |
+| Granularity | granularity | Dimension | String (Enum) | | Possible values are:<ul><li>Daily</li><li>Weekly</li><li>Monthly</li></ul> |
+
 
 ## Supported data types
 
