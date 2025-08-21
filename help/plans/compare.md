@@ -21,8 +21,10 @@ The Compare plans interface shows information and visualizations on:
 * **[!UICONTROL Channel budgeting]**: **[!UICONTROL AI automated]** or **[!UICONTROL Custom + AI]**
 * **[!UICONTROL Planned spend]**
 * **[!UICONTROL Forecasted ROI]** (return on investment) or **[!UICONTROL CPA]** (cost per action)
-* **[!UICONTROL ROI]** (return on investment) or **[!UICONTROL CPA]** (cost per action) breakdown
+* **[!UICONTROL Paid marketing ROI]** (return on investment) or **[!UICONTROL CPA]** (cost per action)
+* **[!UICONTROL ROI]** (return on investment) or **[!UICONTROL CPA]** (cost per action) **[!UICONTROL breakdown]**
 * **[!UICONTROL Forecasted return]**
+* **[!UICONTROL Paid marketing revenue]**
 
 Whereby:
 
