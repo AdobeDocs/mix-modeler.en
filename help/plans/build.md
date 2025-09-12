@@ -52,7 +52,7 @@ To create a plan, in the ![PLan](/help/assets/icons/FileChart.svg) **[!UICONTROL
                1. Select a target metric from the **[!UICONTROL Select target metric]** dropdown menu. You can select between **[!UICONTROL Conversion]**, **[!UICONTROL CPA]**, **[!UICONTROL Revenue]**, or **[!UICONTROL ROI]**.
                1. Select a model from the **[!UICONTROL Select model]** dropdown menu.
             1. Specify a Date range, either by typing dates or selecting a date range using ![Calendar](/help/assets/icons/Calendar.svg).
-            1. Enter a value for the selected target metric. For example, a number for **[!UICONTROL Conversion]**, a percentage for **[!UICONTROL ROI]**, or currency values for **[!UICONTROL CPA]** and **[!UICONTROL Revenue]**.
+            1. Enter a value for the selected target metric. For example, a number for **[!UICONTROL Total Conversions]**, a percentage for **[!UICONTROL Paid Marketing ROI]**, or currency values for **[!UICONTROL Paid Marketing CPA]** and **[!UICONTROL Total Revenue]**.
                To add additional date ranges, each with their target metric, select ![CalendarAdd](/help/assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]**.
                To delete a date range and associated target metric, select ![Close](/help/assets/icons/Close.svg).
             1. To define an optional maximum budget that you would like to constrain the plan within:
