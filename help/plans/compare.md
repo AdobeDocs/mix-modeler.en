@@ -30,6 +30,8 @@ Whereby:
 
 * ROI is defined as (Incremental Revenue - Spend) / Spend.
 * CPA is defined as Spend / Incremental Conversion.
+* Forecasted is defined as inclusive of base and non-spend channels.
+* Paid marketing is defined as only specific to paid marketing channels.
 
   
 ![Compare plans](/help/assets/compare-plans.png)
