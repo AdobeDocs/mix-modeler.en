@@ -15,4 +15,4 @@ From here you can get more details on:
 
 * [Harmonized data](harmonized-data.md)
 
-* [Plans](plans.md) [!BADGE Alpha]{type=Informative}
+* [Performance to plan](plans.md) [!BADGE Alpha]{type=Informative}
