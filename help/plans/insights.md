@@ -66,6 +66,13 @@ This line chart visualization shows a marginal return curve for the selected cha
 
 To select a specific channel for the visualization, select a channel from the **[!UICONTROL View]** dropdown menu.
 
+## Channel synergies
+
+The Channel synergies matrix helps you to identify how marketing channels interact to create multiplicative effects, beyond their individual contributions.
+
+![Plan channel synergies](/help/assets/plan-channel-synergies.png)
+
+To download a CSV file that represents the matrix, select ![Download](/help/assets/icons/Download.svg) **[!UICONTROL Download]**.
 
 ## Date range breakdown
 

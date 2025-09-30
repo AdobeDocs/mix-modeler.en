@@ -104,6 +104,16 @@ To select a specific channel or all channels, select from the **[!UICONTROL View
 
 To download the contents of the Touchpoint breakdown table, select ![Download](/help/assets/icons/Download.svg) **[!UICONTROL Download CSV]**.
 
+
+## Channel synergy
+
+In the **[!UICONTROL Channel synergy]** tab, the **[!UICONTROL Channel synergies]** matrix helps you to identify how marketing channels interact to create multiplicative effects, beyond their individual contributions.
+
+![Plan channel synergies](/help/assets/model-channel-synergies.png)
+
+To download a CSV file that represents the matrix, select ![Download](/help/assets/icons/Download.svg) **[!UICONTROL Download]**.
+
+
 ## **[!UICONTROL Factors]** [!BADGE beta]
 
 The Factors [!BADGE beta] tab shows external factor related insights. 
