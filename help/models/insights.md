@@ -259,7 +259,7 @@ For each conversion path, you see:
 
 The **[!UICONTROL Diagnostics]** tab shows visualizations for:
 
-* **[!UICONTROL Model Assessment]** visualizations, that consist of:
+* **[!UICONTROL Model Assessment]** visualizations that consist of:
 
   ![Model assessment](../assets/model-assessment.png)
   
@@ -281,7 +281,7 @@ The **[!UICONTROL Diagnostics]** tab shows visualizations for:
     
   To download a CSV file containing the data for the table, select ![Download](/help/assets/icons/Download.svg).
 
-* **[!UICONTROL Model training fit metrics]** table, that displays for each conversion metric:
+* **[!UICONTROL Model training fit metrics]** table that displays for each conversion metric:
 
   ![Model training fit metrics table](../assets/model-training-fit-metrics.png)
 
@@ -309,7 +309,7 @@ The **[!UICONTROL Diagnostics]** tab shows visualizations for:
 
 >[!AVAILABILITY]
 >
->The functionality described in this section is in the Limited Testing phase of release and might not be available yet in your environment. This note will be removed when the functionality is generally available. For information about the Mix Modeler release process, see [Mix Modeler feature releases](/help/releases/latest.md).
+>The functionality described in this section is in the Limited Testing phase of release and might not be available yet in your environment. This note is removed when the functionality is generally available. For information about the Mix Modeler release process, see [Mix Modeler feature releases](/help/releases/latest.md).
 >
 
 If model drift is detected, you see a **[!UICONTROL Model drift detected]** notification at the top.
