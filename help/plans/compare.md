@@ -14,26 +14,22 @@ To compare plans in the Mix Modeler Plans interface:
 
 The Compare plans interface shows information and visualizations on:
 
-* **[!UICONTROL Plan]**. If the plan is a target based plan, you see a badge that displays the status of the target.
+* **[!UICONTROL Plan]**. If the plan is a target based plan (for example, ROI or CPA), you see a badge that displays the status of the target (for example, Target achievable).
 * **[!UICONTROL Date range]**
 * **[!UICONTROL Model]**
 * **[!UICONTROL Total budget]**
 * **[!UICONTROL Channel budgeting]**: **[!UICONTROL AI automated]** or **[!UICONTROL Custom + AI]**
 * **[!UICONTROL Planned spend]**
-* **[!UICONTROL Forecasted ROI]** (return on investment) or **[!UICONTROL CPA]** (cost per action)
-  * Forecasted ROI is the overall ROI of the plan (inclusive of incremental revenue from base and non-spend channels).
-  * Forecasted CPA is the overall CPA of the plan.
-* **[!UICONTROL Paid marketing ROI]** (return on investment) or **[!UICONTROL CPA]** (cost per action)
-  * Paid marketing ROI is the ROI of only the paid channels in the plan.
-  * Paid marketing CPA is the CPA of only the paid channels in the plan.
-* **[!UICONTROL ROI]** (return on investment) or **[!UICONTROL CPA]** (cost per action) **[!UICONTROL breakdown]**
-* **[!UICONTROL Forecasted return]**
-* **[!UICONTROL Paid marketing revenue]**
+* **[!UICONTROL Forecasted ROI]** or **[!UICONTROL CPA]**
+  * Forecasted ROI is the overall forecasted ROI of the plan (inclusive of incremental revenue from base and non-spend channels).
+  * Forecasted CPA is the overall forecasted CPA of the plan (inclusive of incremental revenue from base and non-spend channels).
+* **[!UICONTROL Paid marketing ROI]**  or **[!UICONTROL CPA]**
+  * Paid marketing ROI is a subset of forecasted ROI. Paid marketing ROI is the ROI for only the paid channels in the plan.
+  * Paid marketing CPA is a subset of forecasted CPA. Paid marketing CPA is the CPA for only the paid channels in the plan.
+* **[!UICONTROL ROI]** or **[!UICONTROL CPA]** **[!UICONTROL breakdown]**
+* **[!UICONTROL Forecasted revenue]** or **[!UICONTROL conversion]**.
+* **[!UICONTROL Paid marketing revenue]** or **[!UICONTROL conversion]**
 
-Whereby:
-
-* ROI is defined as (Incremental Revenue - Spend) / Spend.
-* CPA is defined as Spend / Incremental Conversion.
 
   
 ![Compare plans](/help/assets/compare-plans.png)
