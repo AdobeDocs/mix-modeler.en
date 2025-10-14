@@ -7,16 +7,26 @@ exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
 ---
 # Current Mix Modeler release notes
 
-**Last update**: August 6, 2025.
+**Last update**: September 12, 2025.
 
 These release notes cover the latest release of Mix Modeler. Mix Modeler releases operate on a continuous delivery model, which allows for an approximate monthly release cadence. Accordingly, these release notes get updated, so check them regularly.
 
+
+## September 2025
+
+| Feature | Description | [Rollout start](#release-strategy) | [General Availability](#release-strategy) |
+|---|---|---|---|
+| **[!UICONTROL Dataset mapping validations]** | Added validations to Experience Platform dataset mappings for harmonized fields. | September 9, 2025 | September 9, 2025 |
+| **[!UICONTROL Context menu on links to model and plans]** | Enabled browser context menu on links to models and plans. You can now use that browser context menu to open a specific plan or model in a new tab or window. | September 9, 2025 | September 9, 2025 |
+| **Fixes** | Fixes for following tickets: <ul><li>AMM-3101: Fixed incorrect mapping creation for rules: `event_date` was passed as field name instead of `timestamp`.</li><li>AMM-3092: Fixed unable to change the channel max constraint value on a duplicated budget based plan.</li><li>AM3130: Fixed wrong **[!UICONTROL Run frequency]** information on a detail popup window of a model.</li><li>AMM3158: Updated labels for the **[!UICONTROL Select target metric]** options as part of the **[!UICONTROL Optimize]** pane in the [Plans create](/help/plans/build.md) interface.</li><li>AMM 3176: Fixed unable to view [Breakdown by channel](/help/models/insights.md#breakdown) visualization in **[!UICONTROL Attribution]** tab in **[!UICONTROL Model Insights]**.</li></ul> | September 9, 2025 | September 9, 2025 |
+| **Fixes** | Fixes for following tickets: <ul><li>AMM-3174: Improved experience when no existing plans are available.</li><li>AMM-3216: Enhanced validation for custom date ranges.</li><li>AMM-3240: Fixed run model frequency display.</ul> | September 23, 2025 | September 23, 2025 |
 
 
 ## July - August 2025
 
 | Feature | Description | [Rollout start](#release-strategy) | [General Availability](#release-strategy) |
 |---|---|---|---|
+| **[!UICONTROL Compare plans update]** | The [Compare plans](/help/plans/compare.md) UI now shows additional details for paid marketing:  ROI or CPA, and revenue. | August 20, 2025 | August 20, 2025 | 
 | **Harmonization updates** | All datasets rules now use a similar [generic Map to harmonized fields experience](/help/harmonize-data/dataset-rules.md), irrespective of the dataset type. When you map a standard harmonized field from a summary dataset, Mix Modeler tries to deduce the corresponding Experience Platform dataset field automatically. | July 29, 2025 | July 29, 2025 |
 
 
@@ -50,7 +60,7 @@ These release notes cover the latest release of Mix Modeler. Mix Modeler release
 
 ## Release strategy
 
-[!UICONTROL Mixx Modeler] uses feature flags (also known as "toggles") to control the visibility of new features, allowing for controlled scale testing prior to full release. This release strategy includes the following phases:
+[!UICONTROL Mix Modeler] uses feature flags (also known as "toggles") to control the visibility of new features, allowing for controlled scale testing prior to full release. This release strategy includes the following phases:
 
 * **Limited Testing**: A phased release begins with testing by internal Adobe users. It is then made available to a small group of customer accounts to ensure that the feature meets customer needs and expectations. 
 
