@@ -63,9 +63,9 @@ See below for a more comprehensive example of a **[!DNL LumaPaidMarketingSchema]
 
 Given the asynchronous nature of profile ingestion, when collecting aggregate or summary data from external sources, it is encouraged to use the External Source System Audit Details field group as part of a schema. This field group defines a set of audit properties for external sources.
 
-## Factor Standard Fields field group [!BADGE Beta]
+## Factor Standard Fields field group
 
-For convenience, Experience Platform supports a dedicated Factor Standard Fields field group for internal and external factors data often part of summary data. This field group defines the following fields:
+For convenience, Experience Platform supports a dedicated Factor Standard Fields field group for internal and external factors data often part of summary, internal factor, or external factor data. This field group defines the following fields:
 
 | Field Display Name | Field Name | Field Type | Data Type | Required | Description |
 |---|---|---|---|:-:|---|
@@ -75,6 +75,10 @@ For convenience, Experience Platform supports a dedicated Factor Standard Fields
 | Value Type | valueType | Dimension | String (Enum) | | Possible values are:<ul><li>Actual (Actual Value)</li><li>Forecasted (Forecasted Value)</li></ul>When no value, Actual is the default value. |
 | Granularity | granularity | Dimension | String (Enum) | | Possible values are:<ul><li>Daily</li><li>Weekly</li><li>Monthly</li></ul> |
 
+A summary, internal factor, or external factor dataset can be based upon:
+
+- A schema that uses the Factor Standard Fields group. This dataset is shown as a **[!UICONTROL Factors]** dataset when you configure dataset rules. And the harmonized fields you define as part of the dataset rules for the dataset, are available as factors when you create a model.
+- A schema that does **not** use the Factor Standard Fields group. This dataset is shown as a **[!UICONTROL Summary]** dataset when you configure dataset rules. The dataset is configured as summary data and does not influence harmonized data.
 
 ## Supported data types
 
