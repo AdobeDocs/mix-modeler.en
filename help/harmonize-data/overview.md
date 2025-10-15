@@ -21,7 +21,16 @@ Factors are key to model building and you want to understand what impacts the bu
 
 * External factors are factors outside the control of your organization but which can still impact the conversions you achieve. Examples are CPI, S&P 500, and more.
 
+The Factors functionality in Mix Modeler has moved to a new harmonized factors workflow. This update simplifies how factors are managed, improves consistency across models, and provides a more intuitive experience.
 
+### Migration
+
+Legacy models continue to display their original dataset-based factors until the models are updated with new factors that are based on the harmonized factors workflow.
+
+When you duplicate a legacy model:
+
+* For models that have not been harmonized, the old factor configuration will not carry over into the duplicated morel. You have to add factors using the new harmonized selection.
+* For models that have been harmonization, factors will carry over and can be retained or updated.
 
 ## An example of harmonized data
 
