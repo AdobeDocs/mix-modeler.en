@@ -76,45 +76,19 @@ You configure your model in the **[!UICONTROL Configure]** step. Configuration i
 
     * Select **And** and **Or** between containers to build more complex definitions for your eligible data population. 
       
+1. You can manage datasets containing internal or external factors in the **[!UICONTROL Factor dataset]** section.
 
-1. To add datasets containing external factors to your model, use one or more containers in the **[!UICONTROL External factors dataset]** section. An example of external factors are S&P indices. 
+   ![Model - Factor dataset step](../assets/model-factors-dataset-step.png)
 
-   ![Model - External factors dataset](/help/assets/model-external-factors-dataset-step.png)
+   * To add a factor dataset, slect **[!UICONTROL Add Factor]**.
+     
+     1. Select a **[!UICONTROL Factor dataset]** from the drop-down menu. Based on the selected dataset, the Factor type is either **[!UICONTROL Internal]** or **[!UICONTROL External]**.
+     1. Select the **[!UICONTROL Impact on conversion]** from the drop-down menu. Available options are: **[!UICONTROL Auto]**, **[!UICONTROL Positive]**, or **[!UICONTROL Negative]**. The default option is **[!UICONTROL Auto]**, which allows the model to determine the impact of the factor dataset.
 
-    * For each container:
-
-      1. Enter a **[!UICONTROL External factor name]**, for example `External Factors`.
-
-      1. Select a dataset from the **[!UICONTROL Dataset]** dropdown menu. You can select ![Data](/help/assets/icons/Data.svg) to manage datasets. See [Datasets](../ingest-data/datasets.md) for more information.
-
-      1. Select an option from the **[!UICONTROL Impact on conversion]** dropdown menu: **[!UICONTROL Auto select]**, **[!UICONTROL Positive]** or **[!UICONTROL Negative]**. The default option is **[!UICONTROL Auto select]**, which allows the model to determine the impact. You can override the default.
-
-    * To add an additional external factors dataset container, select ![Add](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add external factor]**.
-
-    * To remove an external factors dataset container, select ![RemoveCircle](/help/assets/icons/RemoveCircle.svg).
-
-      
+   * To delete a factor dataset, select ![CrossSize200](/help/assets/icons/CrossSize400.svg).
 
 
-1. To add datasets containing internal factors to your model, use one or more containers in the **[!UICONTROL Internal factors dataset]** section. An example of internal factors are email marketing data.
-
-   ![Model - Internal factors dataset](/help/assets/model-internal-factors-dataset-step.png)
-
-    * For each container:
-
-      1. Enter a **[!UICONTROL Internal factor name]**, for example `Email Marketing Data`.
-
-      1. Select a dataset from **[!UICONTROL _Select a dataset_]**. You can select ![Data](/help/assets/icons/Data.svg) to manage datasets. See [Datasets](../ingest-data/datasets.md) for more information.
-
-      1. Select an option from the **[!UICONTROL Impact on conversion]** dropdown menu: **[!UICONTROL Auto select]**, **[!UICONTROL Positive]** or **[!UICONTROL Negative]**.
-
-    * To add an additional internal factors dataset container, select ![Add](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add internal factor]**.
-
-    * To remove an internal factors dataset container, select ![RemoveCircle](/help/assets/icons/RemoveCircle.svg).
-
-      
-
-1. To define the lookback window for the model, enter a value between `1` and `52` in **[!UICONTROL Give contribution credit to touchpoints occurring within]** ... **[!UICONTROL weeks prior to the conversion]**.
+1. To define the lookback window for the model, enter a value between `1` and `52` in **[!UICONTROL Give contribution credit to touchpoints occurring within]** ... **[!UICONTROL weeks prior to the conversion]** in the **[!UICONTROL Define lookback window]** section.
 
 1. Select **[!UICONTROL Next]** to continue to the next step. If more configuration is needed, a red outline and text explains what additional configuration is required. <br/>Select **[!UICONTROL Back]** to go back to the previous step. <br/>Select **[!UICONTROL Cancel]** to cancel the model configuration.
 
