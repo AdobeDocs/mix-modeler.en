@@ -40,13 +40,13 @@ To create a dataset rule, in the ![DataSearch](/help/assets/icons/DataCheck.svg)
 
 In the **[!UICONTROL Create]** screen, 
  
-1. In **[!UICONTROL Dataset details]**, select a dataset from **[!UICONTROL Select dataset]** to begin configuration. In the list, datasets are categorized in **[!UICONTROL Consumer Experience Events]**, **[!UICONTROL Adobe Analytics]**, **[!UICONTROL Experience Event]** and, **[!UICONTROL Summary]**.
+1. In **[!UICONTROL Dataset details]**, select a dataset from **[!UICONTROL Select dataset]** to begin configuration. In the list, datasets are categorized in **[!UICONTROL Summary]**, **[!UICONTROL Adobe Analytics]**, **[!UICONTROL Experience Event]** and, **[!UICONTROL Factors]**.
 
 1. Select a day for the **[!UICONTROL Start of the week]**.
 
 1. Select **[!UICONTROL Daily]**, **[!UICONTROL Weekly]**, **[!UICONTROL Monthly]** or **[!UICONTROL Yearly]** for **[!UICONTROL Granularity]**.
    
-1. When you have selected a dataset of the **[!UICONTROL Summary]** category, select **[!UICONTROL Aggregation]** or **[!UICONTROL Replacement]** for **[!UICONTROL Data restatement is by]**. 
+1. When you have selected a dataset of the **[!UICONTROL Summary]** or **[!UICONTROL Factors]** category, select **[!UICONTROL Aggregation]** or **[!UICONTROL Replacement]** for **[!UICONTROL Data restatement is by]**. 
 
    Reporting data from publishers is very important to marketing analysts since working with publishers often implies significant spend, and changes in the reporting data may result in very different insights and investment plans. Furthermore, marketing analysts need accurate data to derive the right insights and present convincing proposals to gain stakeholder confidence. However, these publishers, such as Google and Facebook, often restate or delete reporting data as they reconcile their data. The time frame for most of the changes is within 7 days of the reported media performance. Additional changes in the data are possible within 30 days. In general, after 30 days, books are considered closed and data complete. 
 
@@ -54,17 +54,15 @@ In the **[!UICONTROL Create]** screen,
    
    You can send restated rows of summary data as incremental rows in an Experience Platform dataset and the harmonization service updates the harmonized dataset with that restated data. Similarly, you can also remove rows of summary data that needs to be reflected in the harmonization service. 
 
-1. In the **[!UICONTROL Map to harmonized fields]** section:
+1. In the **[!UICONTROL Map to harmonized fields]** section, select a harmonized field from **[!UICONTROL Standard harmonized field]**.
 
-   1. Select a harmonized field from **[!UICONTROL Standard harmonized field]**.
-
-   1. When the selected harmonized field is of type metric:
+   * When the selected harmonized field is of type metric:
 
       1. Select **[!UICONTROL Count]** or **[!UICONTROL Sum]** from **[!UICONTROL Mapping type]**.
 
       1. Select an **[!UICONTROL *AEP dataset field*]** that you want the harmonized field to map to by default.
 
-   1. When the selected field is of type dimension:
+   * When the selected field is of type dimension:
 
       1. Select **[!UICONTROL Map Into]** or **[!UICONTROL Case]** from **[!UICONTROL Mapping type]**.
 
@@ -82,7 +80,7 @@ In the **[!UICONTROL Create]** screen,
 
          1. To set the outcome value for a case, enter the value at **[!UICONTROL Then]**.
 
-      The example below 
+      The example below:
 
       * uses a **[!UICONTROL Map Into]** **[!UICONTROL Mapping type]** to map the **[!UICONTROL Channel Type At Source]** harmonized field to the **[!UICONTROL channel_type]** field from the **[!DNL Luma Transactions]** dataset.
   
@@ -93,14 +91,18 @@ In the **[!UICONTROL Create]** screen,
 
          ![Dataset rule event](/help/assets/dataset-create-event.png)
 
-      When you map a standard harmonized field from a summary dataset, Mix Modeler tries to deduce the corresponding Experience Platform dataset field. When successful:
 
-      * If the field is of type dimension, **[!UICONTROL Map into]** is selected as **[!UICONTROL Mapping type]**.
-      * If the field is of type metric, **[!UICONTROL Sum]** is selected as **[!UICONTROL Mapping type]**.
-      * **[!UICONTROL Field]** is selected as the **[!UICONTROL Default]** mapping type.
-      * The corresponding Experience Platform dataset field is inserted automatically for *AEP Dataset Field*.
 
-      You can change any of the proposed values if these are incorrect or not supporting your specific use case.
+     
+
+     **Map from a factor dataset**. 
+     When you map a standard harmonized factor field from a factor dataset and the factor dataset contains a single factor, use **[!UICONTROL Map into]** as the **[!UICONTROL Mapping type]** and enter a default value for the **[!UICONTROL Factor Name]** harmonized field. 
+     
+     ![Dataset rule - map single factor dataset](../assets/dataset-create-rule-factor-single.png)
+     
+     If the the factor dataset contains multiple factors, use the **[!UICONTROL Case As]** as the **[!UICONTROL Mapping Type]** to define a mapping between the Factor Name harmonized field and each distinct factor name.
+
+     ![Dataset rule - map single factor dataset](../assets/dataset-create-rule-factor-multiple.png)
 
 1. Select ![Add](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add field]** to define additional fields.
 
@@ -111,7 +113,80 @@ When finished, select **[!UICONTROL Save as draft]** to save a draft version of 
 >The dedicated **[!UICONTROL Map to harmonized fields]** experience for summary datasets rules is deprecated. All dataset rules now use similar **[!UICONTROL Map to harmonized fields]** experience, irrespective of dataset type. For summary datasets for which you have defined rules using the deprecated **[!UICONTROL Map to harmonized fields]** experience, you might want to verify these rules against the generic **[!UICONTROL Map to harmonized field]** experience.
 >
 
+#### Summary datasets
 
+When you map a standard harmonized field from a summary dataset, Mix Modeler tries to deduce the corresponding Experience Platform dataset field. When successful:
+
+* If the field is of type dimension, **[!UICONTROL Map into]** is selected as **[!UICONTROL Mapping type]**.
+* If the field is of type metric, **[!UICONTROL Sum]** is selected as **[!UICONTROL Mapping type]**.
+* **[!UICONTROL Field]** is selected as the **[!UICONTROL Default]** mapping type.
+* The corresponding Experience Platform dataset field is inserted automatically for *AEP Dataset Field*.
+
+You can change any of the proposed values if these are incorrect or not supporting your specific use case.
+
+
+#### Factor datasets
+
+When you map harmonized fields to fields in a factor datasets, the following applies:
+
+##### Factor name
+
+When you map a standard harmonized factor field from a factor dataset and the factor dataset contains a single factor, use **[!UICONTROL Map into]** as the **[!UICONTROL Mapping type]** and enter a default value for the **[!UICONTROL Factor Name]** harmonized field. 
+     
+![Dataset rule - map single factor dataset](../assets/dataset-create-rule-factor-single.png)
+
+If the the factor dataset contains multiple factors, use the **[!UICONTROL Case As]** as the **[!UICONTROL Mapping Type]** to define a mapping between the Factor Name harmonized field and each distinct factor name.
+
+![Dataset rule - map single factor dataset](../assets/dataset-create-rule-factor-multiple.png)
+
+
+##### Factor type
+
+This field is optional in the factor dataset and schema. If **[!UICONTROL Factor type]** is defined in the factor dataset and schema and specifies either **[!UICONTROL Internal]** or **[!UICONTROL External]**, the provided value is used. If no value is specified, the default **[!UICONTROL Internal]** is used.
+
+##### Value type
+
+This field is optional in the factor dataset and schema. If **[!UICONTROL Value type]** is defined in the factor dataset and schema and specifies either **[!UICONTROL Actual]** or **[!UICONTROL Forecasted]**, the provided value is used. If no value is specified, the default **[!UICONTROL Actual]** is used.
+
+
+##### Granularity
+
+You can define a dataset rule for the granularity of a factor dataset when all factors within the factor dataset have the same source granularity. 
+
+As soon as factor datasets are harmonized, all datasets conform to the highest level of granularity across the harmonized dataset.
+
+
+##### Factor value
+
+For the **[!UICONTROL Factor value]** harmonized field use one of the aggregation operators as the **[!UICONTROL Mapping Type]**. When multiple factors are defined in a factor dataset, the aggregate operator is applied to all factors.
+
+
+##### Example
+
+* You have a factor dataset, with the following sample data:
+
+  | Timestamp | Factor Name | Factor Value |
+  |---|---|---:|
+  | 13 Mar 2025 | _definedsp500 | 10 |
+  | 13 Mar 2025 | _cpi | 20 |
+  | 14 Mar 2025 | _definedsp500 | 30 | 
+  | 14 Mar 2025 | _cpi | 40 |
+  | 15 Mar 2025 | _definedsp500 | 50 |
+  | 15 Mar 2025 | _cpi | 60 |
+
+
+* And you define the following dataset rules for **[!UICONTROL Factor Name]**, **[!UICONTROL Factor Value]** and **[!UICONTROL Granularity]**:
+
+   ![Dataset rules - factors example](../assets/dataset-create-rule-factor-example.png)
+
+* Then this will result in the following harmonized data:
+
+  | Factor Name | Factor Value | Factor Type | Value Type |
+  |---|---:|---|---|
+  | CPI | 20 | Internal | Actual | 
+  | S&P 500 | 10 | Internal | Actual |
+
+  Since there are no dataset rules defined for **[!UICONTROL Factor Type]** and **[!UICONTROL Value Type]**, the defaults are used.
 
 ### Edit a dataset rule
 
