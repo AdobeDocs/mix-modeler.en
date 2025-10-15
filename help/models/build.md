@@ -80,12 +80,13 @@ You configure your model in the **[!UICONTROL Configure]** step. Configuration i
 
    ![Model - Factor dataset step](../assets/model-factors-dataset-step.png)
 
-   * To add a factor dataset, slect **[!UICONTROL Add Factor]**.
+   * To add a factor dataset, select **[!UICONTROL Add Factor]**. You can add maximum of 30 factors to a model.
      
      1. Select a **[!UICONTROL Factor dataset]** from the drop-down menu. Based on the selected dataset, the Factor type is either **[!UICONTROL Internal]** or **[!UICONTROL External]**.
      1. Select the **[!UICONTROL Impact on conversion]** from the drop-down menu. Available options are: **[!UICONTROL Auto]**, **[!UICONTROL Positive]**, or **[!UICONTROL Negative]**. The default option is **[!UICONTROL Auto]**, which allows the model to determine the impact of the factor dataset.
 
    * To delete a factor dataset, select ![CrossSize200](/help/assets/icons/CrossSize400.svg).
+
 
 
 1. To define the lookback window for the model, enter a value between `1` and `52` in **[!UICONTROL Give contribution credit to touchpoints occurring within]** ... **[!UICONTROL weeks prior to the conversion]** in the **[!UICONTROL Define lookback window]** section.
