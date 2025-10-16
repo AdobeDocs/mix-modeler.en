@@ -91,19 +91,6 @@ In the **[!UICONTROL Create]** screen,
 
          ![Dataset rule event](/help/assets/dataset-create-event.png)
 
-
-
-     
-
-     **Map from a factor dataset**. 
-     When you map a standard harmonized factor field from a factor dataset and the factor dataset contains a single factor, use **[!UICONTROL Map into]** as the **[!UICONTROL Mapping type]** and enter a default value for the **[!UICONTROL Factor Name]** harmonized field. 
-     
-     ![Dataset rule - map single factor dataset](../assets/dataset-create-rule-factor-single.png)
-     
-     If the the factor dataset contains multiple factors, use the **[!UICONTROL Case As]** as the **[!UICONTROL Mapping Type]** to define a mapping between the Factor Name harmonized field and each distinct factor name.
-
-     ![Dataset rule - map single factor dataset](../assets/dataset-create-rule-factor-multiple.png)
-
 1. Select ![Add](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add field]** to define additional fields.
 
 When finished, select **[!UICONTROL Save as draft]** to save a draft version of the rule or **[!UICONTROL Save]** to save and activate the rule. Select **[!UICONTROL Cancel]** to cancel the rule configuration.
