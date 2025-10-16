@@ -107,11 +107,16 @@ To download the contents of the Touchpoint breakdown table, select ![Download](/
 
 ## Channel synergy
 
-In the **[!UICONTROL Channel synergy]** tab, the **[!UICONTROL Channel synergies]** matrix helps you to identify how marketing channels interact to create multiplicative effects, beyond their individual contributions.
+In the **[!UICONTROL Channel synergy]** tab, the **[!UICONTROL Channel synergies]** visualization helps you to identify how marketing channels interact to create multiplicative effects, beyond their individual contributions.
 
 ![Plan channel synergies](/help/assets/model-channel-synergies.png)
 
 To download a CSV file that represents the matrix, select ![Download](/help/assets/icons/Download.svg) **[!UICONTROL Download]**.
+
+>[!NOTE]
+>
+>If the **[!UICONTROL Channel synergy]** tab is not visible for an existing model, ensure you retrain the model to enable the functionality and visualization.
+
 
 
 ## **[!UICONTROL Factors]** [!BADGE beta]
