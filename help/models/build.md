@@ -82,10 +82,13 @@ You configure your model in the **[!UICONTROL Configure]** step. Configuration i
 
    * To add a factor dataset, select **[!UICONTROL Add Factor]**. You can add maximum of 30 factors to a model.
      
-     1. Select a **[!UICONTROL Factor dataset]** from the drop-down menu. Based on the selected dataset, the Factor type is either **[!UICONTROL Internal]** or **[!UICONTROL External]**.
+     1. Select a **[!UICONTROL Factor dataset]** from the drop-down menu. The available factors are the factors for which you have defined a harmonized field in [dataset rules](/help/harmonize-data/dataset-rules.md#create-a-dataset-rule).
+        Based on the selected dataset, the **[!UICONTROL Factor type**] is either **[!UICONTROL Internal]** or **[!UICONTROL External]**.
+
      1. Select the **[!UICONTROL Impact on conversion]** from the drop-down menu. Available options are: **[!UICONTROL Auto]**, **[!UICONTROL Positive]**, or **[!UICONTROL Negative]**. The default option is **[!UICONTROL Auto]**, which allows the model to determine the impact of the factor dataset.
 
    * To delete a factor dataset, select ![CrossSize200](/help/assets/icons/CrossSize400.svg).
+
 
 
 
