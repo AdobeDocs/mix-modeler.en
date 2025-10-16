@@ -11,7 +11,7 @@ The data in Mix Modeler is of different nature depending on the source of data. 
 * aggregate or summary data, for example collected from walled garden data sources or offline advertising data gathered (like spend) from running a billboard campaign, an event, or a physical ad campaign,
 * event data, for example from first party data sources. This event data can be data collected through the Adobe Analytics source connector from Adobe Analytics, or through the Experience Platform Web or Mobile SDK or Edge Network API, or data ingested using source connectors.
 
-The harmonization service of Mix Modeler assimilates the aggregate and event data into a consistent data view. This data view, combined with [internal and external factors data](#factors), is the source for the models in Mix Modeler. The service uses the highest granularity across the different datasets. For example, if one dataset has a granularity of monthly and remaining datasets do have weekly and daily granularity, the harmonization service creates a data view using monthly granularity.
+The harmonization service of Mix Modeler assimilates the aggregate and event data into a consistent data view. This data view, is the source for the models in Mix Modeler. The service uses the highest granularity across the different datasets. For example, if one dataset has a granularity of monthly and remaining datasets do have weekly and daily granularity, the harmonization service creates a data view using monthly granularity.
 
 ## Factors
 
@@ -21,16 +21,22 @@ Factors are key to model building and you want to understand what impacts the bu
 
 * External factors are factors outside the control of your organization but which can still impact the conversions you achieve. Examples are CPI, S&P 500, and more.
 
-The Factors functionality in Mix Modeler has moved to a new harmonized factors workflow. This update simplifies how factors are managed, improves consistency across models, and provides a more intuitive experience.
+The Factors functionality in Mix Modeler uses a harmonized factors workflow. This workflow simplifies how factors are managed, delivers consistency across models, and provides an intuitive experience.
+
+As part of the harmonized factors workflow:
+
+1. Define harmonized fields for factors from a factor dataset in [dataset rules](/help/harmonize-data/dataset-rules.md#create-a-dataset-rule). 
+1. [Sync](/help/harmonize-data/dataset-rules.md#sync-data) your harmonized data.
+1. [Use the factors](/help/models/build.md#configure) in your model configuration.
 
 ### Migration
 
-Legacy models continue to display their original dataset-based factors until the models are updated with new factors that are based on the harmonized factors workflow.
+You might have models that have not yet adopted the harmonized factors workflow and use the Experience Platform dataset based factors workflow. These models continue to display their original dataset based factors until the models are updated with new factors that are based on the harmonized factors workflow.
 
-When you duplicate a legacy model:
+When you duplicate a model that uses the dataset based factors workflow:
 
-* For models that have not been harmonized, the old factor configuration will not carry over into the duplicated morel. You have to add factors using the new harmonized selection.
-* For models that have been harmonization, factors will carry over and can be retained or updated.
+* If the model has not been harmonized, the old factor configuration will not carry over into the duplicated model. You have to add factors using the new harmonized factors workflow.
+* If the model has been harmonized, factors carry over and are retained or updated.
 
 ## An example of harmonized data
 
