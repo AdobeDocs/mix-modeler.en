@@ -114,6 +114,8 @@ You can change any of the proposed values if these are incorrect or not supporti
 
 #### Factor datasets
 
+You map harmonized fields to fields in a factor dataset, so you can [add factors as part of your model configuration](/help/models/build.md).
+
 When you map harmonized fields to fields in a factor datasets, the following applies:
 
 ##### Factor name
