@@ -25,6 +25,7 @@ To view model insights, in the ![Models](/help/assets/icons/FileData.svg) **[!UI
 The following tabs are available:
 
 * [Model insights](#model-insights)
+* [Channel synergy](#channel-synergy)
 * [Factors](#factors-beta) [!BADGE beta]
 * [Attribution](#attribution) (only for MTA enabled models) 
 * [Diagnostics](#diagnostics) 
@@ -108,6 +109,10 @@ To download the contents of the Touchpoint breakdown table, select ![Download](/
 ## Channel synergy
 
 In the **[!UICONTROL Channel synergy]** tab, the **[!UICONTROL Channel synergies]** visualization helps you to identify how marketing channels interact to create multiplicative effects, beyond their individual contributions.
+
+The heatmap matrix provides a visual representation of the synergy values between pairs of spend channels. This matrix helps marketers to understand how channels interact to drive performance. For each model, synergy values are normalized from 0 to 10. These values quantify the *next dollar synergy*, which estimates how effectively two channels work together when each receives one additional dollar of spend at the current levels. 
+
+This next-dollar framework offers a realistic measure of relative synergy strength, as the framework accounts for actual spend conditions in the training data and as such enables more informed optimization decisions.
 
 ![Plan channel synergies](/help/assets/model-channel-synergies.png)
 
