@@ -110,7 +110,7 @@ A multi-line visualization that shows the selected metric over the selected gran
 
 To edit a visualization:
 
-1. Select ![CreditCard](/help/assets/icons/CreditCard.svg) to open the **[!UICONTROL Edit data]** dialog. 
+1. Select ![Edit](/help/assets/icons/Edit.svg) to open the **[!UICONTROL Edit data]** dialog. 
 1. Depending on the visualization, you can change:
 
    * One or two metrics: Select a metric from the **[!UICONTROL Select metric]** dropdown menu.
