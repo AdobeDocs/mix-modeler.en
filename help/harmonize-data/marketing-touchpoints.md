@@ -31,7 +31,7 @@ The table columns specify details about the marketing touchpoint:
 | Name | The name of the marketing touchpoint.  |
 | Spend metric | The harmonized data metric to use to calculate touchpoint spend.  |
 | Volume metric | The harmonized data metric to use to calculate touchpoint volume. |
-| Rule | The touchpoint rule to use. | 
+| Rule | The touchpoint rule to use. |
 | Created | Date and time of the creation of the marketing touchpoint. |
 | Last modified | Date and time of the last modification of the marketing touchpoint. |
 

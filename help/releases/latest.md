@@ -26,7 +26,7 @@ These release notes cover the latest release of Mix Modeler. Mix Modeler release
 
 | Feature | Description | [Rollout start](#release-strategy) | [General Availability](#release-strategy) |
 |---|---|---|---|
-| **[!UICONTROL Compare plans update]** | The [Compare plans](/help/plans/compare.md) UI now shows additional details for paid marketing:  ROI or CPA, and revenue. | August 20, 2025 | August 20, 2025 | 
+| **[!UICONTROL Compare plans update]** | The [Compare plans](/help/plans/compare.md) UI now shows additional details for paid marketing:  ROI or CPA, and revenue. | August 20, 2025 | August 20, 2025 |
 | **Harmonization updates** | All datasets rules now use a similar [generic Map to harmonized fields experience](/help/harmonize-data/dataset-rules.md), irrespective of the dataset type. When you map a standard harmonized field from a summary dataset, Mix Modeler tries to deduce the corresponding Experience Platform dataset field automatically. | July 29, 2025 | July 29, 2025 |
 
 
@@ -36,14 +36,14 @@ These release notes cover the latest release of Mix Modeler. Mix Modeler release
 |---|---|---|---|
 | **Goal based plans** | Next to budgets, you can define a goal (target) when you [create](/help/plans/build.md) or [edit](/help/plans/insights.md#edit-plan) a plan. Examples of target metrics are revenue, conversion, CPA, or ROI. | June 18, 2025 | July 8, 2025 |
 | **Spend pattern config** | When you build a plan, you now do have the option to use [historical reference](/help/plans/build.md) data (like past marketing spend data and insights) when defining the spend pattern for for each budget date range. | May 14, 2025 | May 14, 2025 |
-| **Advanced plan configurations** | You can define [advanced configurations](/help/plans/build.md) for your plan, like average revenue per conversion and channel costs. | May 14, 2025 | May 14, 2025 | 
+| **Advanced plan configurations** | You can define [advanced configurations](/help/plans/build.md) for your plan, like average revenue per conversion and channel costs. | May 14, 2025 | May 14, 2025 |
 
 ## March - April 2025
 
 | Feature | Description | [Rollout start](#release-strategy) | [General Availability](#release-strategy) |
 |---|---|---|---|
 | **Model drift detection** | When you open a model, you are [prompted to retrain the model when model drift is detected](/help/models/insights.md#model-drift). | April 3, 2025 | May 7, 2025 |
-| **Marginal channel return in plan insights** | A [marginal channel return](/help/plans/insights.md#marginal-channel-return) visualization is added to Plan insights, which shows marginal break even and plan return for all or selected channels. | April 3, 2025 | April 24, 2025 | 
+| **Marginal channel return in plan insights** | A [marginal channel return](/help/plans/insights.md#marginal-channel-return) visualization is added to Plan insights, which shows marginal break even and plan return for all or selected channels. | April 3, 2025 | April 24, 2025 |
 
 
 ## January - February 2025
