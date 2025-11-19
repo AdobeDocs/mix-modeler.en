@@ -25,6 +25,7 @@ To view model insights, in the ![Models](/help/assets/icons/FileData.svg) **[!UI
 The following tabs are available:
 
 * [Model insights](#model-insights)
+* [Channel synergy](#channel-synergy)
 * [Factors](#factors-beta) [!BADGE beta]
 * [Attribution](#attribution) (only for MTA enabled models) 
 * [Diagnostics](#diagnostics) 
@@ -103,6 +104,25 @@ The following columns are available:
 To select a specific channel or all channels, select from the **[!UICONTROL View]** dropdown menu.
 
 To download the contents of the Touchpoint breakdown table, select ![Download](/help/assets/icons/Download.svg) **[!UICONTROL Download CSV]**.
+
+
+## Channel synergy
+
+In the **[!UICONTROL Channel synergy]** tab, the **[!UICONTROL Channel synergies]** visualization helps you to identify how marketing channels interact to create multiplicative effects, beyond their individual contributions.
+
+The heatmap matrix provides a visual representation of the synergy values between pairs of spend channels. This matrix helps marketers to understand how channels interact to drive performance. For each model, synergy values are normalized from 0 to 10. These values quantify the *next dollar synergy*, which estimates how effectively two channels work together when each receives one additional dollar of spend at the current levels. 
+
+This next-dollar framework offers a realistic measure of relative synergy strength, as the framework accounts for actual spend conditions in the training data and as such enables more informed optimization decisions.
+
+![Plan channel synergies](/help/assets/model-channel-synergies.png)
+
+To download a CSV file that represents the matrix, select ![Download](/help/assets/icons/Download.svg) **[!UICONTROL Download]**.
+
+>[!NOTE]
+>
+>If the **[!UICONTROL Channel synergy]** tab is not visible for an existing model, ensure you retrain the model to enable the functionality and visualization.
+
+
 
 ## **[!UICONTROL Factors]** [!BADGE beta]
 
@@ -249,7 +269,7 @@ For each conversion path, you see:
 
 The **[!UICONTROL Diagnostics]** tab shows visualizations for:
 
-* **[!UICONTROL Model Assessment]** visualizations, that consist of:
+* **[!UICONTROL Model Assessment]** visualizations that consist of:
 
   ![Model assessment](../assets/model-assessment.png)
   
@@ -271,7 +291,7 @@ The **[!UICONTROL Diagnostics]** tab shows visualizations for:
     
   To download a CSV file containing the data for the table, select ![Download](/help/assets/icons/Download.svg).
 
-* **[!UICONTROL Model training fit metrics]** table, that displays for each conversion metric:
+* **[!UICONTROL Model training fit metrics]** table that displays for each conversion metric:
 
   ![Model training fit metrics table](../assets/model-training-fit-metrics.png)
 
@@ -299,7 +319,7 @@ The **[!UICONTROL Diagnostics]** tab shows visualizations for:
 
 >[!AVAILABILITY]
 >
->The functionality described in this section is in the Limited Testing phase of release and might not be available yet in your environment. This note will be removed when the functionality is generally available. For information about the Mix Modeler release process, see [Mix Modeler feature releases](/help/releases/latest.md).
+>The functionality described in this section is in the Limited Testing phase of release and might not be available yet in your environment. This note is removed when the functionality is generally available. For information about the Mix Modeler release process, see [Mix Modeler feature releases](/help/releases/latest.md).
 >
 
 If model drift is detected, you see a **[!UICONTROL Model drift detected]** notification at the top.
