@@ -8,7 +8,7 @@ exl-id: 930fc1d5-8e28-4610-af7b-c4ec91f86a8a
 
 >[!NOTE]
 >
->The **[!UICONTROL Performance to pan]** [!BADGE Beta]{type=Informative} tab in Mix Modeler ![Home](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** is an beta feature and its functionality is subject to change. The feature is available to a limited number of customers.
+>The **[!UICONTROL Performance to plan]** [!BADGE Beta]{type=Informative} tab in Mix Modeler ![Home](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** is an beta feature and its functionality is subject to change. The feature is available to a limited number of customers.
 
 The **[!UICONTROL Plans]** [!BADGE Beta]{type=Informative} tab in Mix Modeler ![Home](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** provides a tracking dashboard to monitor how well your marketing performs against the plan. You can track actual performance versus planned performance through status cards and visualizations.
 
