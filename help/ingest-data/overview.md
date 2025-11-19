@@ -38,7 +38,7 @@ Find below some examples of data typically used in Mix Modeler beyond the more s
 | Geo | Date | Date Type | Channel | Campaign | Click | Earned | Engagement | Impression | Open | Owned | Sent | Spend |
 |---|:--|---|:---:|---|--:|---|--:|---|---|---|--:|--:|
 |AMER|2021-10-31|day|EMAIL| |12752| | | | | |1132945| |
-|AMER|2021-10-31|day|FB| |148844| | | | | | | 42111 | 
+|AMER|2021-10-31|day|FB| |148844| | | | | | | 42111 |
 |AMER|2021-10-31|day|YT| | | |2314452| | | | | 10540 |
 |JPN|2021-10-21|day|EMAIL| |21089| | | | | |3283626| |
 |JPN|2021-10-21|day|SOCIAL| | | |621| | | | | 74512 |
