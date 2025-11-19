@@ -21,7 +21,6 @@ These release notes cover the latest release of Mix Modeler. Mix Modeler release
 | **Fixes** | Fixes for following tickets: <ul><li>AMM-3101: Fixed incorrect mapping creation for rules: `event_date` was passed as field name instead of `timestamp`.</li><li>AMM-3092: Fixed unable to change the channel max constraint value on a duplicated budget based plan.</li><li>AM3130: Fixed wrong **[!UICONTROL Run frequency]** information on a detail popup window of a model.</li><li>AMM3158: Updated labels for the **[!UICONTROL Select target metric]** options as part of the **[!UICONTROL Optimize]** pane in the [Plans create](/help/plans/build.md) interface.</li><li>AMM 3176: Fixed unable to view [Breakdown by channel](/help/models/insights.md#breakdown) visualization in **[!UICONTROL Attribution]** tab in **[!UICONTROL Model Insights]**.</li></ul> | September 9, 2025 | September 9, 2025 |
 | **Fixes** | Fixes for following tickets: <ul><li>AMM-3174: Improved experience when no existing plans are available.</li><li>AMM-3216: Enhanced validation for custom date ranges.</li><li>AMM-3240: Fixed run model frequency display.</ul> | September 23, 2025 | September 23, 2025 |
 
-
 ## July - August 2025
 
 | Feature | Description | [Rollout start](#release-strategy) | [General Availability](#release-strategy) |
