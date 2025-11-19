@@ -149,7 +149,7 @@ The step-based approach for this use case is:
 |---|---|
 | Model | Configure and train an AI/ML model to obtain consistent MTA touchpoint scores and MMM aggregate results. |
 | Analyze | Export incremental touchpoint scores into Customer Journey Analytics or external BI tools.<br/>Perform granular analysis and build advanced dashboards using touchpoint scores. |
-| Action | Create and activate lookalikes to top consumer segments using Real-Time Customer Data Platform.<br/>Develop data-driven marketing strategies by customer segments for future campaigns. | 
+| Action | Create and activate lookalikes to top consumer segments using Real-Time Customer Data Platform.<br/>Develop data-driven marketing strategies by customer segments for future campaigns. |
 
 {style="table-layout:auto"}
 
