@@ -7,9 +7,19 @@ exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
 ---
 # Current Mix Modeler release notes
 
-**Last update**: September 12, 2025.
+**Last update**: November 12, 2025.
 
 These release notes cover the latest release of Mix Modeler. Mix Modeler releases operate on a continuous delivery model, which allows for an approximate monthly release cadence. Accordingly, these release notes get updated, so check them regularly.
+
+
+
+## November 2025
+
+| Feature | Description | [Rollout start](#release-strategy) | [General Availability](#release-strategy) |
+|---|---|---|---|
+| **[!UICONTROL Plans tracking]** | Allow users to understand how the execution of marketing plans tracks to what is planned. So you can feel confident how marketing performs. Or identify opportunities and risks earlier to correct course and achieve business goals. The [Performance to plan visualizations](/help/dashboard/plans.md#performance-to-plan) are updated and allow configuration for metrics and granularity. | November 12, 2025 | November 12, 2025 |
+| **[!UICONTROL Channel synergy insights]** | Reveal how marketing channels work together to create greater impact. With these insights, you can confidently explain past marketing performance and adjust marketing spend accordingly to maximize the overall return of your marketing portfolio. A Channel synergy matrix is available in [Model insights](/help/models/insights.md#channel-synergy) and [Plan insights](/help/plans/insights.md#channel-synergies). | November 12, 2025 | November 12, 2025 |
+| **Fixes** | Fixes for following tickets: <ul><li>AMM-2920: Plans creation flow and migration.</li><li>AMM-3282: Scientific notation for vary small numbers in large grids.</li></ul> | November 12, 2025 | November 12, 2025 |
 
 
 ## September 2025
