@@ -228,7 +228,7 @@ The positions [!UICONTROL Starter], [!UICONTROL Player] and [!UICONTROL Closer] 
 |---|---|
 | [!UICONTROL Starter] | This position indicates whether the touchpoint is the first touch in a conversion path. |
 | [!UICONTROL Player] | This position indicates whether the touchpoint is not the first or the last touch leading to conversion. |
-| [!UICONTROL Closer] | This position indicates whether the touchpoint is the last touch before conversion.| 
+| [!UICONTROL Closer] | This position indicates whether the touchpoint is the last touch before conversion.|
 
 
 ### [!UICONTROL Top conversion paths]

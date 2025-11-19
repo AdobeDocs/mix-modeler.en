@@ -32,7 +32,7 @@ The AI/ML bi-directional transfer learning unifies marketing mix modeling (MMM) 
 
 Mix Modeler offers the following capabilities:
 
-| Capability | Description | 
+| Capability | Description |
 |---|---|
 | **Measure incremental performance** | Understand the incremental ROI and impact of marketing across business goals or tactical campaign goals. |
 | **Unify results across MMM and MTA** | Make more confident decisions through the unification of marketing mix modeling (MMM) and multi-touch attribution (MTA) models via transfer learning. |
