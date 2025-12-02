@@ -37,7 +37,7 @@ These release notes cover the latest release of Mix Modeler. Mix Modeler release
 |---|---|---|---|
 | **[!UICONTROL Compare plans update]** | The [Compare plans](/help/plans/compare.md) UI now shows additional details for paid marketing:  ROI or CPA, and revenue. | August 20, 2025 | August 20, 2025 |
 | **Harmonization updates** | All datasets rules now use a similar [generic Map to harmonized fields experience](/help/harmonize-data/dataset-rules.md), irrespective of the dataset type. When you map a standard harmonized field from a summary dataset, Mix Modeler tries to deduce the corresponding Experience Platform dataset field automatically. | July 29, 2025 | July 29, 2025 |
-| **Enhanced pan marginal ROI/CPA optimization** | Allows you to improve how marketing budgets are distributed over time. Instead of converging marginal ROI/CPA across the full planning period, you can [optimize across months](/help/plans/build.md) while preserving monthly spend patterns. | July 8, 2025 | July 8, 2025 |
+| **Enhanced plan marginal ROI/CPA optimization** | Allows you to improve how marketing budgets are distributed over time. Instead of converging marginal ROI/CPA across the full planning period, you can [optimize across months](/help/plans/build.md) while preserving monthly spend patterns. | July 8, 2025 | July 8, 2025 |
 
 
 ## May - June 2025
