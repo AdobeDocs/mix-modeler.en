@@ -43,8 +43,8 @@ To inspect the audit log, in the Mix Modeler interface:
    | Mix Modeler Model | Download / Save metadata | Allow or Deny |
    | Mix Modeler Plan | Create | Allow or Deny |
    | Mix Modeler Plan | Update | Allow or Deny |
-   | Mix Modeler Plan | Change associated model | Allow or Deny | 
-   | Mix Modeler Data Harmonization |Trigger Sync | Allow or Deny | 
+   | Mix Modeler Plan | Change associated model | Allow or Deny |
+   | Mix Modeler Data Harmonization |Trigger Sync | Allow or Deny |
 
 
 1. Select an entry in the Activity log to open a panel for more details.
