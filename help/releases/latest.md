@@ -17,7 +17,7 @@ These release notes cover the latest release of Mix Modeler. Mix Modeler release
 
 | Feature | Description | [Rollout start](#release-strategy) | [General Availability](#release-strategy) |
 |---|---|---|---|
-| **[!UICONTROL Dataset rules]** | Updated dataset rules table. You can search for one or more dataset rules and view, edit, or delete a dataset rule directly from the table.  | January 13, 2026 | January 13, 2026 |
+| **[!UICONTROL Dataset rules]** | [Updated dataset rules table](/help/harmonize-data/dataset-rules.md). You can search for one or more dataset rules and view, edit, or delete a dataset rule directly from the table.  | January 13, 2026 | January 13, 2026 |
 | **[!UICONTROL Current spend]** | Add a current spend point in the [marginal response curve visualization](/help/models/insights.md#marginal-response-curves) in Model insights. | January 13, 2026 | January 13, 2026 |
 | **[!UICONTROL Sort and resize columns]** | Added sort and resize of columns in the [Models](/help/models/overview.md) and [Plans](/help/plans/overview.md) table. | January 13, 2026 | January 13, 2026 |
 | **Fixes** | Fixes for following tickets: <ul><li>AMM-3328: Field Input disabled for new operators for Factors</li><li>AMM-3359: Date picker and combobox lock up.</li><li>AMM-3441: Duplicating a plan does not auto fill in the date range and budget.</li></ul> | January 13, 2026 | January 13, 2026 |
