@@ -45,14 +45,13 @@ To view a table of your current models, in the Mix Modeler interface:
 
    | Column name | Details |
    |---|---|
-   | Name | Name of the model |
-   | Description | Description of the model |
-   | Conversion event | The conversion you have selected for the model. |
-   | Run frequency | The running frequency of training the model. |
-   | Last run | The date and time of the last training of the model. |
-   | Status | The status of the model. |
+   | **[!UICONTROL Name]** | Name of the model |
+   | **[!UICONTROL Description]** | Description of the model |
+   | **[!UICONTROL Conversion event]** | The conversion you have selected for the model. |
+   | **[!UICONTROL Run frequency]** | The running frequency of training the model. |
+   | **[!UICONTROL Last run]** | The date and time of the last training of the model. |
+   | **[!UICONTROL Status]** | The status of the model. |
 
-   {style="table-layout:auto"}
 
    The reported status of the model is dependent on where a model is within its lifecycle. For example, whether a model is created, (re-)trained successfully or not, or (re-)scored successfully or not. 
    
