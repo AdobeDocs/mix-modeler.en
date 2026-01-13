@@ -20,11 +20,13 @@ To see a table of the available dataset rules, in the Mix Modeler interface:
    
 1. Select **[!UICONTROL Dataset rules]** from the top bar. You see a table of the dataset rules.
 
+You can search for a dataset quickly using ![Search](/help/assets/icons/Search.svg) **[!UICONTROL _Enter a dataset name_]**.
+
 The table columns specify details about the dataset rules:
 
 | Column name            | Details   |
 | ---------------------- | ----------|
-| Dataset                | The name of the dataset.  |
+| Dataset                | The name of the dataset.  Use ![More](/help/assets/icons/More.svg) to select actions for a dataset. You can:<ul><li>![Preview](/help/assets/icons/Preview.svg) **[!UICONTROL View]** to view the dataset rules configuration. All fields are disabled.</li><li>![Edit](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]** to edit the dataset rules configuration.</li><li>![Delete](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** to delete the dataset rules configuration. You are prompted to confirm the deletion in the Delete Dataset dialog. Select **[!UICONTROL Delete]** to delete the dataset rule configuration permanently.</li><ul> |
 | Source                 | The source of the dataset: Adobe Analytics, Experience Events, Summary (aggregate), or Consumer Experience Events.   |
 | Schema                 | The schema to which the dataset conforms. You can quickly select the schema name to open the schema in a new tab in the schema editor in ![Schema](/help/assets/icons/Schemas.svg) [Schemas](../ingest-data/schemas.md).  |
 | Granularity            | The granularity of data in the dataset. Possible values are Daily, Weekly, Monthly or Yearly. |
