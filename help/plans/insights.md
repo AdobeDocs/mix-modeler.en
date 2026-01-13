@@ -66,6 +66,13 @@ This line chart visualization shows a marginal return curve for the selected cha
 
 To select a specific channel for the visualization, select a channel from the **[!UICONTROL View]** dropdown menu.
 
+## Channel synergies
+
+The Channel synergies matrix helps you to identify how marketing channels interact to create multiplicative effects, beyond their individual contributions.
+
+![Plan channel synergies](/help/assets/plan-channel-synergies.png)
+
+To download a CSV file that represents the matrix, select ![Download](/help/assets/icons/Download.svg) **[!UICONTROL Download]**.
 
 ## Date range breakdown
 
@@ -101,7 +108,7 @@ To edit your plan, select ![Edit](/help/assets/icons/Edit.svg) **[!UICONTROL Edi
 
    1. Select the **[!UICONTROL Spend pattern]**. 
 
-       - The defaul option is **[!UICONTROL Automatic]**. 
+       - The default option is **[!UICONTROL Automatic]**. 
        - Select **[!UICONTROL Historical reference]** and enter a **[!UICONTROL Start date]** to refer to past marketing spend data already available to Mix Modeler. The **[!UICONTROL End date]** is automatically determined based on the selected data range. The proposed start date is the first available past marketing spend data available. To indicate you have selected a non-existing historical reference period, you see a ![AlertRed](/help/assets/icons/AlertRed.svg).
 
 

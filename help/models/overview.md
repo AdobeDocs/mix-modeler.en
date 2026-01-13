@@ -67,15 +67,15 @@ To view a table of your current models, in the Mix Modeler interface:
    | In progress | ![Checkmark](/help/assets/icons/Checkmark.svg) | | | | |
    | In progress | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Clock](/help/assets/icons/Clock.svg) | | | |
    | In progress | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Clock](/help/assets/icons/Clock.svg) | | |
-   | In progress | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Clock](/help/assets/icons/Clock.svg) | | 
+   | In progress | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Clock](/help/assets/icons/Clock.svg) | |
    | In progress | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) |  ![Clock](/help/assets/icons/Clock.svg) |
-   | Training failed | ![Checkmark](/help/assets/icons/Checkmark.svg)  | ![Close](/help/assets/icons/Close.svg) | | | | 
+   | Training failed | ![Checkmark](/help/assets/icons/Checkmark.svg)  | ![Close](/help/assets/icons/Close.svg) | | | |
    | Training failed | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Close](/help/assets/icons/Close.svg) | |
-   | Training successful | ![Checkmark](/help/assets/icons/Checkmark.svg)  | ![Checkmark](/help/assets/icons/Checkmark.svg) | | | | 
+   | Training successful | ![Checkmark](/help/assets/icons/Checkmark.svg)  | ![Checkmark](/help/assets/icons/Checkmark.svg) | | | |
    | Training successful | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) | |
-   | Scoring failed | ![Checkmark](/help/assets/icons/Checkmark.svg)  | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Close](/help/assets/icons/Close.svg) | | | 
+   | Scoring failed | ![Checkmark](/help/assets/icons/Checkmark.svg)  | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Close](/help/assets/icons/Close.svg) | | |
    | Scoring failed | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Close](/help/assets/icons/Close.svg)|
-   | Scoring successful | ![Checkmark](/help/assets/icons/Checkmark.svg)  | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) | | | 
+   | Scoring successful | ![Checkmark](/help/assets/icons/Checkmark.svg)  | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) | | |
    | Scoring successful | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg)|
 
    {style="table-layout:fixed"}
