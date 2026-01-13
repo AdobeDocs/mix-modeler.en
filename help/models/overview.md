@@ -56,8 +56,6 @@ To view a table of your current models, in the Mix Modeler interface:
 
    To sort or resize the **[!UICONTROL Name]** column, select **[!UICONTROL Name]** ![ChevronDown](/help/assets/icons/ChevronDown.svg). From the context menu select **[!UICONTROL Sort ascending]**, **[!UICONTROL Sort descending]**, or **[!UICONTROL Resize column]**. Alternatively, you can hover over the column separator to resize the **[!UICONTROL Name]** column.
 
-   {style="table-layout:auto"}
-
    The reported status of the model is dependent on where a model is within its lifecycle. For example, whether a model is created, (re-)trained successfully or not, or (re-)scored successfully or not. 
    
    In the table below:
