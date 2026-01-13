@@ -42,18 +42,16 @@ To view a table of your current plans, in the Mix Modeler interface:
 
    | Column name | Details |
    |---|---|
-   | Name | Name of the plan |
-   | Model | The model used as the base for the plan. |
-   | Date range | The full date range for a plan. |
-   | Budget | The total budget for a plan. |
-   | Plan target | The target metric defined for a target based plan. |
-   | Forecasted return | The [forecasted return](/help/main-guide/glossary.md) for a plan |
-   | Forecasted ROI | The [forecasted ROI](/help/main-guide/glossary.md) for a plan. |
-   | Forecasted conversion | The [forecasted conversion](/help/main-guide/glossary.md) for a plan |
-   | Forecasted CPA | The [forecasted CPA](/help/main-guide/glossary.md)for a plan |
-   | Status | The status of a plan: <p><span style="color:red">●</span> Failed, <p><span style="color:blue">●</span> Processing, or <p><span style="color:green">●</span> Complete. |
-
-   {style="table-layout:auto"}
+   | **[!UICONTROL Name]** | Name of the plan |
+   | **[!UICONTROL Model]** | The model used as the base for the plan. |
+   | **[!UICONTROL Date range]** | The full date range for a plan. |
+   | **[!UICONTROL Budget]** | The total budget for a plan. |
+   | **[!UICONTROL Plan target]** | The target metric defined for a target based plan. |
+   | **[!UICONTROL Forecasted return]** | The [forecasted return](/help/main-guide/glossary.md) for a plan |
+   | **[!UICONTROL Forecasted ROI]** | The [forecasted ROI](/help/main-guide/glossary.md) for a plan. |
+   | **[!UICONTROL Forecasted conversion]** | The [forecasted conversion](/help/main-guide/glossary.md) for a plan |
+   | **[!UICONTROL Forecasted CPA]** | The [forecasted CPA](/help/main-guide/glossary.md)for a plan |
+   | **[!UICONTROL Status]** | The status of a plan:<br/>![StatusOrange](/help/assets/icons/StatusOrange.svg) **[!UICONTROL Failed]**,<br/>![StatusBlue](/help/assets/icons/StatusBlue.svg) **[!UICONTROL Processing]**, or<br/>![StatusGreen](/help/assets/icons/StatusGreen.svg) **[!UICONTROL Complete]**. |
 
    You can use ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) to select ![Checkmark](/help/assets/icons/Checkmark.svg) the columns to display in the table. 
 

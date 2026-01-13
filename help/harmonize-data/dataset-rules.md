@@ -26,13 +26,13 @@ The table columns specify details about the dataset rules:
 
 | Column name            | Details   |
 | ---------------------- | ----------|
-| Dataset                | The name of the dataset.  Use ![More](/help/assets/icons/More.svg) to select actions for a dataset. You can:<ul><li>![Preview](/help/assets/icons/Preview.svg) **[!UICONTROL View]** to view the dataset rules configuration. All fields are disabled.</li><li>![Edit](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]** to edit the dataset rules configuration.</li><li>![Delete](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** to delete the dataset rules configuration. You are prompted to confirm the deletion in the Delete Dataset dialog. Select **[!UICONTROL Delete]** to delete the dataset rule configuration permanently.</li><ul> |
-| Source                 | The source of the dataset: Adobe Analytics, Experience Events, Summary (aggregate), or Consumer Experience Events.   |
-| Schema                 | The schema to which the dataset conforms. You can quickly select the schema name to open the schema in a new tab in the schema editor in ![Schema](/help/assets/icons/Schemas.svg) [Schemas](../ingest-data/schemas.md).  |
-| Granularity            | The granularity of data in the dataset. Possible values are Daily, Weekly, Monthly or Yearly. |
-| Start of the week      | Specifies which day of the week is considered the start of a new week for the specific dataset.  |
-| Status | The status of the field: <p><span style="color:gray">●</span> Draft or <p><span style="color:green">●</span> Active |
-| Last modified          | Data and time of the last modification of the dataset rule. |
+| **[!UICONTROL Dataset]**                | The name of the dataset.  Use ![More](/help/assets/icons/More.svg) to select actions for a dataset. You can:<ul><li>![Preview](/help/assets/icons/Preview.svg) **[!UICONTROL View]** to view the dataset rules configuration. All fields are disabled.</li><li>![Edit](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]** to edit the dataset rules configuration.</li><li>![Delete](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** to delete the dataset rules configuration. You are prompted to confirm the deletion in the Delete Dataset dialog. Select **[!UICONTROL Delete]** to delete the dataset rule configuration permanently.</li><ul> |
+| **[!UICONTROL Source]**                 | The source of the dataset: Adobe Analytics, Experience Events, Summary (aggregate), or Consumer Experience Events.   |
+| **[!UICONTROL Schema]**                 | The schema to which the dataset conforms. You can quickly select the schema name to open the schema in a new tab in the schema editor in ![Schema](/help/assets/icons/Schemas.svg) [Schemas](../ingest-data/schemas.md).  |
+| **[!UICONTROL Granularity]**            | The granularity of data in the dataset. Possible values are Daily, Weekly, Monthly or Yearly. |
+| **[!UICONTROL Start of the week]**      | Specifies which day of the week is considered the start of a new week for the specific dataset.  |
+| **[!UICONTROL Status]** | The status of the field: ![StatusGray](/help/assets/icons/StatusGray.svg) Draft or ![StatusGreen](/help/assets/icons/StatusGreen.svg) Active |
+| **[!UICONTROL Last modified]**          | Data and time of the last modification of the dataset rule. |
 
 {style="table-layout:auto"}
 
