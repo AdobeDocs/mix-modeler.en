@@ -77,8 +77,8 @@ For convenience, Experience Platform supports a dedicated Factor Standard Fields
 
 A summary, internal factor, or external factor dataset can be based upon:
 
-- A schema that uses the Factor Standard Fields group. This dataset is shown as a **[!UICONTROL Factors]** dataset when you configure dataset rules. And the harmonized fields you define as part of the dataset rules for the dataset, are available as factors when you create a model.
-- A schema that does **not** use the Factor Standard Fields group. This dataset is shown as a **[!UICONTROL Summary]** dataset when you configure dataset rules. The dataset is configured as summary data and does not influence harmonized data.
+- A schema that **uses** the Factor Standard Fields group. This dataset is shown as a **[!UICONTROL Factors]** dataset when you configure dataset rules. And the harmonized fields you define, as part of the dataset rules for the dataset, are available as factors when you create a model.
+- A schema that **does not use** the Factor Standard Fields group. This dataset is shown as a **[!UICONTROL Summary]** dataset when you configure dataset rules. The dataset is configured as summary data and does not influence harmonized data.
 
 ## Supported data types
 
