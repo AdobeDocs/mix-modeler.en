@@ -40,7 +40,7 @@ To create a dataset rule, in the ![DataSearch](/help/assets/icons/DataCheck.svg)
 
 In the **[!UICONTROL Create]** screen, 
  
-1. In **[!UICONTROL Dataset details]**, select a dataset from **[!UICONTROL Select dataset]** to begin configuration. In the list, datasets are categorized in **[!UICONTROL Summary]**, **[!UICONTROL Adobe Analytics]**, **[!UICONTROL Experience Event]** and, **[!UICONTROL Factors]**.
+1. In **[!UICONTROL Dataset details]**, select a dataset from **[!UICONTROL Select dataset]** to begin configuration. In the list, datasets are categorized in **[!UICONTROL Summary]**, **[!UICONTROL Adobe Analytics]**, **[!UICONTROL Experience Event]**, **[!UICONTROL Factors]**, and **[!UICONTROL Consumer Experience Events]**.
 
 1. Select a day for the **[!UICONTROL Start of the week]**.
 
@@ -54,7 +54,7 @@ In the **[!UICONTROL Create]** screen,
    
    You can send restated rows of summary data as incremental rows in an Experience Platform dataset and the harmonization service updates the harmonized dataset with that restated data. Similarly, you can also remove rows of summary data that needs to be reflected in the harmonization service. 
 
-1. In the **[!UICONTROL Map to harmonized fields]** section, select a harmonized field from **[!UICONTROL Standard harmonized field]**.
+1. In the **[!UICONTROL Map to harmonized fields]** section, select a harmonized field from **[!UICONTROL Standard harmonized field]**. To [create a new harmonized field](/help/harmonize-data/fields.md#add-a-harmonized-field) quickly, select **[!UICONTROL Create new]**.
 
    * When the selected harmonized field is of type metric:
 
