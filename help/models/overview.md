@@ -48,7 +48,7 @@ To view a table of your current models, in the Mix Modeler interface:
    | **[!UICONTROL Name]** | Name of the model |
    | **[!UICONTROL Description]** | Description of the model |
    | **[!UICONTROL Conversion event]** | The conversion you have selected for the model. |
-   | **[!UICONTROL Run]** frequency | The running frequency of training the model. |
+   | **[!UICONTROL Run frequency]** | The running frequency of training the model. |
    | **[!UICONTROL Last run]** | The date and time of the last training of the model. |
    | **[!UICONTROL Status]** | The status of the model. |
 
