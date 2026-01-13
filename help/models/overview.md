@@ -37,7 +37,7 @@ To build a model, use the Mix Modeler step-by-step guided model configuration fl
 
 To view a table of your current models, in the Mix Modeler interface:
 
-1. Select ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** from the left rail.
+1. Select ![FileData](/help/assets/icons2/FileData.svg) **[!UICONTROL Models]** from the left rail.
    
 1. You see a table of the current models.
 
@@ -48,10 +48,13 @@ To view a table of your current models, in the Mix Modeler interface:
    | **[!UICONTROL Name]** | Name of the model |
    | **[!UICONTROL Description]** | Description of the model |
    | **[!UICONTROL Conversion event]** | The conversion you have selected for the model. |
-   | **[!UICONTROL Run frequency]** | The running frequency of training the model. |
+   | **[!UICONTROL Run]** frequency | The running frequency of training the model. |
    | **[!UICONTROL Last run]** | The date and time of the last training of the model. |
    | **[!UICONTROL Status]** | The status of the model. |
 
+   To sort the table on any column in ascending ![ArrowMoveUp](/help/assets/icons2/ArrowMoveUp.svg) or descending ![ArrowMoveDown](/help/assets/icons2/ArrowMoveDown.svg)order, select the title of the column. 
+
+   To sort or resize the **[!UICONTROL Name]** column, select **[!UICONTROL Name]** ![ChevronDown](/help/assets/icons/ChevronDown.svg). From the context menu select **[!UICONTROL Sort ascending]**, **[!UICONTROL Sort descending]**, or **[!UICONTROL Resize column]**. Alternatively, you can hover over the column separator to resize the **[!UICONTROL Name]** column.
 
    The reported status of the model is dependent on where a model is within its lifecycle. For example, whether a model is created, (re-)trained successfully or not, or (re-)scored successfully or not. 
    

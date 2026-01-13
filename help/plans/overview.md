@@ -34,28 +34,32 @@ To build a plan, use the Mix Modeler plan creation wizard. See [Build plans](bui
 
 To view a table of your current plans, in the Mix Modeler interface:
 
-1. Select ![](/help/assets/icons/FileChart.svg) **[!UICONTROL Plans]** from the left rail.
+1. Select ![](/help/assets/icons2/FileChart.svg) **[!UICONTROL Plans]** from the left rail.
 
 1. You see a table of the current plans and their status.
 
-    The table columns specify details about the plans.
+   The table columns specify details about the plans.
 
-    | Column name | Details |
-    |---|---|
-    | Name | Name of the plan |
-    | Model | The model used as the base for the plan. |
-    | Date range | The full date range for a plan. |
-    | Budget | The total budget for a plan. |
-    | Plan target | The target metric defined for a target based plan. |
-    | Forecasted return | The [forecasted return](/help/main-guide/glossary.md) for a plan |
-    | Forecasted ROI | The [forecasted ROI](/help/main-guide/glossary.md) for a plan. |
-    | Forecasted conversion | The [forecasted conversion](/help/main-guide/glossary.md) for a plan |
-    | Forecasted CPA | The [forecasted CPA](/help/main-guide/glossary.md)for a plan |
-    | Status | The status of a plan: <p><span style="color:red">●</span> Failed, <p><span style="color:blue">●</span> Processing, or <p><span style="color:green">●</span> Complete. |
+   | Column name | Details |
+   |---|---|
+   | Name | Name of the plan |
+   | Model | The model used as the base for the plan. |
+   | Date range | The full date range for a plan. |
+   | Budget | The total budget for a plan. |
+   | Plan target | The target metric defined for a target based plan. |
+   | Forecasted return | The [forecasted return](/help/main-guide/glossary.md) for a plan |
+   | Forecasted ROI | The [forecasted ROI](/help/main-guide/glossary.md) for a plan. |
+   | Forecasted conversion | The [forecasted conversion](/help/main-guide/glossary.md) for a plan |
+   | Forecasted CPA | The [forecasted CPA](/help/main-guide/glossary.md)for a plan |
+   | Status | The status of a plan: <p><span style="color:red">●</span> Failed, <p><span style="color:blue">●</span> Processing, or <p><span style="color:green">●</span> Complete. |
 
-    {style="table-layout:auto"}
+   {style="table-layout:auto"}
 
-    You can use ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) to select ![Checkmark](/help/assets/icons/Checkmark.svg) the columns to display in the table. 
+   You can use ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) to select ![Checkmark](/help/assets/icons/Checkmark.svg) the columns to display in the table. 
+
+   To sort the table on any column in ascending ![ArrowMoveUp](/help/assets/icons2/ArrowMoveUp.svg) or descending ![ArrowMoveDown](/help/assets/icons2/ArrowMoveDown.svg)order, select the title of the column. 
+
+   To sort or resize the **[!UICONTROL Name]**, **[!UICONTROL Model]** or **[!UICONTROL Date range]** column, select **[!UICONTROL Name]** ![ChevronDown](/help/assets/icons/ChevronDown.svg), **[!UICONTROL Model]** ![ChevronDown](/help/assets/icons/ChevronDown.svg)  or **[!UICONTROL Date range]** ![ChevronDown](/help/assets/icons/ChevronDown.svg). From the context menu select **[!UICONTROL Sort ascending]**, **[!UICONTROL Sort descending]**, or **[!UICONTROL Resize column]**. Alternatively, you can hover over the column separator for these columns to resize a column.
 
 1. Use ![Search](/help/assets/icons/Search.svg) to search and filter the table for one or more specific plans.
 
