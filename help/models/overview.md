@@ -37,7 +37,7 @@ To build a model, use the Mix Modeler step-by-step guided model configuration fl
 
 To view a table of your current models, in the Mix Modeler interface:
 
-1. Select ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** from the left rail.
+1. Select ![FileData](/help/assets/icons2/FileData.svg) **[!UICONTROL Models]** from the left rail.
    
 1. You see a table of the current models.
 
@@ -45,14 +45,16 @@ To view a table of your current models, in the Mix Modeler interface:
 
    | Column name | Details |
    |---|---|
-   | Name | Name of the model |
-   | Description | Description of the model |
-   | Conversion event | The conversion you have selected for the model. |
-   | Run frequency | The running frequency of training the model. |
-   | Last run | The date and time of the last training of the model. |
-   | Status | The status of the model. |
+   | **[!UICONTROL Name]** | Name of the model |
+   | **[!UICONTROL Description]** | Description of the model |
+   | **[!UICONTROL Conversion event]** | The conversion you have selected for the model. |
+   | **[!UICONTROL Run frequency]** | The running frequency of training the model. |
+   | **[!UICONTROL Last run]** | The date and time of the last training of the model. |
+   | **[!UICONTROL Status]** | The status of the model. |
 
-   {style="table-layout:auto"}
+   To sort the table on any column in ascending ![ArrowMoveUp](/help/assets/icons2/ArrowMoveUp.svg) or descending ![ArrowMoveDown](/help/assets/icons2/ArrowMoveDown.svg)order, select the title of the column. 
+
+   To sort or resize the **[!UICONTROL Name]** column, select **[!UICONTROL Name]** ![ChevronDown](/help/assets/icons/ChevronDown.svg). From the context menu select **[!UICONTROL Sort ascending]**, **[!UICONTROL Sort descending]**, or **[!UICONTROL Resize column]**. Alternatively, you can hover over the column separator to resize the **[!UICONTROL Name]** column.
 
    The reported status of the model is dependent on where a model is within its lifecycle. For example, whether a model is created, (re-)trained successfully or not, or (re-)scored successfully or not. 
    
@@ -67,15 +69,15 @@ To view a table of your current models, in the Mix Modeler interface:
    | In progress | ![Checkmark](/help/assets/icons/Checkmark.svg) | | | | |
    | In progress | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Clock](/help/assets/icons/Clock.svg) | | | |
    | In progress | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Clock](/help/assets/icons/Clock.svg) | | |
-   | In progress | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Clock](/help/assets/icons/Clock.svg) | | 
+   | In progress | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Clock](/help/assets/icons/Clock.svg) | |
    | In progress | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) |  ![Clock](/help/assets/icons/Clock.svg) |
-   | Training failed | ![Checkmark](/help/assets/icons/Checkmark.svg)  | ![Close](/help/assets/icons/Close.svg) | | | | 
+   | Training failed | ![Checkmark](/help/assets/icons/Checkmark.svg)  | ![Close](/help/assets/icons/Close.svg) | | | |
    | Training failed | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Close](/help/assets/icons/Close.svg) | |
-   | Training successful | ![Checkmark](/help/assets/icons/Checkmark.svg)  | ![Checkmark](/help/assets/icons/Checkmark.svg) | | | | 
+   | Training successful | ![Checkmark](/help/assets/icons/Checkmark.svg)  | ![Checkmark](/help/assets/icons/Checkmark.svg) | | | |
    | Training successful | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) | |
-   | Scoring failed | ![Checkmark](/help/assets/icons/Checkmark.svg)  | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Close](/help/assets/icons/Close.svg) | | | 
+   | Scoring failed | ![Checkmark](/help/assets/icons/Checkmark.svg)  | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Close](/help/assets/icons/Close.svg) | | |
    | Scoring failed | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Close](/help/assets/icons/Close.svg)|
-   | Scoring successful | ![Checkmark](/help/assets/icons/Checkmark.svg)  | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) | | | 
+   | Scoring successful | ![Checkmark](/help/assets/icons/Checkmark.svg)  | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) | | |
    | Scoring successful | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg) | ![Checkmark](/help/assets/icons/Checkmark.svg)|
 
    {style="table-layout:fixed"}
