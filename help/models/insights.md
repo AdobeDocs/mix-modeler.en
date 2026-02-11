@@ -152,7 +152,7 @@ If no data is available you see a message ![TableAndChart](/help/assets/icons/Ta
 >[!CONTEXTUALHELP]
 >id="models_attribution_breakdownbychannel"
 >title="Breakdown by channel"
->abstract=**[!UICONTROL Breakdown by channel]** is a breakdown by the channel type for the defined touchpoints, based on the customer experience event schema. Select ![More](https://spectrum.adobe.com/static/icons/workflow_18/Smock_MoreSmallList_18_N.svg) and **[!UICONTROL Breakdown by touchpoint]** to show a breakdown by touchpoint.
+>abstract=**[!UICONTROL Breakdown by channel]** is a breakdown by the channel type for the defined touchpoints, based on the customer experience event schema. Select ![More](https://spectrum.adobe.com/static/icons/workflow_18/Smock_MoreSmallList_18_N.svg) and **[!UICONTROL Breakdown by touchpoint]** to show a breakdown by touchpoint."
 
 
 >[!CONTEXTUALHELP]
