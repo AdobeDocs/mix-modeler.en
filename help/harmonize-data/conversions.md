@@ -4,7 +4,14 @@ description: Learn how to create conversions to use as part of harmonizing your 
 feature: Harmonized Data, Conversions
 exl-id: a8559426-452a-43e8-9a60-0c0bc97d863c
 ---
-# Conversions
+# Conversions {#conversions}
+
+
+>[!CONTEXTUALHELP]
+>id="harmonizeddata_conversions_create"
+>title="Conversion"
+>abstract="Conversion events are business objectives that identify the impact of marketing activities. Examples: e-commerce orders, in-store purchases, website visits, and more."
+
 
 Conversion events are business objectives that identify the impact of marketing activities. Examples: e-commerce orders, in-store purchases, website visits, and so forth.
 

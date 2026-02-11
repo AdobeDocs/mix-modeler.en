@@ -148,7 +148,14 @@ To sync data between your harmonized data and summary and / or event datasets wh
    ![Sync data](/help/assets/sync-data.png)
 
 
-## Data merge preferences 
+## Data merge preferences {#data-merge-preferences}
+
+
+>[!CONTEXTUALHELP]
+>id="harmonizeddata_datasetrules_datamergepreferences"
+>title="Default metric preference"
+>abstract="Default preference is applied when during harmonization, multiple sources of data try to update a metric field for a given channel. This preference is applied at the sandbox level unless overridden for certain metric preferences if defined below."
+
 
 >[!NOTE]
 >
