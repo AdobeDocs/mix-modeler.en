@@ -4,6 +4,7 @@ description: Learn how to get details about your model, like historical overview
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
 ---
+
 # Model insights
 
 Each visualization in model insights is designed to help you to:
@@ -41,12 +42,7 @@ If model drift is detected on the model, you see a **[!UICONTROL Model drift det
 
 ![Model drift detected dialog](/help/assets/model-drift-dialog.png)
 
-## Model insights {#model-insights}
-
->[!CONTEXTUALHELP]
->id="models_insights_undefinedchannels"
->title="Undefined channels"
->abstract="Undefined channels are included, but have no attributed conversions."
+## Model insights {#model-insights-section}
 
 The Model insights tab shows visualizations for [Contribution by date and base media](#contribution-by-date-and-base-media), [Contribution by channel](#contribution-by-channel), [Marketing performance summary](#marketing-performance-summary), and [Marginal response curves](#marginal-response-curves). The tab also provides a [Touchpoint breakdown](#touchppint-breakdown) table.
 
@@ -73,7 +69,12 @@ This visualization represents the contribution proportion achieved by base, by s
 
 A donut visualization that shows a distribution of the contribution by various channels. This visualization showcases incrementality through the lens of the top three performing channels (excluding base and *All others* categories). The visualization helps to support prioritization and budget allocation.
 
-### Marketing performance summary {#marketing-performance-summary
+### Marketing performance summary {#marketing-performance-summary}
+
+>[!CONTEXTUALHELP]
+>id="models_insights_undefinedchannels"
+>title="Undefined channels"
+>abstract="Undefined channels are included, but have no attributed conversions."
 
 A horizontal bar graph visualization that displays the ROI or CPA performance by each of the channels. This visualization highlights the ROI / CPA of your marketing investments. The channels are ranked in descending order based on ROI / CPA. The visualization helps to identify which channels are most effective and which might need optimization. 
 
