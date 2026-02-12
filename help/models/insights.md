@@ -134,7 +134,7 @@ To download a CSV file that represents the matrix, select ![Download](/help/asse
 
 
 
-## **[!UICONTROL Factors]** [!BADGE beta] {#factors}
+## Factors {#factors}
 
 >[!CONTEXTUALHELP]
 >id="models_factors_factorcontributionbreakdown"
