@@ -41,7 +41,12 @@ If model drift is detected on the model, you see a **[!UICONTROL Model drift det
 
 ![Model drift detected dialog](/help/assets/model-drift-dialog.png)
 
-## Model insights
+## Model insights {#model-insights}
+
+>[!CONTEXTUALHELP]
+>id="models_insights_undefinedchannels"
+>title="Undefined channels"
+>abstract="Undefined channels are included, but have no attributed conversions."
 
 The Model insights tab shows visualizations for [Contribution by date and base media](#contribution-by-date-and-base-media), [Contribution by channel](#contribution-by-channel), [Marketing performance summary](#marketing-performance-summary), and [Marginal response curves](#marginal-response-curves). The tab also provides a [Touchpoint breakdown](#touchppint-breakdown) table.
 
@@ -68,14 +73,7 @@ This visualization represents the contribution proportion achieved by base, by s
 
 A donut visualization that shows a distribution of the contribution by various channels. This visualization showcases incrementality through the lens of the top three performing channels (excluding base and *All others* categories). The visualization helps to support prioritization and budget allocation.
 
-### Marketing performance summary {#marketing-performance-summary}
-
-
->[!CONTEXTUALHELP]
->id="models_insights_undefinedchannels"
->title="Undefined channels"
->abstract="Undefined channels are included, but have no attributed conversions."
-
+### Marketing performance summary {#marketing-performance-summary
 
 A horizontal bar graph visualization that displays the ROI or CPA performance by each of the channels. This visualization highlights the ROI / CPA of your marketing investments. The channels are ranked in descending order based on ROI / CPA. The visualization helps to identify which channels are most effective and which might need optimization. 
 
@@ -158,7 +156,6 @@ If no data is available you see a message ![TableAndChart](/help/assets/icons/Ta
 
 ## Attribution {#attribution}
 
-
 >[!CONTEXTUALHELP]
 >id="models_attribution_breakdownbychannel"
 >title="Breakdown by channel"
@@ -175,7 +172,6 @@ If no data is available you see a message ![TableAndChart](/help/assets/icons/Ta
 >[!NOTE]
 >
 >The Attribution tab is only available for MTA enabled models.
-
 
 Using the [!UICONTROL Attribution] tab, you can understand the effectiveness of touchpoints and marketing campaigns that have event level data.  See [Build model](build.md). 
 
@@ -280,8 +276,6 @@ For each conversion path, you see:
 >id="models_diagnostics_modelassessment"
 >title="Model assessment graphs"
 >abstract="Model assessment visualizations breaks down on actual vs predicted or residual conversions."
->additional-url="https://experienceleague.adobe.com/en/docs/mix-modeler/using/overview" text="Mix Modeler overview"
->additional-url="https://video.tv.adobe.com/v/3440794/?learn=on&enablevpops" text="Mix Modeler demo"
 
 
 >[!CONTEXTUALHELP]
@@ -376,7 +370,7 @@ If model drift is detected, you see a **[!UICONTROL Model drift detected]** noti
 Select **[!UICONTROL Hide]** to hide the notification. The notification will re-appear the next day or at the next login.
 
 
-## [!UICONTROL Historical overview]
+## Historical overview
 
 The Historical overview tab shows visualizations for:
 
