@@ -72,7 +72,7 @@ A donut visualization that shows a distribution of the contribution by various c
 
 
 >[!CONTEXTUALHELP]
->id="models_insights_marketingperformancesummary"
+>id="models_insights_undefinedchannels"
 >title="Undefined channels"
 >abstract="Undefined channels are included, but have no attributed conversions."
 
