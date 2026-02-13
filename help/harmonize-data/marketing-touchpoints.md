@@ -9,7 +9,7 @@ exl-id: 42851107-7568-4bc9-92ca-3cba713a522e
 >[!CONTEXTUALHELP]
 >id="harmonizeddata_marketingtouchpoints_create"
 >title="Marketing touchpoints"
->abstract="Marketing touchpoints are recipient, individual, and or cookie-level marketing events used to evaluate the impact of marketing investments on numeric or revenue-based conversions.<br/><br/>You cannot setup the model with touchpoints that have overlapping data and there must be at least one touchpoint with spend."
+>abstract="Marketing touchpoints are recipient, individual, and or cookie-level marketing events used to evaluate the impact of marketing investments on numeric or revenue-based conversions." 
 
 
 Marketing touchpoints are recipient, individual, and or cookie-level marketing events used to evaluate the impact of marketing investments on numeric or revenue-based conversions.
