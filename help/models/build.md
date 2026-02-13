@@ -20,7 +20,12 @@ You define name and description in the the **[!UICONTROL Setup]** step:
 
 1. Select **[!UICONTROL Next]** to continue to the next step. Select **[!UICONTROL Cancel]** to cancel the model configuration.
 
-## Configure
+## Configure{#configure}
+
+>[!CONTEXTUALHELP]
+>id="model_marketingtouchpoints_select"
+>title="Marketing touchpoints"
+>abstract="Marketing touchpoints are recipient, individual, and or cookie-level marketing events used to evaluate the impact of marketing investments on numeric or revenue-based conversions.<br/><br/>You cannot setup the model with touchpoints that have overlapping data and there must be at least one touchpoint with spend."
 
 You configure your model in the **[!UICONTROL Configure]** step. Configuration involves the definition of conversion goals, marketing touchpoints, the eligible data population, external and internal factors, and more.
 
