@@ -166,7 +166,7 @@ If no data is available you see a message ![TableAndChart](/help/assets/icons/Ta
 >[!CONTEXTUALHELP]
 >id="models_attribution_breakdownbytouchpointposition"
 >title="Breakdown by touchpoint position"
->abstract="This visualization shows a breakdown of attributed conversions by position of the touchpoint and touchpoint across all the conversion paths. The visualization compare if a touchpoint contributes better at a position than that of remaining positions and other touchpoints at any position. Note that the sum of percentage contribution for an attribution model across all touchpoints and positions would be equal to 100. The positions beginner, influencer and finisher are defined as follows:<ul><li>**Starter**: Indicates whether the touchpoint is the first touch in a conversion path.</li><li>**Player**: Indicates whether the touchpoint is neither the first nor the last touch leading to conversion.</li><li>**Closer**: Indicates whether the touchpoint is the last touch before conversion.</li></ul>"
+>abstract="This visualization shows a breakdown of attributed conversions by position of the touchpoint and touchpoint across all the conversion paths. The visualization compares if a touchpoint contributes better at a position than that of remaining positions and other touchpoints at any position."
 
 
 
@@ -306,7 +306,7 @@ For each conversion path, you see:
 >[!CONTEXTUALHELP]
 >id="models_diagnostics_modeldateinfo"
 >title="Model date as of"
->abstract="The data for this table is only generated for specific periods of time.  The **[!UICONTROL As of]** date indicates when the data was generated and is based on data from startDate to endDate."
+>abstract="The data for this table is only generated for specific periods of time.  The **[!UICONTROL As of]** date indicates when the data was generated and is based on data from specified date up until a year back."
 
 
 The **[!UICONTROL Diagnostics]** tab shows visualizations for:
