@@ -1,6 +1,6 @@
 ---
-title: Build models
-description: Learn how to build models in Mix Modeler.
+title: Build Custom AI-Powered Attribution Models in Mix Modeler
+description: Learn how to build and configure AI-powered attribution models in Adobe Mix Modeler. Step-by-step guidance for conversions, touchpoints, training, and scoring.
 feature: Models
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
 ---
@@ -12,9 +12,9 @@ In the ![Models](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** interf
 
 ## Setup
 
-You define name and description in the the **[!UICONTROL Setup]** step:
+You define a name and a description in the **[!UICONTROL Setup]** step:
 
-1. Enter your model **[!UICONTROL Name]**, for example `Demo model`. Enter a **[!UICONTROL Description]**, for example `Demo model to explore AI featues of Mix Modeler`.
+1. Enter your model **[!UICONTROL Name]**, for example `Demo model`. Enter a **[!UICONTROL Description]**, for example `Demo model to explore AI features of Mix Modeler`.
 
       ![Model name and description](/help/assets/model-name-description.png)
 
@@ -25,7 +25,7 @@ You define name and description in the the **[!UICONTROL Setup]** step:
 >[!CONTEXTUALHELP]
 >id="model_marketingtouchpoints_select"
 >title="Marketing touchpoints"
->abstract="Marketing touchpoints are recipient, individual, and or cookie-level marketing events used to evaluate the impact of marketing investments on numeric or revenue-based conversions.<br/><br/>You cannot setup the model with touchpoints that have overlapping data and there must be at least one touchpoint with spend."
+>abstract="Marketing touchpoints are recipient, individual, and or cookie-level marketing events used to evaluate the impact of marketing investments on numeric or revenue-based conversions.<br/><br/>You cannot set up the model with touchpoints that have overlapping data and there must be at least one touchpoint with spend."
 
 You configure your model in the **[!UICONTROL Configure]** step. Configuration involves the definition of conversion goals, marketing touchpoints, the eligible data population, external and internal factors, and more.
 
@@ -77,7 +77,7 @@ You configure your model in the **[!UICONTROL Configure]** step. Configuration i
     
     * To add an eligible data population container, select ![Add](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add eligible population]**. 
 
-    * To remove an eligible data population container, within the container, select ![More](/help/assets/icons/More.svg), and select **[!UICONTROL Remove marketing touchpoint]** from the context menu.
+    * To remove an eligible data population container, within the container, select ![More](/help/assets/icons/More.svg), and select **[!UICONTROL Remove container]** from the context menu.
 
     * Select **And** and **Or** between containers to build more complex definitions for your eligible data population. 
       
@@ -126,7 +126,7 @@ You configure your model in the **[!UICONTROL Configure]** step. Configuration i
 
 ## Advanced
 
-You can specify advanced settings in the **[!UICONTROL Advanced]** step. In this step you can enable your model for multi-touch attribution (MTA).
+You can specify advanced settings in the **[!UICONTROL Advanced]** step. In this step, you can enable your model for multi-touch attribution (MTA).
 
 1. In the **[!UICONTROL Spend share]** section:
 
@@ -164,20 +164,20 @@ You can [schedule training and scoring](#schedule), [define training window](#tr
 
 ### Schedule
 
-1. In the **[!UICONTROL Schedule]** section you can schedule model training and scoring.
+In the **[!UICONTROL Schedule]** section, you can schedule model training and scoring.
 
-   ![Schedule model](../assets/model-schedule.png)
-   
-   To scheduled model scoring and training:
+  ![Schedule model](../assets/model-schedule.png)
+  
+  To scheduled model scoring and training:
 
-   1. Turn on **[!UICONTROL Enable scheduled model scoring and training]**. 
-   1. Select a **[!UICONTROL Scoring frequency]**:
+  1. Turn on **[!UICONTROL Enable scheduled model scoring and training]**. 
+  1. Select a **[!UICONTROL Scoring frequency]**:
 
-      * **[!UICONTROL Daily]**: Enter a valid time (for example `05:22 pm`) or use ![Clock](/help/assets/icons/Clock.svg).
-      * **[!UICONTROL Weekly]**: Select a day of the week and enter a valid time (for example `05:22 pm`) or use ![Clock](/help/assets/icons/Clock.svg).
-      * **[!UICONTROL Monthly]**: Select a day of the month from the Run on every dropdown menu and enter a valid time (for example `05:22 pm`) or use ![Clock](/help/assets/icons/Clock.svg).
+     * **[!UICONTROL Daily]**: Enter a valid time (for example `05:22 pm`) or use ![Clock](/help/assets/icons/Clock.svg).
+     * **[!UICONTROL Weekly]**: Select a day of the week and enter a valid time (for example `05:22 pm`) or use ![Clock](/help/assets/icons/Clock.svg).
+     * **[!UICONTROL Monthly]**: Select a day of the month from the Run on every dropdown menu and enter a valid time (for example `05:22 pm`) or use ![Clock](/help/assets/icons/Clock.svg).
 
-   1. Select a **[!UICONTROL Training frequency]** from the dropdown menu: **[!UICONTROL Monthly]**, **[!UICONTROL Quarterly]**, **[!UICONTROL Yearly]**, or **[!UICONTROL None]**. 
+  1. Select a **[!UICONTROL Training frequency]** from the dropdown menu: **[!UICONTROL Monthly]**, **[!UICONTROL Quarterly]**, **[!UICONTROL Yearly]**, or **[!UICONTROL None]**. 
 
 
 ### Training window
@@ -193,15 +193,15 @@ In the **[!UICONTROL Define training window]** section, select between:
 
 ### Granular insights reporting fields
 
-The **[!UICONTROL Granular Insights Reporting Fields]** section, uses the granular incrementality reporting functionality. This functionality allows you to select harmonized fields to breakdown conversion and touchpoint incrementality scores.
+The **[!UICONTROL Granular Insights Reporting Fields]** section uses the granular incrementality reporting functionality. This functionality allows you to select harmonized fields to breakdown conversion and touchpoint incrementality scores.
 
 ![Define granular insights reporting fields](/help/assets/granular-insights-reporting-fields.png)
 
 You define these harmonized fields so you can drill down in the reporting of your model using granular reporting columns instead of having to create separate models. 
    
-For example, you build a model that is focused on revenue, but you are also interested in the campaigns, channels, and traffic sources performance. Without the Granular Incrementality Reporting functionality, you would have to build four separate models. With the Granular Incrementality Reporting functionality, you can breakdown your revenue model on campaigns, channels, and traffic sources.
+For example, you build a model that is focused on revenue, but you are also interested in the campaigns, channels, and traffic sources performance. Without the Granular Incrementality Reporting functionality, you would have to build four separate models. With the Granular Incrementality Reporting functionality, you can break down your revenue model on campaigns, channels, and traffic sources.
 
-1. Select one or more harmonized fields from the Select harmonized fields underneath Includes. The selected harmonized fields are added to the panel.
+1. Select one or more harmonized fields from the **[!UICONTROL _Select harmonized fields_]** underneath **[!UICONTROL Includes]**. The selected harmonized fields are added to the panel.
 1. Select **[!UICONTROL *Harmonized field*]** ![CrossSize100](/help/assets/icons/CrossSize100.svg)  to remove a harmonized field from the container with the selected harmonized fields.
 1. Select **[!UICONTROL Clear all]** to remove all selected harmonized fields.
 
