@@ -157,9 +157,12 @@ You can specify advanced settings in the **[!UICONTROL Advanced]** step. In this
     1. When needed, use **[!UICONTROL Clear all]** to clear all input values for the **[!UICONTROL Contribution proportion]** and **[!UICONTROL Level of confidence]** columns.
 
 
-## Schedule 
+## Set options 
 
-You can schedule training and scording for your model in the **[!UICONTROL Schedule]** step.
+You can [schedule training and scoring](#schedule), [define training window](#training-window), and specify [granular insights reporting fields](#granular-insights-reporting-fields) for your model in the **[!UICONTROL Set options]** step.
+
+
+### Schedule
 
 1. In the **[!UICONTROL Schedule]** section you can schedule model training and scoring.
 
@@ -176,23 +179,44 @@ You can schedule training and scording for your model in the **[!UICONTROL Sched
 
    1. Select a **[!UICONTROL Training frequency]** from the dropdown menu: **[!UICONTROL Monthly]**, **[!UICONTROL Quarterly]**, **[!UICONTROL Yearly]**, or **[!UICONTROL None]**. 
 
-1. In the **[!UICONTROL Define training window]** section, select between: 
 
-    ![Model - Define training window](/help/assets/model-define-training-window.png)
+### Training window
 
-    * **[!UICONTROL Have Mix Modeler select a helpful training window]** and 
+In the **[!UICONTROL Define training window]** section, select between: 
 
-    * **[!UICONTROL Manually input a training window]**. When selected, define the number of years in **[!UICONTROL Include events the following years prior to a conversion]**.
+![Model - Define training window](/help/assets/model-define-training-window.png)
+
+* **[!UICONTROL Have Mix Modeler select a helpful training window]** and 
+
+* **[!UICONTROL Manually input a training window]**. When selected, define the number of years in **[!UICONTROL Include events the following years prior to a conversion]**.
 
 
-1. Select **[!UICONTROL Finish]** to finish your model configuration. 
+### Granular insights reporting fields
+
+The **[!UICONTROL Granular Insights Reporting Fields]** section, uses the granular incrementality reporting functionality. This functionality allows you to select harmonized fields to breakdown conversion and touchpoint incrementality scores.
+
+![Define granular insights reporting fields](/help/assets/granular-insights-reporting-fields.png)
+
+You define these harmonized fields so you can drill down in the reporting of your model using granular reporting columns instead of having to create separate models. 
    
-   * In the **[!UICONTROL Create instance?]** dialog, select **[!UICONTROL Ok]** to trigger the first set of training and scoring runs immediately. Your model is listed with status ![StatusOrange](/help/assets/icons/StatusOrange.svg) **[!UICONTROL Awaiting training]**.
+For example, you build a model that is focused on revenue, but you are also interested in the campaigns, channels, and traffic sources performance. Without the Granular Incrementality Reporting functionality, you would have to build four separate models. With the Granular Incrementality Reporting functionality, you can breakdown your revenue model on campaigns, channels, and traffic sources.
+
+1. Select one or more harmonized fields from the Select harmonized fields underneath Includes. The selected harmonized fields are added to the panel.
+1. Select **[!UICONTROL *Harmonized field*]** ![CrossSize100](/help/assets/icons/CrossSize100.svg)  to remove a harmonized field from the container with the selected harmonized fields.
+1. Select **[!UICONTROL Clear all]** to remove all selected harmonized fields.
+
+
+## Finish
+
+* Select **[!UICONTROL Finish]** to finish your model configuration. 
    
-     Select **[!UICONTROL Cancel]** to cancel. 
+  * In the **[!UICONTROL Create instance?]** dialog, select **[!UICONTROL Ok]** to trigger the first set of training and scoring runs immediately. Your model is listed with status ![StatusOrange](/help/assets/icons/StatusOrange.svg) **[!UICONTROL Awaiting training]**.
+   
+    Select **[!UICONTROL Cancel]** to cancel. 
   
-   * If more configuration is needed, a red outline and text explains what additional configuration is required. 
+  * If more configuration is needed, a red outline and text explains what additional configuration is required. 
    
-   Select **[!UICONTROL Back]** to go back to the previous step. 
+* Select **[!UICONTROL Back]** to go back to the previous step. 
    
-   Select **[!UICONTROL Cancel]** to cancel the model configuration.
+* Select **[!UICONTROL Cancel]** to cancel the model configuration.
+
