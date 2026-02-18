@@ -1,6 +1,6 @@
 ---
-title: Build Custom AI-Powered Attribution Models in Mix Modeler
-description: Learn how to build and configure AI-powered attribution models in Adobe Mix Modeler. Step-by-step guidance for conversions, touchpoints, training, and scoring.
+title: Build models In Mix Modeler
+description: Learn how to build models in Mix Modeler including how to setup, configuration, and advanced options. 
 feature: Models
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
 ---
@@ -175,7 +175,7 @@ In the **[!UICONTROL Schedule]** section, you can schedule model training and sc
 
      * **[!UICONTROL Daily]**: Enter a valid time (for example `05:22 pm`) or use ![Clock](/help/assets/icons/Clock.svg).
      * **[!UICONTROL Weekly]**: Select a day of the week and enter a valid time (for example `05:22 pm`) or use ![Clock](/help/assets/icons/Clock.svg).
-     * **[!UICONTROL Monthly]**: Select a day of the month from the Run on every dropdown menu and enter a valid time (for example `05:22 pm`) or use ![Clock](/help/assets/icons/Clock.svg).
+    * **[!UICONTROL Monthly]**: Select a day of the month from the Run on every dropdown menu and enter a valid time (for example `05:22 pm`) or use ![Clock](/help/assets/icons/Clock.svg).
 
   1. Select a **[!UICONTROL Training frequency]** from the dropdown menu: **[!UICONTROL Monthly]**, **[!UICONTROL Quarterly]**, **[!UICONTROL Yearly]**, or **[!UICONTROL None]**. 
 
