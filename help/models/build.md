@@ -174,8 +174,8 @@ In the **[!UICONTROL Schedule]** section, you can schedule model training and sc
   1. Select a **[!UICONTROL Scoring frequency]**:
 
      * **[!UICONTROL Daily]**: Enter a valid time (for example `05:22 pm`) or use ![Clock](/help/assets/icons/Clock.svg).
-     * **[!UICONTROL Weekly]**: Select a day of the week and enter a valid time (for example `05:22 pm`) or use ![Clock](/help/assets/icons/Clock.svg).
-    * **[!UICONTROL Monthly]**: Select a day of the month from the Run on every dropdown menu and enter a valid time (for example `05:22 pm`) or use ![Clock](/help/assets/icons/Clock.svg).
+     * **[!UICONTROL Weekly]**: Select a day of the week and enter a valid time (for example `05:22 pm`) or use ![Clock](/help/assets/icons/Clock.svg).  
+     * **[!UICONTROL Monthly]**: Select a day of the month from the Run on every dropdown menu and enter a valid time (for example `05:22 pm`) or use ![Clock](/help/assets/icons/Clock.svg).
 
   1. Select a **[!UICONTROL Training frequency]** from the dropdown menu: **[!UICONTROL Monthly]**, **[!UICONTROL Quarterly]**, **[!UICONTROL Yearly]**, or **[!UICONTROL None]**. 
 
@@ -204,6 +204,10 @@ For example, you build a model that is focused on revenue, but you are also inte
 1. Select one or more harmonized fields from the **[!UICONTROL _Select harmonized fields_]** underneath **[!UICONTROL Includes]**. The selected harmonized fields are added to the panel.
 1. Select **[!UICONTROL *Harmonized field*]** ![CrossSize100](/help/assets/icons/CrossSize100.svg)  to remove a harmonized field from the container with the selected harmonized fields.
 1. Select **[!UICONTROL Clear all]** to remove all selected harmonized fields.
+
+The selected harmonized fields for granular incrementality reporting are available as part of the Experience Platform [schema](/help/ingest-data/schemas.md) and [dataset](/help/ingest-data/datasets.md) that results from scoring the model. The granular insights reporting fields are available as part of the **[!UICONTROL conversionPassthrough]** and **[!UICONTROL touchpointPassthrough]** objects. 
+
+![Screenshot of the conversionPassthrough and touchpointPassthrough objects in a schema for a model enabled for granular incrementality reporting](/help/assets/schema-granular-insights-reporting.png)
 
 
 ## Finish
