@@ -205,7 +205,7 @@ For example, you build a model that is focused on revenue, but you are also inte
 1. Select **[!UICONTROL *Harmonized field*]** ![CrossSize100](/help/assets/icons/CrossSize100.svg)  to remove a harmonized field from the container with the selected harmonized fields.
 1. Select **[!UICONTROL Clear all]** to remove all selected harmonized fields.
 
-The selected harmonized fields for granular incrementality reporting are available as part of the Experience Platform [schema](/help/ingest-data/schemas.md) and [dataset](/help/ingest-data/datasets.md) that results from scoring the model. The granular insights reporting fields are available as part of the **[!UICONTROL conversionPassthrough]** and **[!UICONTROL touchpointPassthrough]** objects. 
+The selected harmonized fields for granular incrementality reporting are available as part of the Experience Platform [schema](/help/ingest-data/schemas.md) and [dataset](/help/ingest-data/datasets.md) that results from scoring the model. The granular insights reporting fields are available within the **[!UICONTROL conversionPassthrough]** and **[!UICONTROL touchpointPassthrough]** objects. 
 
 ![Screenshot of the conversionPassthrough and touchpointPassthrough objects in a schema for a model enabled for granular incrementality reporting](/help/assets/schema-granular-insights-reporting.png)
 
