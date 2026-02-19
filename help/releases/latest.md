@@ -16,7 +16,7 @@ These release notes cover the latest release of Mix Modeler. Mix Modeler release
 
 | Feature | Description | [Rollout start](#release-strategy) | [General Availability](#release-strategy) |
 |---|---|---|---|
-| **[!UICONTROL Granular Incrementality Reporting]** | Define harmonized fields so you can drill down in the reporting of your model using [granular insights reporting fields](/help/models/build.md#granular-insights-reporting-fields), instead of having to create separate models. | February 18, 2026 | February 18, 2026 |
+| **[!UICONTROL Granular incrementality reporting]** | Define harmonized fields so you can drill down in the reporting of your model using [granular insights reporting fields](/help/models/build.md#granular-insights-reporting-fields), instead of having to create separate models. | February 18, 2026 | February 18, 2026 |
 
 ## January 2026
 
