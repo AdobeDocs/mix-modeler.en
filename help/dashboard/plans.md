@@ -8,12 +8,11 @@ exl-id: 930fc1d5-8e28-4610-af7b-c4ec91f86a8a
 
 >[!NOTE]
 >
->The **[!UICONTROL Plans]** [!BADGE Alpha]{type=Informative} tab in Mix Modeler ![Home](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** is an alpha feature and its functionality is subject to change. The feature is available to a limited number of customers.
+>The **[!UICONTROL Performance to plan]** [!BADGE Beta]{type=Informative} tab in Mix Modeler ![Home](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** is an beta feature and its functionality is subject to change. The feature is available to a limited number of customers.
 
+The **[!UICONTROL Plans]** [!BADGE Beta]{type=Informative} tab in Mix Modeler ![Home](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** provides a tracking dashboard to monitor how well your marketing performs against the plan. You can track actual performance versus planned performance through status cards and visualizations.
 
-
-
-The **[!UICONTROL Plans]** [!BADGE Alpha]{type=Informative} tab in Mix Modeler ![Home](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** provides a tracking dashboard to monitor how well your marketing performs against the plan. 
+The dashboard helps you to identify gaps, spot risks or opportunities, and make timely adjustments to your plans and budgets.
 
 To select what data is displayed for the KPI status cards and visualizations:
 
@@ -21,24 +20,22 @@ To select what data is displayed for the KPI status cards and visualizations:
 
 * Specify a date period. To change the date period, enter a start date and end date manually or select a date period, using ![Calendar](/help/assets/icons/Calendar.svg).
 
-The **[!UICONTROL Plans]** [!BADGE Alpha]{type=Informative} tab shows:
+The **[!UICONTROL Plans]** [!BADGE Beta]{type=Informative} tab shows:
 
-* KPI status cards
+* [KPI status cards](#kpi-status-cards):
 
   * [Budget](#budget)
   * [Revenue](#revenue)
   * [ROI](#roi)
-  * [Orders](#orders)
+  * [KPI](#kpi)
 
-* Visualizations:
-  * [ROI: Actual vs Forecasted](#roi-actual-vs-forecasted)
-  * [Spend: Actual vs Planned](#spend-actual-vs-planned)
-  * [ROI by date ranges](#roi-by-date-ranges)
-  * [Revenue: Actual vs Forecasted](#revenue-actual-vs-forecasted)
-  * [Actual vs Predicted by date ranges](#actual-vs-predicted-spend-by-date-ranges)
-  * [Spend by date ranges](#spend-by-date-ranges)
-  * [Revenue by date ranges](#revenue-by-date-ranges)
-  * [Spend by date ranges (and channels)](#spend-by-date-ranges-and-channels)
+* [Visualizations](#visualizations):
+  * [*Metric*: Actual vs. planned](#metric-actual-vs-planned)
+  * [*Metric*: Actual vs. planned by *granularity*](#metric-actual-vs-planned-by-granularity)
+  * [Channel *metric* by *granularity*](#channel-metric-by-granularity)
+  * [*Metric* vs *Metric* by channel](#metric-vs-metric-by-channel)
+  * [*Metric* by *granularity*](#metric-by-granularity)
+  * [*Metric* by channel](#metric-by-channel)
 
 ## KPI status cards
 
@@ -59,54 +56,69 @@ A circular progress visualization that displays how the actual revenue compares 
 A line visualization that displays the ROI for the date period.
 
 
-### Orders
+### KPI
 
-A line visualization that displays the orders for the date period.
+A line visualization that displays the KPI for the date period.
 
 To select another KPI: 
 
 1. Select ![Edit](/help/assets/icons/Edit.svg).
-1. From the **[!UICONTROL KPI status card]** dialog, select a KPI from the **[!UICONTROL KPI]** dropdown menu.
+1. From the **[!UICONTROL KPI status card]** dialog, select a KPI from the **[!UICONTROL KPI]** dropdown menu. Available options are: [!UICONTROL Conversions], [!UICONTROL CPA], [!UICONTROL Revenue], [!UICONTROL ROI], and [!UICONTROL Spend].
 
 
 ## Visualizations
 
+Six visualizations are available and you can edit each of the six visualizations. 
+
+To resize a visualization, use the ┛ handle at the bottom right corner. To move a visualization, just drag and drop the visualization to the preferred position.
+
+You can hover over any line, bar or scatter element in a visualization to display a popup with additional information.
+
 ![Visualization](../assets/performance-to-plan-visualizations.png)
 
-### ROI: Actual vs Forecasted
+### *Metric*: Actual vs. planned
 
-A line visualization that compares actual ROI versus forecasted ROI for the date period.
-
-
-### Spend: Actual vs Planned
-
-A bar chart visualization that compares actual spend versus planned budget across channels for the date period.
-
-### ROI by date ranges
-
-A bar chart visualization that shows ROI by date range for the date period.
+A stacked bar visualization that compares the selected metric values for to-date, planned to-date and totals.
 
 
-### Revenue: Actual vs Forecasted
+### *Metric*: Actual vs. planned by *granularity*
 
-A line visualization that compares actual revenue versus forecasted revenue for the date period.
-
-
-### Actual vs Predicted spend by date ranges
-
-A bar chart visualization that shows actual versus predicted spend by date range for the date period.
+A line visualization that shows actual and planned values for the selected metric and the selected granularity.
 
 
-### Spend by date ranges
+### Channel *metric* by *granularity*
 
-A bar chart visualization that shows spend by date range for the date period.
-
-
-### Revenue by date ranges
-
-A bar chart visualization that shows revenue by date ranges for the date period.
+A stacked bar visualization that shows stacked bars that display channels for the selected metric and the selected granularity.
 
 
-### Spend by date ranges and channels
+### *Metric* vs *Metric* by channel
 
-A stacked bar chart visualization that shows spend by date ranges and channel for the date period.
+A scatter visualization that shows a scatter plot for channels across the selected metrics.
+
+
+### *Metric* by *granularity*
+
+A bar visualization that shows actual and planned values for the selected metric.
+
+
+### *Metric* by channel
+
+A multi-line visualization that shows the selected metric over the selected granularity.
+
+
+### Edit a visualization
+
+To edit a visualization:
+
+1. Select ![Edit](/help/assets/icons/Edit.svg) to open the **[!UICONTROL Edit data]** dialog. 
+1. Depending on the visualization, you can change:
+
+   * One or two metrics: Select a metric from the **[!UICONTROL Select metric]** dropdown menu.
+
+     * For ROI based plans, the options are: [!UICONTROL Conversions], [!UICONTROL CPA], [!UICONTROL Revenue], [!UICONTROL ROI], [!UICONTROL Spend], and [!UICONTROL Volume].
+     * For CPA based plans, the options are: [!UICONTROL Conversions], [!UICONTROL CPA], [!UICONTROL Spend], and [!UICONTROL Volume].
+   * **[!UICONTROL Granularity]**: Select either **[!UICONTROL date ranges]** or **[!UICONTROL week]** from the **[!UICONTROL Granularity]** dropdown menu.
+
+   You see in **[!UICONTROL Preview]** how the changes are different from the **[!UICONTROL Current]** visualization.
+
+1. Select **[!UICONTROL Apply]** to apply the changes. Select **[!UICONTROL Cancel]** to cancel any change to the visualization.
