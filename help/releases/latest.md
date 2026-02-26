@@ -11,7 +11,6 @@ exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
 
 These release notes cover the latest release of Mix Modeler. Mix Modeler releases operate on a continuous delivery model, which allows for an approximate monthly release cadence. Accordingly, these release notes get updated, so check them regularly.
 
-
 ## February 2026
 
 | Feature | Description | [Rollout start](#release-strategy) | [General Availability](#release-strategy) |
