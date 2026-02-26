@@ -7,7 +7,7 @@ exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
 ---
 # Current Mix Modeler release notes
 
-**Last update**: January 13, 2026.
+**Last update**: February 26, 2026.
 
 These release notes cover the latest release of Mix Modeler. Mix Modeler releases operate on a continuous delivery model, which allows for an approximate monthly release cadence. Accordingly, these release notes get updated, so check them regularly.
 
@@ -16,6 +16,7 @@ These release notes cover the latest release of Mix Modeler. Mix Modeler release
 
 | Feature | Description | [Rollout start](#release-strategy) | [General Availability](#release-strategy) |
 |---|---|---|---|
+| **Harmonized factors workflow** | Factors are now managed as part of a [harmonized factors workflow](/help/harmonize-data/overview.md#factors). This simplifies how to [define factor data](/help/ingest-data/schemas.md#factor-standard-fields-field-group), how to [manage internal and external factors as part of your dataset rules](/help/harmonize-data/dataset-rules.md#factor-datasets), and how to use factor data in [models](/help/models/build.md#configure). | February 25, 2026 | February 25, 2026 |
 | **[!UICONTROL Granular incrementality reporting]** | Define harmonized fields so you can drill down in the reporting of your model using [granular insights reporting fields](/help/models/build.md#granular-insights-reporting-fields), instead of having to create separate models. | February 18, 2026 | February 18, 2026 |
 
 ## January 2026
