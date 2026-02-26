@@ -7,9 +7,9 @@ exl-id: 42851107-7568-4bc9-92ca-3cba713a522e
 # Marketing touchpoints {#marketing-touchpoints}
 
 >[!CONTEXTUALHELP]
->id="harmonizeddata_marketingtouchpoint"
->title="Marketing touchpoint"
->abstract="Marketing touchpoints are recipient, individual, and or cookie-level marketing events used to evaluate the impact of marketing investments on numeric or revenue-based conversions."
+>id="harmonizeddata_marketingtouchpoints_create"
+>title="Marketing touchpoints"
+>abstract="Marketing touchpoints are recipient, individual, and or cookie-level marketing events used to evaluate the impact of marketing investments on numeric or revenue-based conversions." 
 
 
 Marketing touchpoints are recipient, individual, and or cookie-level marketing events used to evaluate the impact of marketing investments on numeric or revenue-based conversions.
@@ -31,7 +31,7 @@ The table columns specify details about the marketing touchpoint:
 | Name | The name of the marketing touchpoint.  |
 | Spend metric | The harmonized data metric to use to calculate touchpoint spend.  |
 | Volume metric | The harmonized data metric to use to calculate touchpoint volume. |
-| Rule | The touchpoint rule to use. | 
+| Rule | The touchpoint rule to use. |
 | Created | Date and time of the creation of the marketing touchpoint. |
 | Last modified | Date and time of the last modification of the marketing touchpoint. |
 
