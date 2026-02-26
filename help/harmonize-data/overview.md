@@ -126,7 +126,7 @@ You want to build a harmonized dataset, with a granularity set to weekly. The ev
 To build a harmonized dataset, like in the simplified [example](#an-example-of-harmonized-data), you must follow these steps:
 
 1. Define additional [harmonized fields](fields.md) that you want to use beyond the global harmonized fields already available.
-1. Set up [dataset rules](dataset-rules.md) to map fields from your aggregate or experience event datasets to harmonized fields.
+1. Set up [dataset rules](dataset-rules.md) to map fields from your aggregate (factor or summary) or experience event datasets to harmonized fields.
 1. Define [marketing touchpoints](marketing-touchpoints.md) using the standard and additional harmonized fields that you defined.
 1. Define [conversions](conversions.md) using the standard and additional harmonized fields that you defined.
    
@@ -143,7 +143,7 @@ To see your harmonized data, in the Mix Modeler interface:
 
     1. To modify the harmonized field columns displayed for the Harmonized data table, use ![Settings](/help/assets/icons/Setting.svg) to open the **[!UICONTROL Column settings]** dialog.
 
-       1. Select ![SelectBox](/help/assets/icons/SelectBox.svg) one or more columns from **[!UICONTROL AVAILABLE COLUMNS]** and use ![Chevron right](/help/assets/icons/ChevronRight.svg) to add these columns to **[!UICONTROL SELECTED COLUMNS]**. 
+       1. Select ![SelectBox](/help/assets/icons/SelectBox.svg) one or more columns from **[!UICONTROL AVAILABLE COLUMNS]** and use ![Chevron right](/help/assets/icons/ChevronRight.svg) to add these columns to **[!UICONTROL SELECTED COLUMNS]**. All the standard harmonized fields you have defined (including fields related to factor datasets, such as **[!UICONTROL Factor Name]**, **[!UICONTROL Factor Value]**, **[!UICONTROL Factor Type]** and **[!UICONTROL Factor Value Type]**) are available.
 
        1. Select ![SelectBox](/help/assets/icons/SelectBox.svg) one or more columns from **[!UICONTROL SELECTED COLUMNS]** and use ![Chevron left](/help/assets/icons/ChevronLeft.svg) to remove the selected columns and return these columns back to **[!UICONTROL AVAILABLE COLUMNS]**.
 
