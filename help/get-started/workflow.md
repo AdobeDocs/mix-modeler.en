@@ -29,7 +29,8 @@ A typical workflow in Mix Modeler consists of the following activities:
 An overview of how input data can flow into Mix Modeler and how Mix Modeler can produce output data for its own interface but also for other solutions, like Customer Journey Analytics, is illustrated below.
 
 ![Mix Modeler input output data flow](../assets/mm-input-output.png)
-<!---
+
+<!--
 The detailed data-oriented flowchart below illustrates how:
 
 * harmonized data is based on:
@@ -46,5 +47,4 @@ The detailed data-oriented flowchart below illustrates how:
 * mult-touch attribution event scores can potentially be fed back into Experience Platform data lake for use in subsequent model configuration, training and scoring.
 
 ![Comprehensive workflow](/help/assets/comprehensive-workflow.svg)
-
 -->

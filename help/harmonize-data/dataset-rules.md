@@ -160,7 +160,7 @@ For the **[!UICONTROL Factor value]** harmonized field use one of the aggregatio
   |---|---|---:|
   | 13 Mar 2025 | _definedsp500 | 10 |
   | 13 Mar 2025 | _cpi | 20 |
-  | 14 Mar 2025 | _definedsp500 | 30 | 
+  | 14 Mar 2025 | _definedsp500 | 30 |
   | 14 Mar 2025 | _cpi | 40 |
   | 15 Mar 2025 | _definedsp500 | 50 |
   | 15 Mar 2025 | _cpi | 60 |
@@ -174,7 +174,7 @@ For the **[!UICONTROL Factor value]** harmonized field use one of the aggregatio
 
   | Factor Name | Factor Value | Factor Type | Value Type |
   |---|---:|---|---|
-  | CPI | 20 | Internal | Actual | 
+  | CPI | 20 | Internal | Actual |
   | S&P 500 | 10 | Internal | Actual |
 
   Since there are no dataset rules defined for **[!UICONTROL Factor Type]** and **[!UICONTROL Value Type]**, the defaults are used.
