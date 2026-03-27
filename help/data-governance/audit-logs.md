@@ -8,7 +8,8 @@ exl-id: aa65aac5-bea4-43ff-b0d0-9e8a6a97d3ca
 
 To increase the transparency and visibility of activities performed in the system, user activity within the Mix Modeler workflow is captured in Experience Platform audit logs to understand any user-driven changes to Mix Modeler categories. These logs form an audit trail that can help with troubleshooting issues, and can help your business effectively comply with corporate data stewardship policies and regulatory requirements.  
 
-<!-- DO WE HAVE TO ADD THIS
+<!-- 
+DO WE HAVE TO ADD THIS
 If you are subject to the Health Insurance Portability and Accountability Act (HIPAA) and create, receive, maintain, or transmit permitted sensitive personal data through Mix Modeler, you are responsible for executing a BAA with Adobe and licensing Healthcare Shield.
 -->
 
