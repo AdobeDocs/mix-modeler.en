@@ -136,6 +136,24 @@ You can specify advanced settings in the **[!UICONTROL Advanced]** step. In this
     1. When needed, use **[!UICONTROL Clear all]** to clear all input values for the **[!UICONTROL Contribution proportion]** and **[!UICONTROL Level of confidence]** columns.
 
 
+1. In the **[!UICONTROL Channel ad stock]** section you can define individual ad stock lookbacks (carryover or decay effects) and lag (delayed response time) for each channel (marketing channel) you have defined in your model. 
+
+   This channel ad stock configuration allows for fine-grained control on how different marketing channels impact business outcomes over time. You can still rely on system defaults an a one-size-fits-all settings.
+
+   The channel ad stock configuration helps you to capture channel-specific nuances. For example, the long-lasting impact of TV campaigns, the short-lived impact of paid search, or the lag between influencer spend and observable conversions. Experiment with ad stock lookback and lag parameters to generate more accurate, tailor-made, and trustworthy insights. Ultimately this leads leads to more precise budget allocation and better business decisions.
+
+   ![Channel ad stock](/help/assets/channel-ad-stock.png)
+
+   To configure channel ad stock:
+
+   * For each channel (**[!UICONTROL Name]**), define a **[!UICONTROL Lag (weeks)]**, a **[!UICONTROL Min Lookback (weeks)]**,  and **[!UICONTROL Max Lookback (weeks)]** value. For each value:
+
+     * Use ![Add](/help/assets/icons/Add.svg) to increase a value,  to decrease a value, or enter a value manually.
+
+     The total of lag weeks plus maximum lookback weeks per channel is capped at one-eighth of the configured training window. This cap allows for enough data for the model to learn the ad stock effects. As an example, for a two year training window, the maximum of **[!UICONTROL Lag (weeks)]** and **[!UICONTROL Lookback (weeks)]** for a channelis 13 weeks. This cap is enforced when you define the values. 
+
+
+
 ## Set options 
 
 You can [schedule training and scoring](#schedule), [define training window](#training-window), and specify [granular insights reporting fields](#granular-insights-reporting-fields) for your model in the **[!UICONTROL Set options]** step.
