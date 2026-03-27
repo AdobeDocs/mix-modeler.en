@@ -2,10 +2,12 @@
 cloud: Experience Cloud
 solution: Mix Modeler
 product: experience cloud
+landing-page-name: mix-modeler
+landing-page-breadcrumb-title: Mix Modeler
 type: Documentation
 mini-toc-levels: 2
 git-repo: https://github.com/AdobeDocs/mix-modeler.en
-index: yes
+index: true
 feature-set: Mix Modeler
 role: User, Admin
 ---
