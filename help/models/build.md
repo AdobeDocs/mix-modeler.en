@@ -100,6 +100,16 @@ You configure your model in the **[!UICONTROL Configure]** step. Configuration i
 
 1. To define the lookback window for the model, enter a value between `1` and `52` in **[!UICONTROL Give contribution credit to touchpoints occurring within]** ... **[!UICONTROL weeks prior to the conversion]** in the **[!UICONTROL Define lookback window]** section.
 
+1. To define the training window for a model, at **[!UICONTROL Define training window]**, select where you would like to start scoring conversions.
+
+   ![Model - Define training window](/help/assets/model-define-training-window.png)
+
+   You can select between: 
+
+   * **[!UICONTROL Have Mix Modeler select a helpful training window]** and 
+
+   * **[!UICONTROL Manually input a training window]**. When selected, define the number of years in **[!UICONTROL Include events the following years prior to a conversion]**.
+
 1. Select **[!UICONTROL Next]** to continue to the next step. If more configuration is needed, a red outline and text explains what additional configuration is required. <br/>Select **[!UICONTROL Back]** to go back to the previous step. <br/>Select **[!UICONTROL Cancel]** to cancel the model configuration.
 
 
@@ -155,7 +165,7 @@ You can specify advanced settings in the **[!UICONTROL Advanced]** step. In this
 
 ## Set options
 
-You can [schedule training and scoring](#schedule), [define training window](#training-window), and specify [granular insights reporting fields](#granular-insights-reporting-fields) for your model in the **[!UICONTROL Set options]** step.
+You can [schedule training and scoring](#schedule), and specify [granular insights reporting fields](#granular-insights-reporting-fields) for your model in the **[!UICONTROL Set options]** step.
 
 
 ### Schedule
@@ -174,17 +184,6 @@ In the **[!UICONTROL Schedule]** section, you can schedule model training and sc
      * **[!UICONTROL Monthly]**: Select a day of the month from the Run on every dropdown menu and enter a valid time (for example `05:22 pm`) or use ![Clock](/help/assets/icons/Clock.svg).
 
   1. Select a **[!UICONTROL Training frequency]** from the dropdown menu: **[!UICONTROL Monthly]**, **[!UICONTROL Quarterly]**, **[!UICONTROL Yearly]**, or **[!UICONTROL None]**. 
-
-
-### Training window
-
-In the **[!UICONTROL Define training window]** section, select between: 
-
-![Model - Define training window](/help/assets/model-define-training-window.png)
-
-* **[!UICONTROL Have Mix Modeler select a helpful training window]** and 
-
-* **[!UICONTROL Manually input a training window]**. When selected, define the number of years in **[!UICONTROL Include events the following years prior to a conversion]**.
 
 
 ### Granular insights reporting fields
