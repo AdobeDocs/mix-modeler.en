@@ -84,7 +84,8 @@ Successful implementation of this use can have the following impact:
 
 +++
 
-<!-- This use case is not supported with initial release
+<!--
+This use case is not supported with initial release
 
 ## Make data-driven inflight optimizations
 
