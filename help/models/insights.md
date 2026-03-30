@@ -1,5 +1,5 @@
 ---
-title: Model insights
+title: Model Insights
 description: Learn how to get details about your model, like historical overview, model insights, and model quality in Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
@@ -15,7 +15,7 @@ Each visualization in model insights is designed to help you to:
 
 These insights then help you to support resource prioritization and allocation.
 
-To view model insights, in the ![Models](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** interface in Mix Modeler:
+To view model insights, in the ![Models](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** interface in [!DNL Mix Modeler]:
 
 1. From the **[!UICONTROL Models]** table, select the name of a model that has a **[!UICONTROL Last run status]** of ![StatusGreen](/help/assets/icons/StatusGreen.svg) **[!UICONTROL Success]**.
    
@@ -26,8 +26,8 @@ To view model insights, in the ![Models](/help/assets/icons/FileData.svg) **[!UI
 The following tabs are available:
 
 * [Model insights](#model-insights)
-* [Channel synergy](#channel-synergy)
-* [Factors](#factors-beta) [!BADGE beta]
+* [Channel analysis](#channel-analysis)
+* [Factors](#factors) [!BADGE beta]
 * [Attribution](#attribution) (only for MTA enabled models) 
 * [Diagnostics](#diagnostics) 
 * [Historical overview](#historical-overview).
@@ -44,7 +44,7 @@ If model drift is detected on the model, you see a **[!UICONTROL Model drift det
 
 ## Model insights {#model-insights-section}
 
-The **[!UICONTROL Model insights]** tab shows visualizations for [Contribution by date and base media](#contribution-by-date-and-base-media), [Contribution by channel](#contribution-by-channel), [Marketing performance summary](#marketing-performance-summary), and [Marginal response curves](#marginal-response-curves). The tab also provides a [Touchpoint breakdown](#touchppint-breakdown) table.
+The **[!UICONTROL Model insights]** tab shows visualizations for [Contribution by date and base media](#contribution-by-date-and-base-media), [Contribution by channel](#contribution-by-channel), [Marketing performance summary](#marketing-performance-summary), and [Marginal response curves](#marginal-response-curves). The tab also provides a [Touchpoint breakdown](#touchpoint-breakdown) table.
 
 ![Model - Model insights](/help/assets/model-insights-insights.png)
 
@@ -117,12 +117,12 @@ To download the contents of the Touchpoint breakdown table, select ![Download](/
 
 ## Channel analysis
 
-The **[!UICONTROL Channel alaysis]** tab, shows visualization for **[!UICONTROL Channel synergies]** and Channel ad stock.
+The **[!UICONTROL Channel analysis]** tab shows visualization for **[!UICONTROL Channel synergies]** and **[Channel ad stock]**.
 
 
 ### Channel synergies
 
-The Channel synergies visualizations helps you to identify how marketing channels interact to create multiplicative effects, beyond their individual contributions.
+The Channel synergies visualization helps you to identify how marketing channels interact to create multiplicative effects, beyond their individual contributions.
 
 The heatmap matrix provides a visual representation of the synergy values between pairs of spend channels. This matrix helps marketers to understand how channels interact to drive performance. For each model, synergy values are normalized from 0 to 10. These values quantify the *next dollar synergy*, which estimates how effectively two channels work together when each receives one additional dollar of spend at the current levels. 
 
@@ -131,7 +131,7 @@ This next-dollar framework offers a realistic measure of relative synergy streng
 
 >[!BEGINTABS]
 
->[!TAB Show less synergies] 
+>[!TAB Show fewer synergies] 
 
 ![Plan channel synergies](/help/assets/model-channel-synergies-less.png)
 
@@ -144,7 +144,7 @@ This next-dollar framework offers a realistic measure of relative synergy streng
 
 * To show all synergies, select **[!UICONTROL Show all]**.
 
-* To select the top synergies, select **[!UICONTROL Show less]**
+* To select fewer synergies, select **[!UICONTROL Show less]**
 
 * To show details of a synergy, hover over a cell in the visualization.
 
@@ -157,11 +157,11 @@ This next-dollar framework offers a realistic measure of relative synergy streng
 
 ### Channel ad stock
 
-The channel ad stock visualizations show for each configured channel ad stock a visualization. Thr visualizations help you to understand how the impact of marketing spend for each channel persists and decays over time and beyond the initial exposure. The visualization providing a realistic view of channel carryover through the incorporation of temporal dynamics learned from the model.
+The channel ad stock visualizations show for each configured channel ad stock a visualization. The visualizations help you to understand how the impact of marketing spend for each channel persists and decays over time and beyond the initial exposure. The visualization provides a realistic view of channel carryover through the incorporation of temporal dynamics that are learned from the model.
 
 Each individual chart represents a single marketing channel and shows its ad stock curve. That curve models how the effect of a unit of exposure carries over into future periods. The curve illustrates the rate at which impact on conversion diminishes and helps marketers to compare how long different channels continue to influence performance after the initial investment.
 
-Channels with slower decay curves (longer tails) indicate sustained impact over time. Channels with steep drop-offs reflect more immediate, short-lived effects. The length of each curve is determined by the maximum lookback period configured for that channel.
+Channels with slower decay curves (longer tails) indicate sustained impact over time. Channels with steep drop-offs reflect more immediate, short-lived effects. The maximum lookback period configured for that channel determines the length of each curve.
 
 >[!BEGINTABS]
 
@@ -175,7 +175,7 @@ Channels with slower decay curves (longer tails) indicate sustained impact over 
 
 >[!ENDTABS]
 
-* To display ad stock visualizations for **[!UICONTROL All channels]** or an ad stock visualization for an invidual  channel (for example, **[!UICONTROL Paid Social Facebook]**), select from the **[!UICONTROL Channel]** drop-down menu.
+* To display ad stock visualizations for **[!UICONTROL All channels]** or an ad stock visualization for an individual  channel (for example, **[!UICONTROL Paid Social Facebook]**), select from the **[!UICONTROL Channel]** drop-down menu.
 
 
 ## Factors {#factors}
@@ -211,7 +211,7 @@ If no data is available you see a message ![TableAndChart](/help/assets/icons/Ta
 >[!CONTEXTUALHELP]
 >id="models_attribution_breakdownbytouchpointposition"
 >title="Breakdown by touchpoint position"
->abstract="This visualization shows a breakdown of attributed conversions by position of the touchpoint and touchpoint across all the conversion paths. The visualization compares if a touchpoint contributes better at a position than that of remaining positions and other touchpoints at any position."
+>abstract="This visualization shows a breakdown of attributed conversions by position of the touchpoint and touchpoint across all the conversion paths. The visualization compares if a touchpoint contributes better at a position than at remaining positions and other touchpoints at any position."
 
 
 
@@ -223,7 +223,7 @@ Using the [!UICONTROL Attribution] tab, you can understand the effectiveness of 
 
 The following attribution models are supported:
 
-* Based on the selected model in Mix Modeler:
+* Based on the selected model in [!DNL Mix Modeler]:
   * Algorithmic - Influenced
   * Algorithmic - Incremental
 * Rule based:
@@ -233,13 +233,13 @@ The following attribution models are supported:
   * Linear
   * Ushape
 
-See [Multi-touch attribution](../get-started/about.md#multi-touch-attribution) for an introduction on the multi-touch attribution capability in Mix Modeler.
+See [Multi-touch attribution](../get-started/about.md#multi-touch-attribution) for an introduction on the multi-touch attribution capability in [!DNL Mix Modeler].
 
 Select one or more attribution models from the **[!UICONTROL Attribution Model]** dropdown menu. The selected attribution models apply to all visualizations in the Attribution tab.
 
 ![Attribution](/help/assets/model-insights-attribution.png)
 
-The Mix Modeler multi-touch attribution granular event scores align to the overall Mix Modeler scores and ROIs. These scores are also made available as datasets in Experience Platform.
+The Mix Modeler multi-touch attribution granular event scores align to the overall [!DNL Mix Modeler] scores and ROIs. These scores are also made available as datasets in Experience Platform.
 
 The Attribution tab consists of the following visualizations:
 
@@ -273,7 +273,7 @@ To sort the table in ascending &uarr; or descending order &darr; for Channel, Me
 
 To expand the table in a separate dialog, select **[!UICONTROL Expand]** from ![More](/help/assets/icons/More.svg).
 
-The expanded Top campaigns dialog shows the same table with addition columns for 
+The expanded **[!UICONTROL Top campaigns]** dialog shows the same table with addition columns for:
 
 * Incremental conversions 
 * Influenced conversions
@@ -339,19 +339,19 @@ For each conversion path, you see:
 >[!CONTEXTUALHELP]
 >id="models_diagnostics_efficiencymeasure"
 >title="Efficiency measure"
->abstract="The efficiency measure generated by the algorithmic attribution model indicates the relative importance of a touchpoint toward conversion independent of touchpoint volume. This is measured on a scale of 1 to 5. Note that higher touchpoint volume does not guarantee higher efficiency measure."
+>abstract="The efficiency measure generated by the algorithmic attribution model indicates the relative importance of a touchpoint toward conversion independent of touchpoint volume. This measure is on a scale of 1 to 5. Note that higher touchpoint volume does not guarantee higher efficiency measure."
 
 
 >[!CONTEXTUALHELP]
 >id="models_diagnostics_totalvolume"
 >title="Total volume"
->abstract="The total volume is the aggregate number of times a touchpoint was touched by a user and is inclusive of touchpoints that appear on a path achieving conversion as well as paths not resulting in conversion."
+>abstract="The total volume is the aggregate number of times a user touches a touchpoint. And is inclusive of touchpoints that appear on a path that achieves as well as paths not resulting in conversion."
 
 
 >[!CONTEXTUALHELP]
 >id="models_diagnostics_modeldateinfo"
 >title="Model date as of"
->abstract="The data for this table is only generated for specific periods of time.  The **[!UICONTROL As of]** date indicates when the data was generated and is based on data from specified date up until a year back."
+>abstract="The data for this table is only generated for specific periods of time.  The **[!UICONTROL As of]** date indicates when the data was generated and is based on data from the specified date up until a year back."
 
 
 The **[!UICONTROL Diagnostics]** tab shows visualizations for:
@@ -386,7 +386,7 @@ The **[!UICONTROL Diagnostics]** tab shows visualizations for:
   * **[!UICONTROL Training sMAPE]** (symmetric Mean Absolute Percentage Error): Measures average percentage error on training data. Lower values indicate better accuracy.
   * **[!UICONTROL Training RMSE]** (Root Mean Squared Error): Measures average percentage error on training data. Penalizes larger errors more than MAPE. Lower RMSE suggests better predictive accuracy but is sensitive to outliers.
   * **[!UICONTROL Out-of-sample sMAPE]**: Evaluates percentage error on unseen data, balancing over- and under-predictions. Helps to assess generalization. Currently, Mix Modeler evaluates percentage error using the last quarter of training data as a holdout set.
-  * **[!UICONTROL Out-of-sample RMSE]**: Evaluates percentage error on unseen data, balancing over- and under-predictions. Helps assess generalization. Currently, Mix Modeler evaluates percentage error using the last quarter of training data as a holdout set. RMSE penalizes larger errors more than MAPE.
+  * **[!UICONTROL Out-of-sample RMSE]**: Evaluates percentage error on unseen data, balancing over- and under-predictions. Helps assess generalization. Currently, [!DNL Mix Modeler] evaluates percentage error using the last quarter of training data as a holdout set. RMSE penalizes larger errors more than MAPE.
 
 
 * **[!UICONTROL Touchpoint effectiveness]** table, representing the outcome of the Attribution AI algorithmic model. 
@@ -406,7 +406,7 @@ The **[!UICONTROL Diagnostics]** tab shows visualizations for:
 
 >[!AVAILABILITY]
 >
->The functionality described in this section is in the Limited Testing phase of release and might not be available yet in your environment. This note is removed when the functionality is generally available. For information about the Mix Modeler release process, see [Mix Modeler feature releases](/help/releases/latest.md).
+>The functionality described in this section is in the Limited Testing phase of release and might not be available yet in your environment. This note is removed when the functionality is generally available. For information about the [!DNL Mix Modeler] release process, see [Mix Modeler feature releases](/help/releases/latest.md).
 >
 
 If model drift is detected, you see a **[!UICONTROL Model drift detected]** notification at the top.
@@ -437,7 +437,7 @@ This visualization represents the spend distribution across various channels wit
 
 This visualization represents the spend distribution across paid touchpoints for each quarter within the given date range. The visualization enables understanding of which touchpoints are prioritized within specific channels and quarters. The visualization helps to identify channel spending patterns and trends, particularly channels with low and infrequent spending over time.
 
-To can select an alternative spend-based channel to display for this visualization:
+To display an alternative spend-based channel for this visualization:
 
 * Select a channel from **[!UICONTROL Channels]**.
 
@@ -446,7 +446,7 @@ To can select an alternative spend-based channel to display for this visualizati
 
 This visualization represents the volume distribution across all touchpoints for each quarter within the given date range.
 
-To can select an alternative volume-based channel to display for this visualization:
+To display an alternative volume-based channel for this visualization:
 
 * Select a channel from **[!UICONTROL Channels]**.
 
