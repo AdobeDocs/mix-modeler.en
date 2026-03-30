@@ -28,6 +28,7 @@ You define a name and a description in the **[!UICONTROL Setup]** step:
 >title="Marketing touchpoints"
 >abstract="Marketing touchpoints are recipient, individual, and or cookie-level marketing events used to evaluate the impact of marketing investments on numeric or revenue-based conversions.<br/><br/>You cannot set up the model with touchpoints that have overlapping data and there must be at least one touchpoint with spend."
 
+
 You configure your model in the **[!UICONTROL Configure]** step. Configuration involves the definition of conversion goals, marketing touchpoints, the eligible data population, external and internal factors, and more.
 
 1. In the **[!UICONTROL Conversion goal]** section:
@@ -104,6 +105,11 @@ You configure your model in the **[!UICONTROL Configure]** step. Configuration i
 
 
 ## Advanced
+
+>[!CONTEXTUALHELP]
+>id="model_advanced_channeladstock"
+>title="Channel adstock"
+>abstract="Incorporate domain expertise, experimentation results, or previous channel analyses directly into the model setup. Adstock configuration helps guide the model to align with real-world expectations and improves interpretability and trust in the output. The total of lookback weeks plus lag weeks per channel is capped at one-eighth of the configured training window. This cap allows for enough data for the model to learn the ad stock effects."
 
 You can specify advanced settings in the **[!UICONTROL Advanced]** step. In this step, you can enable your model for multi-touch attribution (MTA).
 
