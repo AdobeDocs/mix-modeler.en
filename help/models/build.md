@@ -96,8 +96,6 @@ You configure your model in the **[!UICONTROL Configure]** step. Configuration i
    * To delete a factor dataset, select ![CrossSize200](/help/assets/icons/CrossSize400.svg).
 
 
-
-
 1. To define the lookback window for the model, enter a value between `1` and `52` in **[!UICONTROL Give contribution credit to touchpoints occurring within]** ... **[!UICONTROL weeks prior to the conversion]** in the **[!UICONTROL Define lookback window]** section.
 
 1. To define the training window for a model, at **[!UICONTROL Define training window]**, select where you would like to start scoring conversions.
@@ -109,6 +107,8 @@ You configure your model in the **[!UICONTROL Configure]** step. Configuration i
    * **[!UICONTROL Have Mix Modeler select a helpful training window]** and 
 
    * **[!UICONTROL Manually input a training window]**. When selected, define the number of years in **[!UICONTROL Include events the following years prior to a conversion]**.
+
+   This input is required for a model. The number of years determine how channel ad stock, that you can configure in the **[!UICONTROL Advanced]** step, is capped.
 
 1. Select **[!UICONTROL Next]** to continue to the next step. If more configuration is needed, a red outline and text explains what additional configuration is required. <br/>Select **[!UICONTROL Back]** to go back to the previous step. <br/>Select **[!UICONTROL Cancel]** to cancel the model configuration.
 
