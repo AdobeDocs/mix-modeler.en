@@ -109,9 +109,7 @@ You configure your model in the **[!UICONTROL Configure]** step. Configuration i
 >[!CONTEXTUALHELP]
 >id="model_advanced_channeladstock"
 >title="Channel adstock"
->abstract="abstract"
->additional-url="url"
->additional-url="url"
+>abstract="Incorporate domain expertise, experimentation results, or previous channel analyses directly into the model setup. Adstock configuration helps guide the model to align with real-world expectations and improves interpretability and trust in the output. The total of lookback weeks plus lag weeks per channel is capped at one-eighth of the configured training window. This cap allows for enough data for the model to learn the ad stock effects."
 
 You can specify advanced settings in the **[!UICONTROL Advanced]** step. In this step, you can enable your model for multi-touch attribution (MTA).
 
