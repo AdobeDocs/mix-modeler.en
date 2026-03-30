@@ -148,10 +148,9 @@ You can specify advanced settings in the **[!UICONTROL Advanced]** step. In this
 
    * For each channel (**[!UICONTROL Name]**), define a **[!UICONTROL Lag (weeks)]**, a **[!UICONTROL Min Lookback (weeks)]**,  and **[!UICONTROL Max Lookback (weeks)]** value. For each value:
 
-     * Use ![Add](/help/assets/icons/Add.svg) to increase a value,  to decrease a value, or enter a value manually.
+     * Use ![Add](/help/assets/icons/Add.svg) to increase a value, ![Subtract](/help/assets/icons/Subtract.svg) to decrease a value, or enter a value manually.
 
      The total of lag weeks plus maximum lookback weeks per channel is capped at one-eighth of the configured training window. This cap allows for enough data for the model to learn the ad stock effects. As an example, for a two year training window, the maximum of **[!UICONTROL Lag (weeks)]** and **[!UICONTROL Lookback (weeks)]** for a channelis 13 weeks. This cap is enforced when you define the values. 
-
 
 
 ## Set options 

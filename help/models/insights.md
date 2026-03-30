@@ -44,7 +44,7 @@ If model drift is detected on the model, you see a **[!UICONTROL Model drift det
 
 ## Model insights {#model-insights-section}
 
-The Model insights tab shows visualizations for [Contribution by date and base media](#contribution-by-date-and-base-media), [Contribution by channel](#contribution-by-channel), [Marketing performance summary](#marketing-performance-summary), and [Marginal response curves](#marginal-response-curves). The tab also provides a [Touchpoint breakdown](#touchppint-breakdown) table.
+The **[!UICONTROL Model insights]** tab shows visualizations for [Contribution by date and base media](#contribution-by-date-and-base-media), [Contribution by channel](#contribution-by-channel), [Marketing performance summary](#marketing-performance-summary), and [Marginal response curves](#marginal-response-curves). The tab also provides a [Touchpoint breakdown](#touchppint-breakdown) table.
 
 ![Model - Model insights](/help/assets/model-insights-insights.png)
 
@@ -115,22 +115,67 @@ To select a specific channel or all channels, select from the **[!UICONTROL View
 To download the contents of the Touchpoint breakdown table, select ![Download](/help/assets/icons/Download.svg) **[!UICONTROL Download CSV]**.
 
 
-## Channel synergy
+## Channel analysis
 
-In the **[!UICONTROL Channel synergy]** tab, the **[!UICONTROL Channel synergies]** visualization helps you to identify how marketing channels interact to create multiplicative effects, beyond their individual contributions.
+The **[!UICONTROL Channel alaysis]** tab, shows visualization for **[!UICONTROL Channel synergies]** and Channel ad stock.
+
+
+### Channel synergies
+
+The Channel synergies visualizations helps you to identify how marketing channels interact to create multiplicative effects, beyond their individual contributions.
 
 The heatmap matrix provides a visual representation of the synergy values between pairs of spend channels. This matrix helps marketers to understand how channels interact to drive performance. For each model, synergy values are normalized from 0 to 10. These values quantify the *next dollar synergy*, which estimates how effectively two channels work together when each receives one additional dollar of spend at the current levels. 
 
 This next-dollar framework offers a realistic measure of relative synergy strength, as the framework accounts for actual spend conditions in the training data and as such enables more informed optimization decisions.
 
-![Plan channel synergies](/help/assets/model-channel-synergies.png)
 
-To download a CSV file that represents the matrix, select ![Download](/help/assets/icons/Download.svg) **[!UICONTROL Download]**.
+>[!BEGINTABS]
+
+>[!TAB Show less synergies] 
+
+![Plan channel synergies](/help/assets/model-channel-synergies-less.png)
+
+>[!TAB Show all synergies]
+
+![Plan channel synergies](/help/assets/model-channel-synergies-all.png)
+
+>[!ENDTABS]
+
+
+* To show all synergies, select **[!UICONTROL Show all]**.
+
+* To select the top synergies, select **[!UICONTROL Show less]**
+
+* To show details of a synergy, hover over a cell in the visualization.
+
+* To download a CSV file that represents the matrix, select ![Download](/help/assets/icons/Download.svg) **[!UICONTROL Download]**.
 
 >[!NOTE]
 >
 >If the **[!UICONTROL Channel synergy]** tab is not visible for an existing model, ensure you retrain the model to enable the functionality and visualization.
 
+
+### Channel ad stock
+
+The channel ad stock visualizations show for each configured channel ad stock a visualization. Thr visualizations help you to understand how the impact of marketing spend for each channel persists and decays over time and beyond the initial exposure. The visualization providing a realistic view of channel carryover through the incorporation of temporal dynamics learned from the model.
+
+Each individual chart represents a single marketing channel and shows its ad stock curve. That curve models how the effect of a unit of exposure carries over into future periods. The curve illustrates the rate at which impact on conversion diminishes and helps marketers to compare how long different channels continue to influence performance after the initial investment.
+
+Channels with slower decay curves (longer tails) indicate sustained impact over time. Channels with steep drop-offs reflect more immediate, short-lived effects. The length of each curve is determined by the maximum lookback period configured for that channel.
+
+>[!BEGINTABS]
+
+>[!TAB Show all ad stock] 
+
+![Plan channel synergies](/help/assets/model-channel-adstock-all.png)
+
+>[!TAB Show selected ad stock]
+
+![Plan channel synergies](/help/assets/model-channel-adstock-selected.png)
+
+>[!ENDTABS]
+
+* To display ad stock visualizations for **[!UICONTROL All channels]** or an ad stock visualization for an invidual  channel (for example, **[!UICONTROL Paid Social Facebook]**), select from the **[!UICONTROL Channel]** drop-down menu.
 
 
 ## Factors {#factors}
