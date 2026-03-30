@@ -28,6 +28,15 @@ You define a name and a description in the **[!UICONTROL Setup]** step:
 >title="Marketing touchpoints"
 >abstract="Marketing touchpoints are recipient, individual, and or cookie-level marketing events used to evaluate the impact of marketing investments on numeric or revenue-based conversions.<br/><br/>You cannot set up the model with touchpoints that have overlapping data and there must be at least one touchpoint with spend."
 
+
+>[!CONTEXTUALHELP]
+>id="model_channeladstock"
+>title="Channel adstock"
+>abstract="abstract"
+>additional-url="url"
+>additional-url="url"
+
+
 You configure your model in the **[!UICONTROL Configure]** step. Configuration involves the definition of conversion goals, marketing touchpoints, the eligible data population, external and internal factors, and more.
 
 1. In the **[!UICONTROL Conversion goal]** section:
