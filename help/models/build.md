@@ -1,6 +1,6 @@
 ---
 title: Build Models In Mix Modeler
-description: Learn how to build models in Mix Modeler including how to set up, configure, and specify advanced options for the model. Such as conversion goals, touchpoints, ad stock, and scheduling.
+description: Learn how to build models in Mix Modeler including how to set up, configure, and specify advanced options for the model. Such as conversion goals, touchpoints, adstock, and scheduling.
 feature: Models
 solution: Mix Modeler
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
@@ -21,7 +21,7 @@ You define a name and a description in the **[!UICONTROL Setup]** step:
 
 1. Select **[!UICONTROL Next]** to continue to the next step. Select **[!UICONTROL Cancel]** to cancel the model configuration.
 
-## Configure{#configure}
+## Configure {#configure}
 
 >[!CONTEXTUALHELP]
 >id="model_marketingtouchpoints_select"
@@ -109,17 +109,17 @@ You configure your model in the **[!UICONTROL Configure]** step. Configuration i
 
    * **[!UICONTROL Manually input a training window]**. When selected, define the number of years in **[!UICONTROL Include events the following years prior to a conversion]**.
 
-   This input is required for a model. The number of years determine how channel ad stock, that you can configure in the **[!UICONTROL Advanced]** step, is capped.
+   This input is required for a model. The number of years determine how channel adstock, that you can configure in the **[!UICONTROL Advanced]** step, is capped.
 
 1. Select **[!UICONTROL Next]** to continue to the next step. If more configuration is needed, a red outline and text explains what additional configuration is required. <br/>Select **[!UICONTROL Back]** to go back to the previous step. <br/>Select **[!UICONTROL Cancel]** to cancel the model configuration.
 
 
-## Advanced
+## Advanced {#advanced}
 
 >[!CONTEXTUALHELP]
 >id="model_advanced_channeladstock"
 >title="Channel adstock"
->abstract="Incorporate domain expertise, experimentation results, or previous channel analyses directly into the model setup. Adstock configuration helps guide the model to align with real-world expectations and improves interpretability and trust in the output. The total of lookback weeks plus lag weeks per channel is capped at one-eighth of the configured training window. This cap allows for enough data for the model to learn the ad stock effects."
+>abstract="Incorporate domain expertise, experimentation results, or previous channel analyses directly into the model setup. Adstock configuration helps guide the model to align with real-world expectations and improves interpretability and trust in the output. The total of lookback weeks plus lag weeks per channel is capped at one-eighth of the configured training window. This cap allows for enough data for the model to learn the adstock effects."
 
 You can specify advanced settings in the **[!UICONTROL Advanced]** step. In this step, you can enable your model for multi-touch attribution (MTA).
 
@@ -152,21 +152,21 @@ You can specify advanced settings in the **[!UICONTROL Advanced]** step. In this
     1. When needed, use **[!UICONTROL Clear all]** to clear all input values for the **[!UICONTROL Contribution proportion]** and **[!UICONTROL Level of confidence]** columns.
 
 
-1. In the **[!UICONTROL Channel ad stock]** section you can define individual ad stock lookbacks (carryover or decay effects) and lag (delayed response time) for each channel (marketing channel) you have defined in your model. 
+1. In the **[!UICONTROL Channel adstock]** section you can define individual adstock lookbacks (carryover or decay effects) and lag (delayed response time) for each channel (marketing channel) you have defined in your model. 
 
-   This channel ad stock configuration allows for fine-grained control on how different marketing channels impact business outcomes over time. Alternatively, you can use system defaults and a one-size-fits-all configuration.
+   This channel adstock configuration allows for fine-grained control on how different marketing channels impact business outcomes over time. Alternatively, you can use system defaults and a one-size-fits-all configuration.
 
-   The channel ad stock configuration helps you to capture channel-specific nuances. For example, the long-lasting impact of TV campaigns, the short-lived impact of paid search, or the lag between influencer spend and observable conversions. Experiment with ad stock lookback and lag parameters to generate more accurate, tailor-made, and trustworthy insights. Ultimately, a channel ad stock configuration can lead to more precise budget allocations and better business decisions.
+   The channel adstock configuration helps you to capture channel-specific nuances. For example, the long-lasting impact of TV campaigns, the short-lived impact of paid search, or the lag between influencer spend and observable conversions. Experiment with adstock lookback and lag parameters to generate more accurate, tailor-made, and trustworthy insights. Ultimately, a channel adstock configuration can lead to more precise budget allocations and better business decisions.
 
-   ![Channel ad stock](/help/assets/channel-ad-stock.png)
+   ![Channel adstock](/help/assets/channel-ad-stock.png)
 
-   To configure channel ad stock:
+   To configure channel adstock:
 
    * For each channel (**[!UICONTROL Name]**), define a **[!UICONTROL Lag (weeks)]**, a **[!UICONTROL Min Lookback (weeks)]**,  and **[!UICONTROL Max Lookback (weeks)]** value. For each value:
 
      * Use ![Add](/help/assets/icons/Add.svg) to increase a value, ![Subtract](/help/assets/icons/Subtract.svg) to decrease a value, or enter a value manually.
 
-     The total of lag weeks plus maximum lookback weeks per channel is capped at one-eighth of the configured training window. This cap allows for enough data for the model to learn the ad stock effects. As an example, for a two year training window, the maximum of **[!UICONTROL Lag (weeks)]** and **[!UICONTROL Lookback (weeks)]** for a channel is 13 weeks. This cap is enforced when you define the values. 
+     The total of lag weeks plus maximum lookback weeks per channel is capped at one-eighth of the configured training window. This cap allows for enough data for the model to learn the adstock effects. As an example, for a two year training window, the maximum of **[!UICONTROL Lag (weeks)]** and **[!UICONTROL Lookback (weeks)]** for a channel is 13 weeks. This cap is enforced when you define the values. 
 
 
 ## Set options

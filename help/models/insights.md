@@ -117,7 +117,7 @@ To download the contents of the Touchpoint breakdown table, select ![Download](/
 
 ## Channel analysis
 
-The **[!UICONTROL Channel analysis]** tab shows visualization for **[!UICONTROL Channel synergies]** and **[Channel ad stock]**.
+The **[!UICONTROL Channel analysis]** tab shows visualization for **[!UICONTROL Channel synergies]** and **[Channel adstock]**.
 
 
 ### Channel synergies
@@ -155,27 +155,27 @@ This next-dollar framework offers a realistic measure of relative synergy streng
 >If the **[!UICONTROL Channel synergy]** tab is not visible for an existing model, ensure you retrain the model to enable the functionality and visualization.
 
 
-### Channel ad stock
+### Channel adstock
 
-The channel ad stock visualizations show for each configured channel ad stock a visualization. The visualizations help you to understand how the impact of marketing spend for each channel persists and decays over time and beyond the initial exposure. The visualization provides a realistic view of channel carryover through the incorporation of temporal dynamics that are learned from the model.
+The channel adstock visualizations show for each configured channel adstock a visualization. The visualizations help you to understand how the impact of marketing spend for each channel persists and decays over time and beyond the initial exposure. The visualization provides a realistic view of channel carryover through the incorporation of temporal dynamics that are learned from the model.
 
-Each individual chart represents a single marketing channel and shows its ad stock curve. That curve models how the effect of a unit of exposure carries over into future periods. The curve illustrates the rate at which impact on conversion diminishes and helps marketers to compare how long different channels continue to influence performance after the initial investment.
+Each individual chart represents a single marketing channel and shows its adstock curve. That curve models how the effect of a unit of exposure carries over into future periods. The curve illustrates the rate at which impact on conversion diminishes and helps marketers to compare how long different channels continue to influence performance after the initial investment.
 
 Channels with slower decay curves (longer tails) indicate sustained impact over time. Channels with steep drop-offs reflect more immediate, short-lived effects. The maximum lookback period configured for that channel determines the length of each curve.
 
 >[!BEGINTABS]
 
->[!TAB Show all ad stock] 
+>[!TAB Show all adstock] 
 
 ![Plan channel synergies](/help/assets/model-channel-adstock-all.png)
 
->[!TAB Show selected ad stock]
+>[!TAB Show selected adstock]
 
 ![Plan channel synergies](/help/assets/model-channel-adstock-selected.png)
 
 >[!ENDTABS]
 
-* To display ad stock visualizations for **[!UICONTROL All channels]** or an ad stock visualization for an individual  channel (for example, **[!UICONTROL Paid Social Facebook]**), select from the **[!UICONTROL Channel]** drop-down menu.
+* To display adstock visualizations for **[!UICONTROL All channels]** or an adstock visualization for an individual  channel (for example, **[!UICONTROL Paid Social Facebook]**), select from the **[!UICONTROL Channel]** drop-down menu.
 
 
 ## Factors {#factors}
