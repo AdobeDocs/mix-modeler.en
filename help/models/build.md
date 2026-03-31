@@ -121,52 +121,60 @@ You configure your model in the **[!UICONTROL Configure]** step. Configuration i
 >title="Channel adstock"
 >abstract="Incorporate domain expertise, experimentation results, or previous channel analyses directly into the model setup. Adstock configuration helps guide the model to align with real-world expectations and improves interpretability and trust in the output. The total of lookback weeks plus lag weeks per channel is capped at one-eighth of the configured training window. This cap allows for enough data for the model to learn the adstock effects."
 
-You can specify advanced settings in the **[!UICONTROL Advanced]** step. In this step, you can enable your model for multi-touch attribution (MTA).
+You can specify advanced settings in the **[!UICONTROL Advanced]** step. In this step, you can define [spend share](#spend-share), enable your model for [multi-touch attribution (MTA)](#mta),define [prior knowledge](#prior-knowledge) and define [channel adstock](#channel-adstock).
 
-1. In the **[!UICONTROL Spend share]** section:
+### Spend share
 
-    * To use historical marketing investment ratios to inform the model when marketing data is sparse, activate **[!UICONTROL Allow spend share]**. This setting is recommended, especially in the following scenarios:
-      * A channel doesn't have enough observations (for example, low frequency of spend, impressions or clicks).
-      * You are modeling spiky but regular, and potentially high-spend media (like TV for some brands), where data may be sparse.
-     
-      >[!NOTE]
-      >
-      >For one-off investments (for example a Super Bowl ad), incorporate that data as a factor instead of relying on spend share.
-      >
+In the **[!UICONTROL Spend share]** section:
 
+* To use historical marketing investment ratios to inform the model when marketing data is sparse, activate **[!UICONTROL Allow spend share]**. This setting is recommended, especially in the following scenarios:
+  * A channel doesn't have enough observations (for example, low frequency of spend, impressions or clicks).
+  * You are modeling spiky but regular, and potentially high-spend media (like TV for some brands), where data may be sparse.
+  
+  >[!NOTE]
+  >
+  >For one-off investments (for example a Super Bowl ad), incorporate that data as a factor instead of relying on spend share.
+  >
 
-1. In the **[!UICONTROL MTA enabled]** section:
+### MTA
 
-    * To enable MTA features for the model, activate **[!UICONTROL MTA enabled]**. If you have enabled MTA, multi-touch attribution insights are available after you have trained and scored your model. See the [Attribution](insights.md#attribution) tab in [Model insights](insights.md).
+In the **[!UICONTROL MTA enabled]** section:
 
-1. In the **[!UICONTROL Prior knowledge]** section:
-
-   ![Model - Prior knowledge](/help/assets/model-prior-knowledge-step.png)
-
-    1. Select the **[!UICONTROL Rule type]**, which is by default **[!UICONTROL Absolute values]**.
-
-    1. Specify contribution percentages for any of the channels listed under **[!UICONTROL Name]**, using the **[!UICONTROL Contribution proportion]** column. 
-
-    1. Where appropriate, you can add for each channel a **[!UICONTROL Level of confidence]** percentage.
-
-    1. When needed, use **[!UICONTROL Clear all]** to clear all input values for the **[!UICONTROL Contribution proportion]** and **[!UICONTROL Level of confidence]** columns.
+* To enable MTA features for the model, activate **[!UICONTROL MTA enabled]**. If you have enabled MTA, multi-touch attribution insights are available after you have trained and scored your model. See the [Attribution](insights.md#attribution) tab in [Model insights](insights.md).
 
 
-1. In the **[!UICONTROL Channel adstock]** section you can define individual adstock lookbacks (carryover or decay effects) and lag (delayed response time) for each channel (marketing channel) you have defined in your model. 
+### Prior knowledge
 
-   This channel adstock configuration allows for fine-grained control on how different marketing channels impact business outcomes over time. Alternatively, you can use system defaults and a one-size-fits-all configuration.
+In the **[!UICONTROL Prior knowledge]** section:
 
-   The channel adstock configuration helps you to capture channel-specific nuances. For example, the long-lasting impact of TV campaigns, the short-lived impact of paid search, or the lag between influencer spend and observable conversions. Experiment with adstock lookback and lag parameters to generate more accurate, tailor-made, and trustworthy insights. Ultimately, a channel adstock configuration can lead to more precise budget allocations and better business decisions.
+![Model - Prior knowledge](/help/assets/model-prior-knowledge-step.png)
 
-   ![Channel adstock](/help/assets/channel-ad-stock.png)
+1. Select the **[!UICONTROL Rule type]**, which is by default **[!UICONTROL Absolute values]**.
 
-   To configure channel adstock:
+1. Specify contribution percentages for any of the channels listed under **[!UICONTROL Name]**, using the **[!UICONTROL Contribution proportion]** column. 
 
-   * For each channel (**[!UICONTROL Name]**), define a **[!UICONTROL Lag (weeks)]**, a **[!UICONTROL Min Lookback (weeks)]**,  and **[!UICONTROL Max Lookback (weeks)]** value. For each value:
+1. Where appropriate, you can add for each channel a **[!UICONTROL Level of confidence]** percentage.
 
-     * Use ![Add](/help/assets/icons/Add.svg) to increase a value, ![Subtract](/help/assets/icons/Subtract.svg) to decrease a value, or enter a value manually.
+1. When needed, use **[!UICONTROL Clear all]** to clear all input values for the **[!UICONTROL Contribution proportion]** and **[!UICONTROL Level of confidence]** columns.
 
-     The total of lag weeks plus maximum lookback weeks per channel is capped at one-eighth of the configured training window. This cap allows for enough data for the model to learn the adstock effects. As an example, for a two year training window, the maximum of **[!UICONTROL Lag (weeks)]** and **[!UICONTROL Lookback (weeks)]** for a channel is 13 weeks. This cap is enforced when you define the values. 
+
+### Channel adstock
+
+In the **[!UICONTROL Channel adstock]** section you can define individual adstock lookbacks (carryover or decay effects) and lag (delayed response time) for each channel (marketing channel) you have defined in your model. 
+
+This channel adstock configuration allows for fine-grained control on how different marketing channels impact business outcomes over time. Alternatively, you can use system defaults and a one-size-fits-all configuration.
+
+The channel adstock configuration helps you to capture channel-specific nuances. For example, the long-lasting impact of TV campaigns, the short-lived impact of paid search, or the lag between influencer spend and observable conversions. Experiment with adstock lookback and lag parameters to generate more accurate, tailor-made, and trustworthy insights. Ultimately, a channel adstock configuration can lead to more precise budget allocations and better business decisions.
+
+![Channel adstock](/help/assets/channel-ad-stock.png)
+
+To configure channel adstock:
+
+* For each channel (**[!UICONTROL Name]**), define a **[!UICONTROL Lag (weeks)]**, a **[!UICONTROL Min Lookback (weeks)]**,  and **[!UICONTROL Max Lookback (weeks)]** value. For each value:
+
+  * Use ![Add](/help/assets/icons/Add.svg) to increase a value, ![Subtract](/help/assets/icons/Subtract.svg) to decrease a value, or enter a value manually.
+
+  The total of lag weeks plus maximum lookback weeks per channel is capped at one-eighth of the configured training window. This cap allows for enough data for the model to learn the adstock effects. As an example, for a two year training window, the maximum of **[!UICONTROL Lag (weeks)]** and **[!UICONTROL Lookback (weeks)]** for a channel is 13 weeks. This cap is enforced when you define the values. 
 
 
 ## Set options
