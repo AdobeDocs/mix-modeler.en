@@ -1,15 +1,15 @@
 ---
-title: Build models In Mix Modeler
-description: Learn how to build models in Mix Modeler including how to set up, configure, and specify advanced options for the model.
+title: Build Models In Mix Modeler
+description: Learn how to build models in Mix Modeler including how to set up, configure, and specify advanced options for the model. Such as conversion goals, touchpoints, adstock, and scheduling.
 feature: Models
 solution: Mix Modeler
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
 ---
 # Build models
 
-To build your custom AI-powered models, the interface provides a step-by-step guided model configuration flow. 
+To build your custom AI-powered models, the interface provides a step-by-step guided model configuration flow.
 
-In the ![Models](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** interface in Mix Modeler, select **[!UICONTROL Open model canvas]**.
+In the ![Models](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** interface in [!DNL Mix Modeler], select **[!UICONTROL Open model canvas]**.
 
 ## Setup
 
@@ -21,7 +21,7 @@ You define a name and a description in the **[!UICONTROL Setup]** step:
 
 1. Select **[!UICONTROL Next]** to continue to the next step. Select **[!UICONTROL Cancel]** to cancel the model configuration.
 
-## Configure{#configure}
+## Configure {#configure}
 
 >[!CONTEXTUALHELP]
 >id="model_marketingtouchpoints_select"
@@ -35,7 +35,7 @@ You configure your model in the **[!UICONTROL Configure]** step. Configuration i
 
     ![Model - conversion step](/help/assets/model-conversion-step.png)
 
-    1. Select a conversion from the **[!UICONTROL Conversion]** dropdown menu. The available conversions are the conversion that you defined as part of [Conversions](../harmonize-data/conversions.md) in [!UICONTROL Harmonized datasets]. For example, **[!UICONTROL Online Conversion]**. 
+    1. Select a conversion from the **[!UICONTROL Conversion]** dropdown menu. The available conversions are the conversions that you defined as part of [Conversions](../harmonize-data/conversions.md) in [!UICONTROL Harmonized datasets]. For example, **[!UICONTROL Online Conversion]**.
 
     1. You can select ![LinkOutLight](/help/assets/icons/LinkOutLight.svg) **[!UICONTROL Create a conversion]** to create a conversion directly from within the model configuration.
 
@@ -46,7 +46,7 @@ You configure your model in the **[!UICONTROL Configure]** step. Configuration i
 
    ![Model - marketing touchpoint step](/help/assets/model-marketing-touchpoint-step.png)
 
-   1. Select one or more marketing touchpoint from the **[!UICONTROL Touchpoint include]** dropdown menu.
+   1. Select one or more marketing touchpoints from the **[!UICONTROL Touchpoint include]** dropdown menu.
 
       * You can use ![CrossSize75](/help/assets/icons/CrossSize75.svg) to remove a touchpoint.
       * You can use **[!UICONTROL Clear all]** to remove all touchpoints.
@@ -87,64 +87,99 @@ You configure your model in the **[!UICONTROL Configure]** step. Configuration i
 
    ![Model - Factor dataset step](../assets/model-factors-dataset-step.png)
 
-   * To add a factor dataset, select **[!UICONTROL Add Factor]**. You can add maximum of 30 factors to a model.
+   * To add a factor dataset, select **[!UICONTROL Add Factor]**. You can add a maximum of 30 factors to a model.
      
      1. Select a **[!UICONTROL Factor dataset]** from the drop-down menu. The available factors are the factors for which you have defined a harmonized field in [dataset rules](/help/harmonize-data/dataset-rules.md#create-a-dataset-rule).
-        Based on the selected dataset, the **[!UICONTROL Factor type**] is either **[!UICONTROL Internal]** or **[!UICONTROL External]**.
+        Based on the selected dataset, the **[!UICONTROL Factor type]** is either **[!UICONTROL Internal]** or **[!UICONTROL External]**.
 
      1. Select the **[!UICONTROL Impact on conversion]** from the drop-down menu. Available options are: **[!UICONTROL Auto]**, **[!UICONTROL Positive]**, or **[!UICONTROL Negative]**. The default option is **[!UICONTROL Auto]**, which allows the model to determine the impact of the factor dataset.
 
    * To delete a factor dataset, select ![CrossSize200](/help/assets/icons/CrossSize400.svg).
 
 
-
-
 1. To define the lookback window for the model, enter a value between `1` and `52` in **[!UICONTROL Give contribution credit to touchpoints occurring within]** ... **[!UICONTROL weeks prior to the conversion]** in the **[!UICONTROL Define lookback window]** section.
+
+1. To define the training window for a model, at **[!UICONTROL Define training window]**, select where you would like to start scoring conversions.
+
+   ![Model - Define training window](/help/assets/model-define-training-window.png)
+
+   You can select between: 
+
+   * **[!UICONTROL Have Mix Modeler select a helpful training window]** and 
+
+   * **[!UICONTROL Manually input a training window]**. When selected, define the number of years in **[!UICONTROL Include events the following years prior to a conversion]**.
+
+   This input is required for a model. The number of years determine how channel adstock, that you can configure in the **[!UICONTROL Advanced]** step, is capped.
 
 1. Select **[!UICONTROL Next]** to continue to the next step. If more configuration is needed, a red outline and text explains what additional configuration is required. <br/>Select **[!UICONTROL Back]** to go back to the previous step. <br/>Select **[!UICONTROL Cancel]** to cancel the model configuration.
 
 
-## Advanced
+## Advanced {#advanced}
 
 >[!CONTEXTUALHELP]
 >id="model_advanced_channeladstock"
 >title="Channel adstock"
->abstract="Incorporate domain expertise, experimentation results, or previous channel analyses directly into the model setup. Adstock configuration helps guide the model to align with real-world expectations and improves interpretability and trust in the output. The total of lookback weeks plus lag weeks per channel is capped at one-eighth of the configured training window. This cap allows for enough data for the model to learn the ad stock effects."
+>abstract="Incorporate domain expertise, experimentation results, or previous channel analyses directly into the model setup. Adstock configuration helps guide the model to align with real-world expectations and improves interpretability and trust in the output. The total of lookback weeks plus lag weeks per channel is capped at one-eighth of the configured training window. This cap allows for enough data for the model to learn the adstock effects."
 
-You can specify advanced settings in the **[!UICONTROL Advanced]** step. In this step, you can enable your model for multi-touch attribution (MTA).
+You can specify advanced settings in the **[!UICONTROL Advanced]** step. In this step, you can define [spend share](#spend-share), enable your model for [multi-touch attribution (MTA)](#mta),define [prior knowledge](#prior-knowledge) and define [channel adstock](#channel-adstock).
 
-1. In the **[!UICONTROL Spend share]** section:
+### Spend share
 
-    * To use historical marketing investment ratios to inform the model when marketing data is sparse, activate **[!UICONTROL Allow spend share]**. This setting is recommended, especially in the following scenarios:
-      * A channel doesn't have enough observations (for example, low frequency of spend, impressions or clicks).
-      * You are modeling spiky but regular, and potentially high-spend media (like TV for some brands), where data may be sparse.
-     
-      >[!NOTE]
-      >
-      >For one-off investments (for example a Super Bowl ad), consider to incorporate that data as a factor rather than to rely on spend share.
-      >
+In the **[!UICONTROL Spend share]** section:
 
+* To use historical marketing investment ratios to inform the model when marketing data is sparse, activate **[!UICONTROL Allow spend share]**. This setting is recommended, especially in the following scenarios:
+  * A channel doesn't have enough observations (for example, low frequency of spend, impressions or clicks).
+  * You are modeling spiky but regular, and potentially high-spend media (like TV for some brands), where data may be sparse.
+  
+  >[!NOTE]
+  >
+  >For one-off investments (for example a Super Bowl ad), incorporate that data as a factor instead of relying on spend share.
+  >
 
-1. In the **[!UICONTROL MTA enabled]** section:
+### MTA
 
-    * To enable MTA features for the model, activate **[!UICONTROL MTA enabled]**. If you have enabled MTA, multi-touch attribution insights are available after you have trained and scored your model. See the [Attribution](insights.md#attribution) tab in [Model insights](insights.md).
+In the **[!UICONTROL MTA enabled]** section:
 
-1. In the **[!UICONTROL Prior knowledge]** section:
-
-   ![Model - Prior knowledge](/help/assets/model-prior-knowledge-step.png)
-
-    1. Select the **[!UICONTROL Rule type]**, which is by default **[!UICONTROL Absolute values]**.
-
-    1. Specify contribution percentages for any of the channels listed under **[!UICONTROL Name]**, using the **[!UICONTROL Contribution proportion]** column. 
-
-    1. Where appropriate, you can add for each channel a **[!UICONTROL Level of confidence]** percentage.
-
-    1. When needed, use **[!UICONTROL Clear all]** to clear all input values for the **[!UICONTROL Contribution proportion]** and **[!UICONTROL Level of confidence]** columns.
+* To enable MTA features for the model, activate **[!UICONTROL MTA enabled]**. If you have enabled MTA, multi-touch attribution insights are available after you have trained and scored your model. See the [Attribution](insights.md#attribution) tab in [Model insights](insights.md).
 
 
-## Set options 
+### Prior knowledge
 
-You can [schedule training and scoring](#schedule), [define training window](#training-window), and specify [granular insights reporting fields](#granular-insights-reporting-fields) for your model in the **[!UICONTROL Set options]** step.
+In the **[!UICONTROL Prior knowledge]** section:
+
+![Model - Prior knowledge](/help/assets/model-prior-knowledge-step.png)
+
+1. Select the **[!UICONTROL Rule type]**, which is by default **[!UICONTROL Absolute values]**.
+
+1. Specify contribution percentages for any of the channels listed under **[!UICONTROL Name]**, using the **[!UICONTROL Contribution proportion]** column. 
+
+1. Where appropriate, you can add for each channel a **[!UICONTROL Level of confidence]** percentage.
+
+1. When needed, use **[!UICONTROL Clear all]** to clear all input values for the **[!UICONTROL Contribution proportion]** and **[!UICONTROL Level of confidence]** columns.
+
+
+### Channel adstock
+
+In the **[!UICONTROL Channel adstock]** section you can define individual adstock lookbacks (carryover or decay effects) and lag (delayed response time) for each channel (marketing channel) you have defined in your model. 
+
+This channel adstock configuration allows for fine-grained control on how different marketing channels impact business outcomes over time. Alternatively, you can use system defaults and a one-size-fits-all configuration.
+
+The channel adstock configuration helps you to capture channel-specific nuances. For example, the long-lasting impact of TV campaigns, the short-lived impact of paid search, or the lag between influencer spend and observable conversions. Experiment with adstock lookback and lag parameters to generate more accurate, tailor-made, and trustworthy insights. Ultimately, a channel adstock configuration can lead to more precise budget allocations and better business decisions.
+
+![Channel adstock](/help/assets/channel-ad-stock.png)
+
+To configure channel adstock:
+
+* For each channel (**[!UICONTROL Name]**), define a **[!UICONTROL Lag (weeks)]**, a **[!UICONTROL Min Lookback (weeks)]**,  and **[!UICONTROL Max Lookback (weeks)]** value. For each value:
+
+  * Use ![Add](/help/assets/icons/Add.svg) to increase a value, ![Subtract](/help/assets/icons/Subtract.svg) to decrease a value, or enter a value manually.
+
+  The total of lag weeks plus maximum lookback weeks per channel is capped at one-eighth of the configured training window. This cap allows for enough data for the model to learn the adstock effects. As an example, for a two year training window, the maximum of **[!UICONTROL Lag (weeks)]** and **[!UICONTROL Lookback (weeks)]** for a channel is 13 weeks. This cap is enforced when you define the values. 
+
+
+## Set options
+
+You can [schedule training and scoring](#schedule), and specify [granular insights reporting fields](#granular-insights-reporting-fields) for your model in the **[!UICONTROL Set options]** step.
 
 
 ### Schedule
@@ -153,7 +188,7 @@ In the **[!UICONTROL Schedule]** section, you can schedule model training and sc
 
   ![Schedule model](../assets/model-schedule.png)
   
-  To scheduled model scoring and training:
+  To schedule model scoring and training:
 
   1. Turn on **[!UICONTROL Enable scheduled model scoring and training]**. 
   1. Select a **[!UICONTROL Scoring frequency]**:
@@ -165,20 +200,9 @@ In the **[!UICONTROL Schedule]** section, you can schedule model training and sc
   1. Select a **[!UICONTROL Training frequency]** from the dropdown menu: **[!UICONTROL Monthly]**, **[!UICONTROL Quarterly]**, **[!UICONTROL Yearly]**, or **[!UICONTROL None]**. 
 
 
-### Training window
-
-In the **[!UICONTROL Define training window]** section, select between: 
-
-![Model - Define training window](/help/assets/model-define-training-window.png)
-
-* **[!UICONTROL Have Mix Modeler select a helpful training window]** and 
-
-* **[!UICONTROL Manually input a training window]**. When selected, define the number of years in **[!UICONTROL Include events the following years prior to a conversion]**.
-
-
 ### Granular insights reporting fields
 
-The **[!UICONTROL Granular insights reporting fields]** section uses the granular incrementality reporting functionality. This functionality allows you to select harmonized fields to breakdown conversion and touchpoint incrementality scores.
+The **[!UICONTROL Granular insights reporting fields]** section uses the granular incrementality reporting functionality. This functionality allows you to select harmonized fields to break down conversion and touchpoint incrementality scores.
 
 ![Define granular insights reporting fields](/help/assets/granular-insights-reporting-fields.png)
 
@@ -206,6 +230,6 @@ The selected harmonized fields for granular incrementality reporting are availab
   * If more configuration is needed, a red outline and text explains what additional configuration is required. 
    
 * Select **[!UICONTROL Back]** to go back to the previous step. 
-   
+
 * Select **[!UICONTROL Cancel]** to cancel the model configuration.
 

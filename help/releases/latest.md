@@ -11,6 +11,12 @@ exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
 
 These release notes cover the latest release of Mix Modeler. Mix Modeler releases operate on a continuous delivery model, which allows for an approximate monthly release cadence. Accordingly, these release notes get updated, so check them regularly.
 
+## March 2026
+
+| Feature | Description | [Rollout start](#release-strategy) | [General Availability](#release-strategy) |
+|---|---|---|---|
+| **Channel adstock** | You can incorporate domain expertise, experimentation results, or previous channel analyses directly into the model advanced configuration through [Channel adstock](/help/models/build.md#channel-adstock). And show [channel adstock insights](/help/models/insights.md#channel-adstock) within the channel analysis of a model. | March 30, 2026 | March 30, 2026 | 
+
 ## February 2026
 
 | Feature | Description | [Rollout start](#release-strategy) | [General Availability](#release-strategy) |
