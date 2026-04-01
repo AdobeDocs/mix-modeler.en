@@ -145,7 +145,7 @@ You can edit the name, description and the scheduling of training and scoring of
      1. Select **[!UICONTROL Clear all]** to remove all selected harmonized fields.
 
       >[!IMPORTANT]
-      >Any model with MTA that is created before January 12, 2026 should be duplicated to enable granular model insights.
+      >Any model with MTA that is created before January 12, 2026 should be duplicated to enable granular model insights.<br/>
       >Rescoring is required for any existing model to reflect the updated granular dimensions in the score data.
       >
 
