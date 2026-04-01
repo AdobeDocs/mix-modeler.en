@@ -450,27 +450,3 @@ To display an alternative volume-based channel for this visualization:
 
 * Select a channel from **[!UICONTROL Channels]**.
 
-
-## Edit
-
-You can edit the name, description and the scheduling of training and scoring of the model.
-
-1. Select ![Edit](/help/assets/icons/Edit.svg) Edit
-
-1. In the **[!UICONTROL Edit model]** dialog:
-
-   * Enter a new **[!UICONTROL Name]** and **[!UICONTROL Description]**.
-
-   * To enable scheduling, enable **[!UICONTROL Status]**. You can only enable scheduling for models that are trained and scored.
-
-      1. Select a **[!UICONTROL Scoring frequency]**:
-
-         * **[!UICONTROL Daily]**: Enter a valid time (for example `05:22 pm`) or use ![Clock](/help/assets/icons/Clock.svg).
-         * **[!UICONTROL Weekly]**: Select a day of the week and enter a valid time (for example `05:22 pm`) or use ![Clock](/help/assets/icons/Clock.svg).
-         * **[!UICONTROL Monthly]**: Select a day of the month from the Run on every dropdown menu and enter a valid time (for example `05:22 pm`) or use ![Clock](/help/assets/icons/Clock.svg).
-
-      1. Select a **[!UICONTROL Training frequency]** from the dropdown menu: **[!UICONTROL Monthly]**, **[!UICONTROL Quarterly]**, **[!UICONTROL Yearly]**, or **[!UICONTROL None]**. 
-
-      ![Edit a model](../assets/model-edit.png)
-
-1. Select **[!UICONTROL Save]**.

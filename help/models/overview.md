@@ -1,14 +1,14 @@
 ---
-title: Models overview
-description: Learn how to build and use models in Mix Modeler.
+title: Models Overview
+description: Learn how to build, train, score, and manage machine learning models in Mix Modeler to measure and predict marketing outcomes.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
 ---
 # Models overview
 
-The model functionality in Mix Modeler allows you to configure, train, and score models specific to your business objectives. The training and scoring supports AI-driven transfer learning between multitouch attribution and marketing mix modeling. 
+The model functionality in Mix Modeler allows you to configure, train, and score models specific to your business objectives. The training and scoring supports AI-driven transfer learning between multitouch attribution and marketing mix modeling.
 
-The models are based on the harmonized data that you create as part of the Mix Modeler application workflow.
+The models are based on the harmonized data that you create as part of the application workflow.
 
 A model in Mix Modeler is a machine learning model employed to measure and predict a specified outcome based on a marketer's investments. Marketing touchpoints and summary-level data can be used as an input. Mix Modeler allows you to create variants of models based on different sets of variables, dimensions, and outcomes, such as revenues, units sold, leads.
 
@@ -26,8 +26,7 @@ A model can optionally include:
 * Prior knowledge of marketing contributions from other sources such as past stakeholder experience, incrementally testing, other models.
 * Spend share, which uses relative spend share as a proxy when marketing data is sparse.
 
-When a model is first created, the creation immediately kicks off the training and scoring process. After the completion of the initial training and scoring run, model insights are available for review. A model may subsequently be re-trained. Also, data may be added to the model which requires you to rescore the model manually. Re-trainng and re-scoring are an iterative process as new findings and information emerge and adjustments are needed to obtain a model fit that is most appropriate for your business objectives. 
-
+When a model is first created, the creation immediately kicks off the training and scoring process. After the completion of the initial training and scoring run, model insights are available for review. A model may subsequently be retrained. Also, data may be added to the model which requires you to rescore the model manually. Retraining and rescoring are an iterative process as new findings and information emerge and adjustments are needed to obtain a model fit that is most appropriate for your business objectives.
 
 ## Build models
 
@@ -37,7 +36,7 @@ To build a model, use the Mix Modeler step-by-step guided model configuration fl
 
 To view a table of your current models, in the Mix Modeler interface:
 
-1. Select ![FileData](/help/assets/icons2/FileData.svg) **[!UICONTROL Models]** from the left rail.
+1. Select ![FileDataS2](/help/assets/icons2/FileData.svg) **[!UICONTROL Models]** from the left rail.
    
 1. You see a table of the current models.
 
@@ -52,7 +51,7 @@ To view a table of your current models, in the Mix Modeler interface:
    | **[!UICONTROL Last run]** | The date and time of the last training of the model. |
    | **[!UICONTROL Status]** | The status of the model. |
 
-   To sort the table on any column in ascending ![ArrowMoveUp](/help/assets/icons2/ArrowMoveUp.svg) or descending ![ArrowMoveDown](/help/assets/icons2/ArrowMoveDown.svg)order, select the title of the column. 
+   To sort the table on any column in ascending ![ArrowMoveUpS2](/help/assets/icons2/ArrowMoveUp.svg) or descending ![ArrowMoveDownS2](/help/assets/icons2/ArrowMoveDown.svg) order, select the title of the column. 
 
    To sort or resize the **[!UICONTROL Name]** column, select **[!UICONTROL Name]** ![ChevronDown](/help/assets/icons/ChevronDown.svg). From the context menu select **[!UICONTROL Sort ascending]**, **[!UICONTROL Sort descending]**, or **[!UICONTROL Resize column]**. Alternatively, you can hover over the column separator to resize the **[!UICONTROL Name]** column.
 
@@ -92,18 +91,16 @@ The model insights functionality is only available on successfully trained and s
 
 To view the insights of a model:
 
-   1. Select ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** from the left rail.
-
-   1. Select the model name. 
+1. Select ![FileData](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** from the left rail.
+1. Select the model name. 
 
 You are redirected to [Model Insights](insights.md).  
-   
 
 ### View details
 
 To view more details of a model:
 
-1. Select ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** from the left rail.
+1. Select ![FileData](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** from the left rail.
    
 1. Select ![Info](/help/assets/icons/Info.svg) for a model to show a pop-up with details.
 
@@ -112,7 +109,7 @@ To view more details of a model:
 
 You can quickly duplicate a model.
 
-1. Select ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** from the left rail.
+1. Select ![FileData](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** from the left rail.
 
 1. Select ![More](/help/assets/icons/More.svg) for a model, and from the context menu select **[!UICONTROL Duplicate]**.
 
@@ -122,51 +119,58 @@ You are redirected to the steps to create a new model, with a proposed name comp
 
 You can edit the name, description and the scheduling of training and scoring of a model.
 
-1. Select ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** from the left rail.
+1. Select ![FileData](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** from the left rail.
 
 1. Select ![More](/help/assets/icons/More.svg) for a model, and from the context menu select **[!UICONTROL Edit]**.
 
    In the **[!UICONTROL Edit model]** dialog:
 
+   ![Edit a model](../assets/model-edit.png)
+
    * Enter a new **[!UICONTROL Name]** and **[!UICONTROL Description]**.
 
-   * To enable scheduling, enable **[!UICONTROL Status]**. You can only enable scheduling for models that are trained and scored.
+   * To enable scheduling, enable **[!UICONTROL Enable schedule model training and scoring]**. You can only enable scheduling for models that are trained and scored.
 
       1. Select a **[!UICONTROL Scoring frequency]**:
 
-         * **[!UICONTROL Daily]**: Enter a valid time (for example `05:22 pm`) or use ![Clock](/help/assets/icons/Clock.svg).
-         * **[!UICONTROL Weekly]**: Select a day of the week and enter a valid time (for example `05:22 pm`) or use ![Clock](/help/assets/icons/Clock.svg).
-         * **[!UICONTROL Monthly]**: Select a day of the month from the Run on every dropdown menu and enter a valid time (for example `05:22 pm`) or use ![Clock](/help/assets/icons/Clock.svg).
+         * **[!UICONTROL Daily]**: Enter a valid time (for example `10:00 am`) or use ![Clock](/help/assets/icons/Clock.svg) to define the time.
+         * **[!UICONTROL Weekly]**: Select a day of the week and enter a valid time (for example `10:00 am`) or use ![Clock](/help/assets/icons/Clock.svg) to define the time.
+         * **[!UICONTROL Monthly]**: Select a day of the month from the Run on every dropdown menu and enter a valid time (for example `10:00 am`) or use ![Clock](/help/assets/icons/Clock.svg) to define the time.
 
       1. Select a **[!UICONTROL Training frequency]** from the dropdown menu: **[!UICONTROL Monthly]**, **[!UICONTROL Quarterly]**, **[!UICONTROL Yearly]**, or **[!UICONTROL None]**. 
 
-      ![Edit a model](../assets/model-edit.png)
+   * To update the [granular insights reporting fields](/help/models/build.md#granular-insights-reporting-fields), in the **[!UICONTROL Granular Insights Reporting Fields]** section:
+     1. Select one or more harmonized fields from the **[!UICONTROL _Select harmonized fields_]** underneath **[!UICONTROL Includes]**. The selected harmonized fields are added to the panel.
+     1. Select **[!UICONTROL *Harmonized field*]** ![CrossSize100](/help/assets/icons/CrossSize100.svg)  to remove a harmonized field from the container with the selected harmonized fields.
+     1. Select **[!UICONTROL Clear all]** to remove all selected harmonized fields.
+
+      >[!IMPORTANT]
+      >If you add granular insights reporting fields to a model that is created **before February 18, 2026**, a rescoring of the model is required. That rescoring ensures the schema underlying the model is updated with granular insights reporting fields.
+      >
+      >The recommended approach is to duplicate such a model. And include the granular insights reporting fields in the creation of the duplicated model.
+      >
 
 1. Select **[!UICONTROL Save]**.
-   
-
 
 ### Train
 
-Consider to retrain a model when you want to include new incremental marketing and factor data. See [Train and score models](train-score.md#train) for more information.
-
+Retrain a model when you want to include new incremental marketing and factor data. See [Train and score models](train-score.md#train) for more information.
 
 ### Score
 
 You can incrementally score a model based on new marketing data or rescore a model for a specific date range. See [Train and score models](train-score.md#score) for more information.
 
-
 ### Delete models
 
 To delete a model:
 
-   1. Select ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** from the left rail.
-   1. Select ![More](/help/assets/icons/More.svg) for a model, and from the context menu select **[!UICONTROL Delete]**. Alternatively, select ![Delete](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** from the blue action bar.
-   1. Select **[!UICONTROL Delete]** in the **[!UICONTROL Delete model]** confirmation dialog to delete the model. Select **[!UICONTROL Cancel]** to cancel.
+1. Select ![FileData](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** from the left rail.
+1. Select ![More](/help/assets/icons/More.svg) for a model, and from the context menu select **[!UICONTROL Delete]**. Alternatively, select ![Delete](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** from the blue action bar.
+1. Select **[!UICONTROL Delete]** in the **[!UICONTROL Delete model]** confirmation dialog to delete the model. Select **[!UICONTROL Cancel]** to cancel.
 
 To delete multiple models:
 
-   1. Select multiple models.
-   1. From the blue action bar, select ![Delete](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** to delete the models. 
-   1. Select **[!UICONTROL Delete]** in the **[!UICONTROL Delete *x* models]** confirmation dialog to delete the models. Select **[!UICONTROL Cancel]** to cancel.
+1. Select multiple models.
+1. From the blue action bar, select ![Delete](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** to delete the models. 
+1. Select **[!UICONTROL Delete]** in the **[!UICONTROL Delete *x* models]** confirmation dialog to delete the models. Select **[!UICONTROL Cancel]** to cancel.
 
