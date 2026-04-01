@@ -145,9 +145,8 @@ You can edit the name, description and the scheduling of training and scoring of
      1. Select **[!UICONTROL Clear all]** to remove all selected harmonized fields.
 
       >[!IMPORTANT]
-      >If you add granular insights reporting fields to a model that is created **before February 18, 2026**, a rescoring of the model is required. That rescoring ensures the schema underlying the model is updated with granular insights reporting fields.
-      >
-      >The recommended approach is to duplicate such a model. And include the granular insights reporting fields in the creation of the duplicated model.
+      >Any model with MTA that is created before January 12, 2026 should be duplicated to enable granular model insights.
+      >Rescoring is required for any existing model to reflect the updated granular dimensions in the score data.
       >
 
 1. Select **[!UICONTROL Save]**.
