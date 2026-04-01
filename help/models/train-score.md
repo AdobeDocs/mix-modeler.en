@@ -56,7 +56,7 @@ To score or rescore a model:
 
       ![Rescore a model](../assets/rescore-model.png)
 
-   1. Select **[!UICONTROL Score]**. When re-scoring a model using a specific data range, you see an **[!UICONTROL Existing model is replaced]** dialog, prompting you to confirm to replace the model with new scores for the selected date range. Select **[!UICONTROL Replace model]** to confirm.
+   1. Select **[!UICONTROL Score]**. When rescoring a model using a specific data range, you see an **[!UICONTROL Existing model is replaced]** dialog, prompting you to confirm to replace the model with new scores for the selected date range. Select **[!UICONTROL Replace model]** to confirm.
 
 >[!IMPORTANT]
 >

@@ -22,7 +22,7 @@ A plan can optionally include:
 - multiple flight dates with each having a target budget,
 - minimum and maximum budget constraints by channel and flight date.
 
-If a model that you have used for your plan is scored on new data, you need to create a new plan to take into account the re-scored data.
+If a model that you have used for your plan is scored on new data, you need to create a new plan to take into account the rescored data.
 
 
 ## Build plans
