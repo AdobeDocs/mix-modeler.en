@@ -176,6 +176,10 @@ To configure channel adstock:
 
   The total of lag weeks plus maximum lookback weeks per channel is capped at one-eighth of the configured training window. This cap allows for enough data for the model to learn the adstock effects. As an example, for a two year training window, the maximum of **[!UICONTROL Lag (weeks)]** and **[!UICONTROL Lookback (weeks)]** for a channel is 13 weeks. This cap is enforced when you define the values. 
 
+* To reset all channel adstock to defaults:
+
+  * Select **[!UICONTROL Reset to defaults]**.
+
 
 ## Set options
 
