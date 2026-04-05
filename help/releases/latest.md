@@ -15,7 +15,7 @@ These release notes cover the latest release of Mix Modeler. Mix Modeler release
 
 | Feature | Description | [Rollout start](#release-strategy) | [General Availability](#release-strategy) |
 |---|---|---|---|
-| **Channel adstock** | You can incorporate domain expertise, experimentation results, or previous channel analyses directly into the model advanced configuration through [Channel adstock](/help/models/build.md#channel-adstock). And show [channel adstock insights](/help/models/insights.md#channel-adstock) within the channel analysis of a model. | March 30, 2026 | March 30, 2026 | 
+| **Channel adstock** | You can incorporate domain expertise, experimentation results, or previous channel analyses directly into the model advanced configuration through [Channel adstock](/help/models/build.md#channel-adstock). And show [channel adstock insights](/help/models/insights.md#channel-adstock) within the channel analysis of a model. | March 30, 2026 | March 30, 2026 |
 
 ## February 2026
 
