@@ -4,7 +4,6 @@ description: Test
 feature-set: Experience Cloud
 feature: Release Notes
 hide: yes
-hidefromtoc: yes
 exl-id: 5f832a79-7a0c-43cd-87cf-a5ceceb79032
 ---
 # Test
