@@ -72,3 +72,4 @@ This technical documentation guide provides self help assistance for Adobe **Mix
     </td>
   </tr>
 </table> 
+
