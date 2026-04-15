@@ -60,4 +60,3 @@ user-guide-description: Learn how to use Mix Modeler.
   + {hide-from-toc} [Test](../releases/test.md)
 
 + [Glossary](/help/main-guide/glossary.md)
-
