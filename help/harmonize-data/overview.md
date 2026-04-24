@@ -3,6 +3,34 @@ title: Harmonize datasets overview
 description: Learn how to harmonize data in Mix Modeler.
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
+TQID: https://experienceleague.adobe.com/9ki9Q-ZAmwmiyYFt-EAaa1ybylaoMauTvoxQ9ux1IEI
+product_v2:
+  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Mix Modeler
+feature_v2:
+  - id: e0abf868-dae2-4c1c-83e9-b21799232845
+    internal-label: Datasets
+  - id: f40f1683-8300-4054-aab8-77da06ad63ff
+    internal-label: Models
+subfeature_v2:
+  - id: a4dc3e7d-bd07-4ac8-8e49-ff2e8fecf1e7
+    internal-label: Event Datasets
+  - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+    internal-label: Harmonized Data
+  - id: ba4fd72c-282e-4fb6-abc1-08e6fb87b2ad
+    internal-label: Dataset Rules
+  - id: bc2f5225-03d4-4bc8-89ec-99d78c30e6dd
+    internal-label: Conversions
+  - id: d1167c89-f64a-42ca-ac95-1d91b7790df2
+    internal-label: Summary Datasets
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+    internal-label: Data quality
 ---
 # Harmonize datasets overview
 

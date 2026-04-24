@@ -3,6 +3,29 @@ title: Ingest data overview
 description: Learn how to ingest data into Mix Modeler.
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
 exl-id: dc16a601-bbd9-467b-8a7e-c32654d4069a
+TQID: https://experienceleague.adobe.com/XPr8Av7skzHBYoU6WtNw8PtHFrPH-MokICrLwoB2-J0
+product_v2:
+  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Mix Modeler
+feature_v2:
+  - id: e0abf868-dae2-4c1c-83e9-b21799232845
+    internal-label: Datasets
+subfeature_v2:
+  - id: a4dc3e7d-bd07-4ac8-8e49-ff2e8fecf1e7
+    internal-label: Event Datasets
+  - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+    internal-label: Harmonized Data
+  - id: ad7101f7-ae92-401b-a25a-d3060d42989d
+    internal-label: Aggregate Datasets
+  - id: d1167c89-f64a-42ca-ac95-1d91b7790df2
+    internal-label: Summary Datasets
+  - id: ee1bf083-e090-4def-936b-c111d29f42d0
+    internal-label: Ingest data
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
 # Ingest data overview
 

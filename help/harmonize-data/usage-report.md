@@ -3,6 +3,18 @@ title: Usage report
 description: Discover how your harmonized data is used in models (for training and scoring) and conversions.
 feature: Harmonized Data
 exl-id: 6c32f978-8a3e-4878-bb6b-550f1750d6b7
+TQID: https://experienceleague.adobe.com/q8vYfHx7UPQXEWGuxMRskHWApHliHjLuLxyPGnPg1aM
+product_v2:
+  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Mix Modeler
+feature_v2:
+  - id: f40f1683-8300-4054-aab8-77da06ad63ff
+    internal-label: Models
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
 # Usage report
 
