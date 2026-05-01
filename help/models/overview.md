@@ -3,6 +3,31 @@ title: Models Overview
 description: Learn how to build, train, score, and manage machine learning models in Mix Modeler to measure and predict marketing outcomes.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
+TQID: https://experienceleague.adobe.com/2EmrUfSObFMDb0rNRG1OWqU8c2P9Dp1nf1y8-SpEY3k
+autotag-review: '2026-05-01T08:59:10.903Z'
+product_v2:
+  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Mix Modeler
+feature_v2:
+  - id: f40f1683-8300-4054-aab8-77da06ad63ff
+    internal-label: Models
+subfeature_v2:
+  - id: a9505d76-24a1-4ffe-bd01-6ac32d5af453
+    internal-label: Model insights
+  - id: c89e26b6-808d-4500-8b01-450a63466999
+    internal-label: Build model
+  - id: cb40363e-1205-4921-971c-9ee6bdb18329
+    internal-label: Scoring data
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+    internal-label: Machine learning
 ---
 # Models overview
 
