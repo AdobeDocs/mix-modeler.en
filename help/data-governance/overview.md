@@ -8,21 +8,11 @@ product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
     internal-label: Mix Modeler
 feature_v2:
-  - id: e0abf868-dae2-4c1c-83e9-b21799232845
-    internal-label: Datasets
-  - id: f40f1683-8300-4054-aab8-77da06ad63ff
-    internal-label: Models
   - id: f6633d1c-3d2d-4f48-95d4-4bbc9913db52
     internal-label: Data governance
-  - id: fe2edbb1-46f9-4347-a27c-577cab3640cb
-    internal-label: Administration
 subfeature_v2:
-  - id: a567f0f7-0057-4079-8ded-5b24cc25af15
-    internal-label: Harmonized Data
-  - id: abe9e290-7d2f-4131-b71e-ef9900865044
-    internal-label: Access control
-  - id: ba4fd72c-282e-4fb6-abc1-08e6fb87b2ad
-    internal-label: Dataset Rules
+  - id: bf7ac0fc-effb-4f0c-b93f-658412718d3c
+    internal-label: Audits
   - id: fd80ec6b-9b9e-448a-a6d0-b0c9a15da6b8
     internal-label: Policies
 role_v2:
@@ -41,6 +31,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
+autotag-review: '2026-05-01T09:16:50.195Z'
 ---
 # Data governance overview
 

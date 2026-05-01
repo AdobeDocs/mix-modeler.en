@@ -8,20 +8,14 @@ product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
     internal-label: Mix Modeler
 feature_v2:
-  - id: e0abf868-dae2-4c1c-83e9-b21799232845
-    internal-label: Datasets
-subfeature_v2:
-  - id: a567f0f7-0057-4079-8ded-5b24cc25af15
-    internal-label: Harmonized Data
-  - id: ba4fd72c-282e-4fb6-abc1-08e6fb87b2ad
-    internal-label: Dataset Rules
-  - id: ee1bf083-e090-4def-936b-c111d29f42d0
-    internal-label: Ingest data
+  - id: fbd94e4b-f9b8-42a4-8df5-3f917aabae24
+    internal-label: Schemas
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
+autotag-review: '2026-05-01T08:56:54.552Z'
 ---
 # Schemas
 

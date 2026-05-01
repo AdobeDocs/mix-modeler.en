@@ -4,17 +4,14 @@ description: Learn how a model's scoring data in Mix Modeler is persisted.
 feature: Models
 exl-id: 2f2c3d20-7b14-41cc-a11a-03e8ad9e5d7a
 TQID: https://experienceleague.adobe.com/6eMg5Azsb-rdyG5g-hIkiyJrVbgOOul5V-0TvxzCTyo
+autotag-review: '2026-05-01T08:58:54.964Z'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
     internal-label: Mix Modeler
 feature_v2:
-  - id: e0abf868-dae2-4c1c-83e9-b21799232845
-    internal-label: Datasets
   - id: f40f1683-8300-4054-aab8-77da06ad63ff
     internal-label: Models
 subfeature_v2:
-  - id: bc2f5225-03d4-4bc8-89ec-99d78c30e6dd
-    internal-label: Conversions
   - id: cb40363e-1205-4921-971c-9ee6bdb18329
     internal-label: Scoring data
 role_v2:

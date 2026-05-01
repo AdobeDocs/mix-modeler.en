@@ -8,15 +8,11 @@ product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
     internal-label: Mix Modeler
 feature_v2:
-  - id: e0abf868-dae2-4c1c-83e9-b21799232845
-    internal-label: Datasets
   - id: fe2edbb1-46f9-4347-a27c-577cab3640cb
     internal-label: Administration
 subfeature_v2:
-  - id: a567f0f7-0057-4079-8ded-5b24cc25af15
-    internal-label: Harmonized Data
-  - id: ba4fd72c-282e-4fb6-abc1-08e6fb87b2ad
-    internal-label: Dataset Rules
+  - id: abe9e290-7d2f-4131-b71e-ef9900865044
+    internal-label: Access control
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -29,6 +25,7 @@ topic_v2:
     internal-label: Governance
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
+autotag-review: '2026-05-01T09:20:37.287Z'
 ---
 # Access controls
 

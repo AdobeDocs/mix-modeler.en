@@ -10,8 +10,6 @@ product_v2:
 feature_v2:
   - id: f6633d1c-3d2d-4f48-95d4-4bbc9913db52
     internal-label: Data governance
-  - id: fe2edbb1-46f9-4347-a27c-577cab3640cb
-    internal-label: Administration
 subfeature_v2:
   - id: fd80ec6b-9b9e-448a-a6d0-b0c9a15da6b8
     internal-label: Policies
@@ -29,6 +27,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
+autotag-review: '2026-05-01T09:17:02.907Z'
 ---
 # Policies
 

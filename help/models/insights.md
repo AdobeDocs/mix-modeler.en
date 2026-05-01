@@ -4,21 +4,16 @@ description: Learn how to get details about your model, like historical overview
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
 TQID: https://experienceleague.adobe.com/Ml1WZzjI8bruwu0xV5r6Y9DY34aZad-nMhUMoIObIow
+autotag-review: '2026-05-01T08:59:31.397Z'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
     internal-label: Mix Modeler
 feature_v2:
-  - id: e0abf868-dae2-4c1c-83e9-b21799232845
-    internal-label: Datasets
   - id: f40f1683-8300-4054-aab8-77da06ad63ff
     internal-label: Models
 subfeature_v2:
   - id: a9505d76-24a1-4ffe-bd01-6ac32d5af453
     internal-label: Model insights
-  - id: bc2f5225-03d4-4bc8-89ec-99d78c30e6dd
-    internal-label: Conversions
-  - id: c89e26b6-808d-4500-8b01-450a63466999
-    internal-label: Build model
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

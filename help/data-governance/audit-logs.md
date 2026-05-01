@@ -8,8 +8,11 @@ product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
     internal-label: Mix Modeler
 feature_v2:
-  - id: fe2edbb1-46f9-4347-a27c-577cab3640cb
-    internal-label: Administration
+  - id: f6633d1c-3d2d-4f48-95d4-4bbc9913db52
+    internal-label: Data governance
+subfeature_v2:
+  - id: bf7ac0fc-effb-4f0c-b93f-658412718d3c
+    internal-label: Audits
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -26,6 +29,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
+autotag-review: '2026-05-01T09:16:13.122Z'
 ---
 # Audit logs
 

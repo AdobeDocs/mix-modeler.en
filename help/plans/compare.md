@@ -7,11 +7,18 @@ TQID: https://experienceleague.adobe.com/SJ2SlIAgIaRsrkhzebjky7FvHs4yOvWCxjWjaPi
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
     internal-label: Mix Modeler
+feature_v2:
+  - id: d822825b-9821-40d5-9b0d-42a9e3f317c5
+    internal-label: Plans
+subfeature_v2:
+  - id: b2520ae7-8f6c-4952-935e-aacc2c10256f
+    internal-label: Compare plans
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
+autotag-review: '2026-05-01T09:07:12.191Z'
 ---
 # Compare plans
 

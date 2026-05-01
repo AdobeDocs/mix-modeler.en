@@ -4,6 +4,7 @@ description: Learn how to build, train, score, and manage machine learning model
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
 TQID: https://experienceleague.adobe.com/2EmrUfSObFMDb0rNRG1OWqU8c2P9Dp1nf1y8-SpEY3k
+autotag-review: '2026-05-01T08:59:10.903Z'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
     internal-label: Mix Modeler
@@ -15,6 +16,8 @@ subfeature_v2:
     internal-label: Model insights
   - id: c89e26b6-808d-4500-8b01-450a63466999
     internal-label: Build model
+  - id: cb40363e-1205-4921-971c-9ee6bdb18329
+    internal-label: Scoring data
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
