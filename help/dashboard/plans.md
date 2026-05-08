@@ -3,6 +3,26 @@ title: Performance to plan
 description: Learn how to use the Performance to plan overview in Mix Modeler.
 feature: Dashboard, Plans, Models
 exl-id: 930fc1d5-8e28-4610-af7b-c4ec91f86a8a
+TQID: https://experienceleague.adobe.com/iRFbGXoCx5jzg6ATId2tNLTfyigoTzD4JQIqlPU5isU
+product_v2:
+  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Mix Modeler
+feature_v2:
+  - id: d822825b-9821-40d5-9b0d-42a9e3f317c5
+    internal-label: Plans
+subfeature_v2:
+  - id: d7b067e6-4f39-41e9-a081-7650346a84cd
+    internal-label: Build plans
+  - id: b2520ae7-8f6c-4952-935e-aacc2c10256f
+    internal-label: Compare plans
+  - id: e6c284e0-b6e6-4f82-bf96-e96bb5157b90
+    internal-label: Plan insights
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+autotag-review: '2026-05-01T09:20:18.412Z'
 ---
 # Performance to plan
 

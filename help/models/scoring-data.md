@@ -3,6 +3,25 @@ title: Use scoring data
 description: Learn how a model's scoring data in Mix Modeler is persisted.
 feature: Models
 exl-id: 2f2c3d20-7b14-41cc-a11a-03e8ad9e5d7a
+TQID: https://experienceleague.adobe.com/6eMg5Azsb-rdyG5g-hIkiyJrVbgOOul5V-0TvxzCTyo
+autotag-review: '2026-05-01T08:58:54.964Z'
+product_v2:
+  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Mix Modeler
+feature_v2:
+  - id: f40f1683-8300-4054-aab8-77da06ad63ff
+    internal-label: Models
+subfeature_v2:
+  - id: cb40363e-1205-4921-971c-9ee6bdb18329
+    internal-label: Scoring data
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
 ---
 # Use scoring data
 

@@ -3,6 +3,31 @@ title: Dataset rules
 description: Learn how to define dataset rules to use as part of harmonizing your data in Mix Modeler.
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
+TQID: https://experienceleague.adobe.com/AHQ73zgE97hHUbZ-lW9-l0c-MKHjA50Qcj9w02MjyGM
+product_v2:
+  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Mix Modeler
+feature_v2:
+  - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+    internal-label: Harmonized data
+subfeature_v2:
+  - id: ba4fd72c-282e-4fb6-abc1-08e6fb87b2ad
+    internal-label: Dataset rules
+  - id: d4b8ba18-64c1-4413-be54-74405ec7f558
+    internal-label: Dataset mapping
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+autotag-review: '2026-05-01T09:12:48.985Z'
 ---
 # Dataset rules
 

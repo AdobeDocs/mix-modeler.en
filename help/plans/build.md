@@ -3,8 +3,19 @@ title: Build plans
 description: Learn how to build plans in Mix Modeler.
 feature: Plans
 exl-id: 6d61d0b2-5871-4d00-9a35-73fff0a1c3e5
+TQID: https://experienceleague.adobe.com/8p0uU5IAWbhwE9L0nVC-au5uyAh05jAJW47l0Jgucy4
+product_v2:
+  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Mix Modeler
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 ---
-
 # Build plans
 
 In Mix Modeler, you create a plan using the plan wizard. In the plan wizard, you can set up the details and budgets or target metrics of your plan and the underlying model to use for your plan. Once you have specified details, budget, target metrics, and model you can go ahead with an AI-recommended plan or edit the spend by channel. You have the option to define advanced configurations on average revenue per conversion and channel costs. 
