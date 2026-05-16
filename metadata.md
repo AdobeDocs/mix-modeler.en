@@ -3,7 +3,7 @@ cloud: Experience Cloud
 solution: Mix Modeler
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-    label: "Mix Modeler"
+    internal-label: "Mix Modeler"
 product: experience cloud
 landing-page-name: mix-modeler
 landing-page-breadcrumb-title: Mix Modeler
