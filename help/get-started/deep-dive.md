@@ -1,8 +1,19 @@
 ---
-title:Mix Modeler Deep Dive
+title: Mix Modeler Deep Dive
 description: Explore the technical methodology behind Adobe Mix Modeler, including multi-touch attribution, marketing mix modeling, transfer learning, and budget optimization.
 feature: Administration
 hide: true
+feature_v2:
+  - id: a234aebd-3855-4376-a64d-29b38411e0c5
+    internal-label: Marketing mix modeling
+  - id: fe1c9ae8-a908-4ae1-a0b6-fcf35177b134
+    internal-label: Marketing touch attribution
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+topic_v2:
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+    internal-label: Artificial intelligence
 ---
 
 # Deep dive
@@ -238,7 +249,7 @@ The budget optimization formula is: *Max ⨍(X<sub>S</sub>, X<sub>D</sub>) = ⨍
 ![Budget constraints](/help/assets/budget-constraints.png)
 
 
-#### Channel level constraints
+### Channel level constraints
 
 Imagine you have additional channel level constraints:
 
@@ -248,7 +259,7 @@ Imagine you have additional channel level constraints:
 
 As a result, the eligible budget mix causes the optimization surface to be constrained. The numerical optimization algorithm then helps to determine the optimal budget allocation.
 
-#### Across multiple conversions
+### Across multiple conversions
 
 On top of channel level constraints, plan for optimal budget allocation across multiple conversions.
 
@@ -262,7 +273,6 @@ Examples of budget optimization across multiple conversions are:
 * You want to optimize for long term success using both brand awareness KPI and sales conversions. 
  
 In the second example, units of the two conversions are not similar (brand awareness KPI versus conversions) but that does not matter. Conversions or models do not have to refer to the same channels and can also overlap. Numerical optimization finds the best solution to the problem within the given constraints.
-
 
 
 ## Summary
