@@ -87,7 +87,13 @@ This visualization represents the contribution proportion achieved by base, by s
 
 ### Contribution by channel
 
-A donut visualization that shows a distribution of the contribution by various channels. This visualization showcases incrementality through the lens of the top three performing channels (excluding base and *All others* categories). The visualization helps to support prioritization and budget allocation.
+A donut visualization that shows a distribution of the contribution by various channels. This visualization showcases incrementality through the lens of the top  performing channels. The visualization helps to support prioritization and budget allocation.
+
+You can select what media channels to display in the visualization:
+
+* To focus on the contribution of paid media channels only, select **[!UICONTROL Paid media]**.
+* To see the contribution for all channels, select **[!UICONTROL All media]**.
+
 
 ### Marketing performance summary {#marketing-performance-summary}
 
@@ -97,6 +103,11 @@ A donut visualization that shows a distribution of the contribution by various c
 >abstract="Undefined channels are included, but have no attributed conversions."
 
 A horizontal bar graph visualization that displays the ROI or CPA performance by each of the channels. This visualization highlights the ROI / CPA of your marketing investments. The channels are ranked in descending order based on ROI / CPA. The visualization helps to identify which channels are most effective and which might need optimization. 
+
+For revenue based models only:
+
+* To configure the desired **[!UICONTROL Metric]** for the visualization, select between **[!UICONTROL ROI]** ((revenue - spend) / spend) or **[!UICONTROL ROAS]** (revenue / spend).
+* To configure how the selected metric is displayed, select between **[!UICONTROL %]** or **[!UICONTROL $]** for **[!UICONTROL Show as]**. 
 
 Undefined channels are included in the visualization but have no attributed conversions.
 
