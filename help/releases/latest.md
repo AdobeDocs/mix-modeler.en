@@ -35,7 +35,7 @@ These release notes cover the latest release of Mix Modeler. Mix Modeler release
 
 | Feature | Description | [Rollout start](#release-strategy) | [General Availability](#release-strategy) |
 |---|---|---|---|
-| **Filter on dataset rules** | In harmonized datasets configuration, you can [filter dataset rules on source, granularity and start of the week](/help/harmonize-data/dataset-rules.md#manage-dataset-rules). | August 19, 2026 | August 19, 2026 | 
+| **Filter on dataset rules** | In harmonized datasets configuration, you can [filter dataset rules on source, granularity and start of the week](/help/harmonize-data/dataset-rules.md#manage-dataset-rules). | August 19, 2026 | August 19, 2026 |
 | **Paid media channel focus** | You can select to [focus on Paid media channel contribution](/help/models/insights.md#contribution-by-channel) in Model insights. | August 19, 2026 | August 19, 2026 |
 | **Marketing performance summary configuration** | You can [select metric and how metric is shown](/help/models/insights.md#marketing-performance-summary) for the marketing performance summary of revenue-baded models in Models insights. | August 19, 2026 | August 19, 2026 |
 
