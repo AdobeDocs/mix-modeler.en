@@ -36,6 +36,7 @@ Dataset rules assist you in mapping your harmonized fields with fields from the 
 * For aggregate data that you ingested in Adobe Experience Platform, you map one or more of the available dataset fields to the appropriate harmonized fields. 
 * For event data, you can individually map one or more harmonized fields to fields from the dataset, directly or using conditions.
 
+![Dataset rules list](/help/assets/harmonize-dataset-rules-list.png)
 
 ## Manage dataset rules
 
@@ -45,7 +46,15 @@ To see a table of the available dataset rules, in the Mix Modeler interface:
    
 1. Select **[!UICONTROL Dataset rules]** from the top bar. You see a table of the dataset rules.
 
-You can search for a dataset quickly using ![Search](/help/assets/icons/Search.svg) **[!UICONTROL _Enter a dataset name_]**.
+You can search and filter on datasets:
+
+* Search for a dataset quickly using ![Search](/help/assets/icons/Search.svg) **[!UICONTROL _Enter a dataset name_]**.
+* Filter on datasets using:
+  * **[!UICONTROL Source]**: select between **[!UICONTROL all]**, **[!UICONTROL Summary]**, **[!UICONTROL Adobe Analytics]**, **[!UICONTROL Adobe Audience Manager]**, **[!UICONTROL Experience Events]**, **[!UICONTROL Consumer Experience Events]**, or **[!UICONTROL Factors]**.
+  * **[!UICONTROL Granularity]**: select between **[!UICONTROL all]**, **[!UICONTROL Daily]**, **[!UICONTROL Weekly]**, **[!UICONTROL Monthly]**, or **[!UICONTROL Yearly]**.
+  * **[!UICONTROL Start of the week]**: select all or a  possible weekday (**[!UICONTROL Monday]** to **[!UICONTROL Sunday]**.)
+
+Use ![CrossSize200](/help/assets/icons/CrossSize200.svg) **[!UICONTROL Clear]** to clear all filters and search field.
 
 The table columns specify details about the dataset rules:
 
