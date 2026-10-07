@@ -3,13 +3,16 @@ title: Data governance overview
 description: Learn how to use the services and tools from Experience Platform that allow you to control your collected experience data. So, you comply with your business practices, legal obligations, and development process.
 feature: Administration
 exl-id: 87407c29-e158-48bf-bde9-b3c16a16107e
-TQID: https://experienceleague.adobe.com/vc5z266rexOpAuR1HJCj-ltOLZmkccBDvfi8JUsuiJ4
+autotag-review: '2026-05-01T09:16:50.195Z'
+TQID: 'https://experienceleague.adobe.com/vc5z266rexOpAuR1HJCj-ltOLZmkccBDvfi8JUsuiJ4'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
     internal-label: Mix Modeler
 feature_v2:
   - id: f6633d1c-3d2d-4f48-95d4-4bbc9913db52
     internal-label: Data governance
+  - id: fe2edbb1-46f9-4347-a27c-577cab3640cb
+    internal-label: Administration
 subfeature_v2:
   - id: bf7ac0fc-effb-4f0c-b93f-658412718d3c
     internal-label: Audits
@@ -31,7 +34,6 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-autotag-review: '2026-05-01T09:16:50.195Z'
 ---
 # Data governance overview
 

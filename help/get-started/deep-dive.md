@@ -3,11 +3,21 @@ title: Mix Modeler Deep Dive
 description: Explore the technical methodology behind Adobe Mix Modeler, including multi-touch attribution, marketing mix modeling, transfer learning, and budget optimization.
 feature: Administration
 hide: true
+product_v2:
+  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Mix Modeler
 feature_v2:
   - id: a234aebd-3855-4376-a64d-29b38411e0c5
     internal-label: Marketing mix modeling
   - id: fe1c9ae8-a908-4ae1-a0b6-fcf35177b134
     internal-label: Marketing touch attribution
+  - id: fe2edbb1-46f9-4347-a27c-577cab3640cb
+    internal-label: Administration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced

@@ -3,13 +3,16 @@ title: Policies
 description: Learn how to access policies from Mix Modeler.
 feature: Administration
 exl-id: 4dba7c30-ad1e-4213-a2b0-afc55f2448a3
-TQID: https://experienceleague.adobe.com/fk6qAZS7Uymx2dzptcazBieXIJ3mGF2pjG-EDhm-Kh4
+autotag-review: '2026-05-01T09:17:02.907Z'
+TQID: 'https://experienceleague.adobe.com/fk6qAZS7Uymx2dzptcazBieXIJ3mGF2pjG-EDhm-Kh4'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
     internal-label: Mix Modeler
 feature_v2:
   - id: f6633d1c-3d2d-4f48-95d4-4bbc9913db52
     internal-label: Data governance
+  - id: fe2edbb1-46f9-4347-a27c-577cab3640cb
+    internal-label: Administration
 subfeature_v2:
   - id: fd80ec6b-9b9e-448a-a6d0-b0c9a15da6b8
     internal-label: Policies
@@ -27,7 +30,6 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-autotag-review: '2026-05-01T09:17:02.907Z'
 ---
 # Policies
 

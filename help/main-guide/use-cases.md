@@ -3,8 +3,8 @@ title: Mix Modeler use cases
 description: Mix Modeler use cases.
 feature: Schemas, Datasets, Conversions, Harmonized Data, Marketing Touch Points, Models, Plans
 exl-id: cc82abec-d0ce-44bf-ad7e-fc379a394185
-TQID: https://experienceleague.adobe.com/AaVm2Jwz9MX-zuURspqkXLG9ZoO91iBowQU-hWBg-4M
 autotag-review: '2026-05-01T08:58:19.052Z'
+TQID: 'https://experienceleague.adobe.com/AaVm2Jwz9MX-zuURspqkXLG9ZoO91iBowQU-hWBg-4M'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
     internal-label: Mix Modeler
@@ -13,6 +13,21 @@ feature_v2:
     internal-label: Marketing mix modeling
   - id: fe1c9ae8-a908-4ae1-a0b6-fcf35177b134
     internal-label: Marketing touch attribution
+  - id: fbd94e4b-f9b8-42a4-8df5-3f917aabae24
+    internal-label: Schemas
+  - id: e0abf868-dae2-4c1c-83e9-b21799232845
+    internal-label: Datasets
+  - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+    internal-label: Harmonized data
+  - id: f40f1683-8300-4054-aab8-77da06ad63ff
+    internal-label: Models
+  - id: d822825b-9821-40d5-9b0d-42a9e3f317c5
+    internal-label: Plans
+subfeature_v2:
+  - id: bc2f5225-03d4-4bc8-89ec-99d78c30e6dd
+    internal-label: Conversions
+  - id: b2d4aeb9-eabe-49f6-8edb-bb2862d5980b
+    internal-label: Marketing touchpoints
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

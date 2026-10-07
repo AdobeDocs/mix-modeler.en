@@ -3,19 +3,23 @@ title: Harmonized data dashboard
 description: Learn how to use the harmonized data overview dashboard in Mix Modeler.
 feature: Dashboard, Harmonized Data
 exl-id: fbb01613-d648-4db1-a782-a7720b7a03ad
-TQID: https://experienceleague.adobe.com/umAqsiCgpFt4eLBuWPJahtwglXaQKD-iv91yCazIbkE
 autotag-review: '2026-05-01T09:17:34.958Z'
+TQID: 'https://experienceleague.adobe.com/umAqsiCgpFt4eLBuWPJahtwglXaQKD-iv91yCazIbkE'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
     internal-label: Mix Modeler
 feature_v2:
   - id: a567f0f7-0057-4079-8ded-5b24cc25af15
     internal-label: Harmonized data
+  - id: fe2edbb1-46f9-4347-a27c-577cab3640cb
+    internal-label: Administration
 subfeature_v2:
   - id: bc2f5225-03d4-4bc8-89ec-99d78c30e6dd
     internal-label: Conversions
   - id: b2d4aeb9-eabe-49f6-8edb-bb2862d5980b
     internal-label: Marketing touchpoints
+  - id: c564971c-1597-4a46-a354-33d74ee8a5d1
+    internal-label: Dashboard
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
